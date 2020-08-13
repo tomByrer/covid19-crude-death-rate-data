@@ -1,0 +1,3422 @@
+[
+	{
+		"area": "Afghanistan",
+		"confirmed": 37345,
+		"deaths": 1354
+	},
+	{
+		"area": "Albania",
+		"confirmed": 6817,
+		"deaths": 208
+	},
+	{
+		"area": "Algeria",
+		"confirmed": 36699,
+		"deaths": 1333
+	},
+	{
+		"area": "Andorra",
+		"confirmed": 977,
+		"deaths": 53
+	},
+	{
+		"area": "Angola",
+		"confirmed": 1762,
+		"deaths": 80
+	},
+	{
+		"area": "Antigua and Barbuda",
+		"confirmed": 92,
+		"deaths": 3
+	},
+	{
+		"area": "Argentina",
+		"confirmed": 268574,
+		"deaths": 5213
+	},
+	{
+		"area": "Armenia",
+		"confirmed": 40794,
+		"deaths": 806
+	},
+	{
+		"area": "Australia",
+		"confirmed": 113,
+		"deaths": 3
+	},
+	{
+		"area": "Australia",
+		"confirmed": 3927,
+		"deaths": 51
+	},
+	{
+		"area": "Australia",
+		"confirmed": 33,
+		"deaths": 0
+	},
+	{
+		"area": "Australia",
+		"confirmed": 1089,
+		"deaths": 6
+	},
+	{
+		"area": "Australia",
+		"confirmed": 459,
+		"deaths": 4
+	},
+	{
+		"area": "Australia",
+		"confirmed": 230,
+		"deaths": 13
+	},
+	{
+		"area": "Australia",
+		"confirmed": 15863,
+		"deaths": 275
+	},
+	{
+		"area": "Australia",
+		"confirmed": 644,
+		"deaths": 9
+	},
+	{
+		"area": "Austria",
+		"confirmed": 22439,
+		"deaths": 724
+	},
+	{
+		"area": "Azerbaijan",
+		"confirmed": 33824,
+		"deaths": 497
+	},
+	{
+		"area": "Bahamas",
+		"confirmed": 1036,
+		"deaths": 15
+	},
+	{
+		"area": "Bahrain",
+		"confirmed": 45264,
+		"deaths": 166
+	},
+	{
+		"area": "Bangladesh",
+		"confirmed": 266498,
+		"deaths": 3513
+	},
+	{
+		"area": "Barbados",
+		"confirmed": 144,
+		"deaths": 7
+	},
+	{
+		"area": "Belarus",
+		"confirmed": 69102,
+		"deaths": 595
+	},
+	{
+		"area": "Belgium",
+		"confirmed": 75647,
+		"deaths": 9900
+	},
+	{
+		"area": "Belize",
+		"confirmed": 210,
+		"deaths": 2
+	},
+	{
+		"area": "Benin",
+		"confirmed": 2014,
+		"deaths": 38
+	},
+	{
+		"area": "Bhutan",
+		"confirmed": 113,
+		"deaths": 0
+	},
+	{
+		"area": "Bolivia",
+		"confirmed": 95071,
+		"deaths": 3827
+	},
+	{
+		"area": "Bosnia and Herzegovina",
+		"confirmed": 14961,
+		"deaths": 453
+	},
+	{
+		"area": "Botswana",
+		"confirmed": 1066,
+		"deaths": 2
+	},
+	{
+		"area": "Brazil",
+		"confirmed": 21993,
+		"deaths": 569
+	},
+	{
+		"area": "Brazil",
+		"confirmed": 69751,
+		"deaths": 1711
+	},
+	{
+		"area": "Brazil",
+		"confirmed": 38801,
+		"deaths": 606
+	},
+	{
+		"area": "Brazil",
+		"confirmed": 108920,
+		"deaths": 3417
+	},
+	{
+		"area": "Brazil",
+		"confirmed": 203020,
+		"deaths": 4135
+	},
+	{
+		"area": "Brazil",
+		"confirmed": 192422,
+		"deaths": 8052
+	},
+	{
+		"area": "Brazil",
+		"confirmed": 129184,
+		"deaths": 1870
+	},
+	{
+		"area": "Brazil",
+		"confirmed": 95753,
+		"deaths": 2805
+	},
+	{
+		"area": "Brazil",
+		"confirmed": 93274,
+		"deaths": 2135
+	},
+	{
+		"area": "Brazil",
+		"confirmed": 133265,
+		"deaths": 3215
+	},
+	{
+		"area": "Brazil",
+		"confirmed": 68924,
+		"deaths": 2221
+	},
+	{
+		"area": "Brazil",
+		"confirmed": 33509,
+		"deaths": 558
+	},
+	{
+		"area": "Brazil",
+		"confirmed": 160485,
+		"deaths": 3783
+	},
+	{
+		"area": "Brazil",
+		"confirmed": 171878,
+		"deaths": 5909
+	},
+	{
+		"area": "Brazil",
+		"confirmed": 92897,
+		"deaths": 2071
+	},
+	{
+		"area": "Brazil",
+		"confirmed": 97785,
+		"deaths": 2516
+	},
+	{
+		"area": "Brazil",
+		"confirmed": 107375,
+		"deaths": 7049
+	},
+	{
+		"area": "Brazil",
+		"confirmed": 62465,
+		"deaths": 1548
+	},
+	{
+		"area": "Brazil",
+		"confirmed": 56572,
+		"deaths": 2019
+	},
+	{
+		"area": "Brazil",
+		"confirmed": 90049,
+		"deaths": 2540
+	},
+	{
+		"area": "Brazil",
+		"confirmed": 185610,
+		"deaths": 14295
+	},
+	{
+		"area": "Brazil",
+		"confirmed": 46061,
+		"deaths": 981
+	},
+	{
+		"area": "Brazil",
+		"confirmed": 37579,
+		"deaths": 555
+	},
+	{
+		"area": "Brazil",
+		"confirmed": 112401,
+		"deaths": 1637
+	},
+	{
+		"area": "Brazil",
+		"confirmed": 655181,
+		"deaths": 25869
+	},
+	{
+		"area": "Brazil",
+		"confirmed": 65865,
+		"deaths": 1653
+	},
+	{
+		"area": "Brazil",
+		"confirmed": 33766,
+		"deaths": 482
+	},
+	{
+		"area": "Brunei",
+		"confirmed": 142,
+		"deaths": 3
+	},
+	{
+		"area": "Bulgaria",
+		"confirmed": 13893,
+		"deaths": 482
+	},
+	{
+		"area": "Burkina Faso",
+		"confirmed": 1213,
+		"deaths": 54
+	},
+	{
+		"area": "Burma",
+		"confirmed": 361,
+		"deaths": 6
+	},
+	{
+		"area": "Burundi",
+		"confirmed": 409,
+		"deaths": 1
+	},
+	{
+		"area": "Cabo Verde",
+		"confirmed": 3000,
+		"deaths": 33
+	},
+	{
+		"area": "Cambodia",
+		"confirmed": 272,
+		"deaths": 0
+	},
+	{
+		"area": "Cameroon",
+		"confirmed": 18263,
+		"deaths": 401
+	},
+	{
+		"area": "Canada",
+		"confirmed": 11893,
+		"deaths": 217
+	},
+	{
+		"area": "Canada",
+		"confirmed": 4111,
+		"deaths": 195
+	},
+	{
+		"area": "Canada",
+		"confirmed": 0,
+		"deaths": 1
+	},
+	{
+		"area": "Canada",
+		"confirmed": 13,
+		"deaths": 0
+	},
+	{
+		"area": "Canada",
+		"confirmed": 578,
+		"deaths": 8
+	},
+	{
+		"area": "Canada",
+		"confirmed": 178,
+		"deaths": 2
+	},
+	{
+		"area": "Canada",
+		"confirmed": 268,
+		"deaths": 3
+	},
+	{
+		"area": "Canada",
+		"confirmed": 5,
+		"deaths": 0
+	},
+	{
+		"area": "Canada",
+		"confirmed": 1071,
+		"deaths": 64
+	},
+	{
+		"area": "Canada",
+		"confirmed": 42233,
+		"deaths": 2833
+	},
+	{
+		"area": "Canada",
+		"confirmed": 41,
+		"deaths": 0
+	},
+	{
+		"area": "Canada",
+		"confirmed": 60813,
+		"deaths": 5709
+	},
+	{
+		"area": "Canada",
+		"confirmed": 1484,
+		"deaths": 20
+	},
+	{
+		"area": "Canada",
+		"confirmed": 15,
+		"deaths": 0
+	},
+	{
+		"area": "Central African Republic",
+		"confirmed": 4652,
+		"deaths": 61
+	},
+	{
+		"area": "Chad",
+		"confirmed": 949,
+		"deaths": 76
+	},
+	{
+		"area": "Chile",
+		"confirmed": 16323,
+		"deaths": 388
+	},
+	{
+		"area": "Chile",
+		"confirmed": 4490,
+		"deaths": 83
+	},
+	{
+		"area": "Chile",
+		"confirmed": 5451,
+		"deaths": 78
+	},
+	{
+		"area": "Chile",
+		"confirmed": 4108,
+		"deaths": 21
+	},
+	{
+		"area": "Chile",
+		"confirmed": 95,
+		"deaths": 1
+	},
+	{
+		"area": "Chile",
+		"confirmed": 13260,
+		"deaths": 145
+	},
+	{
+		"area": "Chile",
+		"confirmed": 7631,
+		"deaths": 89
+	},
+	{
+		"area": "Chile",
+		"confirmed": 5149,
+		"deaths": 54
+	},
+	{
+		"area": "Chile",
+		"confirmed": 987,
+		"deaths": 15
+	},
+	{
+		"area": "Chile",
+		"confirmed": 2128,
+		"deaths": 30
+	},
+	{
+		"area": "Chile",
+		"confirmed": 10058,
+		"deaths": 203
+	},
+	{
+		"area": "Chile",
+		"confirmed": 263567,
+		"deaths": 7992
+	},
+	{
+		"area": "Chile",
+		"confirmed": 3879,
+		"deaths": 69
+	},
+	{
+		"area": "Chile",
+		"confirmed": 11843,
+		"deaths": 281
+	},
+	{
+		"area": "Chile",
+		"confirmed": 9617,
+		"deaths": 182
+	},
+	{
+		"area": "Chile",
+		"confirmed": 64,
+		"deaths": 1
+	},
+	{
+		"area": "Chile",
+		"confirmed": 19518,
+		"deaths": 573
+	},
+	{
+		"area": "China",
+		"confirmed": 991,
+		"deaths": 6
+	},
+	{
+		"area": "China",
+		"confirmed": 935,
+		"deaths": 9
+	},
+	{
+		"area": "China",
+		"confirmed": 583,
+		"deaths": 6
+	},
+	{
+		"area": "China",
+		"confirmed": 368,
+		"deaths": 1
+	},
+	{
+		"area": "China",
+		"confirmed": 169,
+		"deaths": 2
+	},
+	{
+		"area": "China",
+		"confirmed": 1707,
+		"deaths": 8
+	},
+	{
+		"area": "China",
+		"confirmed": 255,
+		"deaths": 2
+	},
+	{
+		"area": "China",
+		"confirmed": 147,
+		"deaths": 2
+	},
+	{
+		"area": "China",
+		"confirmed": 171,
+		"deaths": 6
+	},
+	{
+		"area": "China",
+		"confirmed": 351,
+		"deaths": 6
+	},
+	{
+		"area": "China",
+		"confirmed": 948,
+		"deaths": 13
+	},
+	{
+		"area": "China",
+		"confirmed": 1276,
+		"deaths": 22
+	},
+	{
+		"area": "China",
+		"confirmed": 4243,
+		"deaths": 63
+	},
+	{
+		"area": "China",
+		"confirmed": 68139,
+		"deaths": 4512
+	},
+	{
+		"area": "China",
+		"confirmed": 1019,
+		"deaths": 4
+	},
+	{
+		"area": "China",
+		"confirmed": 259,
+		"deaths": 1
+	},
+	{
+		"area": "China",
+		"confirmed": 659,
+		"deaths": 0
+	},
+	{
+		"area": "China",
+		"confirmed": 932,
+		"deaths": 1
+	},
+	{
+		"area": "China",
+		"confirmed": 157,
+		"deaths": 2
+	},
+	{
+		"area": "China",
+		"confirmed": 261,
+		"deaths": 2
+	},
+	{
+		"area": "China",
+		"confirmed": 46,
+		"deaths": 0
+	},
+	{
+		"area": "China",
+		"confirmed": 75,
+		"deaths": 0
+	},
+	{
+		"area": "China",
+		"confirmed": 18,
+		"deaths": 0
+	},
+	{
+		"area": "China",
+		"confirmed": 341,
+		"deaths": 3
+	},
+	{
+		"area": "China",
+		"confirmed": 821,
+		"deaths": 7
+	},
+	{
+		"area": "China",
+		"confirmed": 800,
+		"deaths": 7
+	},
+	{
+		"area": "China",
+		"confirmed": 201,
+		"deaths": 0
+	},
+	{
+		"area": "China",
+		"confirmed": 618,
+		"deaths": 3
+	},
+	{
+		"area": "China",
+		"confirmed": 205,
+		"deaths": 3
+	},
+	{
+		"area": "China",
+		"confirmed": 1,
+		"deaths": 0
+	},
+	{
+		"area": "China",
+		"confirmed": 883,
+		"deaths": 3
+	},
+	{
+		"area": "China",
+		"confirmed": 191,
+		"deaths": 2
+	},
+	{
+		"area": "China",
+		"confirmed": 1275,
+		"deaths": 1
+	},
+	{
+		"area": "Colombia",
+		"confirmed": 2641,
+		"deaths": 105
+	},
+	{
+		"area": "Colombia",
+		"confirmed": 55820,
+		"deaths": 989
+	},
+	{
+		"area": "Colombia",
+		"confirmed": 511,
+		"deaths": 9
+	},
+	{
+		"area": "Colombia",
+		"confirmed": 59383,
+		"deaths": 2726
+	},
+	{
+		"area": "Colombia",
+		"confirmed": 20925,
+		"deaths": 635
+	},
+	{
+		"area": "Colombia",
+		"confirmed": 1763,
+		"deaths": 43
+	},
+	{
+		"area": "Colombia",
+		"confirmed": 1455,
+		"deaths": 22
+	},
+	{
+		"area": "Colombia",
+		"confirmed": 146109,
+		"deaths": 3998
+	},
+	{
+		"area": "Colombia",
+		"confirmed": 2944,
+		"deaths": 82
+	},
+	{
+		"area": "Colombia",
+		"confirmed": 535,
+		"deaths": 9
+	},
+	{
+		"area": "Colombia",
+		"confirmed": 2810,
+		"deaths": 101
+	},
+	{
+		"area": "Colombia",
+		"confirmed": 4858,
+		"deaths": 104
+	},
+	{
+		"area": "Colombia",
+		"confirmed": 3404,
+		"deaths": 121
+	},
+	{
+		"area": "Colombia",
+		"confirmed": 11623,
+		"deaths": 903
+	},
+	{
+		"area": "Colombia",
+		"confirmed": 13031,
+		"deaths": 353
+	},
+	{
+		"area": "Colombia",
+		"confirmed": 20,
+		"deaths": 1
+	},
+	{
+		"area": "Colombia",
+		"confirmed": 176,
+		"deaths": 0
+	},
+	{
+		"area": "Colombia",
+		"confirmed": 1998,
+		"deaths": 54
+	},
+	{
+		"area": "Colombia",
+		"confirmed": 3062,
+		"deaths": 155
+	},
+	{
+		"area": "Colombia",
+		"confirmed": 9117,
+		"deaths": 458
+	},
+	{
+		"area": "Colombia",
+		"confirmed": 4583,
+		"deaths": 70
+	},
+	{
+		"area": "Colombia",
+		"confirmed": 10404,
+		"deaths": 362
+	},
+	{
+		"area": "Colombia",
+		"confirmed": 5492,
+		"deaths": 298
+	},
+	{
+		"area": "Colombia",
+		"confirmed": 1638,
+		"deaths": 75
+	},
+	{
+		"area": "Colombia",
+		"confirmed": 558,
+		"deaths": 13
+	},
+	{
+		"area": "Colombia",
+		"confirmed": 2982,
+		"deaths": 55
+	},
+	{
+		"area": "Colombia",
+		"confirmed": 59,
+		"deaths": 0
+	},
+	{
+		"area": "Colombia",
+		"confirmed": 8060,
+		"deaths": 304
+	},
+	{
+		"area": "Colombia",
+		"confirmed": 7878,
+		"deaths": 402
+	},
+	{
+		"area": "Colombia",
+		"confirmed": 3952,
+		"deaths": 91
+	},
+	{
+		"area": "Colombia",
+		"confirmed": 34585,
+		"deaths": 1298
+	},
+	{
+		"area": "Colombia",
+		"confirmed": 137,
+		"deaths": 1
+	},
+	{
+		"area": "Colombia",
+		"confirmed": 6,
+		"deaths": 0
+	},
+	{
+		"area": "Comoros",
+		"confirmed": 399,
+		"deaths": 7
+	},
+	{
+		"area": "Congo (Brazzaville)",
+		"confirmed": 3745,
+		"deaths": 60
+	},
+	{
+		"area": "Congo (Kinshasa)",
+		"confirmed": 9538,
+		"deaths": 225
+	},
+	{
+		"area": "Costa Rica",
+		"confirmed": 25057,
+		"deaths": 263
+	},
+	{
+		"area": "Cote d'Ivoire",
+		"confirmed": 16847,
+		"deaths": 105
+	},
+	{
+		"area": "Croatia",
+		"confirmed": 5870,
+		"deaths": 160
+	},
+	{
+		"area": "Cuba",
+		"confirmed": 3128,
+		"deaths": 88
+	},
+	{
+		"area": "Cyprus",
+		"confirmed": 1291,
+		"deaths": 20
+	},
+	{
+		"area": "Czechia",
+		"confirmed": 19075,
+		"deaths": 391
+	},
+	{
+		"area": "Denmark",
+		"confirmed": 339,
+		"deaths": 0
+	},
+	{
+		"area": "Denmark",
+		"confirmed": 14,
+		"deaths": 0
+	},
+	{
+		"area": "Denmark",
+		"confirmed": 15070,
+		"deaths": 621
+	},
+	{
+		"area": "Diamond Princess",
+		"confirmed": 712,
+		"deaths": 13
+	},
+	{
+		"area": "Djibouti",
+		"confirmed": 5358,
+		"deaths": 59
+	},
+	{
+		"area": "Dominica",
+		"confirmed": 18,
+		"deaths": 0
+	},
+	{
+		"area": "Dominican Republic",
+		"confirmed": 82224,
+		"deaths": 1371
+	},
+	{
+		"area": "Ecuador",
+		"confirmed": 97110,
+		"deaths": 5984
+	},
+	{
+		"area": "Egypt",
+		"confirmed": 95963,
+		"deaths": 5085
+	},
+	{
+		"area": "El Salvador",
+		"confirmed": 21644,
+		"deaths": 577
+	},
+	{
+		"area": "Equatorial Guinea",
+		"confirmed": 4821,
+		"deaths": 83
+	},
+	{
+		"area": "Eritrea",
+		"confirmed": 285,
+		"deaths": 0
+	},
+	{
+		"area": "Estonia",
+		"confirmed": 2174,
+		"deaths": 63
+	},
+	{
+		"area": "Eswatini",
+		"confirmed": 3525,
+		"deaths": 63
+	},
+	{
+		"area": "Ethiopia",
+		"confirmed": 25118,
+		"deaths": 463
+	},
+	{
+		"area": "Fiji",
+		"confirmed": 27,
+		"deaths": 1
+	},
+	{
+		"area": "Finland",
+		"confirmed": 7642,
+		"deaths": 333
+	},
+	{
+		"area": "France",
+		"confirmed": 8423,
+		"deaths": 50
+	},
+	{
+		"area": "France",
+		"confirmed": 139,
+		"deaths": 0
+	},
+	{
+		"area": "France",
+		"confirmed": 367,
+		"deaths": 14
+	},
+	{
+		"area": "France",
+		"confirmed": 336,
+		"deaths": 16
+	},
+	{
+		"area": "France",
+		"confirmed": 3091,
+		"deaths": 39
+	},
+	{
+		"area": "France",
+		"confirmed": 23,
+		"deaths": 0
+	},
+	{
+		"area": "France",
+		"confirmed": 734,
+		"deaths": 5
+	},
+	{
+		"area": "France",
+		"confirmed": 13,
+		"deaths": 0
+	},
+	{
+		"area": "France",
+		"confirmed": 4,
+		"deaths": 0
+	},
+	{
+		"area": "France",
+		"confirmed": 84,
+		"deaths": 4
+	},
+	{
+		"area": "France",
+		"confirmed": 230874,
+		"deaths": 30247
+	},
+	{
+		"area": "Gabon",
+		"confirmed": 8077,
+		"deaths": 51
+	},
+	{
+		"area": "Gambia",
+		"confirmed": 1477,
+		"deaths": 33
+	},
+	{
+		"area": "Georgia",
+		"confirmed": 1278,
+		"deaths": 17
+	},
+	{
+		"area": "Germany",
+		"confirmed": 38165,
+		"deaths": 1859
+	},
+	{
+		"area": "Germany",
+		"confirmed": 52203,
+		"deaths": 2627
+	},
+	{
+		"area": "Germany",
+		"confirmed": 9975,
+		"deaths": 224
+	},
+	{
+		"area": "Germany",
+		"confirmed": 3667,
+		"deaths": 175
+	},
+	{
+		"area": "Germany",
+		"confirmed": 1825,
+		"deaths": 56
+	},
+	{
+		"area": "Germany",
+		"confirmed": 5773,
+		"deaths": 262
+	},
+	{
+		"area": "Germany",
+		"confirmed": 12876,
+		"deaths": 526
+	},
+	{
+		"area": "Germany",
+		"confirmed": 954,
+		"deaths": 20
+	},
+	{
+		"area": "Germany",
+		"confirmed": 15122,
+		"deaths": 655
+	},
+	{
+		"area": "Germany",
+		"confirmed": 52588,
+		"deaths": 1765
+	},
+	{
+		"area": "Germany",
+		"confirmed": 7937,
+		"deaths": 239
+	},
+	{
+		"area": "Germany",
+		"confirmed": 2952,
+		"deaths": 174
+	},
+	{
+		"area": "Germany",
+		"confirmed": 5682,
+		"deaths": 225
+	},
+	{
+		"area": "Germany",
+		"confirmed": 2093,
+		"deaths": 64
+	},
+	{
+		"area": "Germany",
+		"confirmed": 3714,
+		"deaths": 158
+	},
+	{
+		"area": "Germany",
+		"confirmed": 3453,
+		"deaths": 184
+	},
+	{
+		"area": "Germany",
+		"confirmed": 1880,
+		"deaths": 0
+	},
+	{
+		"area": "Ghana",
+		"confirmed": 41572,
+		"deaths": 223
+	},
+	{
+		"area": "Greece",
+		"confirmed": 6177,
+		"deaths": 216
+	},
+	{
+		"area": "Grenada",
+		"confirmed": 24,
+		"deaths": 0
+	},
+	{
+		"area": "Guatemala",
+		"confirmed": 59089,
+		"deaths": 2267
+	},
+	{
+		"area": "Guinea",
+		"confirmed": 8116,
+		"deaths": 50
+	},
+	{
+		"area": "Guinea-Bissau",
+		"confirmed": 2088,
+		"deaths": 29
+	},
+	{
+		"area": "Guyana",
+		"confirmed": 623,
+		"deaths": 22
+	},
+	{
+		"area": "Haiti",
+		"confirmed": 7743,
+		"deaths": 187
+	},
+	{
+		"area": "Holy See",
+		"confirmed": 12,
+		"deaths": 0
+	},
+	{
+		"area": "Honduras",
+		"confirmed": 48657,
+		"deaths": 1533
+	},
+	{
+		"area": "Hungary",
+		"confirmed": 4768,
+		"deaths": 605
+	},
+	{
+		"area": "Iceland",
+		"confirmed": 1972,
+		"deaths": 10
+	},
+	{
+		"area": "India",
+		"confirmed": 1900,
+		"deaths": 21
+	},
+	{
+		"area": "India",
+		"confirmed": 254146,
+		"deaths": 2296
+	},
+	{
+		"area": "India",
+		"confirmed": 2430,
+		"deaths": 3
+	},
+	{
+		"area": "India",
+		"confirmed": 68999,
+		"deaths": 161
+	},
+	{
+		"area": "India",
+		"confirmed": 90321,
+		"deaths": 416
+	},
+	{
+		"area": "India",
+		"confirmed": 1751,
+		"deaths": 26
+	},
+	{
+		"area": "India",
+		"confirmed": 13498,
+		"deaths": 109
+	},
+	{
+		"area": "India",
+		"confirmed": 1696,
+		"deaths": 2
+	},
+	{
+		"area": "India",
+		"confirmed": 148504,
+		"deaths": 4153
+	},
+	{
+		"area": "India",
+		"confirmed": 9924,
+		"deaths": 89
+	},
+	{
+		"area": "India",
+		"confirmed": 74318,
+		"deaths": 2713
+	},
+	{
+		"area": "India",
+		"confirmed": 44024,
+		"deaths": 503
+	},
+	{
+		"area": "India",
+		"confirmed": 3636,
+		"deaths": 18
+	},
+	{
+		"area": "India",
+		"confirmed": 26413,
+		"deaths": 498
+	},
+	{
+		"area": "India",
+		"confirmed": 19743,
+		"deaths": 197
+	},
+	{
+		"area": "India",
+		"confirmed": 196494,
+		"deaths": 3510
+	},
+	{
+		"area": "India",
+		"confirmed": 38144,
+		"deaths": 126
+	},
+	{
+		"area": "India",
+		"confirmed": 1811,
+		"deaths": 9
+	},
+	{
+		"area": "India",
+		"confirmed": 0,
+		"deaths": 0
+	},
+	{
+		"area": "India",
+		"confirmed": 41604,
+		"deaths": 1048
+	},
+	{
+		"area": "India",
+		"confirmed": 548313,
+		"deaths": 18650
+	},
+	{
+		"area": "India",
+		"confirmed": 3982,
+		"deaths": 12
+	},
+	{
+		"area": "India",
+		"confirmed": 1179,
+		"deaths": 6
+	},
+	{
+		"area": "India",
+		"confirmed": 649,
+		"deaths": 0
+	},
+	{
+		"area": "India",
+		"confirmed": 3118,
+		"deaths": 8
+	},
+	{
+		"area": "India",
+		"confirmed": 50672,
+		"deaths": 305
+	},
+	{
+		"area": "India",
+		"confirmed": 6381,
+		"deaths": 96
+	},
+	{
+		"area": "India",
+		"confirmed": 26909,
+		"deaths": 675
+	},
+	{
+		"area": "India",
+		"confirmed": 56100,
+		"deaths": 822
+	},
+	{
+		"area": "India",
+		"confirmed": 930,
+		"deaths": 1
+	},
+	{
+		"area": "India",
+		"confirmed": 314520,
+		"deaths": 5278
+	},
+	{
+		"area": "India",
+		"confirmed": 86475,
+		"deaths": 665
+	},
+	{
+		"area": "India",
+		"confirmed": 6603,
+		"deaths": 44
+	},
+	{
+		"area": "India",
+		"confirmed": 0,
+		"deaths": 0
+	},
+	{
+		"area": "India",
+		"confirmed": 136238,
+		"deaths": 2230
+	},
+	{
+		"area": "India",
+		"confirmed": 10886,
+		"deaths": 140
+	},
+	{
+		"area": "India",
+		"confirmed": 104326,
+		"deaths": 2203
+	},
+	{
+		"area": "Indonesia",
+		"confirmed": 130718,
+		"deaths": 5903
+	},
+	{
+		"area": "Iran",
+		"confirmed": 333699,
+		"deaths": 18988
+	},
+	{
+		"area": "Iraq",
+		"confirmed": 160436,
+		"deaths": 5588
+	},
+	{
+		"area": "Ireland",
+		"confirmed": 26838,
+		"deaths": 1774
+	},
+	{
+		"area": "Israel",
+		"confirmed": 88151,
+		"deaths": 639
+	},
+	{
+		"area": "Italy",
+		"confirmed": 3516,
+		"deaths": 472
+	},
+	{
+		"area": "Italy",
+		"confirmed": 477,
+		"deaths": 28
+	},
+	{
+		"area": "Italy",
+		"confirmed": 1304,
+		"deaths": 97
+	},
+	{
+		"area": "Italy",
+		"confirmed": 5143,
+		"deaths": 440
+	},
+	{
+		"area": "Italy",
+		"confirmed": 30220,
+		"deaths": 4298
+	},
+	{
+		"area": "Italy",
+		"confirmed": 3461,
+		"deaths": 348
+	},
+	{
+		"area": "Italy",
+		"confirmed": 8920,
+		"deaths": 868
+	},
+	{
+		"area": "Italy",
+		"confirmed": 10330,
+		"deaths": 1569
+	},
+	{
+		"area": "Italy",
+		"confirmed": 97054,
+		"deaths": 16833
+	},
+	{
+		"area": "Italy",
+		"confirmed": 6976,
+		"deaths": 987
+	},
+	{
+		"area": "Italy",
+		"confirmed": 479,
+		"deaths": 23
+	},
+	{
+		"area": "Italy",
+		"confirmed": 2779,
+		"deaths": 292
+	},
+	{
+		"area": "Italy",
+		"confirmed": 4998,
+		"deaths": 405
+	},
+	{
+		"area": "Italy",
+		"confirmed": 31956,
+		"deaths": 4138
+	},
+	{
+		"area": "Italy",
+		"confirmed": 4793,
+		"deaths": 554
+	},
+	{
+		"area": "Italy",
+		"confirmed": 1462,
+		"deaths": 134
+	},
+	{
+		"area": "Italy",
+		"confirmed": 3603,
+		"deaths": 284
+	},
+	{
+		"area": "Italy",
+		"confirmed": 10707,
+		"deaths": 1137
+	},
+	{
+		"area": "Italy",
+		"confirmed": 1517,
+		"deaths": 80
+	},
+	{
+		"area": "Italy",
+		"confirmed": 1217,
+		"deaths": 146
+	},
+	{
+		"area": "Italy",
+		"confirmed": 20801,
+		"deaths": 2092
+	},
+	{
+		"area": "Jamaica",
+		"confirmed": 1065,
+		"deaths": 14
+	},
+	{
+		"area": "Japan",
+		"confirmed": 3391,
+		"deaths": 38
+	},
+	{
+		"area": "Japan",
+		"confirmed": 36,
+		"deaths": 0
+	},
+	{
+		"area": "Japan",
+		"confirmed": 35,
+		"deaths": 1
+	},
+	{
+		"area": "Japan",
+		"confirmed": 2255,
+		"deaths": 55
+	},
+	{
+		"area": "Japan",
+		"confirmed": 107,
+		"deaths": 5
+	},
+	{
+		"area": "Japan",
+		"confirmed": 154,
+		"deaths": 8
+	},
+	{
+		"area": "Japan",
+		"confirmed": 3216,
+		"deaths": 38
+	},
+	{
+		"area": "Japan",
+		"confirmed": 100,
+		"deaths": 0
+	},
+	{
+		"area": "Japan",
+		"confirmed": 484,
+		"deaths": 7
+	},
+	{
+		"area": "Japan",
+		"confirmed": 244,
+		"deaths": 19
+	},
+	{
+		"area": "Japan",
+		"confirmed": 422,
+		"deaths": 3
+	},
+	{
+		"area": "Japan",
+		"confirmed": 1572,
+		"deaths": 103
+	},
+	{
+		"area": "Japan",
+		"confirmed": 1730,
+		"deaths": 47
+	},
+	{
+		"area": "Japan",
+		"confirmed": 416,
+		"deaths": 11
+	},
+	{
+		"area": "Japan",
+		"confirmed": 399,
+		"deaths": 28
+	},
+	{
+		"area": "Japan",
+		"confirmed": 7,
+		"deaths": 0
+	},
+	{
+		"area": "Japan",
+		"confirmed": 60,
+		"deaths": 0
+	},
+	{
+		"area": "Japan",
+		"confirmed": 277,
+		"deaths": 4
+	},
+	{
+		"area": "Japan",
+		"confirmed": 3400,
+		"deaths": 104
+	},
+	{
+		"area": "Japan",
+		"confirmed": 83,
+		"deaths": 3
+	},
+	{
+		"area": "Japan",
+		"confirmed": 370,
+		"deaths": 5
+	},
+	{
+		"area": "Japan",
+		"confirmed": 1026,
+		"deaths": 21
+	},
+	{
+		"area": "Japan",
+		"confirmed": 261,
+		"deaths": 1
+	},
+	{
+		"area": "Japan",
+		"confirmed": 184,
+		"deaths": 1
+	},
+	{
+		"area": "Japan",
+		"confirmed": 269,
+		"deaths": 0
+	},
+	{
+		"area": "Japan",
+		"confirmed": 139,
+		"deaths": 0
+	},
+	{
+		"area": "Japan",
+		"confirmed": 171,
+		"deaths": 3
+	},
+	{
+		"area": "Japan",
+		"confirmed": 341,
+		"deaths": 2
+	},
+	{
+		"area": "Japan",
+		"confirmed": 128,
+		"deaths": 0
+	},
+	{
+		"area": "Japan",
+		"confirmed": 93,
+		"deaths": 1
+	},
+	{
+		"area": "Japan",
+		"confirmed": 117,
+		"deaths": 0
+	},
+	{
+		"area": "Japan",
+		"confirmed": 1310,
+		"deaths": 10
+	},
+	{
+		"area": "Japan",
+		"confirmed": 6178,
+		"deaths": 97
+	},
+	{
+		"area": "Japan",
+		"confirmed": 695,
+		"deaths": 1
+	},
+	{
+		"area": "Japan",
+		"confirmed": 172,
+		"deaths": 0
+	},
+	{
+		"area": "Japan",
+		"confirmed": 3004,
+		"deaths": 80
+	},
+	{
+		"area": "Japan",
+		"confirmed": 311,
+		"deaths": 3
+	},
+	{
+		"area": "Japan",
+		"confirmed": 132,
+		"deaths": 0
+	},
+	{
+		"area": "Japan",
+		"confirmed": 389,
+		"deaths": 1
+	},
+	{
+		"area": "Japan",
+		"confirmed": 256,
+		"deaths": 1
+	},
+	{
+		"area": "Japan",
+		"confirmed": 70,
+		"deaths": 1
+	},
+	{
+		"area": "Japan",
+		"confirmed": 16484,
+		"deaths": 336
+	},
+	{
+		"area": "Japan",
+		"confirmed": 21,
+		"deaths": 0
+	},
+	{
+		"area": "Japan",
+		"confirmed": 296,
+		"deaths": 22
+	},
+	{
+		"area": "Japan",
+		"confirmed": 8,
+		"deaths": 0
+	},
+	{
+		"area": "Japan",
+		"confirmed": 186,
+		"deaths": 4
+	},
+	{
+		"area": "Japan",
+		"confirmed": 76,
+		"deaths": 1
+	},
+	{
+		"area": "Japan",
+		"confirmed": 78,
+		"deaths": 0
+	},
+	{
+		"area": "Japan",
+		"confirmed": 135,
+		"deaths": 1
+	},
+	{
+		"area": "Jordan",
+		"confirmed": 1303,
+		"deaths": 11
+	},
+	{
+		"area": "Kazakhstan",
+		"confirmed": 101372,
+		"deaths": 1269
+	},
+	{
+		"area": "Kenya",
+		"confirmed": 28104,
+		"deaths": 456
+	},
+	{
+		"area": "Korea, South",
+		"confirmed": 14770,
+		"deaths": 305
+	},
+	{
+		"area": "Kosovo",
+		"confirmed": 10419,
+		"deaths": 341
+	},
+	{
+		"area": "Kuwait",
+		"confirmed": 73785,
+		"deaths": 489
+	},
+	{
+		"area": "Kyrgyzstan",
+		"confirmed": 40759,
+		"deaths": 1484
+	},
+	{
+		"area": "Laos",
+		"confirmed": 20,
+		"deaths": 0
+	},
+	{
+		"area": "Latvia",
+		"confirmed": 1303,
+		"deaths": 32
+	},
+	{
+		"area": "Lebanon",
+		"confirmed": 7413,
+		"deaths": 89
+	},
+	{
+		"area": "Lesotho",
+		"confirmed": 798,
+		"deaths": 24
+	},
+	{
+		"area": "Liberia",
+		"confirmed": 1252,
+		"deaths": 82
+	},
+	{
+		"area": "Libya",
+		"confirmed": 6611,
+		"deaths": 132
+	},
+	{
+		"area": "Liechtenstein",
+		"confirmed": 90,
+		"deaths": 1
+	},
+	{
+		"area": "Lithuania",
+		"confirmed": 2309,
+		"deaths": 81
+	},
+	{
+		"area": "Luxembourg",
+		"confirmed": 7300,
+		"deaths": 122
+	},
+	{
+		"area": "MS Zaandam",
+		"confirmed": 9,
+		"deaths": 2
+	},
+	{
+		"area": "Madagascar",
+		"confirmed": 13397,
+		"deaths": 156
+	},
+	{
+		"area": "Malawi",
+		"confirmed": 4752,
+		"deaths": 152
+	},
+	{
+		"area": "Malaysia",
+		"confirmed": 9114,
+		"deaths": 125
+	},
+	{
+		"area": "Maldives",
+		"confirmed": 5366,
+		"deaths": 21
+	},
+	{
+		"area": "Mali",
+		"confirmed": 2582,
+		"deaths": 125
+	},
+	{
+		"area": "Malta",
+		"confirmed": 1190,
+		"deaths": 9
+	},
+	{
+		"area": "Mauritania",
+		"confirmed": 6622,
+		"deaths": 157
+	},
+	{
+		"area": "Mauritius",
+		"confirmed": 344,
+		"deaths": 10
+	},
+	{
+		"area": "Mexico",
+		"confirmed": 4624,
+		"deaths": 310
+	},
+	{
+		"area": "Mexico",
+		"confirmed": 14881,
+		"deaths": 2833
+	},
+	{
+		"area": "Mexico",
+		"confirmed": 5799,
+		"deaths": 228
+	},
+	{
+		"area": "Mexico",
+		"confirmed": 5062,
+		"deaths": 646
+	},
+	{
+		"area": "Mexico",
+		"confirmed": 5990,
+		"deaths": 962
+	},
+	{
+		"area": "Mexico",
+		"confirmed": 6277,
+		"deaths": 994
+	},
+	{
+		"area": "Mexico",
+		"confirmed": 82510,
+		"deaths": 9598
+	},
+	{
+		"area": "Mexico",
+		"confirmed": 16576,
+		"deaths": 1000
+	},
+	{
+		"area": "Mexico",
+		"confirmed": 2475,
+		"deaths": 299
+	},
+	{
+		"area": "Mexico",
+		"confirmed": 4970,
+		"deaths": 361
+	},
+	{
+		"area": "Mexico",
+		"confirmed": 25244,
+		"deaths": 1328
+	},
+	{
+		"area": "Mexico",
+		"confirmed": 12756,
+		"deaths": 1489
+	},
+	{
+		"area": "Mexico",
+		"confirmed": 8148,
+		"deaths": 1258
+	},
+	{
+		"area": "Mexico",
+		"confirmed": 15852,
+		"deaths": 1904
+	},
+	{
+		"area": "Mexico",
+		"confirmed": 59174,
+		"deaths": 7116
+	},
+	{
+		"area": "Mexico",
+		"confirmed": 11684,
+		"deaths": 904
+	},
+	{
+		"area": "Mexico",
+		"confirmed": 4488,
+		"deaths": 882
+	},
+	{
+		"area": "Mexico",
+		"confirmed": 4094,
+		"deaths": 468
+	},
+	{
+		"area": "Mexico",
+		"confirmed": 22577,
+		"deaths": 1631
+	},
+	{
+		"area": "Mexico",
+		"confirmed": 11975,
+		"deaths": 1089
+	},
+	{
+		"area": "Mexico",
+		"confirmed": 23311,
+		"deaths": 2933
+	},
+	{
+		"area": "Mexico",
+		"confirmed": 4548,
+		"deaths": 578
+	},
+	{
+		"area": "Mexico",
+		"confirmed": 8952,
+		"deaths": 1157
+	},
+	{
+		"area": "Mexico",
+		"confirmed": 13153,
+		"deaths": 790
+	},
+	{
+		"area": "Mexico",
+		"confirmed": 14174,
+		"deaths": 2502
+	},
+	{
+		"area": "Mexico",
+		"confirmed": 19531,
+		"deaths": 2361
+	},
+	{
+		"area": "Mexico",
+		"confirmed": 24954,
+		"deaths": 2272
+	},
+	{
+		"area": "Mexico",
+		"confirmed": 18929,
+		"deaths": 1415
+	},
+	{
+		"area": "Mexico",
+		"confirmed": 5311,
+		"deaths": 782
+	},
+	{
+		"area": "Mexico",
+		"confirmed": 24687,
+		"deaths": 3138
+	},
+	{
+		"area": "Mexico",
+		"confirmed": 12001,
+		"deaths": 1094
+	},
+	{
+		"area": "Mexico",
+		"confirmed": 3673,
+		"deaths": 344
+	},
+	{
+		"area": "Moldova",
+		"confirmed": 28697,
+		"deaths": 863
+	},
+	{
+		"area": "Monaco",
+		"confirmed": 141,
+		"deaths": 4
+	},
+	{
+		"area": "Mongolia",
+		"confirmed": 297,
+		"deaths": 0
+	},
+	{
+		"area": "Montenegro",
+		"confirmed": 3813,
+		"deaths": 73
+	},
+	{
+		"area": "Morocco",
+		"confirmed": 36694,
+		"deaths": 556
+	},
+	{
+		"area": "Mozambique",
+		"confirmed": 2559,
+		"deaths": 19
+	},
+	{
+		"area": "Namibia",
+		"confirmed": 3406,
+		"deaths": 22
+	},
+	{
+		"area": "Nepal",
+		"confirmed": 24432,
+		"deaths": 91
+	},
+	{
+		"area": "Netherlands",
+		"confirmed": 798,
+		"deaths": 3
+	},
+	{
+		"area": "Netherlands",
+		"confirmed": 13,
+		"deaths": 0
+	},
+	{
+		"area": "Netherlands",
+		"confirmed": 32,
+		"deaths": 1
+	},
+	{
+		"area": "Netherlands",
+		"confirmed": 575,
+		"deaths": 41
+	},
+	{
+		"area": "Netherlands",
+		"confirmed": 1112,
+		"deaths": 93
+	},
+	{
+		"area": "Netherlands",
+		"confirmed": 701,
+		"deaths": 69
+	},
+	{
+		"area": "Netherlands",
+		"confirmed": 6851,
+		"deaths": 685
+	},
+	{
+		"area": "Netherlands",
+		"confirmed": 456,
+		"deaths": 17
+	},
+	{
+		"area": "Netherlands",
+		"confirmed": 5030,
+		"deaths": 754
+	},
+	{
+		"area": "Netherlands",
+		"confirmed": 10873,
+		"deaths": 1542
+	},
+	{
+		"area": "Netherlands",
+		"confirmed": 9717,
+		"deaths": 816
+	},
+	{
+		"area": "Netherlands",
+		"confirmed": 3269,
+		"deaths": 311
+	},
+	{
+		"area": "Netherlands",
+		"confirmed": 248,
+		"deaths": 17
+	},
+	{
+		"area": "Netherlands",
+		"confirmed": 556,
+		"deaths": 18
+	},
+	{
+		"area": "Netherlands",
+		"confirmed": 4772,
+		"deaths": 432
+	},
+	{
+		"area": "Netherlands",
+		"confirmed": 950,
+		"deaths": 69
+	},
+	{
+		"area": "Netherlands",
+		"confirmed": 15765,
+		"deaths": 1314
+	},
+	{
+		"area": "New Zealand",
+		"confirmed": 1589,
+		"deaths": 22
+	},
+	{
+		"area": "Nicaragua",
+		"confirmed": 4115,
+		"deaths": 128
+	},
+	{
+		"area": "Niger",
+		"confirmed": 1161,
+		"deaths": 69
+	},
+	{
+		"area": "Nigeria",
+		"confirmed": 47743,
+		"deaths": 956
+	},
+	{
+		"area": "North Macedonia",
+		"confirmed": 12217,
+		"deaths": 530
+	},
+	{
+		"area": "Norway",
+		"confirmed": 9783,
+		"deaths": 256
+	},
+	{
+		"area": "Oman",
+		"confirmed": 82299,
+		"deaths": 539
+	},
+	{
+		"area": "Pakistan",
+		"confirmed": 2164,
+		"deaths": 59
+	},
+	{
+		"area": "Pakistan",
+		"confirmed": 12044,
+		"deaths": 138
+	},
+	{
+		"area": "Pakistan",
+		"confirmed": 2402,
+		"deaths": 58
+	},
+	{
+		"area": "Pakistan",
+		"confirmed": 15323,
+		"deaths": 173
+	},
+	{
+		"area": "Pakistan",
+		"confirmed": 34947,
+		"deaths": 1235
+	},
+	{
+		"area": "Pakistan",
+		"confirmed": 94865,
+		"deaths": 2179
+	},
+	{
+		"area": "Pakistan",
+		"confirmed": 124929,
+		"deaths": 2297
+	},
+	{
+		"area": "Panama",
+		"confirmed": 77377,
+		"deaths": 1703
+	},
+	{
+		"area": "Papua New Guinea",
+		"confirmed": 287,
+		"deaths": 3
+	},
+	{
+		"area": "Paraguay",
+		"confirmed": 8018,
+		"deaths": 93
+	},
+	{
+		"area": "Peru",
+		"confirmed": 7488,
+		"deaths": 129
+	},
+	{
+		"area": "Peru",
+		"confirmed": 14473,
+		"deaths": 900
+	},
+	{
+		"area": "Peru",
+		"confirmed": 1493,
+		"deaths": 48
+	},
+	{
+		"area": "Peru",
+		"confirmed": 20892,
+		"deaths": 938
+	},
+	{
+		"area": "Peru",
+		"confirmed": 5302,
+		"deaths": 115
+	},
+	{
+		"area": "Peru",
+		"confirmed": 9377,
+		"deaths": 261
+	},
+	{
+		"area": "Peru",
+		"confirmed": 23576,
+		"deaths": 1114
+	},
+	{
+		"area": "Peru",
+		"confirmed": 7458,
+		"deaths": 163
+	},
+	{
+		"area": "Peru",
+		"confirmed": 2614,
+		"deaths": 50
+	},
+	{
+		"area": "Peru",
+		"confirmed": 8557,
+		"deaths": 227
+	},
+	{
+		"area": "Peru",
+		"confirmed": 15528,
+		"deaths": 1006
+	},
+	{
+		"area": "Peru",
+		"confirmed": 10165,
+		"deaths": 510
+	},
+	{
+		"area": "Peru",
+		"confirmed": 18165,
+		"deaths": 1457
+	},
+	{
+		"area": "Peru",
+		"confirmed": 19165,
+		"deaths": 1270
+	},
+	{
+		"area": "Peru",
+		"confirmed": 250708,
+		"deaths": 10183
+	},
+	{
+		"area": "Peru",
+		"confirmed": 12694,
+		"deaths": 622
+	},
+	{
+		"area": "Peru",
+		"confirmed": 4282,
+		"deaths": 109
+	},
+	{
+		"area": "Peru",
+		"confirmed": 5082,
+		"deaths": 148
+	},
+	{
+		"area": "Peru",
+		"confirmed": 2798,
+		"deaths": 59
+	},
+	{
+		"area": "Peru",
+		"confirmed": 23182,
+		"deaths": 1331
+	},
+	{
+		"area": "Peru",
+		"confirmed": 4062,
+		"deaths": 124
+	},
+	{
+		"area": "Peru",
+		"confirmed": 10603,
+		"deaths": 433
+	},
+	{
+		"area": "Peru",
+		"confirmed": 4695,
+		"deaths": 58
+	},
+	{
+		"area": "Peru",
+		"confirmed": 4855,
+		"deaths": 218
+	},
+	{
+		"area": "Peru",
+		"confirmed": 11341,
+		"deaths": 240
+	},
+	{
+		"area": "Peru",
+		"confirmed": 0,
+		"deaths": 0
+	},
+	{
+		"area": "Philippines",
+		"confirmed": 143749,
+		"deaths": 2404
+	},
+	{
+		"area": "Poland",
+		"confirmed": 53676,
+		"deaths": 1830
+	},
+	{
+		"area": "Portugal",
+		"confirmed": 53223,
+		"deaths": 1764
+	},
+	{
+		"area": "Qatar",
+		"confirmed": 113938,
+		"deaths": 190
+	},
+	{
+		"area": "Romania",
+		"confirmed": 65177,
+		"deaths": 2807
+	},
+	{
+		"area": "Russia",
+		"confirmed": 3035,
+		"deaths": 22
+	},
+	{
+		"area": "Russia",
+		"confirmed": 10273,
+		"deaths": 96
+	},
+	{
+		"area": "Russia",
+		"confirmed": 1739,
+		"deaths": 7
+	},
+	{
+		"area": "Russia",
+		"confirmed": 2997,
+		"deaths": 47
+	},
+	{
+		"area": "Russia",
+		"confirmed": 9479,
+		"deaths": 220
+	},
+	{
+		"area": "Russia",
+		"confirmed": 5006,
+		"deaths": 54
+	},
+	{
+		"area": "Russia",
+		"confirmed": 7162,
+		"deaths": 25
+	},
+	{
+		"area": "Russia",
+		"confirmed": 6509,
+		"deaths": 51
+	},
+	{
+		"area": "Russia",
+		"confirmed": 7707,
+		"deaths": 35
+	},
+	{
+		"area": "Russia",
+		"confirmed": 4475,
+		"deaths": 42
+	},
+	{
+		"area": "Russia",
+		"confirmed": 2165,
+		"deaths": 35
+	},
+	{
+		"area": "Russia",
+		"confirmed": 12349,
+		"deaths": 98
+	},
+	{
+		"area": "Russia",
+		"confirmed": 162,
+		"deaths": 1
+	},
+	{
+		"area": "Russia",
+		"confirmed": 7144,
+		"deaths": 65
+	},
+	{
+		"area": "Russia",
+		"confirmed": 9812,
+		"deaths": 461
+	},
+	{
+		"area": "Russia",
+		"confirmed": 3933,
+		"deaths": 75
+	},
+	{
+		"area": "Russia",
+		"confirmed": 14986,
+		"deaths": 214
+	},
+	{
+		"area": "Russia",
+		"confirmed": 6756,
+		"deaths": 108
+	},
+	{
+		"area": "Russia",
+		"confirmed": 568,
+		"deaths": 8
+	},
+	{
+		"area": "Russia",
+		"confirmed": 6158,
+		"deaths": 75
+	},
+	{
+		"area": "Russia",
+		"confirmed": 3054,
+		"deaths": 53
+	},
+	{
+		"area": "Russia",
+		"confirmed": 3121,
+		"deaths": 42
+	},
+	{
+		"area": "Russia",
+		"confirmed": 7516,
+		"deaths": 58
+	},
+	{
+		"area": "Russia",
+		"confirmed": 3553,
+		"deaths": 42
+	},
+	{
+		"area": "Russia",
+		"confirmed": 4575,
+		"deaths": 25
+	},
+	{
+		"area": "Russia",
+		"confirmed": 2602,
+		"deaths": 13
+	},
+	{
+		"area": "Russia",
+		"confirmed": 4638,
+		"deaths": 19
+	},
+	{
+		"area": "Russia",
+		"confirmed": 8723,
+		"deaths": 75
+	},
+	{
+		"area": "Russia",
+		"confirmed": 3071,
+		"deaths": 37
+	},
+	{
+		"area": "Russia",
+		"confirmed": 18111,
+		"deaths": 143
+	},
+	{
+		"area": "Russia",
+		"confirmed": 5408,
+		"deaths": 82
+	},
+	{
+		"area": "Russia",
+		"confirmed": 5923,
+		"deaths": 71
+	},
+	{
+		"area": "Russia",
+		"confirmed": 2695,
+		"deaths": 30
+	},
+	{
+		"area": "Russia",
+		"confirmed": 9552,
+		"deaths": 134
+	},
+	{
+		"area": "Russia",
+		"confirmed": 14691,
+		"deaths": 376
+	},
+	{
+		"area": "Russia",
+		"confirmed": 2541,
+		"deaths": 11
+	},
+	{
+		"area": "Russia",
+		"confirmed": 6548,
+		"deaths": 51
+	},
+	{
+		"area": "Russia",
+		"confirmed": 6262,
+		"deaths": 62
+	},
+	{
+		"area": "Russia",
+		"confirmed": 4750,
+		"deaths": 23
+	},
+	{
+		"area": "Russia",
+		"confirmed": 1576,
+		"deaths": 15
+	},
+	{
+		"area": "Russia",
+		"confirmed": 3947,
+		"deaths": 36
+	},
+	{
+		"area": "Russia",
+		"confirmed": 4857,
+		"deaths": 38
+	},
+	{
+		"area": "Russia",
+		"confirmed": 249611,
+		"deaths": 4611
+	},
+	{
+		"area": "Russia",
+		"confirmed": 65324,
+		"deaths": 1132
+	},
+	{
+		"area": "Russia",
+		"confirmed": 11589,
+		"deaths": 104
+	},
+	{
+		"area": "Russia",
+		"confirmed": 289,
+		"deaths": 0
+	},
+	{
+		"area": "Russia",
+		"confirmed": 25252,
+		"deaths": 418
+	},
+	{
+		"area": "Russia",
+		"confirmed": 4642,
+		"deaths": 67
+	},
+	{
+		"area": "Russia",
+		"confirmed": 3950,
+		"deaths": 72
+	},
+	{
+		"area": "Russia",
+		"confirmed": 10398,
+		"deaths": 297
+	},
+	{
+		"area": "Russia",
+		"confirmed": 8067,
+		"deaths": 101
+	},
+	{
+		"area": "Russia",
+		"confirmed": 6170,
+		"deaths": 96
+	},
+	{
+		"area": "Russia",
+		"confirmed": 8169,
+		"deaths": 58
+	},
+	{
+		"area": "Russia",
+		"confirmed": 7101,
+		"deaths": 92
+	},
+	{
+		"area": "Russia",
+		"confirmed": 6705,
+		"deaths": 179
+	},
+	{
+		"area": "Russia",
+		"confirmed": 7981,
+		"deaths": 95
+	},
+	{
+		"area": "Russia",
+		"confirmed": 4001,
+		"deaths": 58
+	},
+	{
+		"area": "Russia",
+		"confirmed": 14488,
+		"deaths": 271
+	},
+	{
+		"area": "Russia",
+		"confirmed": 6625,
+		"deaths": 34
+	},
+	{
+		"area": "Russia",
+		"confirmed": 33365,
+		"deaths": 2188
+	},
+	{
+		"area": "Russia",
+		"confirmed": 6469,
+		"deaths": 66
+	},
+	{
+		"area": "Russia",
+		"confirmed": 3326,
+		"deaths": 0
+	},
+	{
+		"area": "Russia",
+		"confirmed": 7372,
+		"deaths": 111
+	},
+	{
+		"area": "Russia",
+		"confirmed": 10538,
+		"deaths": 64
+	},
+	{
+		"area": "Russia",
+		"confirmed": 5864,
+		"deaths": 114
+	},
+	{
+		"area": "Russia",
+		"confirmed": 9594,
+		"deaths": 183
+	},
+	{
+		"area": "Russia",
+		"confirmed": 22781,
+		"deaths": 351
+	},
+	{
+		"area": "Russia",
+		"confirmed": 6311,
+		"deaths": 43
+	},
+	{
+		"area": "Russia",
+		"confirmed": 5959,
+		"deaths": 28
+	},
+	{
+		"area": "Russia",
+		"confirmed": 4792,
+		"deaths": 48
+	},
+	{
+		"area": "Russia",
+		"confirmed": 8698,
+		"deaths": 284
+	},
+	{
+		"area": "Russia",
+		"confirmed": 4931,
+		"deaths": 161
+	},
+	{
+		"area": "Russia",
+		"confirmed": 6790,
+		"deaths": 28
+	},
+	{
+		"area": "Russia",
+		"confirmed": 6396,
+		"deaths": 60
+	},
+	{
+		"area": "Russia",
+		"confirmed": 2654,
+		"deaths": 34
+	},
+	{
+		"area": "Russia",
+		"confirmed": 10346,
+		"deaths": 73
+	},
+	{
+		"area": "Russia",
+		"confirmed": 5856,
+		"deaths": 172
+	},
+	{
+		"area": "Russia",
+		"confirmed": 10281,
+		"deaths": 75
+	},
+	{
+		"area": "Russia",
+		"confirmed": 2743,
+		"deaths": 29
+	},
+	{
+		"area": "Russia",
+		"confirmed": 12278,
+		"deaths": 96
+	},
+	{
+		"area": "Russia",
+		"confirmed": 12168,
+		"deaths": 82
+	},
+	{
+		"area": "Russia",
+		"confirmed": 6500,
+		"deaths": 32
+	},
+	{
+		"area": "Russia",
+		"confirmed": 4242,
+		"deaths": 49
+	},
+	{
+		"area": "Rwanda",
+		"confirmed": 2189,
+		"deaths": 8
+	},
+	{
+		"area": "Saint Kitts and Nevis",
+		"confirmed": 17,
+		"deaths": 0
+	},
+	{
+		"area": "Saint Lucia",
+		"confirmed": 25,
+		"deaths": 0
+	},
+	{
+		"area": "Saint Vincent and the Grenadines",
+		"confirmed": 57,
+		"deaths": 0
+	},
+	{
+		"area": "San Marino",
+		"confirmed": 699,
+		"deaths": 42
+	},
+	{
+		"area": "Sao Tome and Principe",
+		"confirmed": 882,
+		"deaths": 15
+	},
+	{
+		"area": "Saudi Arabia",
+		"confirmed": 293037,
+		"deaths": 3269
+	},
+	{
+		"area": "Senegal",
+		"confirmed": 11587,
+		"deaths": 242
+	},
+	{
+		"area": "Serbia",
+		"confirmed": 28751,
+		"deaths": 658
+	},
+	{
+		"area": "Seychelles",
+		"confirmed": 127,
+		"deaths": 0
+	},
+	{
+		"area": "Sierra Leone",
+		"confirmed": 1937,
+		"deaths": 69
+	},
+	{
+		"area": "Singapore",
+		"confirmed": 55395,
+		"deaths": 27
+	},
+	{
+		"area": "Slovakia",
+		"confirmed": 2690,
+		"deaths": 31
+	},
+	{
+		"area": "Slovenia",
+		"confirmed": 2303,
+		"deaths": 129
+	},
+	{
+		"area": "Somalia",
+		"confirmed": 3227,
+		"deaths": 93
+	},
+	{
+		"area": "South Africa",
+		"confirmed": 568919,
+		"deaths": 11010
+	},
+	{
+		"area": "South Sudan",
+		"confirmed": 2477,
+		"deaths": 47
+	},
+	{
+		"area": "Spain",
+		"confirmed": 18059,
+		"deaths": 1443
+	},
+	{
+		"area": "Spain",
+		"confirmed": 19418,
+		"deaths": 991
+	},
+	{
+		"area": "Spain",
+		"confirmed": 2733,
+		"deaths": 334
+	},
+	{
+		"area": "Spain",
+		"confirmed": 3780,
+		"deaths": 225
+	},
+	{
+		"area": "Spain",
+		"confirmed": 15934,
+		"deaths": 1442
+	},
+	{
+		"area": "Spain",
+		"confirmed": 3107,
+		"deaths": 164
+	},
+	{
+		"area": "Spain",
+		"confirmed": 2824,
+		"deaths": 220
+	},
+	{
+		"area": "Spain",
+		"confirmed": 19582,
+		"deaths": 3037
+	},
+	{
+		"area": "Spain",
+		"confirmed": 22169,
+		"deaths": 2804
+	},
+	{
+		"area": "Spain",
+		"confirmed": 89909,
+		"deaths": 5706
+	},
+	{
+		"area": "Spain",
+		"confirmed": 168,
+		"deaths": 4
+	},
+	{
+		"area": "Spain",
+		"confirmed": 3664,
+		"deaths": 522
+	},
+	{
+		"area": "Spain",
+		"confirmed": 10480,
+		"deaths": 622
+	},
+	{
+		"area": "Spain",
+		"confirmed": 4333,
+		"deaths": 366
+	},
+	{
+		"area": "Spain",
+		"confirmed": 83606,
+		"deaths": 8464
+	},
+	{
+		"area": "Spain",
+		"confirmed": 180,
+		"deaths": 2
+	},
+	{
+		"area": "Spain",
+		"confirmed": 3116,
+		"deaths": 149
+	},
+	{
+		"area": "Spain",
+		"confirmed": 7713,
+		"deaths": 531
+	},
+	{
+		"area": "Spain",
+		"confirmed": 19009,
+		"deaths": 1553
+	},
+	{
+		"area": "Spain",
+		"confirmed": 0,
+		"deaths": 0
+	},
+	{
+		"area": "Sri Lanka",
+		"confirmed": 2881,
+		"deaths": 11
+	},
+	{
+		"area": "Sudan",
+		"confirmed": 12033,
+		"deaths": 786
+	},
+	{
+		"area": "Suriname",
+		"confirmed": 2653,
+		"deaths": 39
+	},
+	{
+		"area": "Sweden",
+		"confirmed": 546,
+		"deaths": 15
+	},
+	{
+		"area": "Sweden",
+		"confirmed": 2029,
+		"deaths": 174
+	},
+	{
+		"area": "Sweden",
+		"confirmed": 3189,
+		"deaths": 162
+	},
+	{
+		"area": "Sweden",
+		"confirmed": 288,
+		"deaths": 6
+	},
+	{
+		"area": "Sweden",
+		"confirmed": 1925,
+		"deaths": 79
+	},
+	{
+		"area": "Sweden",
+		"confirmed": 1158,
+		"deaths": 60
+	},
+	{
+		"area": "Sweden",
+		"confirmed": 4807,
+		"deaths": 180
+	},
+	{
+		"area": "Sweden",
+		"confirmed": 797,
+		"deaths": 62
+	},
+	{
+		"area": "Sweden",
+		"confirmed": 1241,
+		"deaths": 104
+	},
+	{
+		"area": "Sweden",
+		"confirmed": 1632,
+		"deaths": 85
+	},
+	{
+		"area": "Sweden",
+		"confirmed": 2583,
+		"deaths": 171
+	},
+	{
+		"area": "Sweden",
+		"confirmed": 3634,
+		"deaths": 262
+	},
+	{
+		"area": "Sweden",
+		"confirmed": 3984,
+		"deaths": 277
+	},
+	{
+		"area": "Sweden",
+		"confirmed": 2411,
+		"deaths": 253
+	},
+	{
+		"area": "Sweden",
+		"confirmed": 23848,
+		"deaths": 2387
+	},
+	{
+		"area": "Sweden",
+		"confirmed": 3636,
+		"deaths": 239
+	},
+	{
+		"area": "Sweden",
+		"confirmed": 1099,
+		"deaths": 73
+	},
+	{
+		"area": "Sweden",
+		"confirmed": 925,
+		"deaths": 31
+	},
+	{
+		"area": "Sweden",
+		"confirmed": 1824,
+		"deaths": 132
+	},
+	{
+		"area": "Sweden",
+		"confirmed": 2695,
+		"deaths": 180
+	},
+	{
+		"area": "Sweden",
+		"confirmed": 19204,
+		"deaths": 842
+	},
+	{
+		"area": "Switzerland",
+		"confirmed": 37169,
+		"deaths": 1991
+	},
+	{
+		"area": "Syria",
+		"confirmed": 1327,
+		"deaths": 53
+	},
+	{
+		"area": "Taiwan*",
+		"confirmed": 481,
+		"deaths": 7
+	},
+	{
+		"area": "Tajikistan",
+		"confirmed": 7912,
+		"deaths": 63
+	},
+	{
+		"area": "Tanzania",
+		"confirmed": 509,
+		"deaths": 21
+	},
+	{
+		"area": "Thailand",
+		"confirmed": 3356,
+		"deaths": 58
+	},
+	{
+		"area": "Timor-Leste",
+		"confirmed": 25,
+		"deaths": 0
+	},
+	{
+		"area": "Togo",
+		"confirmed": 1092,
+		"deaths": 26
+	},
+	{
+		"area": "Trinidad and Tobago",
+		"confirmed": 326,
+		"deaths": 8
+	},
+	{
+		"area": "Tunisia",
+		"confirmed": 1780,
+		"deaths": 52
+	},
+	{
+		"area": "Turkey",
+		"confirmed": 244392,
+		"deaths": 5891
+	},
+	{
+		"area": "Uganda",
+		"confirmed": 1332,
+		"deaths": 9
+	},
+	{
+		"area": "Ukraine",
+		"confirmed": 1049,
+		"deaths": 37
+	},
+	{
+		"area": "Ukraine",
+		"confirmed": 1080,
+		"deaths": 18
+	},
+	{
+		"area": "Ukraine",
+		"confirmed": 6980,
+		"deaths": 232
+	},
+	{
+		"area": "Ukraine",
+		"confirmed": 1557,
+		"deaths": 18
+	},
+	{
+		"area": "Ukraine",
+		"confirmed": 1602,
+		"deaths": 36
+	},
+	{
+		"area": "Ukraine",
+		"confirmed": 1011,
+		"deaths": 13
+	},
+	{
+		"area": "Ukraine",
+		"confirmed": 6039,
+		"deaths": 160
+	},
+	{
+		"area": "Ukraine",
+		"confirmed": 5169,
+		"deaths": 150
+	},
+	{
+		"area": "Ukraine",
+		"confirmed": 276,
+		"deaths": 5
+	},
+	{
+		"area": "Ukraine",
+		"confirmed": 1413,
+		"deaths": 31
+	},
+	{
+		"area": "Ukraine",
+		"confirmed": 9869,
+		"deaths": 147
+	},
+	{
+		"area": "Ukraine",
+		"confirmed": 4307,
+		"deaths": 71
+	},
+	{
+		"area": "Ukraine",
+		"confirmed": 728,
+		"deaths": 39
+	},
+	{
+		"area": "Ukraine",
+		"confirmed": 160,
+		"deaths": 1
+	},
+	{
+		"area": "Ukraine",
+		"confirmed": 11308,
+		"deaths": 310
+	},
+	{
+		"area": "Ukraine",
+		"confirmed": 744,
+		"deaths": 18
+	},
+	{
+		"area": "Ukraine",
+		"confirmed": 4458,
+		"deaths": 73
+	},
+	{
+		"area": "Ukraine",
+		"confirmed": 514,
+		"deaths": 15
+	},
+	{
+		"area": "Ukraine",
+		"confirmed": 7114,
+		"deaths": 106
+	},
+	{
+		"area": "Ukraine",
+		"confirmed": 399,
+		"deaths": 11
+	},
+	{
+		"area": "Ukraine",
+		"confirmed": 716,
+		"deaths": 10
+	},
+	{
+		"area": "Ukraine",
+		"confirmed": 3413,
+		"deaths": 44
+	},
+	{
+		"area": "Ukraine",
+		"confirmed": 3043,
+		"deaths": 63
+	},
+	{
+		"area": "Ukraine",
+		"confirmed": 4423,
+		"deaths": 95
+	},
+	{
+		"area": "Ukraine",
+		"confirmed": 5946,
+		"deaths": 226
+	},
+	{
+		"area": "Ukraine",
+		"confirmed": 971,
+		"deaths": 22
+	},
+	{
+		"area": "Ukraine",
+		"confirmed": 2215,
+		"deaths": 48
+	},
+	{
+		"area": "United Arab Emirates",
+		"confirmed": 63212,
+		"deaths": 358
+	},
+	{
+		"area": "United Kingdom",
+		"confirmed": 3,
+		"deaths": 0
+	},
+	{
+		"area": "United Kingdom",
+		"confirmed": 159,
+		"deaths": 9
+	},
+	{
+		"area": "United Kingdom",
+		"confirmed": 9,
+		"deaths": 1
+	},
+	{
+		"area": "United Kingdom",
+		"confirmed": 203,
+		"deaths": 1
+	},
+	{
+		"area": "United Kingdom",
+		"confirmed": 603,
+		"deaths": 47
+	},
+	{
+		"area": "United Kingdom",
+		"confirmed": 270971,
+		"deaths": 42072
+	},
+	{
+		"area": "United Kingdom",
+		"confirmed": 13,
+		"deaths": 0
+	},
+	{
+		"area": "United Kingdom",
+		"confirmed": 203,
+		"deaths": 0
+	},
+	{
+		"area": "United Kingdom",
+		"confirmed": 336,
+		"deaths": 24
+	},
+	{
+		"area": "United Kingdom",
+		"confirmed": 13,
+		"deaths": 1
+	},
+	{
+		"area": "United Kingdom",
+		"confirmed": 6217,
+		"deaths": 557
+	},
+	{
+		"area": "United Kingdom",
+		"confirmed": 19126,
+		"deaths": 2491
+	},
+	{
+		"area": "United Kingdom",
+		"confirmed": 241,
+		"deaths": 2
+	},
+	{
+		"area": "United Kingdom",
+		"confirmed": 0,
+		"deaths": 0
+	},
+	{
+		"area": "United Kingdom",
+		"confirmed": 17484,
+		"deaths": 1586
+	},
+	{
+		"area": "Uruguay",
+		"confirmed": 1393,
+		"deaths": 37
+	},
+	{
+		"area": "Uzbekistan",
+		"confirmed": 32654,
+		"deaths": 211
+	},
+	{
+		"area": "Venezuela",
+		"confirmed": 29088,
+		"deaths": 247
+	},
+	{
+		"area": "Vietnam",
+		"confirmed": 883,
+		"deaths": 18
+	},
+	{
+		"area": "West Bank and Gaza",
+		"confirmed": 15184,
+		"deaths": 105
+	},
+	{
+		"area": "Western Sahara",
+		"confirmed": 10,
+		"deaths": 1
+	},
+	{
+		"area": "Yemen",
+		"confirmed": 1841,
+		"deaths": 528
+	},
+	{
+		"area": "Zambia",
+		"confirmed": 8501,
+		"deaths": 246
+	},
+	{
+		"area": "Zimbabwe",
+		"confirmed": 4893,
+		"deaths": 122
+	}
+]

@@ -1,0 +1,1177 @@
+[
+	{
+		"area": "Burundi",
+		"pop": 11891000,
+		"region": "Eastern Africa"
+	},
+	{
+		"area": "Comoros",
+		"pop": 870000,
+		"region": "Eastern Africa"
+	},
+	{
+		"area": "Djibouti",
+		"pop": 988000,
+		"region": "Eastern Africa"
+	},
+	{
+		"area": "Eritrea",
+		"pop": 3546000,
+		"region": "Eastern Africa"
+	},
+	{
+		"area": "Ethiopia",
+		"pop": 114964000,
+		"region": "Eastern Africa"
+	},
+	{
+		"area": "Kenya",
+		"pop": 53771000,
+		"region": "Eastern Africa"
+	},
+	{
+		"area": "Madagascar",
+		"pop": 27691000,
+		"region": "Eastern Africa"
+	},
+	{
+		"area": "Malawi",
+		"pop": 19130000,
+		"region": "Eastern Africa"
+	},
+	{
+		"area": "Mauritius",
+		"pop": 1272000,
+		"region": "Eastern Africa"
+	},
+	{
+		"area": "Mayotte",
+		"pop": 273000,
+		"region": "Eastern Africa"
+	},
+	{
+		"area": "Mozambique",
+		"pop": 31255000,
+		"region": "Eastern Africa"
+	},
+	{
+		"area": "Réunion",
+		"pop": 895000,
+		"region": "Eastern Africa"
+	},
+	{
+		"area": "Rwanda",
+		"pop": 12952000,
+		"region": "Eastern Africa"
+	},
+	{
+		"area": "Seychelles",
+		"pop": 98000,
+		"region": "Eastern Africa"
+	},
+	{
+		"area": "Somalia",
+		"pop": 15893000,
+		"region": "Eastern Africa"
+	},
+	{
+		"area": "South Sudan",
+		"pop": 11194000,
+		"region": "Eastern Africa"
+	},
+	{
+		"area": "Uganda",
+		"pop": 45741000,
+		"region": "Eastern Africa"
+	},
+	{
+		"area": "United Republic of Tanzania",
+		"pop": 59734000,
+		"region": "Eastern Africa"
+	},
+	{
+		"area": "Zambia",
+		"pop": 18384000,
+		"region": "Eastern Africa"
+	},
+	{
+		"area": "Zimbabwe",
+		"pop": 14863000,
+		"region": "Eastern Africa"
+	},
+	{
+		"area": "Angola",
+		"pop": 32866000,
+		"region": "Middle Africa"
+	},
+	{
+		"area": "Cameroon",
+		"pop": 26546000,
+		"region": "Middle Africa"
+	},
+	{
+		"area": "Central African Republic",
+		"pop": 4830000,
+		"region": "Middle Africa"
+	},
+	{
+		"area": "Chad",
+		"pop": 16426000,
+		"region": "Middle Africa"
+	},
+	{
+		"area": "Congo",
+		"pop": 5518000,
+		"region": "Middle Africa"
+	},
+	{
+		"area": "Democratic Republic of the Congo",
+		"pop": 89561000,
+		"region": "Middle Africa"
+	},
+	{
+		"area": "Equatorial Guinea",
+		"pop": 1403000,
+		"region": "Middle Africa"
+	},
+	{
+		"area": "Gabon",
+		"pop": 2226000,
+		"region": "Middle Africa"
+	},
+	{
+		"area": "Sao Tome and Principe",
+		"pop": 219000,
+		"region": "Middle Africa"
+	},
+	{
+		"area": "Botswana",
+		"pop": 2352000,
+		"region": "Southern Africa"
+	},
+	{
+		"area": "Eswatini",
+		"pop": 1160000,
+		"region": "Southern Africa"
+	},
+	{
+		"area": "Lesotho",
+		"pop": 2142000,
+		"region": "Southern Africa"
+	},
+	{
+		"area": "Namibia",
+		"pop": 2541000,
+		"region": "Southern Africa"
+	},
+	{
+		"area": "South Africa",
+		"pop": 59309000,
+		"region": "Southern Africa"
+	},
+	{
+		"area": "Benin",
+		"pop": 12123000,
+		"region": "Western Africa"
+	},
+	{
+		"area": "Burkina Faso",
+		"pop": 20903000,
+		"region": "Western Africa"
+	},
+	{
+		"area": "Cabo Verde",
+		"pop": 556000,
+		"region": "Western Africa"
+	},
+	{
+		"area": "Côte d'Ivoire",
+		"pop": 26378000,
+		"region": "Western Africa"
+	},
+	{
+		"area": "Gambia",
+		"pop": 2417000,
+		"region": "Western Africa"
+	},
+	{
+		"area": "Ghana",
+		"pop": 31073000,
+		"region": "Western Africa"
+	},
+	{
+		"area": "Guinea",
+		"pop": 13133000,
+		"region": "Western Africa"
+	},
+	{
+		"area": "Guinea-Bissau",
+		"pop": 1968000,
+		"region": "Western Africa"
+	},
+	{
+		"area": "Liberia",
+		"pop": 5058000,
+		"region": "Western Africa"
+	},
+	{
+		"area": "Mali",
+		"pop": 20251000,
+		"region": "Western Africa"
+	},
+	{
+		"area": "Mauritania",
+		"pop": 4650000,
+		"region": "Western Africa"
+	},
+	{
+		"area": "Niger",
+		"pop": 24207000,
+		"region": "Western Africa"
+	},
+	{
+		"area": "Nigeria",
+		"pop": 206140000,
+		"region": "Western Africa"
+	},
+	{
+		"area": "Saint Helena",
+		"pop": 6000,
+		"region": "Western Africa"
+	},
+	{
+		"area": "Senegal",
+		"pop": 16744000,
+		"region": "Western Africa"
+	},
+	{
+		"area": "Sierra Leone",
+		"pop": 7977000,
+		"region": "Western Africa"
+	},
+	{
+		"area": "Togo",
+		"pop": 8279000,
+		"region": "Western Africa"
+	},
+	{
+		"area": "Algeria",
+		"pop": 43851000,
+		"region": "Northern Africa"
+	},
+	{
+		"area": "Egypt",
+		"pop": 102334000,
+		"region": "Northern Africa"
+	},
+	{
+		"area": "Libya",
+		"pop": 6871000,
+		"region": "Northern Africa"
+	},
+	{
+		"area": "Morocco",
+		"pop": 36911000,
+		"region": "Northern Africa"
+	},
+	{
+		"area": "Sudan",
+		"pop": 43849000,
+		"region": "Northern Africa"
+	},
+	{
+		"area": "Tunisia",
+		"pop": 11819000,
+		"region": "Northern Africa"
+	},
+	{
+		"area": "Western Sahara",
+		"pop": 597000,
+		"region": "Northern Africa"
+	},
+	{
+		"area": "Armenia",
+		"pop": 2963000,
+		"region": "Western Asia"
+	},
+	{
+		"area": "Azerbaijan",
+		"pop": 10139000,
+		"region": "Western Asia"
+	},
+	{
+		"area": "Bahrain",
+		"pop": 1702000,
+		"region": "Western Asia"
+	},
+	{
+		"area": "Cyprus",
+		"pop": 1207000,
+		"region": "Western Asia"
+	},
+	{
+		"area": "Georgia",
+		"pop": 3989000,
+		"region": "Western Asia"
+	},
+	{
+		"area": "Iraq",
+		"pop": 40223000,
+		"region": "Western Asia"
+	},
+	{
+		"area": "Israel",
+		"pop": 8656000,
+		"region": "Western Asia"
+	},
+	{
+		"area": "Jordan",
+		"pop": 10203000,
+		"region": "Western Asia"
+	},
+	{
+		"area": "Kuwait",
+		"pop": 4271000,
+		"region": "Western Asia"
+	},
+	{
+		"area": "Lebanon",
+		"pop": 6825000,
+		"region": "Western Asia"
+	},
+	{
+		"area": "Oman",
+		"pop": 5107000,
+		"region": "Western Asia"
+	},
+	{
+		"area": "Qatar",
+		"pop": 2881000,
+		"region": "Western Asia"
+	},
+	{
+		"area": "Saudi Arabia",
+		"pop": 34814000,
+		"region": "Western Asia"
+	},
+	{
+		"area": "State of Palestine",
+		"pop": 5101000,
+		"region": "Western Asia"
+	},
+	{
+		"area": "Syrian Arab Republic",
+		"pop": 17501000,
+		"region": "Western Asia"
+	},
+	{
+		"area": "Turkey",
+		"pop": 84339000,
+		"region": "Western Asia"
+	},
+	{
+		"area": "United Arab Emirates",
+		"pop": 9890000,
+		"region": "Western Asia"
+	},
+	{
+		"area": "Yemen",
+		"pop": 29826000,
+		"region": "Western Asia"
+	},
+	{
+		"area": "Kazakhstan",
+		"pop": 18777000,
+		"region": "Central Asia"
+	},
+	{
+		"area": "Kyrgyzstan",
+		"pop": 6524000,
+		"region": "Central Asia"
+	},
+	{
+		"area": "Tajikistan",
+		"pop": 9538000,
+		"region": "Central Asia"
+	},
+	{
+		"area": "Turkmenistan",
+		"pop": 6031000,
+		"region": "Central Asia"
+	},
+	{
+		"area": "Uzbekistan",
+		"pop": 33469000,
+		"region": "Central Asia"
+	},
+	{
+		"area": "Afghanistan",
+		"pop": 38928000,
+		"region": "Southern Asia"
+	},
+	{
+		"area": "Bangladesh",
+		"pop": 164689000,
+		"region": "Southern Asia"
+	},
+	{
+		"area": "Bhutan",
+		"pop": 772000,
+		"region": "Southern Asia"
+	},
+	{
+		"area": "India",
+		"pop": 1380004000,
+		"region": "Southern Asia"
+	},
+	{
+		"area": "Iran (Islamic Republic of)",
+		"pop": 83993000,
+		"region": "Southern Asia"
+	},
+	{
+		"area": "Maldives",
+		"pop": 541000,
+		"region": "Southern Asia"
+	},
+	{
+		"area": "Nepal",
+		"pop": 29137000,
+		"region": "Southern Asia"
+	},
+	{
+		"area": "Pakistan",
+		"pop": 220892000,
+		"region": "Southern Asia"
+	},
+	{
+		"area": "Sri Lanka",
+		"pop": 21413000,
+		"region": "Southern Asia"
+	},
+	{
+		"area": "China",
+		"pop": 1439324000,
+		"region": "Eastern Asia"
+	},
+	{
+		"area": "China, Hong Kong SAR",
+		"pop": 7497000,
+		"region": "Eastern Asia"
+	},
+	{
+		"area": "China, Macao SAR",
+		"pop": 649000,
+		"region": "Eastern Asia"
+	},
+	{
+		"area": "China, Taiwan Province of China",
+		"pop": 23817000,
+		"region": "Eastern Asia"
+	},
+	{
+		"area": "Dem. People's Republic of Korea",
+		"pop": 25779000,
+		"region": "Eastern Asia"
+	},
+	{
+		"area": "Japan",
+		"pop": 126476000,
+		"region": "Eastern Asia"
+	},
+	{
+		"area": "Mongolia",
+		"pop": 3278000,
+		"region": "Eastern Asia"
+	},
+	{
+		"area": "Republic of Korea",
+		"pop": 51269000,
+		"region": "Eastern Asia"
+	},
+	{
+		"area": "Brunei Darussalam",
+		"pop": 437000,
+		"region": "South-Eastern Asia"
+	},
+	{
+		"area": "Cambodia",
+		"pop": 16719000,
+		"region": "South-Eastern Asia"
+	},
+	{
+		"area": "Indonesia",
+		"pop": 273524000,
+		"region": "South-Eastern Asia"
+	},
+	{
+		"area": "Lao People's Democratic Republic",
+		"pop": 7276000,
+		"region": "South-Eastern Asia"
+	},
+	{
+		"area": "Malaysia",
+		"pop": 32366000,
+		"region": "South-Eastern Asia"
+	},
+	{
+		"area": "Myanmar",
+		"pop": 54410000,
+		"region": "South-Eastern Asia"
+	},
+	{
+		"area": "Philippines",
+		"pop": 109581000,
+		"region": "South-Eastern Asia"
+	},
+	{
+		"area": "Singapore",
+		"pop": 5850000,
+		"region": "South-Eastern Asia"
+	},
+	{
+		"area": "Thailand",
+		"pop": 69800000,
+		"region": "South-Eastern Asia"
+	},
+	{
+		"area": "Timor-Leste",
+		"pop": 1318000,
+		"region": "South-Eastern Asia"
+	},
+	{
+		"area": "Viet Nam",
+		"pop": 97339000,
+		"region": "South-Eastern Asia"
+	},
+	{
+		"area": "Anguilla",
+		"pop": 15000,
+		"region": "Caribbean"
+	},
+	{
+		"area": "Antigua and Barbuda",
+		"pop": 98000,
+		"region": "Caribbean"
+	},
+	{
+		"area": "Aruba",
+		"pop": 107000,
+		"region": "Caribbean"
+	},
+	{
+		"area": "Bahamas",
+		"pop": 393000,
+		"region": "Caribbean"
+	},
+	{
+		"area": "Barbados",
+		"pop": 287000,
+		"region": "Caribbean"
+	},
+	{
+		"area": "Bonaire, Sint Eustatius and Saba",
+		"pop": 26000,
+		"region": "Caribbean"
+	},
+	{
+		"area": "British Virgin Islands",
+		"pop": 30000,
+		"region": "Caribbean"
+	},
+	{
+		"area": "Cayman Islands",
+		"pop": 66000,
+		"region": "Caribbean"
+	},
+	{
+		"area": "Cuba",
+		"pop": 11327000,
+		"region": "Caribbean"
+	},
+	{
+		"area": "Curaçao",
+		"pop": 164000,
+		"region": "Caribbean"
+	},
+	{
+		"area": "Dominica",
+		"pop": 72000,
+		"region": "Caribbean"
+	},
+	{
+		"area": "Dominican Republic",
+		"pop": 10848000,
+		"region": "Caribbean"
+	},
+	{
+		"area": "Grenada",
+		"pop": 113000,
+		"region": "Caribbean"
+	},
+	{
+		"area": "Guadeloupe",
+		"pop": 400000,
+		"region": "Caribbean"
+	},
+	{
+		"area": "Haiti",
+		"pop": 11403000,
+		"region": "Caribbean"
+	},
+	{
+		"area": "Jamaica",
+		"pop": 2961000,
+		"region": "Caribbean"
+	},
+	{
+		"area": "Martinique",
+		"pop": 375000,
+		"region": "Caribbean"
+	},
+	{
+		"area": "Montserrat",
+		"pop": 5000,
+		"region": "Caribbean"
+	},
+	{
+		"area": "Puerto Rico",
+		"pop": 2861000,
+		"region": "Caribbean"
+	},
+	{
+		"area": "Saint Barthélemy",
+		"pop": 10000,
+		"region": "Caribbean"
+	},
+	{
+		"area": "Saint Kitts and Nevis",
+		"pop": 53000,
+		"region": "Caribbean"
+	},
+	{
+		"area": "Saint Lucia",
+		"pop": 184000,
+		"region": "Caribbean"
+	},
+	{
+		"area": "Saint Martin (French part)",
+		"pop": 39000,
+		"region": "Caribbean"
+	},
+	{
+		"area": "Saint Vincent and the Grenadines",
+		"pop": 111000,
+		"region": "Caribbean"
+	},
+	{
+		"area": "Sint Maarten (Dutch part)",
+		"pop": 43000,
+		"region": "Caribbean"
+	},
+	{
+		"area": "Trinidad and Tobago",
+		"pop": 1399000,
+		"region": "Caribbean"
+	},
+	{
+		"area": "Turks and Caicos Islands",
+		"pop": 39000,
+		"region": "Caribbean"
+	},
+	{
+		"area": "United States Virgin Islands",
+		"pop": 104000,
+		"region": "Caribbean"
+	},
+	{
+		"area": "Belize",
+		"pop": 398000,
+		"region": "Central America"
+	},
+	{
+		"area": "Costa Rica",
+		"pop": 5094000,
+		"region": "Central America"
+	},
+	{
+		"area": "El Salvador",
+		"pop": 6486000,
+		"region": "Central America"
+	},
+	{
+		"area": "Guatemala",
+		"pop": 17916000,
+		"region": "Central America"
+	},
+	{
+		"area": "Honduras",
+		"pop": 9905000,
+		"region": "Central America"
+	},
+	{
+		"area": "Mexico",
+		"pop": 128933000,
+		"region": "Central America"
+	},
+	{
+		"area": "Nicaragua",
+		"pop": 6625000,
+		"region": "Central America"
+	},
+	{
+		"area": "Panama",
+		"pop": 4315000,
+		"region": "Central America"
+	},
+	{
+		"area": "Argentina",
+		"pop": 45196000,
+		"region": "South America"
+	},
+	{
+		"area": "Bolivia (Plurinational State of)",
+		"pop": 11673000,
+		"region": "South America"
+	},
+	{
+		"area": "Brazil",
+		"pop": 212559000,
+		"region": "South America"
+	},
+	{
+		"area": "Chile",
+		"pop": 19116000,
+		"region": "South America"
+	},
+	{
+		"area": "Colombia",
+		"pop": 50883000,
+		"region": "South America"
+	},
+	{
+		"area": "Ecuador",
+		"pop": 17643000,
+		"region": "South America"
+	},
+	{
+		"area": "Falkland Islands (Malvinas)",
+		"pop": 3000,
+		"region": "South America"
+	},
+	{
+		"area": "French Guiana",
+		"pop": 299000,
+		"region": "South America"
+	},
+	{
+		"area": "Guyana",
+		"pop": 787000,
+		"region": "South America"
+	},
+	{
+		"area": "Paraguay",
+		"pop": 7133000,
+		"region": "South America"
+	},
+	{
+		"area": "Peru",
+		"pop": 32972000,
+		"region": "South America"
+	},
+	{
+		"area": "Suriname",
+		"pop": 587000,
+		"region": "South America"
+	},
+	{
+		"area": "Uruguay",
+		"pop": 3474000,
+		"region": "South America"
+	},
+	{
+		"area": "Venezuela (Bolivarian Republic of)",
+		"pop": 28436000,
+		"region": "South America"
+	},
+	{
+		"area": "Australia",
+		"pop": 25500000,
+		"region": "South America"
+	},
+	{
+		"area": "New Zealand",
+		"pop": 4822000,
+		"region": "South America"
+	},
+	{
+		"area": "Fiji",
+		"pop": 896000,
+		"region": "Melanesia"
+	},
+	{
+		"area": "New Caledonia",
+		"pop": 285000,
+		"region": "Melanesia"
+	},
+	{
+		"area": "Papua New Guinea",
+		"pop": 8947000,
+		"region": "Melanesia"
+	},
+	{
+		"area": "Solomon Islands",
+		"pop": 687000,
+		"region": "Melanesia"
+	},
+	{
+		"area": "Vanuatu",
+		"pop": 307000,
+		"region": "Melanesia"
+	},
+	{
+		"area": "Guam",
+		"pop": 169000,
+		"region": "Micronesia"
+	},
+	{
+		"area": "Kiribati",
+		"pop": 119000,
+		"region": "Micronesia"
+	},
+	{
+		"area": "Marshall Islands",
+		"pop": 59000,
+		"region": "Micronesia"
+	},
+	{
+		"area": "Micronesia (Fed. States of)",
+		"pop": 115000,
+		"region": "Micronesia"
+	},
+	{
+		"area": "Nauru",
+		"pop": 11000,
+		"region": "Micronesia"
+	},
+	{
+		"area": "Northern Mariana Islands",
+		"pop": 58000,
+		"region": "Micronesia"
+	},
+	{
+		"area": "Palau",
+		"pop": 18000,
+		"region": "Micronesia"
+	},
+	{
+		"area": "American Samoa",
+		"pop": 55000,
+		"region": "Polynesia"
+	},
+	{
+		"area": "Cook Islands",
+		"pop": 18000,
+		"region": "Polynesia"
+	},
+	{
+		"area": "French Polynesia",
+		"pop": 281000,
+		"region": "Polynesia"
+	},
+	{
+		"area": "Niue",
+		"pop": 2000,
+		"region": "Polynesia"
+	},
+	{
+		"area": "Samoa",
+		"pop": 198000,
+		"region": "Polynesia"
+	},
+	{
+		"area": "Tokelau",
+		"pop": 1000,
+		"region": "Polynesia"
+	},
+	{
+		"area": "Tonga",
+		"pop": 106000,
+		"region": "Polynesia"
+	},
+	{
+		"area": "Tuvalu",
+		"pop": 12000,
+		"region": "Polynesia"
+	},
+	{
+		"area": "Wallis and Futuna Islands",
+		"pop": 11000,
+		"region": "Polynesia"
+	},
+	{
+		"area": "Belarus",
+		"pop": 9449000,
+		"region": "Eastern Europe"
+	},
+	{
+		"area": "Bulgaria",
+		"pop": 6948000,
+		"region": "Eastern Europe"
+	},
+	{
+		"area": "Czechia",
+		"pop": 10709000,
+		"region": "Eastern Europe"
+	},
+	{
+		"area": "Hungary",
+		"pop": 9660000,
+		"region": "Eastern Europe"
+	},
+	{
+		"area": "Poland",
+		"pop": 37847000,
+		"region": "Eastern Europe"
+	},
+	{
+		"area": "Republic of Moldova",
+		"pop": 4034000,
+		"region": "Eastern Europe"
+	},
+	{
+		"area": "Romania",
+		"pop": 19238000,
+		"region": "Eastern Europe"
+	},
+	{
+		"area": "Russian Federation",
+		"pop": 145934000,
+		"region": "Eastern Europe"
+	},
+	{
+		"area": "Slovakia",
+		"pop": 5460000,
+		"region": "Eastern Europe"
+	},
+	{
+		"area": "Ukraine",
+		"pop": 43734000,
+		"region": "Eastern Europe"
+	},
+	{
+		"area": "Channel Islands",
+		"pop": 174000,
+		"region": "Northern Europe"
+	},
+	{
+		"area": "Denmark",
+		"pop": 5792000,
+		"region": "Northern Europe"
+	},
+	{
+		"area": "Estonia",
+		"pop": 1327000,
+		"region": "Northern Europe"
+	},
+	{
+		"area": "Faroe Islands",
+		"pop": 49000,
+		"region": "Northern Europe"
+	},
+	{
+		"area": "Finland",
+		"pop": 5541000,
+		"region": "Northern Europe"
+	},
+	{
+		"area": "Iceland",
+		"pop": 341000,
+		"region": "Northern Europe"
+	},
+	{
+		"area": "Ireland",
+		"pop": 4938000,
+		"region": "Northern Europe"
+	},
+	{
+		"area": "Isle of Man",
+		"pop": 85000,
+		"region": "Northern Europe"
+	},
+	{
+		"area": "Latvia",
+		"pop": 1886000,
+		"region": "Northern Europe"
+	},
+	{
+		"area": "Lithuania",
+		"pop": 2722000,
+		"region": "Northern Europe"
+	},
+	{
+		"area": "Norway",
+		"pop": 5421000,
+		"region": "Northern Europe"
+	},
+	{
+		"area": "Sweden",
+		"pop": 10099000,
+		"region": "Northern Europe"
+	},
+	{
+		"area": "United Kingdom",
+		"pop": 67886000,
+		"region": "Northern Europe"
+	},
+	{
+		"area": "Albania",
+		"pop": 2878000,
+		"region": "Southern Europe"
+	},
+	{
+		"area": "Andorra",
+		"pop": 77000,
+		"region": "Southern Europe"
+	},
+	{
+		"area": "Bosnia and Herzegovina",
+		"pop": 3281000,
+		"region": "Southern Europe"
+	},
+	{
+		"area": "Croatia",
+		"pop": 4105000,
+		"region": "Southern Europe"
+	},
+	{
+		"area": "Gibraltar",
+		"pop": 34000,
+		"region": "Southern Europe"
+	},
+	{
+		"area": "Greece",
+		"pop": 10423000,
+		"region": "Southern Europe"
+	},
+	{
+		"area": "Holy See",
+		"pop": 1000,
+		"region": "Southern Europe"
+	},
+	{
+		"area": "Italy",
+		"pop": 60462000,
+		"region": "Southern Europe"
+	},
+	{
+		"area": "Malta",
+		"pop": 442000,
+		"region": "Southern Europe"
+	},
+	{
+		"area": "Montenegro",
+		"pop": 628000,
+		"region": "Southern Europe"
+	},
+	{
+		"area": "North Macedonia",
+		"pop": 2083000,
+		"region": "Southern Europe"
+	},
+	{
+		"area": "Portugal",
+		"pop": 10197000,
+		"region": "Southern Europe"
+	},
+	{
+		"area": "San Marino",
+		"pop": 34000,
+		"region": "Southern Europe"
+	},
+	{
+		"area": "Serbia",
+		"pop": 8737000,
+		"region": "Southern Europe"
+	},
+	{
+		"area": "Slovenia",
+		"pop": 2079000,
+		"region": "Southern Europe"
+	},
+	{
+		"area": "Spain",
+		"pop": 46755000,
+		"region": "Southern Europe"
+	},
+	{
+		"area": "Austria",
+		"pop": 9006000,
+		"region": "Western Europe"
+	},
+	{
+		"area": "Belgium",
+		"pop": 11590000,
+		"region": "Western Europe"
+	},
+	{
+		"area": "France",
+		"pop": 65274000,
+		"region": "Western Europe"
+	},
+	{
+		"area": "Germany",
+		"pop": 83784000,
+		"region": "Western Europe"
+	},
+	{
+		"area": "Liechtenstein",
+		"pop": 38000,
+		"region": "Western Europe"
+	},
+	{
+		"area": "Luxembourg",
+		"pop": 626000,
+		"region": "Western Europe"
+	},
+	{
+		"area": "Monaco",
+		"pop": 39000,
+		"region": "Western Europe"
+	},
+	{
+		"area": "Netherlands",
+		"pop": 17135000,
+		"region": "Western Europe"
+	},
+	{
+		"area": "Switzerland",
+		"pop": 8655000,
+		"region": "Western Europe"
+	},
+	{
+		"area": "Bermuda",
+		"pop": 62000,
+		"region": "NORTHERN AMERICA"
+	},
+	{
+		"area": "Canada",
+		"pop": 37742000,
+		"region": "NORTHERN AMERICA"
+	},
+	{
+		"area": "Greenland",
+		"pop": 57000,
+		"region": "NORTHERN AMERICA"
+	},
+	{
+		"area": "Saint Pierre and Miquelon",
+		"pop": 6000,
+		"region": "NORTHERN AMERICA"
+	},
+	{
+		"area": "United States of America",
+		"pop": 331003000,
+		"region": "NORTHERN AMERICA"
+	}
+]
