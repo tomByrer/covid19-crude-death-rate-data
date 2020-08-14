@@ -29,5 +29,5 @@ all.sort(function mysortfunction(a, b) {
 })
 
 console.log("total count = "+ all.length)
-fs.writeFileSync( './covid19-cdr.json', JSON.stringify(all) )
+fs.writeFileSync( './covid19-cdr.json', JSON.stringify(all, null, 1) )
 fs.writeFileSync( './covid19-cdr.csv', Papa.unparse(all) )

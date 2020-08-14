@@ -1,1 +1,3423 @@
-[{"area":"Afghanistan","positive":37424,"deaths":1363},{"area":"Albania","positive":6971,"deaths":213},{"area":"Algeria","positive":37187,"deaths":1341},{"area":"Andorra","positive":981,"deaths":53},{"area":"Angola","positive":1815,"deaths":80},{"area":"Antigua and Barbuda","positive":92,"deaths":3},{"area":"Argentina","positive":276072,"deaths":5362},{"area":"Armenia","positive":41023,"deaths":809},{"area":"Australia","positive":113,"deaths":3},{"area":"Australia","positive":3936,"deaths":51},{"area":"Australia","positive":33,"deaths":0},{"area":"Australia","positive":1091,"deaths":6},{"area":"Australia","positive":460,"deaths":4},{"area":"Australia","positive":230,"deaths":13},{"area":"Australia","positive":16234,"deaths":289},{"area":"Australia","positive":645,"deaths":9},{"area":"Austria","positive":22594,"deaths":725},{"area":"Azerbaijan","positive":33915,"deaths":500},{"area":"Bahamas","positive":1089,"deaths":15},{"area":"Bahrain","positive":45726,"deaths":167},{"area":"Bangladesh","positive":269115,"deaths":3557},{"area":"Barbados","positive":144,"deaths":7},{"area":"Belarus","positive":69203,"deaths":599},{"area":"Belgium","positive":76191,"deaths":9916},{"area":"Belize","positive":296,"deaths":2},{"area":"Benin","positive":2014,"deaths":38},{"area":"Bhutan","positive":128,"deaths":0},{"area":"Bolivia","positive":96459,"deaths":3884},{"area":"Bosnia and Herzegovina","positive":15184,"deaths":458},{"area":"Botswana","positive":1214,"deaths":3},{"area":"Brazil","positive":22242,"deaths":574},{"area":"Brazil","positive":70629,"deaths":1721},{"area":"Brazil","positive":39015,"deaths":609},{"area":"Brazil","positive":109802,"deaths":3435},{"area":"Brazil","positive":206955,"deaths":4202},{"area":"Brazil","positive":194081,"deaths":8088},{"area":"Brazil","positive":131170,"deaths":1905},{"area":"Brazil","positive":96949,"deaths":2823},{"area":"Brazil","positive":96749,"deaths":2213},{"area":"Brazil","positive":134193,"deaths":3228},{"area":"Brazil","positive":70658,"deaths":2245},{"area":"Brazil","positive":34559,"deaths":570},{"area":"Brazil","positive":164915,"deaths":3846},{"area":"Brazil","positive":173625,"deaths":5917},{"area":"Brazil","positive":93794,"deaths":2092},{"area":"Brazil","positive":99667,"deaths":2576},{"area":"Brazil","positive":108842,"deaths":7084},{"area":"Brazil","positive":63662,"deaths":1566},{"area":"Brazil","positive":57072,"deaths":2036},{"area":"Brazil","positive":92560,"deaths":2584},{"area":"Brazil","positive":188085,"deaths":14412},{"area":"Brazil","positive":46676,"deaths":993},{"area":"Brazil","positive":38270,"deaths":561},{"area":"Brazil","positive":115032,"deaths":1696},{"area":"Brazil","positive":674455,"deaths":26324},{"area":"Brazil","positive":66810,"deaths":1670},{"area":"Brazil","positive":34409,"deaths":493},{"area":"Brunei","positive":142,"deaths":3},{"area":"Bulgaria","positive":13893,"deaths":482},{"area":"Burkina Faso","positive":1228,"deaths":54},{"area":"Burma","positive":369,"deaths":6},{"area":"Burundi","positive":410,"deaths":1},{"area":"Cabo Verde","positive":3073,"deaths":33},{"area":"Cambodia","positive":273,"deaths":0},{"area":"Cameroon","positive":18308,"deaths":401},{"area":"Canada","positive":11969,"deaths":220},{"area":"Canada","positive":4274,"deaths":196},{"area":"Canada","positive":0,"deaths":1},{"area":"Canada","positive":13,"deaths":0},{"area":"Canada","positive":603,"deaths":8},{"area":"Canada","positive":180,"deaths":2},{"area":"Canada","positive":268,"deaths":3},{"area":"Canada","positive":5,"deaths":0},{"area":"Canada","positive":1071,"deaths":64},{"area":"Canada","positive":42313,"deaths":2834},{"area":"Canada","positive":41,"deaths":0},{"area":"Canada","positive":60917,"deaths":5715},{"area":"Canada","positive":1511,"deaths":20},{"area":"Canada","positive":15,"deaths":0},{"area":"Central African Republic","positive":4652,"deaths":61},{"area":"Chad","positive":949,"deaths":76},{"area":"Chile","positive":16434,"deaths":392},{"area":"Chile","positive":4528,"deaths":83},{"area":"Chile","positive":5512,"deaths":80},{"area":"Chile","positive":4195,"deaths":23},{"area":"Chile","positive":95,"deaths":1},{"area":"Chile","positive":13484,"deaths":152},{"area":"Chile","positive":7777,"deaths":93},{"area":"Chile","positive":5224,"deaths":54},{"area":"Chile","positive":996,"deaths":15},{"area":"Chile","positive":2146,"deaths":30},{"area":"Chile","positive":10095,"deaths":215},{"area":"Chile","positive":264222,"deaths":8023},{"area":"Chile","positive":3910,"deaths":70},{"area":"Chile","positive":11950,"deaths":290},{"area":"Chile","positive":9702,"deaths":185},{"area":"Chile","positive":64,"deaths":1},{"area":"Chile","positive":19700,"deaths":592},{"area":"China","positive":991,"deaths":6},{"area":"China","positive":935,"deaths":9},{"area":"China","positive":583,"deaths":6},{"area":"China","positive":368,"deaths":1},{"area":"China","positive":169,"deaths":2},{"area":"China","positive":1707,"deaths":8},{"area":"China","positive":255,"deaths":2},{"area":"China","positive":147,"deaths":2},{"area":"China","positive":171,"deaths":6},{"area":"China","positive":351,"deaths":6},{"area":"China","positive":948,"deaths":13},{"area":"China","positive":1276,"deaths":22},{"area":"China","positive":4312,"deaths":66},{"area":"China","positive":68139,"deaths":4512},{"area":"China","positive":1019,"deaths":4},{"area":"China","positive":259,"deaths":1},{"area":"China","positive":659,"deaths":0},{"area":"China","positive":932,"deaths":1},{"area":"China","positive":157,"deaths":2},{"area":"China","positive":261,"deaths":2},{"area":"China","positive":46,"deaths":0},{"area":"China","positive":75,"deaths":0},{"area":"China","positive":18,"deaths":0},{"area":"China","positive":346,"deaths":3},{"area":"China","positive":821,"deaths":7},{"area":"China","positive":816,"deaths":7},{"area":"China","positive":201,"deaths":0},{"area":"China","positive":619,"deaths":3},{"area":"China","positive":205,"deaths":3},{"area":"China","positive":1,"deaths":0},{"area":"China","positive":891,"deaths":3},{"area":"China","positive":191,"deaths":2},{"area":"China","positive":1275,"deaths":1},{"area":"Colombia","positive":2644,"deaths":105},{"area":"Colombia","positive":57360,"deaths":1023},{"area":"Colombia","positive":550,"deaths":9},{"area":"Colombia","positive":59797,"deaths":2734},{"area":"Colombia","positive":21090,"deaths":637},{"area":"Colombia","positive":1861,"deaths":46},{"area":"Colombia","positive":1485,"deaths":22},{"area":"Colombia","positive":149944,"deaths":4096},{"area":"Colombia","positive":3068,"deaths":84},{"area":"Colombia","positive":573,"deaths":9},{"area":"Colombia","positive":3013,"deaths":105},{"area":"Colombia","positive":5123,"deaths":106},{"area":"Colombia","positive":3429,"deaths":121},{"area":"Colombia","positive":12200,"deaths":909},{"area":"Colombia","positive":13483,"deaths":378},{"area":"Colombia","positive":20,"deaths":1},{"area":"Colombia","positive":176,"deaths":0},{"area":"Colombia","positive":2130,"deaths":56},{"area":"Colombia","positive":3150,"deaths":159},{"area":"Colombia","positive":9443,"deaths":466},{"area":"Colombia","positive":4688,"deaths":76},{"area":"Colombia","positive":10785,"deaths":373},{"area":"Colombia","positive":5899,"deaths":328},{"area":"Colombia","positive":1700,"deaths":77},{"area":"Colombia","positive":574,"deaths":15},{"area":"Colombia","positive":3177,"deaths":56},{"area":"Colombia","positive":63,"deaths":0},{"area":"Colombia","positive":8578,"deaths":329},{"area":"Colombia","positive":8128,"deaths":409},{"area":"Colombia","positive":4096,"deaths":94},{"area":"Colombia","positive":35435,"deaths":1321},{"area":"Colombia","positive":137,"deaths":1},{"area":"Colombia","positive":6,"deaths":0},{"area":"Comoros","positive":399,"deaths":7},{"area":"Congo (Brazzaville)","positive":3745,"deaths":60},{"area":"Congo (Kinshasa)","positive":9589,"deaths":234},{"area":"Costa Rica","positive":26129,"deaths":272},{"area":"Cote d'Ivoire","positive":16889,"deaths":107},{"area":"Croatia","positive":6050,"deaths":161},{"area":"Cuba","positive":3174,"deaths":89},{"area":"Cyprus","positive":1305,"deaths":20},{"area":"Czechia","positive":19401,"deaths":391},{"area":"Denmark","positive":362,"deaths":0},{"area":"Denmark","positive":14,"deaths":0},{"area":"Denmark","positive":15214,"deaths":621},{"area":"Diamond Princess","positive":712,"deaths":13},{"area":"Djibouti","positive":5358,"deaths":59},{"area":"Dominica","positive":18,"deaths":0},{"area":"Dominican Republic","positive":83134,"deaths":1393},{"area":"Ecuador","positive":98343,"deaths":6010},{"area":"Egypt","positive":96108,"deaths":5107},{"area":"El Salvador","positive":21993,"deaths":584},{"area":"Equatorial Guinea","positive":4821,"deaths":83},{"area":"Eritrea","positive":285,"deaths":0},{"area":"Estonia","positive":2174,"deaths":63},{"area":"Eswatini","positive":3599,"deaths":65},{"area":"Ethiopia","positive":26204,"deaths":479},{"area":"Fiji","positive":28,"deaths":1},{"area":"Finland","positive":7683,"deaths":333},{"area":"France","positive":8471,"deaths":51},{"area":"France","positive":139,"deaths":0},{"area":"France","positive":367,"deaths":14},{"area":"France","positive":336,"deaths":16},{"area":"France","positive":3119,"deaths":39},{"area":"France","positive":23,"deaths":0},{"area":"France","positive":754,"deaths":5},{"area":"France","positive":13,"deaths":0},{"area":"France","positive":4,"deaths":0},{"area":"France","positive":92,"deaths":4},{"area":"France","positive":230778,"deaths":30263},{"area":"Gabon","positive":8077,"deaths":51},{"area":"Gambia","positive":1556,"deaths":43},{"area":"Georgia","positive":1283,"deaths":17},{"area":"Germany","positive":38273,"deaths":1859},{"area":"Germany","positive":52436,"deaths":2627},{"area":"Germany","positive":10106,"deaths":224},{"area":"Germany","positive":3683,"deaths":175},{"area":"Germany","positive":1831,"deaths":56},{"area":"Germany","positive":5820,"deaths":262},{"area":"Germany","positive":13008,"deaths":526},{"area":"Germany","positive":959,"deaths":20},{"area":"Germany","positive":15212,"deaths":655},{"area":"Germany","positive":53123,"deaths":1767},{"area":"Germany","positive":8002,"deaths":240},{"area":"Germany","positive":2955,"deaths":174},{"area":"Germany","positive":5703,"deaths":225},{"area":"Germany","positive":2102,"deaths":64},{"area":"Germany","positive":3744,"deaths":158},{"area":"Germany","positive":3464,"deaths":185},{"area":"Germany","positive":1860,"deaths":0},{"area":"Ghana","positive":41725,"deaths":223},{"area":"Greece","positive":6381,"deaths":221},{"area":"Grenada","positive":24,"deaths":0},{"area":"Guatemala","positive":60284,"deaths":2296},{"area":"Guinea","positive":8198,"deaths":50},{"area":"Guinea-Bissau","positive":2088,"deaths":29},{"area":"Guyana","positive":631,"deaths":22},{"area":"Haiti","positive":7781,"deaths":192},{"area":"Holy See","positive":12,"deaths":0},{"area":"Honduras","positive":49042,"deaths":1542},{"area":"Hungary","positive":4813,"deaths":607},{"area":"Iceland","positive":1976,"deaths":10},{"area":"India","positive":2037,"deaths":22},{"area":"India","positive":264142,"deaths":2378},{"area":"India","positive":2512,"deaths":4},{"area":"India","positive":71795,"deaths":169},{"area":"India","positive":94193,"deaths":426},{"area":"India","positive":1842,"deaths":27},{"area":"India","positive":13937,"deaths":114},{"area":"India","positive":1752,"deaths":2},{"area":"India","positive":149460,"deaths":4167},{"area":"India","positive":10494,"deaths":91},{"area":"India","positive":75408,"deaths":2731},{"area":"India","positive":44817,"deaths":511},{"area":"India","positive":3816,"deaths":19},{"area":"India","positive":26949,"deaths":509},{"area":"India","positive":20881,"deaths":209},{"area":"India","positive":203200,"deaths":3613},{"area":"India","positive":39708,"deaths":129},{"area":"India","positive":1849,"deaths":9},{"area":"India","positive":0,"deaths":0},{"area":"India","positive":42618,"deaths":1065},{"area":"India","positive":560126,"deaths":19063},{"area":"India","positive":4112,"deaths":13},{"area":"India","positive":1193,"deaths":6},{"area":"India","positive":649,"deaths":0},{"area":"India","positive":3168,"deaths":8},{"area":"India","positive":52653,"deaths":314},{"area":"India","positive":6680,"deaths":102},{"area":"India","positive":27936,"deaths":706},{"area":"India","positive":57414,"deaths":833},{"area":"India","positive":931,"deaths":1},{"area":"India","positive":320355,"deaths":5397},{"area":"India","positive":88396,"deaths":674},{"area":"India","positive":6767,"deaths":46},{"area":"India","positive":0,"deaths":0},{"area":"India","positive":140775,"deaths":2280},{"area":"India","positive":11302,"deaths":143},{"area":"India","positive":107323,"deaths":2259},{"area":"Indonesia","positive":132816,"deaths":5968},{"area":"Iran","positive":336324,"deaths":19162},{"area":"Iraq","positive":164277,"deaths":5641},{"area":"Ireland","positive":26929,"deaths":1774},{"area":"Israel","positive":89822,"deaths":651},{"area":"Italy","positive":3532,"deaths":472},{"area":"Italy","positive":478,"deaths":28},{"area":"Italy","positive":1316,"deaths":97},{"area":"Italy","positive":5170,"deaths":440},{"area":"Italy","positive":30257,"deaths":4298},{"area":"Italy","positive":3476,"deaths":348},{"area":"Italy","positive":8956,"deaths":869},{"area":"Italy","positive":10393,"deaths":1569},{"area":"Italy","positive":97128,"deaths":16835},{"area":"Italy","positive":6987,"deaths":987},{"area":"Italy","positive":485,"deaths":23},{"area":"Italy","positive":2781,"deaths":292},{"area":"Italy","positive":5000,"deaths":405},{"area":"Italy","positive":31982,"deaths":4139},{"area":"Italy","positive":4809,"deaths":554},{"area":"Italy","positive":1479,"deaths":134},{"area":"Italy","positive":3645,"deaths":284},{"area":"Italy","positive":10735,"deaths":1137},{"area":"Italy","positive":1524,"deaths":80},{"area":"Italy","positive":1217,"deaths":146},{"area":"Italy","positive":20885,"deaths":2094},{"area":"Jamaica","positive":1071,"deaths":14},{"area":"Japan","positive":3500,"deaths":39},{"area":"Japan","positive":37,"deaths":0},{"area":"Japan","positive":35,"deaths":1},{"area":"Japan","positive":2301,"deaths":55},{"area":"Japan","positive":108,"deaths":6},{"area":"Japan","positive":154,"deaths":8},{"area":"Japan","positive":3360,"deaths":39},{"area":"Japan","positive":101,"deaths":0},{"area":"Japan","positive":492,"deaths":7},{"area":"Japan","positive":254,"deaths":19},{"area":"Japan","positive":428,"deaths":3},{"area":"Japan","positive":1582,"deaths":103},{"area":"Japan","positive":1778,"deaths":47},{"area":"Japan","positive":431,"deaths":11},{"area":"Japan","positive":412,"deaths":28},{"area":"Japan","positive":7,"deaths":0},{"area":"Japan","positive":61,"deaths":0},{"area":"Japan","positive":277,"deaths":4},{"area":"Japan","positive":3523,"deaths":105},{"area":"Japan","positive":83,"deaths":3},{"area":"Japan","positive":379,"deaths":5},{"area":"Japan","positive":1061,"deaths":21},{"area":"Japan","positive":267,"deaths":1},{"area":"Japan","positive":184,"deaths":1},{"area":"Japan","positive":274,"deaths":0},{"area":"Japan","positive":139,"deaths":0},{"area":"Japan","positive":173,"deaths":3},{"area":"Japan","positive":351,"deaths":3},{"area":"Japan","positive":128,"deaths":0},{"area":"Japan","positive":93,"deaths":1},{"area":"Japan","positive":119,"deaths":0},{"area":"Japan","positive":1407,"deaths":10},{"area":"Japan","positive":6355,"deaths":97},{"area":"Japan","positive":695,"deaths":1},{"area":"Japan","positive":173,"deaths":0},{"area":"Japan","positive":3060,"deaths":80},{"area":"Japan","positive":317,"deaths":3},{"area":"Japan","positive":132,"deaths":0},{"area":"Japan","positive":392,"deaths":1},{"area":"Japan","positive":265,"deaths":1},{"area":"Japan","positive":81,"deaths":1},{"area":"Japan","positive":16690,"deaths":338},{"area":"Japan","positive":21,"deaths":0},{"area":"Japan","positive":301,"deaths":22},{"area":"Japan","positive":8,"deaths":0},{"area":"Japan","positive":189,"deaths":4},{"area":"Japan","positive":76,"deaths":1},{"area":"Japan","positive":81,"deaths":0},{"area":"Japan","positive":136,"deaths":1},{"area":"Jordan","positive":1320,"deaths":11},{"area":"Kazakhstan","positive":101848,"deaths":1269},{"area":"Kenya","positive":28754,"deaths":460},{"area":"Korea, South","positive":14873,"deaths":305},{"area":"Kosovo","positive":10795,"deaths":365},{"area":"Kuwait","positive":74486,"deaths":489},{"area":"Kyrgyzstan","positive":41069,"deaths":1487},{"area":"Laos","positive":20,"deaths":0},{"area":"Latvia","positive":1307,"deaths":32},{"area":"Lebanon","positive":7711,"deaths":92},{"area":"Lesotho","positive":884,"deaths":25},{"area":"Liberia","positive":1252,"deaths":82},{"area":"Libya","positive":7050,"deaths":135},{"area":"Liechtenstein","positive":90,"deaths":1},{"area":"Lithuania","positive":2330,"deaths":81},{"area":"Luxembourg","positive":7368,"deaths":122},{"area":"MS Zaandam","positive":9,"deaths":2},{"area":"Madagascar","positive":13522,"deaths":162},{"area":"Malawi","positive":4912,"deaths":153},{"area":"Malaysia","positive":9129,"deaths":125},{"area":"Maldives","positive":5494,"deaths":21},{"area":"Mali","positive":2597,"deaths":125},{"area":"Malta","positive":1245,"deaths":9},{"area":"Mauritania","positive":6653,"deaths":157},{"area":"Mauritius","positive":344,"deaths":10},{"area":"Mexico","positive":4666,"deaths":314},{"area":"Mexico","positive":14993,"deaths":2844},{"area":"Mexico","positive":5954,"deaths":241},{"area":"Mexico","positive":5083,"deaths":655},{"area":"Mexico","positive":6016,"deaths":966},{"area":"Mexico","positive":6342,"deaths":1002},{"area":"Mexico","positive":83683,"deaths":9668},{"area":"Mexico","positive":16858,"deaths":1038},{"area":"Mexico","positive":2524,"deaths":305},{"area":"Mexico","positive":5048,"deaths":362},{"area":"Mexico","positive":25523,"deaths":1335},{"area":"Mexico","positive":12883,"deaths":1492},{"area":"Mexico","positive":8307,"deaths":1285},{"area":"Mexico","positive":15934,"deaths":1939},{"area":"Mexico","positive":59805,"deaths":7162},{"area":"Mexico","positive":11827,"deaths":927},{"area":"Mexico","positive":4541,"deaths":885},{"area":"Mexico","positive":4139,"deaths":472},{"area":"Mexico","positive":23058,"deaths":1668},{"area":"Mexico","positive":12059,"deaths":1097},{"area":"Mexico","positive":23599,"deaths":2985},{"area":"Mexico","positive":4660,"deaths":581},{"area":"Mexico","positive":9054,"deaths":1176},{"area":"Mexico","positive":13479,"deaths":802},{"area":"Mexico","positive":14217,"deaths":2512},{"area":"Mexico","positive":19625,"deaths":2381},{"area":"Mexico","positive":25186,"deaths":2287},{"area":"Mexico","positive":20281,"deaths":1453},{"area":"Mexico","positive":5470,"deaths":797},{"area":"Mexico","positive":24924,"deaths":3201},{"area":"Mexico","positive":12157,"deaths":1107},{"area":"Mexico","positive":3856,"deaths":354},{"area":"Moldova","positive":29087,"deaths":878},{"area":"Monaco","positive":144,"deaths":4},{"area":"Mongolia","positive":297,"deaths":0},{"area":"Montenegro","positive":3857,"deaths":73},{"area":"Morocco","positive":37935,"deaths":584},{"area":"Mozambique","positive":2638,"deaths":19},{"area":"Namibia","positive":3544,"deaths":27},{"area":"Nepal","positive":24957,"deaths":95},{"area":"Netherlands","positive":894,"deaths":4},{"area":"Netherlands","positive":13,"deaths":0},{"area":"Netherlands","positive":32,"deaths":1},{"area":"Netherlands","positive":578,"deaths":41},{"area":"Netherlands","positive":1121,"deaths":93},{"area":"Netherlands","positive":710,"deaths":69},{"area":"Netherlands","positive":6876,"deaths":685},{"area":"Netherlands","positive":470,"deaths":17},{"area":"Netherlands","positive":5047,"deaths":754},{"area":"Netherlands","positive":10924,"deaths":1543},{"area":"Netherlands","positive":9837,"deaths":819},{"area":"Netherlands","positive":3284,"deaths":311},{"area":"Netherlands","positive":263,"deaths":17},{"area":"Netherlands","positive":568,"deaths":18},{"area":"Netherlands","positive":4823,"deaths":432},{"area":"Netherlands","positive":954,"deaths":69},{"area":"Netherlands","positive":16012,"deaths":1314},{"area":"New Zealand","positive":1602,"deaths":22},{"area":"Nicaragua","positive":4115,"deaths":128},{"area":"Niger","positive":1161,"deaths":69},{"area":"Nigeria","positive":48116,"deaths":966},{"area":"North Macedonia","positive":12357,"deaths":532},{"area":"Norway","positive":9851,"deaths":257},{"area":"Oman","positive":82531,"deaths":551},{"area":"Pakistan","positive":2164,"deaths":59},{"area":"Pakistan","positive":12044,"deaths":138},{"area":"Pakistan","positive":2402,"deaths":58},{"area":"Pakistan","positive":15323,"deaths":173},{"area":"Pakistan","positive":34947,"deaths":1235},{"area":"Pakistan","positive":94865,"deaths":2179},{"area":"Pakistan","positive":124929,"deaths":2297},{"area":"Panama","positive":78446,"deaths":1722},{"area":"Papua New Guinea","positive":271,"deaths":3},{"area":"Paraguay","positive":8389,"deaths":97},{"area":"Peru","positive":7488,"deaths":129},{"area":"Peru","positive":14473,"deaths":900},{"area":"Peru","positive":1493,"deaths":48},{"area":"Peru","positive":20892,"deaths":938},{"area":"Peru","positive":5302,"deaths":115},{"area":"Peru","positive":9377,"deaths":261},{"area":"Peru","positive":23576,"deaths":1114},{"area":"Peru","positive":7458,"deaths":163},{"area":"Peru","positive":2614,"deaths":50},{"area":"Peru","positive":8557,"deaths":227},{"area":"Peru","positive":15528,"deaths":1006},{"area":"Peru","positive":10165,"deaths":510},{"area":"Peru","positive":18165,"deaths":1457},{"area":"Peru","positive":19165,"deaths":1270},{"area":"Peru","positive":250708,"deaths":10183},{"area":"Peru","positive":12694,"deaths":622},{"area":"Peru","positive":4282,"deaths":109},{"area":"Peru","positive":5082,"deaths":148},{"area":"Peru","positive":2798,"deaths":59},{"area":"Peru","positive":23182,"deaths":1331},{"area":"Peru","positive":4062,"deaths":124},{"area":"Peru","positive":10603,"deaths":433},{"area":"Peru","positive":4695,"deaths":58},{"area":"Peru","positive":4855,"deaths":218},{"area":"Peru","positive":11341,"deaths":240},{"area":"Peru","positive":0,"deaths":0},{"area":"Philippines","positive":147526,"deaths":2426},{"area":"Poland","positive":54487,"deaths":1844},{"area":"Portugal","positive":53548,"deaths":1770},{"area":"Qatar","positive":114281,"deaths":190},{"area":"Romania","positive":66631,"deaths":2860},{"area":"Russia","positive":3055,"deaths":22},{"area":"Russia","positive":10360,"deaths":96},{"area":"Russia","positive":1750,"deaths":7},{"area":"Russia","positive":3010,"deaths":47},{"area":"Russia","positive":9547,"deaths":227},{"area":"Russia","positive":5041,"deaths":55},{"area":"Russia","positive":7197,"deaths":25},{"area":"Russia","positive":6562,"deaths":51},{"area":"Russia","positive":7739,"deaths":35},{"area":"Russia","positive":4507,"deaths":42},{"area":"Russia","positive":2170,"deaths":35},{"area":"Russia","positive":12433,"deaths":98},{"area":"Russia","positive":162,"deaths":1},{"area":"Russia","positive":7179,"deaths":66},{"area":"Russia","positive":9861,"deaths":464},{"area":"Russia","positive":3954,"deaths":75},{"area":"Russia","positive":15101,"deaths":221},{"area":"Russia","positive":6785,"deaths":109},{"area":"Russia","positive":570,"deaths":8},{"area":"Russia","positive":6174,"deaths":75},{"area":"Russia","positive":3065,"deaths":53},{"area":"Russia","positive":3173,"deaths":42},{"area":"Russia","positive":7543,"deaths":58},{"area":"Russia","positive":3569,"deaths":42},{"area":"Russia","positive":4589,"deaths":25},{"area":"Russia","positive":2628,"deaths":14},{"area":"Russia","positive":4736,"deaths":19},{"area":"Russia","positive":8804,"deaths":76},{"area":"Russia","positive":3089,"deaths":37},{"area":"Russia","positive":18219,"deaths":145},{"area":"Russia","positive":5463,"deaths":83},{"area":"Russia","positive":5968,"deaths":73},{"area":"Russia","positive":2745,"deaths":30},{"area":"Russia","positive":9642,"deaths":136},{"area":"Russia","positive":14812,"deaths":380},{"area":"Russia","positive":2558,"deaths":12},{"area":"Russia","positive":6576,"deaths":51},{"area":"Russia","positive":6291,"deaths":66},{"area":"Russia","positive":4766,"deaths":23},{"area":"Russia","positive":1599,"deaths":15},{"area":"Russia","positive":3962,"deaths":36},{"area":"Russia","positive":4888,"deaths":38},{"area":"Russia","positive":250303,"deaths":4622},{"area":"Russia","positive":65472,"deaths":1136},{"area":"Russia","positive":11656,"deaths":107},{"area":"Russia","positive":289,"deaths":0},{"area":"Russia","positive":25382,"deaths":421},{"area":"Russia","positive":4650,"deaths":67},{"area":"Russia","positive":3969,"deaths":72},{"area":"Russia","positive":10451,"deaths":303},{"area":"Russia","positive":8175,"deaths":106},{"area":"Russia","positive":6250,"deaths":96},{"area":"Russia","positive":8274,"deaths":62},{"area":"Russia","positive":7156,"deaths":93},{"area":"Russia","positive":6777,"deaths":182},{"area":"Russia","positive":8073,"deaths":96},{"area":"Russia","positive":4038,"deaths":58},{"area":"Russia","positive":14613,"deaths":274},{"area":"Russia","positive":6655,"deaths":36},{"area":"Russia","positive":33525,"deaths":2203},{"area":"Russia","positive":6531,"deaths":66},{"area":"Russia","positive":3390,"deaths":0},{"area":"Russia","positive":7423,"deaths":113},{"area":"Russia","positive":10633,"deaths":64},{"area":"Russia","positive":5878,"deaths":115},{"area":"Russia","positive":9699,"deaths":186},{"area":"Russia","positive":22943,"deaths":358},{"area":"Russia","positive":6336,"deaths":44},{"area":"Russia","positive":5988,"deaths":28},{"area":"Russia","positive":4840,"deaths":49},{"area":"Russia","positive":8731,"deaths":287},{"area":"Russia","positive":4959,"deaths":163},{"area":"Russia","positive":6855,"deaths":28},{"area":"Russia","positive":6421,"deaths":60},{"area":"Russia","positive":2681,"deaths":34},{"area":"Russia","positive":10440,"deaths":73},{"area":"Russia","positive":5876,"deaths":175},{"area":"Russia","positive":10383,"deaths":75},{"area":"Russia","positive":2772,"deaths":29},{"area":"Russia","positive":12372,"deaths":96},{"area":"Russia","positive":12259,"deaths":82},{"area":"Russia","positive":6542,"deaths":32},{"area":"Russia","positive":4260,"deaths":49},{"area":"Rwanda","positive":2200,"deaths":8},{"area":"Saint Kitts and Nevis","positive":17,"deaths":0},{"area":"Saint Lucia","positive":25,"deaths":0},{"area":"Saint Vincent and the Grenadines","positive":57,"deaths":0},{"area":"San Marino","positive":699,"deaths":42},{"area":"Sao Tome and Principe","positive":883,"deaths":15},{"area":"Saudi Arabia","positive":294519,"deaths":3303},{"area":"Senegal","positive":11740,"deaths":244},{"area":"Serbia","positive":28998,"deaths":661},{"area":"Seychelles","positive":127,"deaths":0},{"area":"Sierra Leone","positive":1940,"deaths":69},{"area":"Singapore","positive":55497,"deaths":27},{"area":"Slovakia","positive":2739,"deaths":31},{"area":"Slovenia","positive":2332,"deaths":129},{"area":"Somalia","positive":3227,"deaths":93},{"area":"South Africa","positive":572865,"deaths":11270},{"area":"South Sudan","positive":2478,"deaths":47},{"area":"Spain","positive":18501,"deaths":1445},{"area":"Spain","positive":19845,"deaths":992},{"area":"Spain","positive":2764,"deaths":334},{"area":"Spain","positive":4044,"deaths":225},{"area":"Spain","positive":16292,"deaths":1442},{"area":"Spain","positive":3208,"deaths":164},{"area":"Spain","positive":2869,"deaths":220},{"area":"Spain","positive":19707,"deaths":3037},{"area":"Spain","positive":22391,"deaths":2804},{"area":"Spain","positive":90890,"deaths":5709},{"area":"Spain","positive":169,"deaths":4},{"area":"Spain","positive":3722,"deaths":522},{"area":"Spain","positive":10605,"deaths":622},{"area":"Spain","positive":4379,"deaths":366},{"area":"Spain","positive":86752,"deaths":8471},{"area":"Spain","positive":183,"deaths":2},{"area":"Spain","positive":3224,"deaths":149},{"area":"Spain","positive":7795,"deaths":531},{"area":"Spain","positive":19994,"deaths":1566},{"area":"Spain","positive":0,"deaths":0},{"area":"Sri Lanka","positive":2882,"deaths":11},{"area":"Sudan","positive":12115,"deaths":792},{"area":"Suriname","positive":2761,"deaths":40},{"area":"Sweden","positive":550,"deaths":15},{"area":"Sweden","positive":2033,"deaths":174},{"area":"Sweden","positive":3203,"deaths":162},{"area":"Sweden","positive":290,"deaths":6},{"area":"Sweden","positive":1937,"deaths":79},{"area":"Sweden","positive":1160,"deaths":60},{"area":"Sweden","positive":4820,"deaths":180},{"area":"Sweden","positive":805,"deaths":62},{"area":"Sweden","positive":1265,"deaths":104},{"area":"Sweden","positive":1633,"deaths":85},{"area":"Sweden","positive":2594,"deaths":171},{"area":"Sweden","positive":3641,"deaths":262},{"area":"Sweden","positive":4052,"deaths":278},{"area":"Sweden","positive":2415,"deaths":253},{"area":"Sweden","positive":23935,"deaths":2387},{"area":"Sweden","positive":3639,"deaths":239},{"area":"Sweden","positive":1110,"deaths":73},{"area":"Sweden","positive":935,"deaths":31},{"area":"Sweden","positive":1832,"deaths":132},{"area":"Sweden","positive":2704,"deaths":180},{"area":"Sweden","positive":19299,"deaths":843},{"area":"Switzerland","positive":37403,"deaths":1991},{"area":"Syria","positive":1432,"deaths":55},{"area":"Taiwan*","positive":481,"deaths":7},{"area":"Tajikistan","positive":7950,"deaths":63},{"area":"Tanzania","positive":509,"deaths":21},{"area":"Thailand","positive":3359,"deaths":58},{"area":"Timor-Leste","positive":25,"deaths":0},{"area":"Togo","positive":1104,"deaths":26},{"area":"Trinidad and Tobago","positive":404,"deaths":8},{"area":"Tunisia","positive":1847,"deaths":53},{"area":"Turkey","positive":245635,"deaths":5912},{"area":"Uganda","positive":1353,"deaths":11},{"area":"Ukraine","positive":1067,"deaths":37},{"area":"Ukraine","positive":1107,"deaths":18},{"area":"Ukraine","positive":7110,"deaths":232},{"area":"Ukraine","positive":1595,"deaths":19},{"area":"Ukraine","positive":1630,"deaths":37},{"area":"Ukraine","positive":1027,"deaths":13},{"area":"Ukraine","positive":6177,"deaths":163},{"area":"Ukraine","positive":5378,"deaths":151},{"area":"Ukraine","positive":286,"deaths":5},{"area":"Ukraine","positive":1468,"deaths":31},{"area":"Ukraine","positive":10002,"deaths":149},{"area":"Ukraine","positive":4377,"deaths":72},{"area":"Ukraine","positive":733,"deaths":39},{"area":"Ukraine","positive":170,"deaths":1},{"area":"Ukraine","positive":11474,"deaths":314},{"area":"Ukraine","positive":755,"deaths":18},{"area":"Ukraine","positive":4572,"deaths":74},{"area":"Ukraine","positive":516,"deaths":15},{"area":"Ukraine","positive":7206,"deaths":106},{"area":"Ukraine","positive":401,"deaths":12},{"area":"Ukraine","positive":754,"deaths":10},{"area":"Ukraine","positive":3489,"deaths":44},{"area":"Ukraine","positive":3086,"deaths":65},{"area":"Ukraine","positive":4471,"deaths":96},{"area":"Ukraine","positive":6009,"deaths":230},{"area":"Ukraine","positive":1010,"deaths":23},{"area":"Ukraine","positive":2266,"deaths":49},{"area":"United Arab Emirates","positive":63489,"deaths":358},{"area":"United Kingdom","positive":3,"deaths":0},{"area":"United Kingdom","positive":159,"deaths":9},{"area":"United Kingdom","positive":9,"deaths":1},{"area":"United Kingdom","positive":203,"deaths":1},{"area":"United Kingdom","positive":603,"deaths":47},{"area":"United Kingdom","positive":270971,"deaths":42072},{"area":"United Kingdom","positive":13,"deaths":0},{"area":"United Kingdom","positive":205,"deaths":0},{"area":"United Kingdom","positive":336,"deaths":24},{"area":"United Kingdom","positive":13,"deaths":1},{"area":"United Kingdom","positive":6217,"deaths":557},{"area":"United Kingdom","positive":19126,"deaths":2491},{"area":"United Kingdom","positive":258,"deaths":2},{"area":"United Kingdom","positive":0,"deaths":0},{"area":"United Kingdom","positive":17484,"deaths":1586},{"area":"Uruguay","positive":1409,"deaths":37},{"area":"Uzbekistan","positive":33323,"deaths":216},{"area":"Venezuela","positive":30369,"deaths":259},{"area":"Vietnam","positive":911,"deaths":21},{"area":"West Bank and Gaza","positive":15491,"deaths":106},{"area":"Western Sahara","positive":10,"deaths":1},{"area":"Yemen","positive":1847,"deaths":528},{"area":"Zambia","positive":8663,"deaths":246},{"area":"Zimbabwe","positive":4990,"deaths":128},{"positive":null,"deaths":null}]
+[
+ {
+  "area": "Afghanistan",
+  "positive": 37424,
+  "deaths": 1363
+ },
+ {
+  "area": "Albania",
+  "positive": 6971,
+  "deaths": 213
+ },
+ {
+  "area": "Algeria",
+  "positive": 37187,
+  "deaths": 1341
+ },
+ {
+  "area": "Andorra",
+  "positive": 981,
+  "deaths": 53
+ },
+ {
+  "area": "Angola",
+  "positive": 1815,
+  "deaths": 80
+ },
+ {
+  "area": "Antigua and Barbuda",
+  "positive": 92,
+  "deaths": 3
+ },
+ {
+  "area": "Argentina",
+  "positive": 276072,
+  "deaths": 5362
+ },
+ {
+  "area": "Armenia",
+  "positive": 41023,
+  "deaths": 809
+ },
+ {
+  "area": "Australia",
+  "positive": 113,
+  "deaths": 3
+ },
+ {
+  "area": "Australia",
+  "positive": 3936,
+  "deaths": 51
+ },
+ {
+  "area": "Australia",
+  "positive": 33,
+  "deaths": 0
+ },
+ {
+  "area": "Australia",
+  "positive": 1091,
+  "deaths": 6
+ },
+ {
+  "area": "Australia",
+  "positive": 460,
+  "deaths": 4
+ },
+ {
+  "area": "Australia",
+  "positive": 230,
+  "deaths": 13
+ },
+ {
+  "area": "Australia",
+  "positive": 16234,
+  "deaths": 289
+ },
+ {
+  "area": "Australia",
+  "positive": 645,
+  "deaths": 9
+ },
+ {
+  "area": "Austria",
+  "positive": 22594,
+  "deaths": 725
+ },
+ {
+  "area": "Azerbaijan",
+  "positive": 33915,
+  "deaths": 500
+ },
+ {
+  "area": "Bahamas",
+  "positive": 1089,
+  "deaths": 15
+ },
+ {
+  "area": "Bahrain",
+  "positive": 45726,
+  "deaths": 167
+ },
+ {
+  "area": "Bangladesh",
+  "positive": 269115,
+  "deaths": 3557
+ },
+ {
+  "area": "Barbados",
+  "positive": 144,
+  "deaths": 7
+ },
+ {
+  "area": "Belarus",
+  "positive": 69203,
+  "deaths": 599
+ },
+ {
+  "area": "Belgium",
+  "positive": 76191,
+  "deaths": 9916
+ },
+ {
+  "area": "Belize",
+  "positive": 296,
+  "deaths": 2
+ },
+ {
+  "area": "Benin",
+  "positive": 2014,
+  "deaths": 38
+ },
+ {
+  "area": "Bhutan",
+  "positive": 128,
+  "deaths": 0
+ },
+ {
+  "area": "Bolivia",
+  "positive": 96459,
+  "deaths": 3884
+ },
+ {
+  "area": "Bosnia and Herzegovina",
+  "positive": 15184,
+  "deaths": 458
+ },
+ {
+  "area": "Botswana",
+  "positive": 1214,
+  "deaths": 3
+ },
+ {
+  "area": "Brazil",
+  "positive": 22242,
+  "deaths": 574
+ },
+ {
+  "area": "Brazil",
+  "positive": 70629,
+  "deaths": 1721
+ },
+ {
+  "area": "Brazil",
+  "positive": 39015,
+  "deaths": 609
+ },
+ {
+  "area": "Brazil",
+  "positive": 109802,
+  "deaths": 3435
+ },
+ {
+  "area": "Brazil",
+  "positive": 206955,
+  "deaths": 4202
+ },
+ {
+  "area": "Brazil",
+  "positive": 194081,
+  "deaths": 8088
+ },
+ {
+  "area": "Brazil",
+  "positive": 131170,
+  "deaths": 1905
+ },
+ {
+  "area": "Brazil",
+  "positive": 96949,
+  "deaths": 2823
+ },
+ {
+  "area": "Brazil",
+  "positive": 96749,
+  "deaths": 2213
+ },
+ {
+  "area": "Brazil",
+  "positive": 134193,
+  "deaths": 3228
+ },
+ {
+  "area": "Brazil",
+  "positive": 70658,
+  "deaths": 2245
+ },
+ {
+  "area": "Brazil",
+  "positive": 34559,
+  "deaths": 570
+ },
+ {
+  "area": "Brazil",
+  "positive": 164915,
+  "deaths": 3846
+ },
+ {
+  "area": "Brazil",
+  "positive": 173625,
+  "deaths": 5917
+ },
+ {
+  "area": "Brazil",
+  "positive": 93794,
+  "deaths": 2092
+ },
+ {
+  "area": "Brazil",
+  "positive": 99667,
+  "deaths": 2576
+ },
+ {
+  "area": "Brazil",
+  "positive": 108842,
+  "deaths": 7084
+ },
+ {
+  "area": "Brazil",
+  "positive": 63662,
+  "deaths": 1566
+ },
+ {
+  "area": "Brazil",
+  "positive": 57072,
+  "deaths": 2036
+ },
+ {
+  "area": "Brazil",
+  "positive": 92560,
+  "deaths": 2584
+ },
+ {
+  "area": "Brazil",
+  "positive": 188085,
+  "deaths": 14412
+ },
+ {
+  "area": "Brazil",
+  "positive": 46676,
+  "deaths": 993
+ },
+ {
+  "area": "Brazil",
+  "positive": 38270,
+  "deaths": 561
+ },
+ {
+  "area": "Brazil",
+  "positive": 115032,
+  "deaths": 1696
+ },
+ {
+  "area": "Brazil",
+  "positive": 674455,
+  "deaths": 26324
+ },
+ {
+  "area": "Brazil",
+  "positive": 66810,
+  "deaths": 1670
+ },
+ {
+  "area": "Brazil",
+  "positive": 34409,
+  "deaths": 493
+ },
+ {
+  "area": "Brunei",
+  "positive": 142,
+  "deaths": 3
+ },
+ {
+  "area": "Bulgaria",
+  "positive": 13893,
+  "deaths": 482
+ },
+ {
+  "area": "Burkina Faso",
+  "positive": 1228,
+  "deaths": 54
+ },
+ {
+  "area": "Burma",
+  "positive": 369,
+  "deaths": 6
+ },
+ {
+  "area": "Burundi",
+  "positive": 410,
+  "deaths": 1
+ },
+ {
+  "area": "Cabo Verde",
+  "positive": 3073,
+  "deaths": 33
+ },
+ {
+  "area": "Cambodia",
+  "positive": 273,
+  "deaths": 0
+ },
+ {
+  "area": "Cameroon",
+  "positive": 18308,
+  "deaths": 401
+ },
+ {
+  "area": "Canada",
+  "positive": 11969,
+  "deaths": 220
+ },
+ {
+  "area": "Canada",
+  "positive": 4274,
+  "deaths": 196
+ },
+ {
+  "area": "Canada",
+  "positive": 0,
+  "deaths": 1
+ },
+ {
+  "area": "Canada",
+  "positive": 13,
+  "deaths": 0
+ },
+ {
+  "area": "Canada",
+  "positive": 603,
+  "deaths": 8
+ },
+ {
+  "area": "Canada",
+  "positive": 180,
+  "deaths": 2
+ },
+ {
+  "area": "Canada",
+  "positive": 268,
+  "deaths": 3
+ },
+ {
+  "area": "Canada",
+  "positive": 5,
+  "deaths": 0
+ },
+ {
+  "area": "Canada",
+  "positive": 1071,
+  "deaths": 64
+ },
+ {
+  "area": "Canada",
+  "positive": 42313,
+  "deaths": 2834
+ },
+ {
+  "area": "Canada",
+  "positive": 41,
+  "deaths": 0
+ },
+ {
+  "area": "Canada",
+  "positive": 60917,
+  "deaths": 5715
+ },
+ {
+  "area": "Canada",
+  "positive": 1511,
+  "deaths": 20
+ },
+ {
+  "area": "Canada",
+  "positive": 15,
+  "deaths": 0
+ },
+ {
+  "area": "Central African Republic",
+  "positive": 4652,
+  "deaths": 61
+ },
+ {
+  "area": "Chad",
+  "positive": 949,
+  "deaths": 76
+ },
+ {
+  "area": "Chile",
+  "positive": 16434,
+  "deaths": 392
+ },
+ {
+  "area": "Chile",
+  "positive": 4528,
+  "deaths": 83
+ },
+ {
+  "area": "Chile",
+  "positive": 5512,
+  "deaths": 80
+ },
+ {
+  "area": "Chile",
+  "positive": 4195,
+  "deaths": 23
+ },
+ {
+  "area": "Chile",
+  "positive": 95,
+  "deaths": 1
+ },
+ {
+  "area": "Chile",
+  "positive": 13484,
+  "deaths": 152
+ },
+ {
+  "area": "Chile",
+  "positive": 7777,
+  "deaths": 93
+ },
+ {
+  "area": "Chile",
+  "positive": 5224,
+  "deaths": 54
+ },
+ {
+  "area": "Chile",
+  "positive": 996,
+  "deaths": 15
+ },
+ {
+  "area": "Chile",
+  "positive": 2146,
+  "deaths": 30
+ },
+ {
+  "area": "Chile",
+  "positive": 10095,
+  "deaths": 215
+ },
+ {
+  "area": "Chile",
+  "positive": 264222,
+  "deaths": 8023
+ },
+ {
+  "area": "Chile",
+  "positive": 3910,
+  "deaths": 70
+ },
+ {
+  "area": "Chile",
+  "positive": 11950,
+  "deaths": 290
+ },
+ {
+  "area": "Chile",
+  "positive": 9702,
+  "deaths": 185
+ },
+ {
+  "area": "Chile",
+  "positive": 64,
+  "deaths": 1
+ },
+ {
+  "area": "Chile",
+  "positive": 19700,
+  "deaths": 592
+ },
+ {
+  "area": "China",
+  "positive": 991,
+  "deaths": 6
+ },
+ {
+  "area": "China",
+  "positive": 935,
+  "deaths": 9
+ },
+ {
+  "area": "China",
+  "positive": 583,
+  "deaths": 6
+ },
+ {
+  "area": "China",
+  "positive": 368,
+  "deaths": 1
+ },
+ {
+  "area": "China",
+  "positive": 169,
+  "deaths": 2
+ },
+ {
+  "area": "China",
+  "positive": 1707,
+  "deaths": 8
+ },
+ {
+  "area": "China",
+  "positive": 255,
+  "deaths": 2
+ },
+ {
+  "area": "China",
+  "positive": 147,
+  "deaths": 2
+ },
+ {
+  "area": "China",
+  "positive": 171,
+  "deaths": 6
+ },
+ {
+  "area": "China",
+  "positive": 351,
+  "deaths": 6
+ },
+ {
+  "area": "China",
+  "positive": 948,
+  "deaths": 13
+ },
+ {
+  "area": "China",
+  "positive": 1276,
+  "deaths": 22
+ },
+ {
+  "area": "China",
+  "positive": 4312,
+  "deaths": 66
+ },
+ {
+  "area": "China",
+  "positive": 68139,
+  "deaths": 4512
+ },
+ {
+  "area": "China",
+  "positive": 1019,
+  "deaths": 4
+ },
+ {
+  "area": "China",
+  "positive": 259,
+  "deaths": 1
+ },
+ {
+  "area": "China",
+  "positive": 659,
+  "deaths": 0
+ },
+ {
+  "area": "China",
+  "positive": 932,
+  "deaths": 1
+ },
+ {
+  "area": "China",
+  "positive": 157,
+  "deaths": 2
+ },
+ {
+  "area": "China",
+  "positive": 261,
+  "deaths": 2
+ },
+ {
+  "area": "China",
+  "positive": 46,
+  "deaths": 0
+ },
+ {
+  "area": "China",
+  "positive": 75,
+  "deaths": 0
+ },
+ {
+  "area": "China",
+  "positive": 18,
+  "deaths": 0
+ },
+ {
+  "area": "China",
+  "positive": 346,
+  "deaths": 3
+ },
+ {
+  "area": "China",
+  "positive": 821,
+  "deaths": 7
+ },
+ {
+  "area": "China",
+  "positive": 816,
+  "deaths": 7
+ },
+ {
+  "area": "China",
+  "positive": 201,
+  "deaths": 0
+ },
+ {
+  "area": "China",
+  "positive": 619,
+  "deaths": 3
+ },
+ {
+  "area": "China",
+  "positive": 205,
+  "deaths": 3
+ },
+ {
+  "area": "China",
+  "positive": 1,
+  "deaths": 0
+ },
+ {
+  "area": "China",
+  "positive": 891,
+  "deaths": 3
+ },
+ {
+  "area": "China",
+  "positive": 191,
+  "deaths": 2
+ },
+ {
+  "area": "China",
+  "positive": 1275,
+  "deaths": 1
+ },
+ {
+  "area": "Colombia",
+  "positive": 2644,
+  "deaths": 105
+ },
+ {
+  "area": "Colombia",
+  "positive": 57360,
+  "deaths": 1023
+ },
+ {
+  "area": "Colombia",
+  "positive": 550,
+  "deaths": 9
+ },
+ {
+  "area": "Colombia",
+  "positive": 59797,
+  "deaths": 2734
+ },
+ {
+  "area": "Colombia",
+  "positive": 21090,
+  "deaths": 637
+ },
+ {
+  "area": "Colombia",
+  "positive": 1861,
+  "deaths": 46
+ },
+ {
+  "area": "Colombia",
+  "positive": 1485,
+  "deaths": 22
+ },
+ {
+  "area": "Colombia",
+  "positive": 149944,
+  "deaths": 4096
+ },
+ {
+  "area": "Colombia",
+  "positive": 3068,
+  "deaths": 84
+ },
+ {
+  "area": "Colombia",
+  "positive": 573,
+  "deaths": 9
+ },
+ {
+  "area": "Colombia",
+  "positive": 3013,
+  "deaths": 105
+ },
+ {
+  "area": "Colombia",
+  "positive": 5123,
+  "deaths": 106
+ },
+ {
+  "area": "Colombia",
+  "positive": 3429,
+  "deaths": 121
+ },
+ {
+  "area": "Colombia",
+  "positive": 12200,
+  "deaths": 909
+ },
+ {
+  "area": "Colombia",
+  "positive": 13483,
+  "deaths": 378
+ },
+ {
+  "area": "Colombia",
+  "positive": 20,
+  "deaths": 1
+ },
+ {
+  "area": "Colombia",
+  "positive": 176,
+  "deaths": 0
+ },
+ {
+  "area": "Colombia",
+  "positive": 2130,
+  "deaths": 56
+ },
+ {
+  "area": "Colombia",
+  "positive": 3150,
+  "deaths": 159
+ },
+ {
+  "area": "Colombia",
+  "positive": 9443,
+  "deaths": 466
+ },
+ {
+  "area": "Colombia",
+  "positive": 4688,
+  "deaths": 76
+ },
+ {
+  "area": "Colombia",
+  "positive": 10785,
+  "deaths": 373
+ },
+ {
+  "area": "Colombia",
+  "positive": 5899,
+  "deaths": 328
+ },
+ {
+  "area": "Colombia",
+  "positive": 1700,
+  "deaths": 77
+ },
+ {
+  "area": "Colombia",
+  "positive": 574,
+  "deaths": 15
+ },
+ {
+  "area": "Colombia",
+  "positive": 3177,
+  "deaths": 56
+ },
+ {
+  "area": "Colombia",
+  "positive": 63,
+  "deaths": 0
+ },
+ {
+  "area": "Colombia",
+  "positive": 8578,
+  "deaths": 329
+ },
+ {
+  "area": "Colombia",
+  "positive": 8128,
+  "deaths": 409
+ },
+ {
+  "area": "Colombia",
+  "positive": 4096,
+  "deaths": 94
+ },
+ {
+  "area": "Colombia",
+  "positive": 35435,
+  "deaths": 1321
+ },
+ {
+  "area": "Colombia",
+  "positive": 137,
+  "deaths": 1
+ },
+ {
+  "area": "Colombia",
+  "positive": 6,
+  "deaths": 0
+ },
+ {
+  "area": "Comoros",
+  "positive": 399,
+  "deaths": 7
+ },
+ {
+  "area": "Congo (Brazzaville)",
+  "positive": 3745,
+  "deaths": 60
+ },
+ {
+  "area": "Congo (Kinshasa)",
+  "positive": 9589,
+  "deaths": 234
+ },
+ {
+  "area": "Costa Rica",
+  "positive": 26129,
+  "deaths": 272
+ },
+ {
+  "area": "Cote d'Ivoire",
+  "positive": 16889,
+  "deaths": 107
+ },
+ {
+  "area": "Croatia",
+  "positive": 6050,
+  "deaths": 161
+ },
+ {
+  "area": "Cuba",
+  "positive": 3174,
+  "deaths": 89
+ },
+ {
+  "area": "Cyprus",
+  "positive": 1305,
+  "deaths": 20
+ },
+ {
+  "area": "Czechia",
+  "positive": 19401,
+  "deaths": 391
+ },
+ {
+  "area": "Denmark",
+  "positive": 362,
+  "deaths": 0
+ },
+ {
+  "area": "Denmark",
+  "positive": 14,
+  "deaths": 0
+ },
+ {
+  "area": "Denmark",
+  "positive": 15214,
+  "deaths": 621
+ },
+ {
+  "area": "Diamond Princess",
+  "positive": 712,
+  "deaths": 13
+ },
+ {
+  "area": "Djibouti",
+  "positive": 5358,
+  "deaths": 59
+ },
+ {
+  "area": "Dominica",
+  "positive": 18,
+  "deaths": 0
+ },
+ {
+  "area": "Dominican Republic",
+  "positive": 83134,
+  "deaths": 1393
+ },
+ {
+  "area": "Ecuador",
+  "positive": 98343,
+  "deaths": 6010
+ },
+ {
+  "area": "Egypt",
+  "positive": 96108,
+  "deaths": 5107
+ },
+ {
+  "area": "El Salvador",
+  "positive": 21993,
+  "deaths": 584
+ },
+ {
+  "area": "Equatorial Guinea",
+  "positive": 4821,
+  "deaths": 83
+ },
+ {
+  "area": "Eritrea",
+  "positive": 285,
+  "deaths": 0
+ },
+ {
+  "area": "Estonia",
+  "positive": 2174,
+  "deaths": 63
+ },
+ {
+  "area": "Eswatini",
+  "positive": 3599,
+  "deaths": 65
+ },
+ {
+  "area": "Ethiopia",
+  "positive": 26204,
+  "deaths": 479
+ },
+ {
+  "area": "Fiji",
+  "positive": 28,
+  "deaths": 1
+ },
+ {
+  "area": "Finland",
+  "positive": 7683,
+  "deaths": 333
+ },
+ {
+  "area": "France",
+  "positive": 8471,
+  "deaths": 51
+ },
+ {
+  "area": "France",
+  "positive": 139,
+  "deaths": 0
+ },
+ {
+  "area": "France",
+  "positive": 367,
+  "deaths": 14
+ },
+ {
+  "area": "France",
+  "positive": 336,
+  "deaths": 16
+ },
+ {
+  "area": "France",
+  "positive": 3119,
+  "deaths": 39
+ },
+ {
+  "area": "France",
+  "positive": 23,
+  "deaths": 0
+ },
+ {
+  "area": "France",
+  "positive": 754,
+  "deaths": 5
+ },
+ {
+  "area": "France",
+  "positive": 13,
+  "deaths": 0
+ },
+ {
+  "area": "France",
+  "positive": 4,
+  "deaths": 0
+ },
+ {
+  "area": "France",
+  "positive": 92,
+  "deaths": 4
+ },
+ {
+  "area": "France",
+  "positive": 230778,
+  "deaths": 30263
+ },
+ {
+  "area": "Gabon",
+  "positive": 8077,
+  "deaths": 51
+ },
+ {
+  "area": "Gambia",
+  "positive": 1556,
+  "deaths": 43
+ },
+ {
+  "area": "Georgia",
+  "positive": 1283,
+  "deaths": 17
+ },
+ {
+  "area": "Germany",
+  "positive": 38273,
+  "deaths": 1859
+ },
+ {
+  "area": "Germany",
+  "positive": 52436,
+  "deaths": 2627
+ },
+ {
+  "area": "Germany",
+  "positive": 10106,
+  "deaths": 224
+ },
+ {
+  "area": "Germany",
+  "positive": 3683,
+  "deaths": 175
+ },
+ {
+  "area": "Germany",
+  "positive": 1831,
+  "deaths": 56
+ },
+ {
+  "area": "Germany",
+  "positive": 5820,
+  "deaths": 262
+ },
+ {
+  "area": "Germany",
+  "positive": 13008,
+  "deaths": 526
+ },
+ {
+  "area": "Germany",
+  "positive": 959,
+  "deaths": 20
+ },
+ {
+  "area": "Germany",
+  "positive": 15212,
+  "deaths": 655
+ },
+ {
+  "area": "Germany",
+  "positive": 53123,
+  "deaths": 1767
+ },
+ {
+  "area": "Germany",
+  "positive": 8002,
+  "deaths": 240
+ },
+ {
+  "area": "Germany",
+  "positive": 2955,
+  "deaths": 174
+ },
+ {
+  "area": "Germany",
+  "positive": 5703,
+  "deaths": 225
+ },
+ {
+  "area": "Germany",
+  "positive": 2102,
+  "deaths": 64
+ },
+ {
+  "area": "Germany",
+  "positive": 3744,
+  "deaths": 158
+ },
+ {
+  "area": "Germany",
+  "positive": 3464,
+  "deaths": 185
+ },
+ {
+  "area": "Germany",
+  "positive": 1860,
+  "deaths": 0
+ },
+ {
+  "area": "Ghana",
+  "positive": 41725,
+  "deaths": 223
+ },
+ {
+  "area": "Greece",
+  "positive": 6381,
+  "deaths": 221
+ },
+ {
+  "area": "Grenada",
+  "positive": 24,
+  "deaths": 0
+ },
+ {
+  "area": "Guatemala",
+  "positive": 60284,
+  "deaths": 2296
+ },
+ {
+  "area": "Guinea",
+  "positive": 8198,
+  "deaths": 50
+ },
+ {
+  "area": "Guinea-Bissau",
+  "positive": 2088,
+  "deaths": 29
+ },
+ {
+  "area": "Guyana",
+  "positive": 631,
+  "deaths": 22
+ },
+ {
+  "area": "Haiti",
+  "positive": 7781,
+  "deaths": 192
+ },
+ {
+  "area": "Holy See",
+  "positive": 12,
+  "deaths": 0
+ },
+ {
+  "area": "Honduras",
+  "positive": 49042,
+  "deaths": 1542
+ },
+ {
+  "area": "Hungary",
+  "positive": 4813,
+  "deaths": 607
+ },
+ {
+  "area": "Iceland",
+  "positive": 1976,
+  "deaths": 10
+ },
+ {
+  "area": "India",
+  "positive": 2037,
+  "deaths": 22
+ },
+ {
+  "area": "India",
+  "positive": 264142,
+  "deaths": 2378
+ },
+ {
+  "area": "India",
+  "positive": 2512,
+  "deaths": 4
+ },
+ {
+  "area": "India",
+  "positive": 71795,
+  "deaths": 169
+ },
+ {
+  "area": "India",
+  "positive": 94193,
+  "deaths": 426
+ },
+ {
+  "area": "India",
+  "positive": 1842,
+  "deaths": 27
+ },
+ {
+  "area": "India",
+  "positive": 13937,
+  "deaths": 114
+ },
+ {
+  "area": "India",
+  "positive": 1752,
+  "deaths": 2
+ },
+ {
+  "area": "India",
+  "positive": 149460,
+  "deaths": 4167
+ },
+ {
+  "area": "India",
+  "positive": 10494,
+  "deaths": 91
+ },
+ {
+  "area": "India",
+  "positive": 75408,
+  "deaths": 2731
+ },
+ {
+  "area": "India",
+  "positive": 44817,
+  "deaths": 511
+ },
+ {
+  "area": "India",
+  "positive": 3816,
+  "deaths": 19
+ },
+ {
+  "area": "India",
+  "positive": 26949,
+  "deaths": 509
+ },
+ {
+  "area": "India",
+  "positive": 20881,
+  "deaths": 209
+ },
+ {
+  "area": "India",
+  "positive": 203200,
+  "deaths": 3613
+ },
+ {
+  "area": "India",
+  "positive": 39708,
+  "deaths": 129
+ },
+ {
+  "area": "India",
+  "positive": 1849,
+  "deaths": 9
+ },
+ {
+  "area": "India",
+  "positive": 0,
+  "deaths": 0
+ },
+ {
+  "area": "India",
+  "positive": 42618,
+  "deaths": 1065
+ },
+ {
+  "area": "India",
+  "positive": 560126,
+  "deaths": 19063
+ },
+ {
+  "area": "India",
+  "positive": 4112,
+  "deaths": 13
+ },
+ {
+  "area": "India",
+  "positive": 1193,
+  "deaths": 6
+ },
+ {
+  "area": "India",
+  "positive": 649,
+  "deaths": 0
+ },
+ {
+  "area": "India",
+  "positive": 3168,
+  "deaths": 8
+ },
+ {
+  "area": "India",
+  "positive": 52653,
+  "deaths": 314
+ },
+ {
+  "area": "India",
+  "positive": 6680,
+  "deaths": 102
+ },
+ {
+  "area": "India",
+  "positive": 27936,
+  "deaths": 706
+ },
+ {
+  "area": "India",
+  "positive": 57414,
+  "deaths": 833
+ },
+ {
+  "area": "India",
+  "positive": 931,
+  "deaths": 1
+ },
+ {
+  "area": "India",
+  "positive": 320355,
+  "deaths": 5397
+ },
+ {
+  "area": "India",
+  "positive": 88396,
+  "deaths": 674
+ },
+ {
+  "area": "India",
+  "positive": 6767,
+  "deaths": 46
+ },
+ {
+  "area": "India",
+  "positive": 0,
+  "deaths": 0
+ },
+ {
+  "area": "India",
+  "positive": 140775,
+  "deaths": 2280
+ },
+ {
+  "area": "India",
+  "positive": 11302,
+  "deaths": 143
+ },
+ {
+  "area": "India",
+  "positive": 107323,
+  "deaths": 2259
+ },
+ {
+  "area": "Indonesia",
+  "positive": 132816,
+  "deaths": 5968
+ },
+ {
+  "area": "Iran",
+  "positive": 336324,
+  "deaths": 19162
+ },
+ {
+  "area": "Iraq",
+  "positive": 164277,
+  "deaths": 5641
+ },
+ {
+  "area": "Ireland",
+  "positive": 26929,
+  "deaths": 1774
+ },
+ {
+  "area": "Israel",
+  "positive": 89822,
+  "deaths": 651
+ },
+ {
+  "area": "Italy",
+  "positive": 3532,
+  "deaths": 472
+ },
+ {
+  "area": "Italy",
+  "positive": 478,
+  "deaths": 28
+ },
+ {
+  "area": "Italy",
+  "positive": 1316,
+  "deaths": 97
+ },
+ {
+  "area": "Italy",
+  "positive": 5170,
+  "deaths": 440
+ },
+ {
+  "area": "Italy",
+  "positive": 30257,
+  "deaths": 4298
+ },
+ {
+  "area": "Italy",
+  "positive": 3476,
+  "deaths": 348
+ },
+ {
+  "area": "Italy",
+  "positive": 8956,
+  "deaths": 869
+ },
+ {
+  "area": "Italy",
+  "positive": 10393,
+  "deaths": 1569
+ },
+ {
+  "area": "Italy",
+  "positive": 97128,
+  "deaths": 16835
+ },
+ {
+  "area": "Italy",
+  "positive": 6987,
+  "deaths": 987
+ },
+ {
+  "area": "Italy",
+  "positive": 485,
+  "deaths": 23
+ },
+ {
+  "area": "Italy",
+  "positive": 2781,
+  "deaths": 292
+ },
+ {
+  "area": "Italy",
+  "positive": 5000,
+  "deaths": 405
+ },
+ {
+  "area": "Italy",
+  "positive": 31982,
+  "deaths": 4139
+ },
+ {
+  "area": "Italy",
+  "positive": 4809,
+  "deaths": 554
+ },
+ {
+  "area": "Italy",
+  "positive": 1479,
+  "deaths": 134
+ },
+ {
+  "area": "Italy",
+  "positive": 3645,
+  "deaths": 284
+ },
+ {
+  "area": "Italy",
+  "positive": 10735,
+  "deaths": 1137
+ },
+ {
+  "area": "Italy",
+  "positive": 1524,
+  "deaths": 80
+ },
+ {
+  "area": "Italy",
+  "positive": 1217,
+  "deaths": 146
+ },
+ {
+  "area": "Italy",
+  "positive": 20885,
+  "deaths": 2094
+ },
+ {
+  "area": "Jamaica",
+  "positive": 1071,
+  "deaths": 14
+ },
+ {
+  "area": "Japan",
+  "positive": 3500,
+  "deaths": 39
+ },
+ {
+  "area": "Japan",
+  "positive": 37,
+  "deaths": 0
+ },
+ {
+  "area": "Japan",
+  "positive": 35,
+  "deaths": 1
+ },
+ {
+  "area": "Japan",
+  "positive": 2301,
+  "deaths": 55
+ },
+ {
+  "area": "Japan",
+  "positive": 108,
+  "deaths": 6
+ },
+ {
+  "area": "Japan",
+  "positive": 154,
+  "deaths": 8
+ },
+ {
+  "area": "Japan",
+  "positive": 3360,
+  "deaths": 39
+ },
+ {
+  "area": "Japan",
+  "positive": 101,
+  "deaths": 0
+ },
+ {
+  "area": "Japan",
+  "positive": 492,
+  "deaths": 7
+ },
+ {
+  "area": "Japan",
+  "positive": 254,
+  "deaths": 19
+ },
+ {
+  "area": "Japan",
+  "positive": 428,
+  "deaths": 3
+ },
+ {
+  "area": "Japan",
+  "positive": 1582,
+  "deaths": 103
+ },
+ {
+  "area": "Japan",
+  "positive": 1778,
+  "deaths": 47
+ },
+ {
+  "area": "Japan",
+  "positive": 431,
+  "deaths": 11
+ },
+ {
+  "area": "Japan",
+  "positive": 412,
+  "deaths": 28
+ },
+ {
+  "area": "Japan",
+  "positive": 7,
+  "deaths": 0
+ },
+ {
+  "area": "Japan",
+  "positive": 61,
+  "deaths": 0
+ },
+ {
+  "area": "Japan",
+  "positive": 277,
+  "deaths": 4
+ },
+ {
+  "area": "Japan",
+  "positive": 3523,
+  "deaths": 105
+ },
+ {
+  "area": "Japan",
+  "positive": 83,
+  "deaths": 3
+ },
+ {
+  "area": "Japan",
+  "positive": 379,
+  "deaths": 5
+ },
+ {
+  "area": "Japan",
+  "positive": 1061,
+  "deaths": 21
+ },
+ {
+  "area": "Japan",
+  "positive": 267,
+  "deaths": 1
+ },
+ {
+  "area": "Japan",
+  "positive": 184,
+  "deaths": 1
+ },
+ {
+  "area": "Japan",
+  "positive": 274,
+  "deaths": 0
+ },
+ {
+  "area": "Japan",
+  "positive": 139,
+  "deaths": 0
+ },
+ {
+  "area": "Japan",
+  "positive": 173,
+  "deaths": 3
+ },
+ {
+  "area": "Japan",
+  "positive": 351,
+  "deaths": 3
+ },
+ {
+  "area": "Japan",
+  "positive": 128,
+  "deaths": 0
+ },
+ {
+  "area": "Japan",
+  "positive": 93,
+  "deaths": 1
+ },
+ {
+  "area": "Japan",
+  "positive": 119,
+  "deaths": 0
+ },
+ {
+  "area": "Japan",
+  "positive": 1407,
+  "deaths": 10
+ },
+ {
+  "area": "Japan",
+  "positive": 6355,
+  "deaths": 97
+ },
+ {
+  "area": "Japan",
+  "positive": 695,
+  "deaths": 1
+ },
+ {
+  "area": "Japan",
+  "positive": 173,
+  "deaths": 0
+ },
+ {
+  "area": "Japan",
+  "positive": 3060,
+  "deaths": 80
+ },
+ {
+  "area": "Japan",
+  "positive": 317,
+  "deaths": 3
+ },
+ {
+  "area": "Japan",
+  "positive": 132,
+  "deaths": 0
+ },
+ {
+  "area": "Japan",
+  "positive": 392,
+  "deaths": 1
+ },
+ {
+  "area": "Japan",
+  "positive": 265,
+  "deaths": 1
+ },
+ {
+  "area": "Japan",
+  "positive": 81,
+  "deaths": 1
+ },
+ {
+  "area": "Japan",
+  "positive": 16690,
+  "deaths": 338
+ },
+ {
+  "area": "Japan",
+  "positive": 21,
+  "deaths": 0
+ },
+ {
+  "area": "Japan",
+  "positive": 301,
+  "deaths": 22
+ },
+ {
+  "area": "Japan",
+  "positive": 8,
+  "deaths": 0
+ },
+ {
+  "area": "Japan",
+  "positive": 189,
+  "deaths": 4
+ },
+ {
+  "area": "Japan",
+  "positive": 76,
+  "deaths": 1
+ },
+ {
+  "area": "Japan",
+  "positive": 81,
+  "deaths": 0
+ },
+ {
+  "area": "Japan",
+  "positive": 136,
+  "deaths": 1
+ },
+ {
+  "area": "Jordan",
+  "positive": 1320,
+  "deaths": 11
+ },
+ {
+  "area": "Kazakhstan",
+  "positive": 101848,
+  "deaths": 1269
+ },
+ {
+  "area": "Kenya",
+  "positive": 28754,
+  "deaths": 460
+ },
+ {
+  "area": "Korea, South",
+  "positive": 14873,
+  "deaths": 305
+ },
+ {
+  "area": "Kosovo",
+  "positive": 10795,
+  "deaths": 365
+ },
+ {
+  "area": "Kuwait",
+  "positive": 74486,
+  "deaths": 489
+ },
+ {
+  "area": "Kyrgyzstan",
+  "positive": 41069,
+  "deaths": 1487
+ },
+ {
+  "area": "Laos",
+  "positive": 20,
+  "deaths": 0
+ },
+ {
+  "area": "Latvia",
+  "positive": 1307,
+  "deaths": 32
+ },
+ {
+  "area": "Lebanon",
+  "positive": 7711,
+  "deaths": 92
+ },
+ {
+  "area": "Lesotho",
+  "positive": 884,
+  "deaths": 25
+ },
+ {
+  "area": "Liberia",
+  "positive": 1252,
+  "deaths": 82
+ },
+ {
+  "area": "Libya",
+  "positive": 7050,
+  "deaths": 135
+ },
+ {
+  "area": "Liechtenstein",
+  "positive": 90,
+  "deaths": 1
+ },
+ {
+  "area": "Lithuania",
+  "positive": 2330,
+  "deaths": 81
+ },
+ {
+  "area": "Luxembourg",
+  "positive": 7368,
+  "deaths": 122
+ },
+ {
+  "area": "MS Zaandam",
+  "positive": 9,
+  "deaths": 2
+ },
+ {
+  "area": "Madagascar",
+  "positive": 13522,
+  "deaths": 162
+ },
+ {
+  "area": "Malawi",
+  "positive": 4912,
+  "deaths": 153
+ },
+ {
+  "area": "Malaysia",
+  "positive": 9129,
+  "deaths": 125
+ },
+ {
+  "area": "Maldives",
+  "positive": 5494,
+  "deaths": 21
+ },
+ {
+  "area": "Mali",
+  "positive": 2597,
+  "deaths": 125
+ },
+ {
+  "area": "Malta",
+  "positive": 1245,
+  "deaths": 9
+ },
+ {
+  "area": "Mauritania",
+  "positive": 6653,
+  "deaths": 157
+ },
+ {
+  "area": "Mauritius",
+  "positive": 344,
+  "deaths": 10
+ },
+ {
+  "area": "Mexico",
+  "positive": 4666,
+  "deaths": 314
+ },
+ {
+  "area": "Mexico",
+  "positive": 14993,
+  "deaths": 2844
+ },
+ {
+  "area": "Mexico",
+  "positive": 5954,
+  "deaths": 241
+ },
+ {
+  "area": "Mexico",
+  "positive": 5083,
+  "deaths": 655
+ },
+ {
+  "area": "Mexico",
+  "positive": 6016,
+  "deaths": 966
+ },
+ {
+  "area": "Mexico",
+  "positive": 6342,
+  "deaths": 1002
+ },
+ {
+  "area": "Mexico",
+  "positive": 83683,
+  "deaths": 9668
+ },
+ {
+  "area": "Mexico",
+  "positive": 16858,
+  "deaths": 1038
+ },
+ {
+  "area": "Mexico",
+  "positive": 2524,
+  "deaths": 305
+ },
+ {
+  "area": "Mexico",
+  "positive": 5048,
+  "deaths": 362
+ },
+ {
+  "area": "Mexico",
+  "positive": 25523,
+  "deaths": 1335
+ },
+ {
+  "area": "Mexico",
+  "positive": 12883,
+  "deaths": 1492
+ },
+ {
+  "area": "Mexico",
+  "positive": 8307,
+  "deaths": 1285
+ },
+ {
+  "area": "Mexico",
+  "positive": 15934,
+  "deaths": 1939
+ },
+ {
+  "area": "Mexico",
+  "positive": 59805,
+  "deaths": 7162
+ },
+ {
+  "area": "Mexico",
+  "positive": 11827,
+  "deaths": 927
+ },
+ {
+  "area": "Mexico",
+  "positive": 4541,
+  "deaths": 885
+ },
+ {
+  "area": "Mexico",
+  "positive": 4139,
+  "deaths": 472
+ },
+ {
+  "area": "Mexico",
+  "positive": 23058,
+  "deaths": 1668
+ },
+ {
+  "area": "Mexico",
+  "positive": 12059,
+  "deaths": 1097
+ },
+ {
+  "area": "Mexico",
+  "positive": 23599,
+  "deaths": 2985
+ },
+ {
+  "area": "Mexico",
+  "positive": 4660,
+  "deaths": 581
+ },
+ {
+  "area": "Mexico",
+  "positive": 9054,
+  "deaths": 1176
+ },
+ {
+  "area": "Mexico",
+  "positive": 13479,
+  "deaths": 802
+ },
+ {
+  "area": "Mexico",
+  "positive": 14217,
+  "deaths": 2512
+ },
+ {
+  "area": "Mexico",
+  "positive": 19625,
+  "deaths": 2381
+ },
+ {
+  "area": "Mexico",
+  "positive": 25186,
+  "deaths": 2287
+ },
+ {
+  "area": "Mexico",
+  "positive": 20281,
+  "deaths": 1453
+ },
+ {
+  "area": "Mexico",
+  "positive": 5470,
+  "deaths": 797
+ },
+ {
+  "area": "Mexico",
+  "positive": 24924,
+  "deaths": 3201
+ },
+ {
+  "area": "Mexico",
+  "positive": 12157,
+  "deaths": 1107
+ },
+ {
+  "area": "Mexico",
+  "positive": 3856,
+  "deaths": 354
+ },
+ {
+  "area": "Moldova",
+  "positive": 29087,
+  "deaths": 878
+ },
+ {
+  "area": "Monaco",
+  "positive": 144,
+  "deaths": 4
+ },
+ {
+  "area": "Mongolia",
+  "positive": 297,
+  "deaths": 0
+ },
+ {
+  "area": "Montenegro",
+  "positive": 3857,
+  "deaths": 73
+ },
+ {
+  "area": "Morocco",
+  "positive": 37935,
+  "deaths": 584
+ },
+ {
+  "area": "Mozambique",
+  "positive": 2638,
+  "deaths": 19
+ },
+ {
+  "area": "Namibia",
+  "positive": 3544,
+  "deaths": 27
+ },
+ {
+  "area": "Nepal",
+  "positive": 24957,
+  "deaths": 95
+ },
+ {
+  "area": "Netherlands",
+  "positive": 894,
+  "deaths": 4
+ },
+ {
+  "area": "Netherlands",
+  "positive": 13,
+  "deaths": 0
+ },
+ {
+  "area": "Netherlands",
+  "positive": 32,
+  "deaths": 1
+ },
+ {
+  "area": "Netherlands",
+  "positive": 578,
+  "deaths": 41
+ },
+ {
+  "area": "Netherlands",
+  "positive": 1121,
+  "deaths": 93
+ },
+ {
+  "area": "Netherlands",
+  "positive": 710,
+  "deaths": 69
+ },
+ {
+  "area": "Netherlands",
+  "positive": 6876,
+  "deaths": 685
+ },
+ {
+  "area": "Netherlands",
+  "positive": 470,
+  "deaths": 17
+ },
+ {
+  "area": "Netherlands",
+  "positive": 5047,
+  "deaths": 754
+ },
+ {
+  "area": "Netherlands",
+  "positive": 10924,
+  "deaths": 1543
+ },
+ {
+  "area": "Netherlands",
+  "positive": 9837,
+  "deaths": 819
+ },
+ {
+  "area": "Netherlands",
+  "positive": 3284,
+  "deaths": 311
+ },
+ {
+  "area": "Netherlands",
+  "positive": 263,
+  "deaths": 17
+ },
+ {
+  "area": "Netherlands",
+  "positive": 568,
+  "deaths": 18
+ },
+ {
+  "area": "Netherlands",
+  "positive": 4823,
+  "deaths": 432
+ },
+ {
+  "area": "Netherlands",
+  "positive": 954,
+  "deaths": 69
+ },
+ {
+  "area": "Netherlands",
+  "positive": 16012,
+  "deaths": 1314
+ },
+ {
+  "area": "New Zealand",
+  "positive": 1602,
+  "deaths": 22
+ },
+ {
+  "area": "Nicaragua",
+  "positive": 4115,
+  "deaths": 128
+ },
+ {
+  "area": "Niger",
+  "positive": 1161,
+  "deaths": 69
+ },
+ {
+  "area": "Nigeria",
+  "positive": 48116,
+  "deaths": 966
+ },
+ {
+  "area": "North Macedonia",
+  "positive": 12357,
+  "deaths": 532
+ },
+ {
+  "area": "Norway",
+  "positive": 9851,
+  "deaths": 257
+ },
+ {
+  "area": "Oman",
+  "positive": 82531,
+  "deaths": 551
+ },
+ {
+  "area": "Pakistan",
+  "positive": 2164,
+  "deaths": 59
+ },
+ {
+  "area": "Pakistan",
+  "positive": 12044,
+  "deaths": 138
+ },
+ {
+  "area": "Pakistan",
+  "positive": 2402,
+  "deaths": 58
+ },
+ {
+  "area": "Pakistan",
+  "positive": 15323,
+  "deaths": 173
+ },
+ {
+  "area": "Pakistan",
+  "positive": 34947,
+  "deaths": 1235
+ },
+ {
+  "area": "Pakistan",
+  "positive": 94865,
+  "deaths": 2179
+ },
+ {
+  "area": "Pakistan",
+  "positive": 124929,
+  "deaths": 2297
+ },
+ {
+  "area": "Panama",
+  "positive": 78446,
+  "deaths": 1722
+ },
+ {
+  "area": "Papua New Guinea",
+  "positive": 271,
+  "deaths": 3
+ },
+ {
+  "area": "Paraguay",
+  "positive": 8389,
+  "deaths": 97
+ },
+ {
+  "area": "Peru",
+  "positive": 7488,
+  "deaths": 129
+ },
+ {
+  "area": "Peru",
+  "positive": 14473,
+  "deaths": 900
+ },
+ {
+  "area": "Peru",
+  "positive": 1493,
+  "deaths": 48
+ },
+ {
+  "area": "Peru",
+  "positive": 20892,
+  "deaths": 938
+ },
+ {
+  "area": "Peru",
+  "positive": 5302,
+  "deaths": 115
+ },
+ {
+  "area": "Peru",
+  "positive": 9377,
+  "deaths": 261
+ },
+ {
+  "area": "Peru",
+  "positive": 23576,
+  "deaths": 1114
+ },
+ {
+  "area": "Peru",
+  "positive": 7458,
+  "deaths": 163
+ },
+ {
+  "area": "Peru",
+  "positive": 2614,
+  "deaths": 50
+ },
+ {
+  "area": "Peru",
+  "positive": 8557,
+  "deaths": 227
+ },
+ {
+  "area": "Peru",
+  "positive": 15528,
+  "deaths": 1006
+ },
+ {
+  "area": "Peru",
+  "positive": 10165,
+  "deaths": 510
+ },
+ {
+  "area": "Peru",
+  "positive": 18165,
+  "deaths": 1457
+ },
+ {
+  "area": "Peru",
+  "positive": 19165,
+  "deaths": 1270
+ },
+ {
+  "area": "Peru",
+  "positive": 250708,
+  "deaths": 10183
+ },
+ {
+  "area": "Peru",
+  "positive": 12694,
+  "deaths": 622
+ },
+ {
+  "area": "Peru",
+  "positive": 4282,
+  "deaths": 109
+ },
+ {
+  "area": "Peru",
+  "positive": 5082,
+  "deaths": 148
+ },
+ {
+  "area": "Peru",
+  "positive": 2798,
+  "deaths": 59
+ },
+ {
+  "area": "Peru",
+  "positive": 23182,
+  "deaths": 1331
+ },
+ {
+  "area": "Peru",
+  "positive": 4062,
+  "deaths": 124
+ },
+ {
+  "area": "Peru",
+  "positive": 10603,
+  "deaths": 433
+ },
+ {
+  "area": "Peru",
+  "positive": 4695,
+  "deaths": 58
+ },
+ {
+  "area": "Peru",
+  "positive": 4855,
+  "deaths": 218
+ },
+ {
+  "area": "Peru",
+  "positive": 11341,
+  "deaths": 240
+ },
+ {
+  "area": "Peru",
+  "positive": 0,
+  "deaths": 0
+ },
+ {
+  "area": "Philippines",
+  "positive": 147526,
+  "deaths": 2426
+ },
+ {
+  "area": "Poland",
+  "positive": 54487,
+  "deaths": 1844
+ },
+ {
+  "area": "Portugal",
+  "positive": 53548,
+  "deaths": 1770
+ },
+ {
+  "area": "Qatar",
+  "positive": 114281,
+  "deaths": 190
+ },
+ {
+  "area": "Romania",
+  "positive": 66631,
+  "deaths": 2860
+ },
+ {
+  "area": "Russia",
+  "positive": 3055,
+  "deaths": 22
+ },
+ {
+  "area": "Russia",
+  "positive": 10360,
+  "deaths": 96
+ },
+ {
+  "area": "Russia",
+  "positive": 1750,
+  "deaths": 7
+ },
+ {
+  "area": "Russia",
+  "positive": 3010,
+  "deaths": 47
+ },
+ {
+  "area": "Russia",
+  "positive": 9547,
+  "deaths": 227
+ },
+ {
+  "area": "Russia",
+  "positive": 5041,
+  "deaths": 55
+ },
+ {
+  "area": "Russia",
+  "positive": 7197,
+  "deaths": 25
+ },
+ {
+  "area": "Russia",
+  "positive": 6562,
+  "deaths": 51
+ },
+ {
+  "area": "Russia",
+  "positive": 7739,
+  "deaths": 35
+ },
+ {
+  "area": "Russia",
+  "positive": 4507,
+  "deaths": 42
+ },
+ {
+  "area": "Russia",
+  "positive": 2170,
+  "deaths": 35
+ },
+ {
+  "area": "Russia",
+  "positive": 12433,
+  "deaths": 98
+ },
+ {
+  "area": "Russia",
+  "positive": 162,
+  "deaths": 1
+ },
+ {
+  "area": "Russia",
+  "positive": 7179,
+  "deaths": 66
+ },
+ {
+  "area": "Russia",
+  "positive": 9861,
+  "deaths": 464
+ },
+ {
+  "area": "Russia",
+  "positive": 3954,
+  "deaths": 75
+ },
+ {
+  "area": "Russia",
+  "positive": 15101,
+  "deaths": 221
+ },
+ {
+  "area": "Russia",
+  "positive": 6785,
+  "deaths": 109
+ },
+ {
+  "area": "Russia",
+  "positive": 570,
+  "deaths": 8
+ },
+ {
+  "area": "Russia",
+  "positive": 6174,
+  "deaths": 75
+ },
+ {
+  "area": "Russia",
+  "positive": 3065,
+  "deaths": 53
+ },
+ {
+  "area": "Russia",
+  "positive": 3173,
+  "deaths": 42
+ },
+ {
+  "area": "Russia",
+  "positive": 7543,
+  "deaths": 58
+ },
+ {
+  "area": "Russia",
+  "positive": 3569,
+  "deaths": 42
+ },
+ {
+  "area": "Russia",
+  "positive": 4589,
+  "deaths": 25
+ },
+ {
+  "area": "Russia",
+  "positive": 2628,
+  "deaths": 14
+ },
+ {
+  "area": "Russia",
+  "positive": 4736,
+  "deaths": 19
+ },
+ {
+  "area": "Russia",
+  "positive": 8804,
+  "deaths": 76
+ },
+ {
+  "area": "Russia",
+  "positive": 3089,
+  "deaths": 37
+ },
+ {
+  "area": "Russia",
+  "positive": 18219,
+  "deaths": 145
+ },
+ {
+  "area": "Russia",
+  "positive": 5463,
+  "deaths": 83
+ },
+ {
+  "area": "Russia",
+  "positive": 5968,
+  "deaths": 73
+ },
+ {
+  "area": "Russia",
+  "positive": 2745,
+  "deaths": 30
+ },
+ {
+  "area": "Russia",
+  "positive": 9642,
+  "deaths": 136
+ },
+ {
+  "area": "Russia",
+  "positive": 14812,
+  "deaths": 380
+ },
+ {
+  "area": "Russia",
+  "positive": 2558,
+  "deaths": 12
+ },
+ {
+  "area": "Russia",
+  "positive": 6576,
+  "deaths": 51
+ },
+ {
+  "area": "Russia",
+  "positive": 6291,
+  "deaths": 66
+ },
+ {
+  "area": "Russia",
+  "positive": 4766,
+  "deaths": 23
+ },
+ {
+  "area": "Russia",
+  "positive": 1599,
+  "deaths": 15
+ },
+ {
+  "area": "Russia",
+  "positive": 3962,
+  "deaths": 36
+ },
+ {
+  "area": "Russia",
+  "positive": 4888,
+  "deaths": 38
+ },
+ {
+  "area": "Russia",
+  "positive": 250303,
+  "deaths": 4622
+ },
+ {
+  "area": "Russia",
+  "positive": 65472,
+  "deaths": 1136
+ },
+ {
+  "area": "Russia",
+  "positive": 11656,
+  "deaths": 107
+ },
+ {
+  "area": "Russia",
+  "positive": 289,
+  "deaths": 0
+ },
+ {
+  "area": "Russia",
+  "positive": 25382,
+  "deaths": 421
+ },
+ {
+  "area": "Russia",
+  "positive": 4650,
+  "deaths": 67
+ },
+ {
+  "area": "Russia",
+  "positive": 3969,
+  "deaths": 72
+ },
+ {
+  "area": "Russia",
+  "positive": 10451,
+  "deaths": 303
+ },
+ {
+  "area": "Russia",
+  "positive": 8175,
+  "deaths": 106
+ },
+ {
+  "area": "Russia",
+  "positive": 6250,
+  "deaths": 96
+ },
+ {
+  "area": "Russia",
+  "positive": 8274,
+  "deaths": 62
+ },
+ {
+  "area": "Russia",
+  "positive": 7156,
+  "deaths": 93
+ },
+ {
+  "area": "Russia",
+  "positive": 6777,
+  "deaths": 182
+ },
+ {
+  "area": "Russia",
+  "positive": 8073,
+  "deaths": 96
+ },
+ {
+  "area": "Russia",
+  "positive": 4038,
+  "deaths": 58
+ },
+ {
+  "area": "Russia",
+  "positive": 14613,
+  "deaths": 274
+ },
+ {
+  "area": "Russia",
+  "positive": 6655,
+  "deaths": 36
+ },
+ {
+  "area": "Russia",
+  "positive": 33525,
+  "deaths": 2203
+ },
+ {
+  "area": "Russia",
+  "positive": 6531,
+  "deaths": 66
+ },
+ {
+  "area": "Russia",
+  "positive": 3390,
+  "deaths": 0
+ },
+ {
+  "area": "Russia",
+  "positive": 7423,
+  "deaths": 113
+ },
+ {
+  "area": "Russia",
+  "positive": 10633,
+  "deaths": 64
+ },
+ {
+  "area": "Russia",
+  "positive": 5878,
+  "deaths": 115
+ },
+ {
+  "area": "Russia",
+  "positive": 9699,
+  "deaths": 186
+ },
+ {
+  "area": "Russia",
+  "positive": 22943,
+  "deaths": 358
+ },
+ {
+  "area": "Russia",
+  "positive": 6336,
+  "deaths": 44
+ },
+ {
+  "area": "Russia",
+  "positive": 5988,
+  "deaths": 28
+ },
+ {
+  "area": "Russia",
+  "positive": 4840,
+  "deaths": 49
+ },
+ {
+  "area": "Russia",
+  "positive": 8731,
+  "deaths": 287
+ },
+ {
+  "area": "Russia",
+  "positive": 4959,
+  "deaths": 163
+ },
+ {
+  "area": "Russia",
+  "positive": 6855,
+  "deaths": 28
+ },
+ {
+  "area": "Russia",
+  "positive": 6421,
+  "deaths": 60
+ },
+ {
+  "area": "Russia",
+  "positive": 2681,
+  "deaths": 34
+ },
+ {
+  "area": "Russia",
+  "positive": 10440,
+  "deaths": 73
+ },
+ {
+  "area": "Russia",
+  "positive": 5876,
+  "deaths": 175
+ },
+ {
+  "area": "Russia",
+  "positive": 10383,
+  "deaths": 75
+ },
+ {
+  "area": "Russia",
+  "positive": 2772,
+  "deaths": 29
+ },
+ {
+  "area": "Russia",
+  "positive": 12372,
+  "deaths": 96
+ },
+ {
+  "area": "Russia",
+  "positive": 12259,
+  "deaths": 82
+ },
+ {
+  "area": "Russia",
+  "positive": 6542,
+  "deaths": 32
+ },
+ {
+  "area": "Russia",
+  "positive": 4260,
+  "deaths": 49
+ },
+ {
+  "area": "Rwanda",
+  "positive": 2200,
+  "deaths": 8
+ },
+ {
+  "area": "Saint Kitts and Nevis",
+  "positive": 17,
+  "deaths": 0
+ },
+ {
+  "area": "Saint Lucia",
+  "positive": 25,
+  "deaths": 0
+ },
+ {
+  "area": "Saint Vincent and the Grenadines",
+  "positive": 57,
+  "deaths": 0
+ },
+ {
+  "area": "San Marino",
+  "positive": 699,
+  "deaths": 42
+ },
+ {
+  "area": "Sao Tome and Principe",
+  "positive": 883,
+  "deaths": 15
+ },
+ {
+  "area": "Saudi Arabia",
+  "positive": 294519,
+  "deaths": 3303
+ },
+ {
+  "area": "Senegal",
+  "positive": 11740,
+  "deaths": 244
+ },
+ {
+  "area": "Serbia",
+  "positive": 28998,
+  "deaths": 661
+ },
+ {
+  "area": "Seychelles",
+  "positive": 127,
+  "deaths": 0
+ },
+ {
+  "area": "Sierra Leone",
+  "positive": 1940,
+  "deaths": 69
+ },
+ {
+  "area": "Singapore",
+  "positive": 55497,
+  "deaths": 27
+ },
+ {
+  "area": "Slovakia",
+  "positive": 2739,
+  "deaths": 31
+ },
+ {
+  "area": "Slovenia",
+  "positive": 2332,
+  "deaths": 129
+ },
+ {
+  "area": "Somalia",
+  "positive": 3227,
+  "deaths": 93
+ },
+ {
+  "area": "South Africa",
+  "positive": 572865,
+  "deaths": 11270
+ },
+ {
+  "area": "South Sudan",
+  "positive": 2478,
+  "deaths": 47
+ },
+ {
+  "area": "Spain",
+  "positive": 18501,
+  "deaths": 1445
+ },
+ {
+  "area": "Spain",
+  "positive": 19845,
+  "deaths": 992
+ },
+ {
+  "area": "Spain",
+  "positive": 2764,
+  "deaths": 334
+ },
+ {
+  "area": "Spain",
+  "positive": 4044,
+  "deaths": 225
+ },
+ {
+  "area": "Spain",
+  "positive": 16292,
+  "deaths": 1442
+ },
+ {
+  "area": "Spain",
+  "positive": 3208,
+  "deaths": 164
+ },
+ {
+  "area": "Spain",
+  "positive": 2869,
+  "deaths": 220
+ },
+ {
+  "area": "Spain",
+  "positive": 19707,
+  "deaths": 3037
+ },
+ {
+  "area": "Spain",
+  "positive": 22391,
+  "deaths": 2804
+ },
+ {
+  "area": "Spain",
+  "positive": 90890,
+  "deaths": 5709
+ },
+ {
+  "area": "Spain",
+  "positive": 169,
+  "deaths": 4
+ },
+ {
+  "area": "Spain",
+  "positive": 3722,
+  "deaths": 522
+ },
+ {
+  "area": "Spain",
+  "positive": 10605,
+  "deaths": 622
+ },
+ {
+  "area": "Spain",
+  "positive": 4379,
+  "deaths": 366
+ },
+ {
+  "area": "Spain",
+  "positive": 86752,
+  "deaths": 8471
+ },
+ {
+  "area": "Spain",
+  "positive": 183,
+  "deaths": 2
+ },
+ {
+  "area": "Spain",
+  "positive": 3224,
+  "deaths": 149
+ },
+ {
+  "area": "Spain",
+  "positive": 7795,
+  "deaths": 531
+ },
+ {
+  "area": "Spain",
+  "positive": 19994,
+  "deaths": 1566
+ },
+ {
+  "area": "Spain",
+  "positive": 0,
+  "deaths": 0
+ },
+ {
+  "area": "Sri Lanka",
+  "positive": 2882,
+  "deaths": 11
+ },
+ {
+  "area": "Sudan",
+  "positive": 12115,
+  "deaths": 792
+ },
+ {
+  "area": "Suriname",
+  "positive": 2761,
+  "deaths": 40
+ },
+ {
+  "area": "Sweden",
+  "positive": 550,
+  "deaths": 15
+ },
+ {
+  "area": "Sweden",
+  "positive": 2033,
+  "deaths": 174
+ },
+ {
+  "area": "Sweden",
+  "positive": 3203,
+  "deaths": 162
+ },
+ {
+  "area": "Sweden",
+  "positive": 290,
+  "deaths": 6
+ },
+ {
+  "area": "Sweden",
+  "positive": 1937,
+  "deaths": 79
+ },
+ {
+  "area": "Sweden",
+  "positive": 1160,
+  "deaths": 60
+ },
+ {
+  "area": "Sweden",
+  "positive": 4820,
+  "deaths": 180
+ },
+ {
+  "area": "Sweden",
+  "positive": 805,
+  "deaths": 62
+ },
+ {
+  "area": "Sweden",
+  "positive": 1265,
+  "deaths": 104
+ },
+ {
+  "area": "Sweden",
+  "positive": 1633,
+  "deaths": 85
+ },
+ {
+  "area": "Sweden",
+  "positive": 2594,
+  "deaths": 171
+ },
+ {
+  "area": "Sweden",
+  "positive": 3641,
+  "deaths": 262
+ },
+ {
+  "area": "Sweden",
+  "positive": 4052,
+  "deaths": 278
+ },
+ {
+  "area": "Sweden",
+  "positive": 2415,
+  "deaths": 253
+ },
+ {
+  "area": "Sweden",
+  "positive": 23935,
+  "deaths": 2387
+ },
+ {
+  "area": "Sweden",
+  "positive": 3639,
+  "deaths": 239
+ },
+ {
+  "area": "Sweden",
+  "positive": 1110,
+  "deaths": 73
+ },
+ {
+  "area": "Sweden",
+  "positive": 935,
+  "deaths": 31
+ },
+ {
+  "area": "Sweden",
+  "positive": 1832,
+  "deaths": 132
+ },
+ {
+  "area": "Sweden",
+  "positive": 2704,
+  "deaths": 180
+ },
+ {
+  "area": "Sweden",
+  "positive": 19299,
+  "deaths": 843
+ },
+ {
+  "area": "Switzerland",
+  "positive": 37403,
+  "deaths": 1991
+ },
+ {
+  "area": "Syria",
+  "positive": 1432,
+  "deaths": 55
+ },
+ {
+  "area": "Taiwan*",
+  "positive": 481,
+  "deaths": 7
+ },
+ {
+  "area": "Tajikistan",
+  "positive": 7950,
+  "deaths": 63
+ },
+ {
+  "area": "Tanzania",
+  "positive": 509,
+  "deaths": 21
+ },
+ {
+  "area": "Thailand",
+  "positive": 3359,
+  "deaths": 58
+ },
+ {
+  "area": "Timor-Leste",
+  "positive": 25,
+  "deaths": 0
+ },
+ {
+  "area": "Togo",
+  "positive": 1104,
+  "deaths": 26
+ },
+ {
+  "area": "Trinidad and Tobago",
+  "positive": 404,
+  "deaths": 8
+ },
+ {
+  "area": "Tunisia",
+  "positive": 1847,
+  "deaths": 53
+ },
+ {
+  "area": "Turkey",
+  "positive": 245635,
+  "deaths": 5912
+ },
+ {
+  "area": "Uganda",
+  "positive": 1353,
+  "deaths": 11
+ },
+ {
+  "area": "Ukraine",
+  "positive": 1067,
+  "deaths": 37
+ },
+ {
+  "area": "Ukraine",
+  "positive": 1107,
+  "deaths": 18
+ },
+ {
+  "area": "Ukraine",
+  "positive": 7110,
+  "deaths": 232
+ },
+ {
+  "area": "Ukraine",
+  "positive": 1595,
+  "deaths": 19
+ },
+ {
+  "area": "Ukraine",
+  "positive": 1630,
+  "deaths": 37
+ },
+ {
+  "area": "Ukraine",
+  "positive": 1027,
+  "deaths": 13
+ },
+ {
+  "area": "Ukraine",
+  "positive": 6177,
+  "deaths": 163
+ },
+ {
+  "area": "Ukraine",
+  "positive": 5378,
+  "deaths": 151
+ },
+ {
+  "area": "Ukraine",
+  "positive": 286,
+  "deaths": 5
+ },
+ {
+  "area": "Ukraine",
+  "positive": 1468,
+  "deaths": 31
+ },
+ {
+  "area": "Ukraine",
+  "positive": 10002,
+  "deaths": 149
+ },
+ {
+  "area": "Ukraine",
+  "positive": 4377,
+  "deaths": 72
+ },
+ {
+  "area": "Ukraine",
+  "positive": 733,
+  "deaths": 39
+ },
+ {
+  "area": "Ukraine",
+  "positive": 170,
+  "deaths": 1
+ },
+ {
+  "area": "Ukraine",
+  "positive": 11474,
+  "deaths": 314
+ },
+ {
+  "area": "Ukraine",
+  "positive": 755,
+  "deaths": 18
+ },
+ {
+  "area": "Ukraine",
+  "positive": 4572,
+  "deaths": 74
+ },
+ {
+  "area": "Ukraine",
+  "positive": 516,
+  "deaths": 15
+ },
+ {
+  "area": "Ukraine",
+  "positive": 7206,
+  "deaths": 106
+ },
+ {
+  "area": "Ukraine",
+  "positive": 401,
+  "deaths": 12
+ },
+ {
+  "area": "Ukraine",
+  "positive": 754,
+  "deaths": 10
+ },
+ {
+  "area": "Ukraine",
+  "positive": 3489,
+  "deaths": 44
+ },
+ {
+  "area": "Ukraine",
+  "positive": 3086,
+  "deaths": 65
+ },
+ {
+  "area": "Ukraine",
+  "positive": 4471,
+  "deaths": 96
+ },
+ {
+  "area": "Ukraine",
+  "positive": 6009,
+  "deaths": 230
+ },
+ {
+  "area": "Ukraine",
+  "positive": 1010,
+  "deaths": 23
+ },
+ {
+  "area": "Ukraine",
+  "positive": 2266,
+  "deaths": 49
+ },
+ {
+  "area": "United Arab Emirates",
+  "positive": 63489,
+  "deaths": 358
+ },
+ {
+  "area": "United Kingdom",
+  "positive": 3,
+  "deaths": 0
+ },
+ {
+  "area": "United Kingdom",
+  "positive": 159,
+  "deaths": 9
+ },
+ {
+  "area": "United Kingdom",
+  "positive": 9,
+  "deaths": 1
+ },
+ {
+  "area": "United Kingdom",
+  "positive": 203,
+  "deaths": 1
+ },
+ {
+  "area": "United Kingdom",
+  "positive": 603,
+  "deaths": 47
+ },
+ {
+  "area": "United Kingdom",
+  "positive": 270971,
+  "deaths": 42072
+ },
+ {
+  "area": "United Kingdom",
+  "positive": 13,
+  "deaths": 0
+ },
+ {
+  "area": "United Kingdom",
+  "positive": 205,
+  "deaths": 0
+ },
+ {
+  "area": "United Kingdom",
+  "positive": 336,
+  "deaths": 24
+ },
+ {
+  "area": "United Kingdom",
+  "positive": 13,
+  "deaths": 1
+ },
+ {
+  "area": "United Kingdom",
+  "positive": 6217,
+  "deaths": 557
+ },
+ {
+  "area": "United Kingdom",
+  "positive": 19126,
+  "deaths": 2491
+ },
+ {
+  "area": "United Kingdom",
+  "positive": 258,
+  "deaths": 2
+ },
+ {
+  "area": "United Kingdom",
+  "positive": 0,
+  "deaths": 0
+ },
+ {
+  "area": "United Kingdom",
+  "positive": 17484,
+  "deaths": 1586
+ },
+ {
+  "area": "Uruguay",
+  "positive": 1409,
+  "deaths": 37
+ },
+ {
+  "area": "Uzbekistan",
+  "positive": 33323,
+  "deaths": 216
+ },
+ {
+  "area": "Venezuela",
+  "positive": 30369,
+  "deaths": 259
+ },
+ {
+  "area": "Vietnam",
+  "positive": 911,
+  "deaths": 21
+ },
+ {
+  "area": "West Bank and Gaza",
+  "positive": 15491,
+  "deaths": 106
+ },
+ {
+  "area": "Western Sahara",
+  "positive": 10,
+  "deaths": 1
+ },
+ {
+  "area": "Yemen",
+  "positive": 1847,
+  "deaths": 528
+ },
+ {
+  "area": "Zambia",
+  "positive": 8663,
+  "deaths": 246
+ },
+ {
+  "area": "Zimbabwe",
+  "positive": 4990,
+  "deaths": 128
+ },
+ {}
+]

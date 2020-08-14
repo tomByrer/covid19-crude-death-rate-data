@@ -40,4 +40,4 @@ areasSumed.sort(function(a, b) {
 })
 
 console.log("World count = "+ countAreas)
-fs.writeFileSync( './data/sumed-world.json', JSON.stringify(areasSumed) )
+fs.writeFileSync( './data/sumed-world.json', JSON.stringify(areasSumed, null, 1) )
