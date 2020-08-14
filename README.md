@@ -1,12 +1,12 @@
 # COVID-19 Crude Death Rate Data
 
-To help research which countries have the most deaths via population ratio.
-Experssed 'per 100,000 people'.
+To help research which countries have the most deaths via population ratio, expressed in 'per 100,000 people'.
+Final output is sorted by CDR, then by positive tests.
 
 ## Instructions
 
-You can view the [`covid19-cdr.csv`](https://github.com/tomByrer/covid19-crude-death-rate-data/blob/master/covid19-cdr.csv#L1) `covid19-cdr.json` files directly for now.
-Final output is sorted by CDR, then by cases.
+You can view the [`covid19-cdr.csv`](https://github.com/tomByrer/covid19-crude-death-rate-data/blob/master/covid19-cdr.csv#L1) and `covid19-cdr.json` files directly for now.  If you want to download a single file, I find the "Raw" button helps.
+
 
 1. Install [NodeJS](https://nodejs.org).  Might need to reboot, add to path, etc.
 2. In a CLI, run `node 1collect`; the output will be in `/data`
@@ -15,6 +15,7 @@ Final output is sorted by CDR, then by cases.
 ### Warnings
 
 * BETA: API, CSV headers, & code likely to change drastcily.
+* BETA: some of the smaller countries & territories might not have the correct data
 * Right now, needs to be ran manually & uploaded; not automated
 * Might use [COVID19Tracking](https://twitter.com/COVID19Tracking) for US data
 
