@@ -9,7 +9,7 @@ var gc = new GithubContent({
 })
 
 let worldCSV = ''
-gc.file('csse_covid_19_data/csse_covid_19_daily_reports/08-12-2020.csv', function(err, file) {
+gc.file('csse_covid_19_data/csse_covid_19_daily_reports/08-13-2020.csv', function(err, file) {
   if (err) return console.log(err);
   console.log(file.path);
 	worldCSV = file.contents.toString()

@@ -5,14 +5,14 @@ let census = JSON.parse( fs.readFileSync('./data/census-us.json', 'utf8') )
 
 // reduce & zip population & disease stats
 let tmpArr = []
-let sumConfirmed = 0
+let sumPostive = 0
 let sumDeaths = 0
 let area = ''
 let pop = 0
 let areasSumed = []
 let countAreas = 0
 for( let i=0, len = census.length; i < len; i++ ){
-	sumConfirmed = 0
+	sumPostive = 0
 	sumDeaths = 0
 	area = census[i].area
 	pop = census[i].pop
@@ -21,13 +21,13 @@ for( let i=0, len = census.length; i < len; i++ ){
 	})
 
 	tmpArr.forEach(obj => {
-		sumConfirmed += obj.confirmed
+		sumPostive += obj.positive
 		sumDeaths += obj.deaths
 	})
 	countAreas = areasSumed.push({
 		area: area,
 		region: census[i].region,
-		confirmed: sumConfirmed,
+		positive: sumPostive,
 		deaths: sumDeaths,
 		pop: pop,
 		cdr: ( sumDeaths / pop ) * 100_000,

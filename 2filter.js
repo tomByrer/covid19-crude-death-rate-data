@@ -17,7 +17,7 @@ for (let i=0, len = all.length; i < len; i++) {
 			// county: all[i].Admin2,
 			// fips: all[i].FIPS,
 			// updated: all[i].Last_Update,
-			confirmed: parseInt( all[i].Confirmed ),
+			positive: parseInt( all[i].Confirmed ),
 			deaths: parseInt( all[i].Deaths ),
 		}
 		// statesAll.push( all[i].Province_State )
@@ -28,7 +28,7 @@ for (let i=0, len = all.length; i < len; i++) {
 			// county: all[i].Admin2,
 			// fips: all[i].FIPS,
 			// updated: all[i].Last_Update,
-			confirmed: parseInt( all[i].Confirmed ),
+			positive: parseInt( all[i].Confirmed ),
 			deaths: parseInt( all[i].Deaths ),
 		}
 		// countriesAll.push( all[i].Country_Region )

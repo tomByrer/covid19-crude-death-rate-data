@@ -35,6 +35,11 @@ COVID-19 deaths:
 Center for Systems Science and Engineering (CSSE) at Johns Hopkins University
 https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data
 
+## Changelog
+
+- 0.1.1 changed 'confirmed' to 'positive', so help specify that info is for tests & not deaths
+- 0.1.0 intal release
+
 ## TODO
 
 -[ ] Clean up non-matching cencus-covid countries

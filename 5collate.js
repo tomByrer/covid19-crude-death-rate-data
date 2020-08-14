@@ -6,7 +6,7 @@ let world = JSON.parse( fs.readFileSync('./data/sumed-world.json', 'utf8') )
 
 let all = [...us, ...world]
 
-// desending sort Crude Death Rate, confirmed cases, then area
+// desending sort Crude Death Rate, positive cases, then area
 // https://stackoverflow.com/a/2784265/1324588
 all.sort(function mysortfunction(a, b) {
 
@@ -15,10 +15,10 @@ all.sort(function mysortfunction(a, b) {
 		if (cdrA < cdrB) return 1
 		if (cdrA > cdrB) return -1
 
-		const confirmedA = a.confirmed
-		const confirmedB = b.confirmed
-		if (confirmedA < confirmedB) return 1
-		if (confirmedA > confirmedB) return -1
+		const positiveA = a.positive
+		const positiveB = b.positive
+		if (positiveA < positiveB) return 1
+		if (positiveA > positiveB) return -1
 
 		const areaA = a.area
 		const areaB = b.area
