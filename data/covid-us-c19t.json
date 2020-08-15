@@ -1,0 +1,283 @@
+[
+ {
+  "area": "Alaska",
+  "positive": 4869,
+  "deaths": 27
+ },
+ {
+  "area": "Alabama",
+  "positive": 106309,
+  "deaths": 1893
+ },
+ {
+  "area": "Arkansas",
+  "positive": 52392,
+  "deaths": 587
+ },
+ {
+  "area": "American Samoa",
+  "positive": 0,
+  "deaths": 0
+ },
+ {
+  "area": "Arizona",
+  "positive": 191721,
+  "deaths": 4423
+ },
+ {
+  "area": "California",
+  "positive": 601075,
+  "deaths": 10996
+ },
+ {
+  "area": "Colorado",
+  "positive": 52219,
+  "deaths": 1763
+ },
+ {
+  "area": "Connecticut",
+  "positive": 50897,
+  "deaths": 4453
+ },
+ {
+  "area": "Washington, DC",
+  "positive": 13118,
+  "deaths": 594
+ },
+ {
+  "area": "Delaware",
+  "positive": 16340,
+  "deaths": 593
+ },
+ {
+  "area": "Florida",
+  "positive": 563285,
+  "deaths": 9276
+ },
+ {
+  "area": "Georgia",
+  "positive": 231895,
+  "deaths": 4573
+ },
+ {
+  "area": "Guam",
+  "positive": 502,
+  "deaths": 5
+ },
+ {
+  "area": "Hawaii",
+  "positive": 4312,
+  "deaths": 40
+ },
+ {
+  "area": "Iowa",
+  "positive": 50932,
+  "deaths": 966
+ },
+ {
+  "area": "Idaho",
+  "positive": 26631,
+  "deaths": 251
+ },
+ {
+  "area": "Illinois",
+  "positive": 204023,
+  "deaths": 7932
+ },
+ {
+  "area": "Indiana",
+  "positive": 78632,
+  "deaths": 3113
+ },
+ {
+  "area": "Kansas",
+  "positive": 33885,
+  "deaths": 402
+ },
+ {
+  "area": "Kentucky",
+  "positive": 38298,
+  "deaths": 804
+ },
+ {
+  "area": "Louisiana",
+  "positive": 136737,
+  "deaths": 4430
+ },
+ {
+  "area": "Massachusetts",
+  "positive": 122531,
+  "deaths": 8804
+ },
+ {
+  "area": "Maryland",
+  "positive": 98875,
+  "deaths": 3631
+ },
+ {
+  "area": "Maine",
+  "positive": 4115,
+  "deaths": 126
+ },
+ {
+  "area": "Michigan",
+  "positive": 100724,
+  "deaths": 6566
+ },
+ {
+  "area": "Minnesota",
+  "positive": 63723,
+  "deaths": 1739
+ },
+ {
+  "area": "Missouri",
+  "positive": 65270,
+  "deaths": 1335
+ },
+ {
+  "area": "N. Mariana Islands",
+  "positive": 50,
+  "deaths": 2
+ },
+ {
+  "area": "Mississippi",
+  "positive": 70930,
+  "deaths": 2043
+ },
+ {
+  "area": "Montana",
+  "positive": 5541,
+  "deaths": 81
+ },
+ {
+  "area": "North Carolina",
+  "positive": 142170,
+  "deaths": 2313
+ },
+ {
+  "area": "North Dakota",
+  "positive": 8322,
+  "deaths": 105
+ },
+ {
+  "area": "Nebraska",
+  "positive": 29660,
+  "deaths": 360
+ },
+ {
+  "area": "New Hampshire",
+  "positive": 6921,
+  "deaths": 422
+ },
+ {
+  "area": "New Jersey",
+  "positive": 187164,
+  "deaths": 15903
+ },
+ {
+  "area": "New Mexico",
+  "positive": 22987,
+  "deaths": 697
+ },
+ {
+  "area": "Nevada",
+  "positive": 59749,
+  "deaths": 1045
+ },
+ {
+  "area": "New York",
+  "positive": 424167,
+  "deaths": 25232
+ },
+ {
+  "area": "Ohio",
+  "positive": 106557,
+  "deaths": 3784
+ },
+ {
+  "area": "Oklahoma",
+  "positive": 46897,
+  "deaths": 644
+ },
+ {
+  "area": "Oregon",
+  "positive": 22613,
+  "deaths": 385
+ },
+ {
+  "area": "Pennsylvania",
+  "positive": 122950,
+  "deaths": 7445
+ },
+ {
+  "area": "Puerto Rico",
+  "positive": 25128,
+  "deaths": 317
+ },
+ {
+  "area": "Rhode Island",
+  "positive": 20335,
+  "deaths": 1021
+ },
+ {
+  "area": "South Carolina",
+  "positive": 104841,
+  "deaths": 2204
+ },
+ {
+  "area": "South Dakota",
+  "positive": 10024,
+  "deaths": 150
+ },
+ {
+  "area": "Tennessee",
+  "positive": 130458,
+  "deaths": 1326
+ },
+ {
+  "area": "Texas",
+  "positive": 520593,
+  "deaths": 9602
+ },
+ {
+  "area": "Utah",
+  "positive": 45976,
+  "deaths": 360
+ },
+ {
+  "area": "Virginia",
+  "positive": 104838,
+  "deaths": 2370
+ },
+ {
+  "area": "Virgin Islands",
+  "positive": 704,
+  "deaths": 9
+ },
+ {
+  "area": "Vermont",
+  "positive": 1501,
+  "deaths": 58
+ },
+ {
+  "area": "Washington",
+  "positive": 65339,
+  "deaths": 1736
+ },
+ {
+  "area": "Wisconsin",
+  "positive": 68681,
+  "deaths": 1032
+ },
+ {
+  "area": "West Virginia",
+  "positive": 8274,
+  "deaths": 157
+ },
+ {
+  "area": "Wyoming",
+  "positive": 3183,
+  "deaths": 30
+ },
+ {}
+]
