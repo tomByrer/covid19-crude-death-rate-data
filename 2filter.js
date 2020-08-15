@@ -33,7 +33,7 @@ fs.writeFileSync( './data/covid-us.json', JSON.stringify(csseUS, null, 1) )
 console.log("Wolrd (not US) count = "+ countNotUS)
 fs.writeFileSync( './data/covid-world.json', JSON.stringify(csseNotUS, null, 1) )
 
-// https://github.com/COVID19Tracking/website/blob/1aa849931f113165d9dfe456361c761119e9699a/src/utilities/visualization.js
+// tweaked https://github.com/COVID19Tracking/website/blob/1aa849931f113165d9dfe456361c761119e9699a/src/utilities/visualization.js
 const getStateName = abbr => {
   const names = {
     AK: 'Alaska',
@@ -44,7 +44,7 @@ const getStateName = abbr => {
     CA: 'California',
     CO: 'Colorado',
     CT: 'Connecticut',
-    DC: 'Washington, DC',
+    DC: 'District of Columbia',
     DE: 'Delaware',
     FL: 'Florida',
     GA: 'Georgia',

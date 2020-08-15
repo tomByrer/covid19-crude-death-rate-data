@@ -38,12 +38,13 @@ https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data
 
 ## Changelog
 
-- 0.1.1 changed 'confirmed' to 'positive', so help specify that info is for tests & not deaths
-- 0.1.0 intal release
++ 0.2.0 + COVID19Tracking data, staging files now have number fields early as possile
++ 0.1.1 changed 'confirmed' to 'positive', so help specify that info is for tests & not deaths
++ 0.1.0 intal release
 
 ## TODO
 
--[ ] Clean up non-matching cencus-covid countries
+-[ ] Clean up non-matching cencus-covid countries & territories like Virgin Islands
 -[ ] US totals
 -[ ] Date of import
 -[ ] Compare & maybe use [COVID19Tracking](https://twitter.com/COVID19Tracking) for US data
