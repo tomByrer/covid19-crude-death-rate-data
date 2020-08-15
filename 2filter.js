@@ -1,8 +1,9 @@
 const fs = require('fs')
+const JSONprettifyMin = require('./util').JSONprettifyMin
 
 // cheery pick data, & split away US states since might use another source
 // might not need area-arrays anymore; will use cencus data to loop
-let csse = JSON.parse( fs.readFileSync('./data/covid-csse.json', 'utf8') )
+let csse = JSON.parse( fs.readFileSync('./data/covid-jh.json', 'utf8') )
 let csseUS = []
 let csseNotUS = []
 let countUS = 0
@@ -29,9 +30,9 @@ for (let i=0, len = csse.length; i < len; i++) {
 	}
 }
 console.log("US count = "+ countUS)
-fs.writeFileSync( './data/covid-us.json', JSON.stringify(csseUS, null, 1) )
+fs.writeFileSync( './data/covid-us-jh.json', JSONprettifyMin(csseUS) )
 console.log("Wolrd (not US) count = "+ countNotUS)
-fs.writeFileSync( './data/covid-world.json', JSON.stringify(csseNotUS, null, 1) )
+fs.writeFileSync( './data/covid-world.json', JSONprettifyMin(csseNotUS) )
 
 // tweaked https://github.com/COVID19Tracking/website/blob/1aa849931f113165d9dfe456361c761119e9699a/src/utilities/visualization.js
 const getStateName = abbr => {
@@ -111,5 +112,4 @@ for (let i=0, len = c19t.length; i < len; i++) {
 		})
 }
 console.log("US C19T count = "+ countC19tUS)
-fs.writeFileSync( './data/covid-us-c19t.json', JSON.stringify(c19tUS, null, 1) )
-
+fs.writeFileSync( './data/covid-us-c19t.json', JSONprettifyMin(c19tUS) )

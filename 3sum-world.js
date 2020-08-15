@@ -1,4 +1,5 @@
 const fs = require('fs')
+const JSONprettifyMin = require('./util').JSONprettifyMin
 
 let disease = JSON.parse( fs.readFileSync('./data/covid-world.json', 'utf8') )
 let census = JSON.parse( fs.readFileSync('./data/census-world.json', 'utf8') )
@@ -40,4 +41,4 @@ areasSumed.sort(function(a, b) {
 })
 
 console.log("World count = "+ countAreas)
-fs.writeFileSync( './data/sumed-world.json', JSON.stringify(areasSumed, null, 1) )
+fs.writeFileSync( './data/sumed-world.json', JSONprettifyMin(areasSumed) )

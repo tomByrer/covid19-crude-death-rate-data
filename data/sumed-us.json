@@ -1,418 +1,521 @@
-[
- {
-  "area": "New Jersey",
-  "region": "United States",
-  "positive": 186594,
-  "deaths": 15893,
-  "pop": 8882190,
-  "cdr": 178.9310969479374
- },
- {
-  "area": "New York",
-  "region": "United States",
-  "positive": 423440,
-  "deaths": 32805,
-  "pop": 19453561,
-  "cdr": 168.63236504617328
- },
- {
-  "area": "Massachusetts",
-  "region": "United States",
-  "positive": 122319,
-  "deaths": 8790,
-  "pop": 6892503,
-  "cdr": 127.52986832214653
- },
- {
-  "area": "Connecticut",
-  "region": "United States",
-  "positive": 50782,
-  "deaths": 4450,
-  "pop": 3565287,
-  "cdr": 124.81463624106559
- },
- {
-  "area": "Rhode Island",
-  "region": "United States",
-  "positive": 20240,
-  "deaths": 1019,
-  "pop": 1059361,
-  "cdr": 96.19006174476878
- },
- {
-  "area": "Louisiana",
-  "region": "United States",
-  "positive": 135439,
-  "deaths": 4402,
-  "pop": 4648794,
-  "cdr": 94.69122529413005
- },
- {
-  "area": "District of Columbia",
-  "region": "United States",
-  "positive": 13024,
-  "deaths": 594,
-  "pop": 705749,
-  "cdr": 84.16590034133948
- },
- {
-  "area": "Mississippi",
-  "region": "United States",
-  "positive": 69986,
-  "deaths": 2011,
-  "pop": 2976149,
-  "cdr": 67.57054166306862
- },
- {
-  "area": "Michigan",
-  "region": "United States",
-  "positive": 99856,
-  "deaths": 6555,
-  "pop": 9986857,
-  "cdr": 65.63626574406743
- },
- {
-  "area": "Illinois",
-  "region": "United States",
-  "positive": 201727,
-  "deaths": 7905,
-  "pop": 12671821,
-  "cdr": 62.382509980215154
- },
- {
-  "area": "Delaware",
-  "region": "United States",
-  "positive": 15967,
-  "deaths": 593,
-  "pop": 973764,
-  "cdr": 60.897712382055616
- },
- {
-  "area": "Arizona",
-  "region": "United States",
-  "positive": 190794,
-  "deaths": 4383,
-  "pop": 7278717,
-  "cdr": 60.21665631456753
- },
- {
-  "area": "Maryland",
-  "region": "United States",
-  "positive": 98160,
-  "deaths": 3620,
-  "pop": 6045680,
-  "cdr": 59.87746622381602
- },
- {
-  "area": "Pennsylvania",
-  "region": "United States",
-  "positive": 126905,
-  "deaths": 7395,
-  "pop": 12801989,
-  "cdr": 57.76446144423339
- },
- {
-  "area": "Indiana",
-  "region": "United States",
-  "positive": 77565,
-  "deaths": 3105,
-  "pop": 6732219,
-  "cdr": 46.12149426511526
- },
- {
-  "area": "Georgia",
-  "region": "United States",
-  "positive": 228668,
-  "deaths": 4538,
-  "pop": 10617423,
-  "cdr": 42.74106814808075
- },
- {
-  "area": "South Carolina",
-  "region": "United States",
-  "positive": 103909,
-  "deaths": 2184,
-  "pop": 5148714,
-  "cdr": 42.41835922523566
- },
- {
-  "area": "Florida",
-  "region": "United States",
-  "positive": 557137,
-  "deaths": 8913,
-  "pop": 21477737,
-  "cdr": 41.4987854632916
- },
- {
-  "area": "Alabama",
-  "region": "United States",
-  "positive": 105557,
-  "deaths": 1890,
-  "pop": 4903185,
-  "cdr": 38.546373428699916
- },
- {
-  "area": "Texas",
-  "region": "United States",
-  "positive": 530857,
-  "deaths": 9771,
-  "pop": 28995881,
-  "cdr": 33.697889710610966
- },
- {
-  "area": "Nevada",
-  "region": "United States",
-  "positive": 58650,
-  "deaths": 1030,
-  "pop": 3080156,
-  "cdr": 33.43986473412386
- },
- {
-  "area": "New Mexico",
-  "region": "United States",
-  "positive": 22987,
-  "deaths": 697,
-  "pop": 2096829,
-  "cdr": 33.24066960157457
- },
- {
-  "area": "Colorado",
-  "region": "United States",
-  "positive": 52200,
-  "deaths": 1882,
-  "pop": 5758736,
-  "cdr": 32.68078272732072
- },
- {
-  "area": "Ohio",
-  "region": "United States",
-  "positive": 105426,
-  "deaths": 3755,
-  "pop": 11689100,
-  "cdr": 32.12394452951895
- },
- {
-  "area": "New Hampshire",
-  "region": "United States",
-  "positive": 6921,
-  "deaths": 422,
-  "pop": 1359711,
-  "cdr": 31.036006916175566
- },
- {
-  "area": "Minnesota",
-  "region": "United States",
-  "positive": 62993,
-  "deaths": 1731,
-  "pop": 5639632,
-  "cdr": 30.6934920576378
- },
- {
-  "area": "Iowa",
-  "region": "United States",
-  "positive": 50373,
-  "deaths": 960,
-  "pop": 3155070,
-  "cdr": 30.42721714573686
- },
- {
-  "area": "Virginia",
-  "region": "United States",
-  "positive": 103622,
-  "deaths": 2363,
-  "pop": 8535519,
-  "cdr": 27.684315388437426
- },
- {
-  "area": "California",
-  "region": "United States",
-  "positive": 597984,
-  "deaths": 10870,
-  "pop": 39512223,
-  "cdr": 27.510474416992434
- },
- {
-  "area": "Washington",
-  "region": "United States",
-  "positive": 65339,
-  "deaths": 1736,
-  "pop": 7614893,
-  "cdr": 22.797431296802202
- },
- {
-  "area": "Missouri",
-  "region": "United States",
-  "positive": 64429,
-  "deaths": 1356,
-  "pop": 6137428,
-  "cdr": 22.093945542008804
- },
- {
-  "area": "North Carolina",
-  "region": "United States",
-  "positive": 140824,
-  "deaths": 2287,
-  "pop": 10488084,
-  "cdr": 21.805698733915555
- },
- {
-  "area": "Arkansas",
-  "region": "United States",
-  "positive": 51766,
-  "deaths": 582,
-  "pop": 3017804,
-  "cdr": 19.285546708798847
- },
- {
-  "area": "Tennessee",
-  "region": "United States",
-  "positive": 128511,
-  "deaths": 1313,
-  "pop": 6829174,
-  "cdr": 19.22633688935148
- },
- {
-  "area": "Nebraska",
-  "region": "United States",
-  "positive": 29660,
-  "deaths": 360,
-  "pop": 1934408,
-  "cdr": 18.61034487036861
- },
- {
-  "area": "Kentucky",
-  "region": "United States",
-  "positive": 37686,
-  "deaths": 796,
-  "pop": 4467673,
-  "cdr": 17.81688140559974
- },
- {
-  "area": "Wisconsin",
-  "region": "United States",
-  "positive": 63206,
-  "deaths": 1018,
-  "pop": 5822434,
-  "cdr": 17.484096857087604
- },
- {
-  "area": "South Dakota",
-  "region": "United States",
-  "positive": 9897,
-  "deaths": 148,
-  "pop": 884659,
-  "cdr": 16.729609940101216
- },
- {
-  "area": "Oklahoma",
-  "region": "United States",
-  "positive": 46103,
-  "deaths": 638,
-  "pop": 3956971,
-  "cdr": 16.123443917076976
- },
- {
-  "area": "North Dakota",
-  "region": "United States",
-  "positive": 8171,
-  "deaths": 120,
-  "pop": 762062,
-  "cdr": 15.74675026441418
- },
- {
-  "area": "Idaho",
-  "region": "United States",
-  "positive": 26629,
-  "deaths": 251,
-  "pop": 1787065,
-  "cdr": 14.045376077534954
- },
- {
-  "area": "Kansas",
-  "region": "United States",
-  "positive": 32484,
-  "deaths": 403,
-  "pop": 2913314,
-  "cdr": 13.833043743310881
- },
- {
-  "area": "Utah",
-  "region": "United States",
-  "positive": 45424,
-  "deaths": 353,
-  "pop": 3205958,
-  "cdr": 11.010749361033426
- },
- {
-  "area": "Puerto Rico",
-  "region": "United States",
-  "positive": 24446,
-  "deaths": 306,
-  "pop": 3193694,
-  "cdr": 9.581381309543119
- },
- {
-  "area": "Maine",
-  "region": "United States",
-  "positive": 4089,
-  "deaths": 126,
-  "pop": 1344212,
-  "cdr": 9.373521438582605
- },
- {
-  "area": "Vermont",
-  "region": "United States",
-  "positive": 1484,
-  "deaths": 58,
-  "pop": 623989,
-  "cdr": 9.295035649666902
- },
- {
-  "area": "Oregon",
-  "region": "United States",
-  "positive": 22300,
-  "deaths": 383,
-  "pop": 4217737,
-  "cdr": 9.080698962500508
- },
- {
-  "area": "West Virginia",
-  "region": "United States",
-  "positive": 8163,
-  "deaths": 153,
-  "pop": 1792147,
-  "cdr": 8.537246107601664
- },
- {
-  "area": "Montana",
-  "region": "United States",
-  "positive": 5407,
-  "deaths": 81,
-  "pop": 1068778,
-  "cdr": 7.5787488140661585
- },
- {
-  "area": "Wyoming",
-  "region": "United States",
-  "positive": 3119,
-  "deaths": 30,
-  "pop": 578759,
-  "cdr": 5.183504705758355
- },
- {
-  "area": "Alaska",
-  "region": "United States",
-  "positive": 3963,
-  "deaths": 27,
-  "pop": 731545,
-  "cdr": 3.690818746625293
- },
- {
-  "area": "Hawaii",
-  "region": "United States",
-  "positive": 4312,
-  "deaths": 40,
-  "pop": 1415872,
-  "cdr": 2.825114134611038
- }
-]
+[{
+"area":"New Jersey",
+"region":"United States",
+"positive":187164,
+"positiveJH":187164,
+"deaths":15903,
+"deathsJH":15903,
+"pop":8882190,
+"cdr":179.04368179469253,
+"cdrJH":179.04368179469253
+},{
+"area":"New York",
+"region":"United States",
+"positive":424167,
+"positiveJH":424167,
+"deaths":25232,
+"deathsJH":32827,
+"pop":19453561,
+"cdr":129.7037596355752,
+"cdrJH":168.74545488098553
+},{
+"area":"Massachusetts",
+"region":"United States",
+"positive":122531,
+"positiveJH":122531,
+"deaths":8804,
+"deathsJH":8804,
+"pop":6892503,
+"cdr":127.73298756634564,
+"cdrJH":127.73298756634564
+},{
+"area":"Connecticut",
+"region":"United States",
+"positive":50897,
+"positiveJH":50897,
+"deaths":4453,
+"deathsJH":4453,
+"pop":3565287,
+"cdr":124.89878093965507,
+"cdrJH":124.89878093965507
+},{
+"area":"Rhode Island",
+"region":"United States",
+"positive":20335,
+"positiveJH":20335,
+"deaths":1021,
+"deathsJH":1021,
+"pop":1059361,
+"cdr":96.37885480020502,
+"cdrJH":96.37885480020502
+},{
+"area":"Louisiana",
+"region":"United States",
+"positive":136737,
+"positiveJH":136737,
+"deaths":4430,
+"deathsJH":4430,
+"pop":4648794,
+"cdr":95.29353204293415,
+"cdrJH":95.29353204293415
+},{
+"area":"District of Columbia",
+"region":"United States",
+"positive":13118,
+"positiveJH":13118,
+"deaths":594,
+"deathsJH":594,
+"pop":705749,
+"cdr":84.16590034133948,
+"cdrJH":84.16590034133948
+},{
+"area":"Mississippi",
+"region":"United States",
+"positive":70930,
+"positiveJH":70930,
+"deaths":2043,
+"deathsJH":2043,
+"pop":2976149,
+"cdr":68.64575664726463,
+"cdrJH":68.64575664726463
+},{
+"area":"Michigan",
+"region":"United States",
+"positive":100724,
+"positiveJH":100724,
+"deaths":6566,
+"deathsJH":6566,
+"pop":9986857,
+"cdr":65.74641050732978,
+"cdrJH":65.74641050732978
+},{
+"area":"Illinois",
+"region":"United States",
+"positive":204023,
+"positiveJH":204023,
+"deaths":7932,
+"deathsJH":7932,
+"pop":12671821,
+"cdr":62.595581171798436,
+"cdrJH":62.595581171798436
+},{
+"area":"Delaware",
+"region":"United States",
+"positive":16340,
+"positiveJH":16340,
+"deaths":593,
+"deathsJH":593,
+"pop":973764,
+"cdr":60.897712382055616,
+"cdrJH":60.897712382055616
+},{
+"area":"Arizona",
+"region":"United States",
+"positive":191721,
+"positiveJH":191721,
+"deaths":4423,
+"deathsJH":4423,
+"pop":7278717,
+"cdr":60.76620371419854,
+"cdrJH":60.76620371419854
+},{
+"area":"Maryland",
+"region":"United States",
+"positive":98875,
+"positiveJH":98875,
+"deaths":3631,
+"deathsJH":3631,
+"pop":6045680,
+"cdr":60.05941432560109,
+"cdrJH":60.05941432560109
+},{
+"area":"Pennsylvania",
+"region":"United States",
+"positive":122950,
+"positiveJH":127732,
+"deaths":7445,
+"deathsJH":7434,
+"pop":12801989,
+"cdr":58.15502575420116,
+"cdrJH":58.06910160600825
+},{
+"area":"Indiana",
+"region":"United States",
+"positive":78632,
+"positiveJH":78632,
+"deaths":3113,
+"deathsJH":3113,
+"pop":6732219,
+"cdr":46.240325812336174,
+"cdrJH":46.240325812336174
+},{
+"area":"Florida",
+"region":"United States",
+"positive":563285,
+"positiveJH":563285,
+"deaths":9276,
+"deathsJH":9141,
+"pop":21477737,
+"cdr":43.188907658195085,
+"cdrJH":42.560349817115274
+},{
+"area":"Georgia",
+"region":"United States",
+"positive":231895,
+"positiveJH":231895,
+"deaths":4573,
+"deathsJH":4573,
+"pop":10617423,
+"cdr":43.070714993647705,
+"cdrJH":43.070714993647705
+},{
+"area":"South Carolina",
+"region":"United States",
+"positive":104841,
+"positiveJH":104841,
+"deaths":2204,
+"deathsJH":2204,
+"pop":5148714,
+"cdr":42.80680573828727,
+"cdrJH":42.80680573828727
+},{
+"area":"Alabama",
+"region":"United States",
+"positive":106309,
+"positiveJH":106309,
+"deaths":1893,
+"deathsJH":1893,
+"pop":4903185,
+"cdr":38.60755814842801,
+"cdrJH":38.60755814842801
+},{
+"area":"Nevada",
+"region":"United States",
+"positive":59749,
+"positiveJH":59749,
+"deaths":1045,
+"deathsJH":1045,
+"pop":3080156,
+"cdr":33.9268530554946,
+"cdrJH":33.9268530554946
+},{
+"area":"New Mexico",
+"region":"United States",
+"positive":22987,
+"positiveJH":23160,
+"deaths":697,
+"deathsJH":703,
+"pop":2096829,
+"cdr":33.24066960157457,
+"cdrJH":33.526815968302614
+},{
+"area":"Texas",
+"region":"United States",
+"positive":520593,
+"positiveJH":539673,
+"deaths":9602,
+"deathsJH":10078,
+"pop":28995881,
+"cdr":33.11504830634392,
+"cdrJH":34.756660782267666
+},{
+"area":"Ohio",
+"region":"United States",
+"positive":106557,
+"positiveJH":106557,
+"deaths":3784,
+"deathsJH":3784,
+"pop":11689100,
+"cdr":32.37203890804254,
+"cdrJH":32.37203890804254
+},{
+"area":"New Hampshire",
+"region":"United States",
+"positive":6921,
+"positiveJH":6964,
+"deaths":422,
+"deathsJH":423,
+"pop":1359711,
+"cdr":31.036006916175566,
+"cdrJH":31.109551956261292
+},{
+"area":"Minnesota",
+"region":"United States",
+"positive":63723,
+"positiveJH":63723,
+"deaths":1739,
+"deathsJH":1739,
+"pop":5639632,
+"cdr":30.83534528494058,
+"cdrJH":30.83534528494058
+},{
+"area":"Iowa",
+"region":"United States",
+"positive":50932,
+"positiveJH":51247,
+"deaths":966,
+"deathsJH":970,
+"pop":3155070,
+"cdr":30.617387252897714,
+"cdrJH":30.744167324338285
+},{
+"area":"Colorado",
+"region":"United States",
+"positive":52219,
+"positiveJH":52519,
+"deaths":1763,
+"deathsJH":1888,
+"pop":5758736,
+"cdr":30.61435703946144,
+"cdrJH":32.784972257801016
+},{
+"area":"California",
+"region":"United States",
+"positive":601075,
+"positiveJH":613101,
+"deaths":10996,
+"deathsJH":11148,
+"pop":39512223,
+"cdr":27.829363080887653,
+"cdrJH":28.214054167491412
+},{
+"area":"Virginia",
+"region":"United States",
+"positive":104838,
+"positiveJH":104838,
+"deaths":2370,
+"deathsJH":2370,
+"pop":8535519,
+"cdr":27.76632563292285,
+"cdrJH":27.76632563292285
+},{
+"area":"Washington",
+"region":"United States",
+"positive":65339,
+"positiveJH":66139,
+"deaths":1736,
+"deathsJH":1755,
+"pop":7614893,
+"cdr":22.797431296802202,
+"cdrJH":23.04694235362204
+},{
+"area":"North Carolina",
+"region":"United States",
+"positive":142170,
+"positiveJH":142170,
+"deaths":2313,
+"deathsJH":2313,
+"pop":10488084,
+"cdr":22.05359911305058,
+"cdrJH":22.05359911305058
+},{
+"area":"Missouri",
+"region":"United States",
+"positive":65270,
+"positiveJH":65793,
+"deaths":1335,
+"deathsJH":1365,
+"pop":6137428,
+"cdr":21.751782668570613,
+"cdrJH":22.240586773482313
+},{
+"area":"Arkansas",
+"region":"United States",
+"positive":52392,
+"positiveJH":52392,
+"deaths":587,
+"deathsJH":587,
+"pop":3017804,
+"cdr":19.451230099767912,
+"cdrJH":19.451230099767912
+},{
+"area":"Tennessee",
+"region":"United States",
+"positive":130458,
+"positiveJH":130458,
+"deaths":1326,
+"deathsJH":1326,
+"pop":6829174,
+"cdr":19.41669666053318,
+"cdrJH":19.41669666053318
+},{
+"area":"Nebraska",
+"region":"United States",
+"positive":29660,
+"positiveJH":29988,
+"deaths":360,
+"deathsJH":361,
+"pop":1934408,
+"cdr":18.61034487036861,
+"cdrJH":18.6620402727863
+},{
+"area":"Kentucky",
+"region":"United States",
+"positive":38298,
+"positiveJH":38298,
+"deaths":804,
+"deathsJH":804,
+"pop":4467673,
+"cdr":17.995945540329384,
+"cdrJH":17.995945540329384
+},{
+"area":"Wisconsin",
+"region":"United States",
+"positive":68681,
+"positiveJH":64227,
+"deaths":1032,
+"deathsJH":1025,
+"pop":5822434,
+"cdr":17.72454612624205,
+"cdrJH":17.604321491664823
+},{
+"area":"South Dakota",
+"region":"United States",
+"positive":10024,
+"positiveJH":10024,
+"deaths":150,
+"deathsJH":150,
+"pop":884659,
+"cdr":16.95568575010258,
+"cdrJH":16.95568575010258
+},{
+"area":"Oklahoma",
+"region":"United States",
+"positive":46897,
+"positiveJH":46897,
+"deaths":644,
+"deathsJH":644,
+"pop":3956971,
+"cdr":16.275075051093374,
+"cdrJH":16.275075051093374
+},{
+"area":"Idaho",
+"region":"United States",
+"positive":26631,
+"positiveJH":27171,
+"deaths":251,
+"deathsJH":265,
+"pop":1787065,
+"cdr":14.045376077534954,
+"cdrJH":14.828783508154432
+},{
+"area":"Kansas",
+"region":"United States",
+"positive":33885,
+"positiveJH":33030,
+"deaths":402,
+"deathsJH":404,
+"pop":2913314,
+"cdr":13.798718572731946,
+"cdrJH":13.867368913889818
+},{
+"area":"North Dakota",
+"region":"United States",
+"positive":8322,
+"positiveJH":8322,
+"deaths":105,
+"deathsJH":121,
+"pop":762062,
+"cdr":13.77840648136241,
+"cdrJH":15.8779731832843
+},{
+"area":"Utah",
+"region":"United States",
+"positive":45976,
+"positiveJH":45976,
+"deaths":360,
+"deathsJH":360,
+"pop":3205958,
+"cdr":11.229092832781964,
+"cdrJH":11.229092832781964
+},{
+"area":"Puerto Rico",
+"region":"United States",
+"positive":25128,
+"positiveJH":25128,
+"deaths":317,
+"deathsJH":317,
+"pop":3193694,
+"cdr":9.925810049428655,
+"cdrJH":9.925810049428655
+},{
+"area":"Maine",
+"region":"United States",
+"positive":4115,
+"positiveJH":4116,
+"deaths":126,
+"deathsJH":126,
+"pop":1344212,
+"cdr":9.373521438582605,
+"cdrJH":9.373521438582605
+},{
+"area":"Vermont",
+"region":"United States",
+"positive":1501,
+"positiveJH":1501,
+"deaths":58,
+"deathsJH":58,
+"pop":623989,
+"cdr":9.295035649666902,
+"cdrJH":9.295035649666902
+},{
+"area":"Oregon",
+"region":"United States",
+"positive":22613,
+"positiveJH":22613,
+"deaths":385,
+"deathsJH":385,
+"pop":4217737,
+"cdr":9.128117756038368,
+"cdrJH":9.128117756038368
+},{
+"area":"West Virginia",
+"region":"United States",
+"positive":8274,
+"positiveJH":8277,
+"deaths":157,
+"deathsJH":157,
+"pop":1792147,
+"cdr":8.76044208427099,
+"cdrJH":8.76044208427099
+},{
+"area":"Montana",
+"region":"United States",
+"positive":5541,
+"positiveJH":5541,
+"deaths":81,
+"deathsJH":81,
+"pop":1068778,
+"cdr":7.5787488140661585,
+"cdrJH":7.5787488140661585
+},{
+"area":"Wyoming",
+"region":"United States",
+"positive":3183,
+"positiveJH":3183,
+"deaths":30,
+"deathsJH":30,
+"pop":578759,
+"cdr":5.183504705758355,
+"cdrJH":5.183504705758355
+},{
+"area":"Alaska",
+"region":"United States",
+"positive":4869,
+"positiveJH":4073,
+"deaths":27,
+"deathsJH":27,
+"pop":731545,
+"cdr":3.690818746625293,
+"cdrJH":3.690818746625293
+},{
+"area":"Hawaii",
+"region":"United States",
+"positive":4312,
+"positiveJH":4543,
+"deaths":40,
+"deathsJH":40,
+"pop":1415872,
+"cdr":2.825114134611038,
+"cdrJH":2.825114134611038
+}]

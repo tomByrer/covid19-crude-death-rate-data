@@ -1,7 +1,7 @@
-// import fetch from 'node-fetch'
 const Papa = require('papaparse')
 let fs = require('fs')
 const GithubContent = require('github-content')
+const JSONprettifyMin = require('./util').JSONprettifyMin
 
 // World data from Johns Hopkins
 const csse = new GithubContent({
@@ -9,7 +9,8 @@ const csse = new GithubContent({
   repo: 'COVID-19',
   branch: 'master' // defaults to master
 })
-csse.file('csse_covid_19_data/csse_covid_19_daily_reports/08-13-2020.csv', function(err, file) {
+// CSSE is at Johns Hopkins University
+csse.file('csse_covid_19_data/csse_covid_19_daily_reports/08-14-2020.csv', function(err, file) {
   if (err) return console.log(err);
   console.log(file.path);
 	let csv = file.contents.toString()
@@ -19,10 +20,8 @@ csse.file('csse_covid_19_data/csse_covid_19_daily_reports/08-13-2020.csv', funct
 		dynamicTyping: true,
 		header: true,
 		linebreak: '\n',
-
 	})
-	// console.log(wo rldJSON)
-	fs.writeFileSync( './data/covid-csse.json', JSON.stringify(json.data, null, 1) )
+	fs.writeFileSync( './data/covid-jh.json', JSONprettifyMin(json.data) )
 })
 
 /*
@@ -61,7 +60,7 @@ c19t.file('v1/states/current.csv', function(err, file) {
 		linebreak: '\n',
 	})
 	// console.log(wo rldJSON)
-	fs.writeFileSync( './data/covid-c19t.json', JSON.stringify(json.data, null, 1) )
+	fs.writeFileSync( './data/covid-c19t.json', JSONprettifyMin(json.data) )
 })
 
 /*

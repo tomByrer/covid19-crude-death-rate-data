@@ -1,5 +1,6 @@
 // import fetch from 'node-fetch'
 const Papa = require('papaparse')
+const JSONprettifyMin = require('./util').JSONprettifyMin
 let fs = require('fs')
 
 let statesCensus = []
@@ -34,7 +35,7 @@ fs.readFile('./srcdata/scprc-est2019-12.csv', 'utf-8', async (err, data) => {
 	}
 
 	console.log(statesCount)
-	fs.writeFileSync( './data/census-us.json', JSON.stringify(statesCensus) )
+	fs.writeFileSync( './data/census-us.json', JSONprettifyMin(statesCensus) )
 })
 
 
@@ -72,5 +73,5 @@ fs.readFile('./srcdata/world-population-un.csv', 'utf-8', async (err, data) => {
 	}
 
 	console.log(worldCount)
-	fs.writeFileSync( './data/census-world.json', JSON.stringify(worldCensus) )
+	fs.writeFileSync( './data/census-world.json', JSONprettifyMin(worldCensus) )
 })

@@ -14,6 +14,7 @@ You can view the [`covid19-cdr.csv`](https://github.com/tomByrer/covid19-crude-d
 
 ### Warnings
 
+* I use [COVID19Tracking](https://twitter.com/COVID19Tracking) for US data, but also list Johns Hopkins
 * BETA: API, CSV headers, & code likely to change drastcily.
 * BETA: some of the smaller countries & territories might not have the correct data
 * Right now, needs to be ran manually & uploaded; not automated
@@ -29,12 +30,16 @@ You can view the [`covid19-cdr.csv`](https://github.com/tomByrer/covid19-crude-d
 US Census data:
 https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/state/detail/SCPRC-EST2019-18+POP-RES.csv
 
-World Population Estimates:
+World Population COVID19 Estimates:
 https://population.un.org/wpp/Download/Standard/CSV/
 
 COVID-19 deaths:
 Center for Systems Science and Engineering (CSSE) at Johns Hopkins University
 https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data
+
+US COVID19Tracking data (more transparent in adjustments, and tends to be lower than Johns Hopkins')
+https://github.com/COVID19Tracking/covid-public-api/blob/master/v1/states/current.csv
+
 
 ## Changelog
 
@@ -47,7 +52,7 @@ https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data
 -[ ] Clean up non-matching cencus-covid countries & territories like Virgin Islands
 -[ ] US totals
 -[ ] Date of import
--[ ] Compare & maybe use [COVID19Tracking](https://twitter.com/COVID19Tracking) for US data
+-[ ] Compare [COVID19Tracking](https://twitter.com/COVID19Tracking) for US data
 
 ### Maybe
 
