@@ -16,21 +16,15 @@ for( let i=0, len = census.length; i < len; i++ ){
 	sumDeaths = 0
 	area = census[i].area
 	pop = census[i].pop
-	tmpArr = disease.filter(areaInAll => {
-		return areaInAll.area === area
-	})
+	tmpArr = disease.find(record => record.area === area)
 
-	tmpArr.forEach(obj => {
-		sumPostive += obj.positive
-		sumDeaths += obj.deaths
-	})
 	countAreas = areasSumed.push({
 		area: area,
 		region: census[i].region,
-		positive: sumPostive,
-		deaths: sumDeaths,
+		positive: tmpArr.positive,
+		deaths: tmpArr.deaths,
 		pop: pop,
-		cdr: ( sumDeaths / pop ) * 100_000,
+		cdr: ( tmpArr.deaths / pop ) * 100_000,
 	})
 }
 

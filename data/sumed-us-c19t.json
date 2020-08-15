@@ -48,6 +48,14 @@
   "cdr": 95.29353204293415
  },
  {
+  "area": "District of Columbia",
+  "region": "United States",
+  "positive": 13118,
+  "deaths": 594,
+  "pop": 705749,
+  "cdr": 84.16590034133948
+ },
+ {
   "area": "Mississippi",
   "region": "United States",
   "positive": 70930,
@@ -406,13 +414,5 @@
   "deaths": 40,
   "pop": 1415872,
   "cdr": 2.825114134611038
- },
- {
-  "area": "District of Columbia",
-  "region": "United States",
-  "positive": 0,
-  "deaths": 0,
-  "pop": 705749,
-  "cdr": 0
  }
 ]
