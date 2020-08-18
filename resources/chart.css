@@ -1,0 +1,66 @@
+section {
+	display: flex;
+	margin: 0.13rem 0 0.13rem 0;
+}
+
+.ranking {
+	height: 3rem;
+	width: 3rem;
+	margin: auto;
+	border-radius: 50%;
+	border: 4px double #4442;
+	font-size: 1.1rem;
+	line-height: 3rem;
+	text-align: center;
+}
+.data {
+	flex-grow: 1;
+}
+
+
+svg {
+min-width: 300px;
+overflow: visible;
+padding: 0 1px;
+box-sizing: border-box;
+width: 100%;
+}
+
+line {
+stroke-width: 4px;
+vector-effect: non-scaling-stroke;
+shape-rendering: crispEdges;
+}
+.markers line {
+stroke: #fffb;
+}
+
+svg rect {
+	height: 0.4rem
+}
+svg .cdrC19T {
+fill: #f1f9;
+}
+svg .rating {
+transform:translate(0,1.35rem)
+}
+
+.datatext {
+	margin: 0.3rem 0 1px 0;
+	font-size: 1.1rem;
+}
+
+.areaname {
+	font-size: 1.3rem;
+}
+
+.chartkey {
+	opacity: 0.61;
+}
+p.chartkey {
+	margin: 0;
+}
+
+.cdrnum {
+	margin: 0;
+}

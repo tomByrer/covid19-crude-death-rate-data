@@ -5,7 +5,7 @@ let fs = require('fs')
 
 let statesCensus = []
 let statesCount = 0
-fs.readFile('./srcdata/scprc-est2019-12.csv', 'utf-8', async (err, data) => {
+fs.readFile('./resources/scprc-est2019-12.csv', 'utf-8', async (err, data) => {
   if (err) {
     console.error(err)
     return
@@ -35,13 +35,13 @@ fs.readFile('./srcdata/scprc-est2019-12.csv', 'utf-8', async (err, data) => {
 	}
 
 	console.log(statesCount)
-	fs.writeFileSync( './data/census-us.json', JSONprettifyMin(statesCensus) )
+	fs.writeFileSync( './resources/census-us.json', JSONprettifyMin(statesCensus) )
 })
 
 
 let worldCensus = []
 let worldCount = 0
-fs.readFile('./srcdata/world-population-un.csv', 'utf-8', async (err, data) => {
+fs.readFile('./resources/world-population-un.csv', 'utf-8', async (err, data) => {
   if (err) {
     console.error(err)
     return
@@ -73,5 +73,5 @@ fs.readFile('./srcdata/world-population-un.csv', 'utf-8', async (err, data) => {
 	}
 
 	console.log(worldCount)
-	fs.writeFileSync( './data/census-world.json', JSONprettifyMin(worldCensus) )
+	fs.writeFileSync( './resources/census-world.json', JSONprettifyMin(worldCensus) )
 })

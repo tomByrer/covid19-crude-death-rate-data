@@ -12,5 +12,4 @@ jspm_packages/
 
 .yarn-integrity
 .vscode/
-
-data/*.*
+.temp/
