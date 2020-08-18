@@ -5,7 +5,7 @@ Final output is sorted by CDR and positive tests, then a chart is [annxed below]
 
 ## Instructions
 
-You can view the [`covid19-cdr.csv`](https://github.com/tomByrer/covid19-crude-death-rate-data/blob/master/covid19-cdr.csv#L1), `covid19-cdr.json`, & [`covid19-cdr.html` chart](https://rawcdn.githack.com/tomByrer/covid19-crude-death-rate-data/e28a626e1cb22b45afb840e256cb286d6db9915e/covid19-cdr.htm)  files directly for now.  If you want to download a single file, I find the "Raw" button helps.
+You can view the [`covid19-cdr.csv`](https://github.com/tomByrer/covid19-crude-death-rate-data/blob/master/covid19-cdr.csv#L1), `covid19-cdr.json`, & [`covid19-cdr.html` chart](https://raw.githack.com/tomByrer/covid19-crude-death-rate-data/master/covid19-cdr.html)  files directly for now.  If you want to download a single file, I find the "Raw" button helps.
 
 
 1. Install [NodeJS](https://nodejs.org).  Might need to reboot, add to path, etc.
@@ -67,6 +67,7 @@ https://github.com/COVID19Tracking/covid-public-api/blob/master/v1/states/curren
 
 ## Ranking
 
+(Github doesn't like how I attached the HTML here.  You can view a better rendered [COVID-19 chart here](https://raw.githack.com/tomByrer/covid19-crude-death-rate-data/master/covid19-cdr.html).)
 <style>
 section {
 	display: flex;
