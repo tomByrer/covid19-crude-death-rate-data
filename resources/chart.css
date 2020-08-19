@@ -35,8 +35,8 @@ shape-rendering: crispEdges;
 stroke: #fffb;
 }
 
-svg rect {
-	height: 0.4rem
+svg, svg rect {
+	height: 0.3rem
 }
 svg .cdrC19T {
 fill: #f1f9;

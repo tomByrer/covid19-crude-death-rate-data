@@ -1,7 +1,7 @@
 # COVID-19 Crude Death Rate Data
 
-To help research which countries have the most deaths via population ratio, expressed in 'per 100,000 people'.
-Final output is sorted by CDR and positive tests, then a chart is [annxed below](#ranking)
+[Charting](https://raw.githack.com/tomByrer/covid19-crude-death-rate-data/master/covid19-cdr.html) to help research which countries have the most deaths via population ratio, expressed in 'per 100,000 people'.
+Final output is sorted by CDR and positive tests.
 
 ## Instructions
 
@@ -18,7 +18,7 @@ You can view the [`covid19-cdr.csv`](https://github.com/tomByrer/covid19-crude-d
 * BETA: API, CSV headers, & code likely to change drastcily.
 * BETA: some of the smaller countries & territories might not have the correct data
 * Right now, needs to be ran manually & uploaded; not automated
-* Might use [COVID19Tracking](https://twitter.com/COVID19Tracking) for US data
+
 
 ### Design Decisions
 
@@ -64,7 +64,3 @@ https://github.com/COVID19Tracking/covid-public-api/blob/master/v1/states/curren
 
 * code (c)2020 Tom Byrer, released GPL3
 * data varous open source licenses, as found in Sources above
-
-## Ranking
-
-(Github doesn't like how I attached the HTML here.  You can view a better rendered [COVID-19 chart here](https://raw.githack.com/tomByrer/covid19-crude-death-rate-data/master/covid19-cdr.html).)

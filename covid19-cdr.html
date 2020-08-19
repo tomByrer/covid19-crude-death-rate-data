@@ -37,8 +37,8 @@ shape-rendering: crispEdges;
 stroke: #fffb;
 }
 
-svg rect {
-	height: 0.4rem
+svg, svg rect {
+	height: 0.3rem
 }
 svg .cdrC19T {
 fill: #f1f9;
@@ -68,52 +68,29 @@ p.chartkey {
 }
 </style>
 <h2>COVID19 Crude Death Rate Chart</h2>
-
-<p class='chartkey' style='
-	opacity: 0.61;
-	margin: 0;
-'>Key:
-<section class='chartkey' style='
-	opacity: 0.61;
-	display: flex;
-	margin: 0.13rem 0 0.13rem 0;
-'>
-<div class='ranking' style='
-	height: 3rem;
-	width: 3rem;
-	margin: auto;
-	border-radius: 50%;
-	border: 4px double #4442;
-	font-size: 1.1rem;
-	line-height: 3rem;
-	text-align: center;
-'>Rank</div>
-<div class='data' style='
-	flex-grow: 1;
-'><p class='datatext'><span class='areaname'>US State or Country</span> :
+<h4>Sources for
+<a target='_blank' href='https://github.com/tomByrer/covid19-crude-death-rate-data#sources'>data & code</a>
+</h4>
+<p class='chartkey'>Key:
+<section class='chartkey'>
+<div class='ranking'>Rank</div>
+<div class='data'><p class='datatext'><span class='areaname'>US State or Country</span> :
 Region</p>
-<svg width='100%' height='.3em' style='
-	min-width: 300px;
-	overflow: visible;
-	padding: 0 1px;
-	box-sizing: border-box;
-	width: 100%;
-'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
+<svg width='100%' height='.3em'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
 </svg>
-<p class='cdrnum'><span class='areaname' style='
-	margin: 0;
-'>CDR</span> :
+<p class='cdrnum'><span class='areaname'>CDR</span> :
 Deaths / Population</p>
-</div></section></p>
+</div></section>
+</p>
 <section>
 <div class='ranking'>1</div>
 <div class='data'><p class='datatext'><span class='areaname'>New Jersey </span> :
 USA
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='100%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='100%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -128,9 +105,9 @@ USA
 <div class='data'><p class='datatext'><span class='areaname'>New York </span> :
 USA
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='72.43419192904548%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='72.43419192904548%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -145,9 +122,9 @@ USA
 <div class='data'><p class='datatext'><span class='areaname'>Massachusetts </span> :
 USA
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='71.5264693331869%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='71.5264693331869%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -162,9 +139,9 @@ USA
 <div class='data'><p class='datatext'><span class='areaname'>Connecticut </span> :
 USA
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='69.70939354943543%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='69.70939354943543%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -179,9 +156,9 @@ USA
 <div class='data'><p class='datatext'><span class='areaname'>San Marino </span> :
 Southern Europe
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='68.89869424692954%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='68.89869424692954%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -196,9 +173,9 @@ Southern Europe
 <div class='data'><p class='datatext'><span class='areaname'>Louisiana </span> :
 USA
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='54.6378173944918%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='54.6378173944918%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -213,9 +190,9 @@ USA
 <div class='data'><p class='datatext'><span class='areaname'>Rhode Island </span> :
 USA
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='53.91338423870838%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='53.91338423870838%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -230,9 +207,9 @@ USA
 <div class='data'><p class='datatext'><span class='areaname'>Belgium </span> :
 Western Europe
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='47.854005772854045%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='47.854005772854045%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -247,9 +224,9 @@ Western Europe
 <div class='data'><p class='datatext'><span class='areaname'>District of Columbia </span> :
 USA
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='47.33879173666042%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='47.33879173666042%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -264,9 +241,9 @@ USA
 <div class='data'><p class='datatext'><span class='areaname'>Peru </span> :
 South America
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='44.456699074482295%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='44.456699074482295%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -281,9 +258,9 @@ South America
 <div class='data'><p class='datatext'><span class='areaname'>Mississippi </span> :
 USA
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='39.880222380009855%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='39.880222380009855%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -298,9 +275,9 @@ USA
 <div class='data'><p class='datatext'><span class='areaname'>Andorra </span> :
 Southern Europe
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='38.39067626251299%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='38.39067626251299%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -315,9 +292,9 @@ Southern Europe
 <div class='data'><p class='datatext'><span class='areaname'>Michigan </span> :
 USA
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='36.90471203885684%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='36.90471203885684%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -332,9 +309,9 @@ USA
 <div class='data'><p class='datatext'><span class='areaname'>Illinois </span> :
 USA
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='35.18126097029454%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='35.18126097029454%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -349,9 +326,9 @@ USA
 <div class='data'><p class='datatext'><span class='areaname'>Arizona </span> :
 USA
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='34.704684814735806%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='34.704684814735806%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -366,9 +343,9 @@ USA
 <div class='data'><p class='datatext'><span class='areaname'>Spain </span> :
 Southern Europe
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='34.172483637358106%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='34.172483637358106%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -383,9 +360,9 @@ Southern Europe
 <div class='data'><p class='datatext'><span class='areaname'>United Kingdom </span> :
 Northern Europe
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='34.05860385850487%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='34.05860385850487%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -400,9 +377,9 @@ Northern Europe
 <div class='data'><p class='datatext'><span class='areaname'>Delaware </span> :
 USA
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='33.96578034177523%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='33.96578034177523%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -417,9 +394,9 @@ USA
 <div class='data'><p class='datatext'><span class='areaname'>Maryland </span> :
 USA
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='33.6735052216898%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='33.6735052216898%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -434,9 +411,9 @@ USA
 <div class='data'><p class='datatext'><span class='areaname'>Pennsylvania </span> :
 USA
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='32.67130800155284%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='32.67130800155284%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -451,9 +428,9 @@ USA
 <div class='data'><p class='datatext'><span class='areaname'>Italy </span> :
 Southern Europe
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='32.6558784642398%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='32.6558784642398%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -468,9 +445,9 @@ Southern Europe
 <div class='data'><p class='datatext'><span class='areaname'>Sweden </span> :
 Northern Europe
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='31.960659194539204%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='31.960659194539204%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -485,9 +462,9 @@ Northern Europe
 <div class='data'><p class='datatext'><span class='areaname'>Chile </span> :
 South America
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='30.67398921498195%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='30.67398921498195%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -502,9 +479,9 @@ South America
 <div class='data'><p class='datatext'><span class='areaname'>Brazil </span> :
 South America
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='28.479668622950545%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='28.479668622950545%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -519,9 +496,9 @@ South America
 <div class='data'><p class='datatext'><span class='areaname'>Indiana </span> :
 USA
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='26.221413375179885%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='26.221413375179885%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -536,9 +513,9 @@ USA
 <div class='data'><p class='datatext'><span class='areaname'>France </span> :
 Western Europe
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='26.00515382927054%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='26.00515382927054%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -553,9 +530,9 @@ Western Europe
 <div class='data'><p class='datatext'><span class='areaname'>Florida </span> :
 USA
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='25.690946634742794%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='25.690946634742794%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -570,9 +547,9 @@ USA
 <div class='data'><p class='datatext'><span class='areaname'>South Carolina </span> :
 USA
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='25.381316119949936%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='25.381316119949936%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -587,9 +564,9 @@ USA
 <div class='data'><p class='datatext'><span class='areaname'>Georgia </span> :
 USA
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='25.1836994439919%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='25.1836994439919%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -604,9 +581,9 @@ USA
 <div class='data'><p class='datatext'><span class='areaname'>Mexico </span> :
 Central America
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='24.667582651722498%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='24.667582651722498%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -621,9 +598,9 @@ Central America
 <div class='data'><p class='datatext'><span class='areaname'>Panama </span> :
 Central America
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='23.111457378244996%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='23.111457378244996%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -638,9 +615,9 @@ Central America
 <div class='data'><p class='datatext'><span class='areaname'>Alabama </span> :
 USA
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='22.022554387800945%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='22.022554387800945%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -655,9 +632,9 @@ USA
 <div class='data'><p class='datatext'><span class='areaname'>Netherlands </span> :
 Western Europe
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='20.161726087826885%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='20.161726087826885%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -672,9 +649,9 @@ Western Europe
 <div class='data'><p class='datatext'><span class='areaname'>Ireland </span> :
 Northern Europe
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='20.03748212211326%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='20.03748212211326%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -689,9 +666,9 @@ Northern Europe
 <div class='data'><p class='datatext'><span class='areaname'>Nevada </span> :
 USA
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='19.954897430086536%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='19.954897430086536%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -706,9 +683,9 @@ USA
 <div class='data'><p class='datatext'><span class='areaname'>Texas </span> :
 USA
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='19.716425161884317%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='19.716425161884317%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -723,9 +700,9 @@ USA
 <div class='data'><p class='datatext'><span class='areaname'>Ecuador </span> :
 South America
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='19.230297381584577%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='19.230297381584577%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -740,9 +717,9 @@ South America
 <div class='data'><p class='datatext'><span class='areaname'>New Mexico </span> :
 USA
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='19.098622638506637%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='19.098622638506637%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -757,9 +734,9 @@ USA
 <div class='data'><p class='datatext'><span class='areaname'>Ohio </span> :
 USA
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='18.470672809579998%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='18.470672809579998%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -774,9 +751,9 @@ USA
 <div class='data'><p class='datatext'><span class='areaname'>Iowa </span> :
 USA
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='17.48348118113788%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='17.48348118113788%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -791,9 +768,9 @@ USA
 <div class='data'><p class='datatext'><span class='areaname'>Minnesota </span> :
 USA
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='17.47537087259051%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='17.47537087259051%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -808,9 +785,9 @@ USA
 <div class='data'><p class='datatext'><span class='areaname'>New Hampshire </span> :
 USA
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='17.392413959810582%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='17.392413959810582%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -825,9 +802,9 @@ USA
 <div class='data'><p class='datatext'><span class='areaname'>Colorado </span> :
 USA
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='17.220478114076986%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='17.220478114076986%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -842,9 +819,9 @@ USA
 <div class='data'><p class='datatext'><span class='areaname'>Colombia </span> :
 South America
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='16.849937134382625%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='16.849937134382625%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -859,9 +836,9 @@ South America
 <div class='data'><p class='datatext'><span class='areaname'>California </span> :
 USA
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='16.010275186331306%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='16.010275186331306%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -876,9 +853,9 @@ USA
 <div class='data'><p class='datatext'><span class='areaname'>Virginia </span> :
 USA
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='15.656601516255241%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='15.656601516255241%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -893,9 +870,9 @@ USA
 <div class='data'><p class='datatext'><span class='areaname'>Armenia </span> :
 Western Asia
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='15.51087072322114%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='15.51087072322114%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -910,9 +887,9 @@ Western Asia
 <div class='data'><p class='datatext'><span class='areaname'>North Macedonia </span> :
 Southern Europe
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='14.646662501479044%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='14.646662501479044%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -927,9 +904,9 @@ Southern Europe
 <div class='data'><p class='datatext'><span class='areaname'>Canada </span> :
 NORTHERN AMERICA
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='13.411036403734949%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='13.411036403734949%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -944,9 +921,9 @@ NORTHERN AMERICA
 <div class='data'><p class='datatext'><span class='areaname'>Washington </span> :
 USA
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='13.074197258820734%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='13.074197258820734%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -961,9 +938,9 @@ USA
 <div class='data'><p class='datatext'><span class='areaname'>Switzerland </span> :
 Western Europe
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='12.830536184291075%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='12.830536184291075%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -978,9 +955,9 @@ Western Europe
 <div class='data'><p class='datatext'><span class='areaname'>Kyrgyzstan </span> :
 Central Asia
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='12.78963820098619%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='12.78963820098619%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -995,9 +972,9 @@ Central Asia
 <div class='data'><p class='datatext'><span class='areaname'>North Carolina </span> :
 USA
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='12.74181439788482%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='12.74181439788482%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -1012,9 +989,9 @@ USA
 <div class='data'><p class='datatext'><span class='areaname'>Missouri </span> :
 USA
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='12.740962025145192%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='12.740962025145192%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -1029,9 +1006,9 @@ USA
 <div class='data'><p class='datatext'><span class='areaname'>Tennessee </span> :
 USA
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='11.646407059268745%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='11.646407059268745%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -1046,9 +1023,9 @@ USA
 <div class='data'><p class='datatext'><span class='areaname'>Arkansas </span> :
 USA
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='11.440374390820669%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='11.440374390820669%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -1063,9 +1040,9 @@ USA
 <div class='data'><p class='datatext'><span class='areaname'>South Africa </span> :
 Southern Africa
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='11.268064692609943%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='11.268064692609943%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -1080,9 +1057,9 @@ Southern Africa
 <div class='data'><p class='datatext'><span class='areaname'>Luxembourg </span> :
 Western Europe
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='11.048109498899093%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='11.048109498899093%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -1097,9 +1074,9 @@ Western Europe
 <div class='data'><p class='datatext'><span class='areaname'>Nebraska </span> :
 USA
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='10.43761104407787%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='10.43761104407787%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -1114,9 +1091,9 @@ USA
 <div class='data'><p class='datatext'><span class='areaname'>Kentucky </span> :
 USA
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='10.361850733823218%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='10.361850733823218%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -1131,9 +1108,9 @@ USA
 <div class='data'><p class='datatext'><span class='areaname'>Wisconsin </span> :
 USA
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='10.144531704581283%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='10.144531704581283%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -1148,9 +1125,9 @@ USA
 <div class='data'><p class='datatext'><span class='areaname'>Portugal </span> :
 Southern Europe
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='9.730701420632073%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='9.730701420632073%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -1165,9 +1142,9 @@ Southern Europe
 <div class='data'><p class='datatext'><span class='areaname'>South Dakota </span> :
 USA
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='9.709244521844631%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='9.709244521844631%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -1182,9 +1159,9 @@ USA
 <div class='data'><p class='datatext'><span class='areaname'>Oklahoma </span> :
 USA
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='9.613070453311277%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='9.613070453311277%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -1199,9 +1176,9 @@ USA
 <div class='data'><p class='datatext'><span class='areaname'>Honduras </span> :
 Central America
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='8.913885535824239%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='8.913885535824239%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -1216,9 +1193,9 @@ Central America
 <div class='data'><p class='datatext'><span class='areaname'>Romania </span> :
 Eastern Europe
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='8.781727787902769%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='8.781727787902769%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -1233,9 +1210,9 @@ Eastern Europe
 <div class='data'><p class='datatext'><span class='areaname'>Idaho </span> :
 USA
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='8.52045752592739%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='8.52045752592739%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -1250,9 +1227,9 @@ USA
 <div class='data'><p class='datatext'><span class='areaname'>Bosnia and Herzegovina </span> :
 Southern Europe
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='8.261723514435666%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='8.261723514435666%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -1267,9 +1244,9 @@ Southern Europe
 <div class='data'><p class='datatext'><span class='areaname'>Iraq </span> :
 Western Asia
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='8.256100850006113%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='8.256100850006113%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -1284,9 +1261,9 @@ Western Asia
 <div class='data'><p class='datatext'><span class='areaname'>North Dakota </span> :
 USA
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='7.977683633012765%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='7.977683633012765%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -1301,9 +1278,9 @@ USA
 <div class='data'><p class='datatext'><span class='areaname'>Kansas </span> :
 USA
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='7.7536884257536896%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='7.7536884257536896%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -1318,9 +1295,9 @@ USA
 <div class='data'><p class='datatext'><span class='areaname'>Dominican Republic </span> :
 Caribbean
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='7.614580809519178%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='7.614580809519178%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -1335,9 +1312,9 @@ Caribbean
 <div class='data'><p class='datatext'><span class='areaname'>Guatemala </span> :
 Central America
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='7.437307087707048%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='7.437307087707048%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -1352,9 +1329,9 @@ Central America
 <div class='data'><p class='datatext'><span class='areaname'>Argentina </span> :
 South America
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='7.174896579530871%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='7.174896579530871%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -1369,9 +1346,9 @@ South America
 <div class='data'><p class='datatext'><span class='areaname'>Montenegro </span> :
 Southern Europe
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='7.105112539871411%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='7.105112539871411%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -1386,9 +1363,9 @@ Southern Europe
 <div class='data'><p class='datatext'><span class='areaname'>Kuwait </span> :
 Western Asia
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='6.555634976790277%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='6.555634976790277%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -1403,9 +1380,9 @@ Western Asia
 <div class='data'><p class='datatext'><span class='areaname'>Oman </span> :
 Western Asia
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='6.421730656263651%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='6.421730656263651%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -1420,9 +1397,9 @@ Western Asia
 <div class='data'><p class='datatext'><span class='areaname'>Utah </span> :
 USA
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='6.419617549143976%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='6.419617549143976%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -1437,9 +1414,9 @@ USA
 <div class='data'><p class='datatext'><span class='areaname'>Germany </span> :
 Western Europe
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='6.148418939574155%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='6.148418939574155%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -1454,9 +1431,9 @@ Western Europe
 <div class='data'><p class='datatext'><span class='areaname'>Puerto Rico </span> :
 USA
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='6.04259398976381%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='6.04259398976381%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -1471,9 +1448,9 @@ USA
 <div class='data'><p class='datatext'><span class='areaname'>Denmark </span> :
 Northern Europe
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='5.980034161773507%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='5.980034161773507%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -1488,9 +1465,9 @@ Northern Europe
 <div class='data'><p class='datatext'><span class='areaname'>Monaco </span> :
 Western Europe
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='5.720526506460572%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='5.720526506460572%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -1505,9 +1482,9 @@ Western Europe
 <div class='data'><p class='datatext'><span class='areaname'>Bahrain </span> :
 Western Asia
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='5.669270320077773%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='5.669270320077773%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -1522,9 +1499,9 @@ Western Asia
 <div class='data'><p class='datatext'><span class='areaname'>Saudi Arabia </span> :
 Western Asia
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='5.504778494080991%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='5.504778494080991%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -1539,9 +1516,9 @@ Western Asia
 <div class='data'><p class='datatext'><span class='areaname'>El Salvador </span> :
 Central America
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='5.314374416385782%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='5.314374416385782%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -1556,9 +1533,9 @@ Central America
 <div class='data'><p class='datatext'><span class='areaname'>Maine </span> :
 USA
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='5.269586900447849%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='5.269586900447849%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -1573,9 +1550,9 @@ USA
 <div class='data'><p class='datatext'><span class='areaname'>Oregon </span> :
 USA
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='5.249907231029877%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='5.249907231029877%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -1590,9 +1567,9 @@ USA
 <div class='data'><p class='datatext'><span class='areaname'>Vermont </span> :
 USA
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='5.184318536710509%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='5.184318536710509%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -1607,9 +1584,9 @@ USA
 <div class='data'><p class='datatext'><span class='areaname'>West Virginia </span> :
 USA
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='5.104002006437225%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='5.104002006437225%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -1624,9 +1601,9 @@ USA
 <div class='data'><p class='datatext'><span class='areaname'>Suriname </span> :
 South America
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='4.560828628660217%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='4.560828628660217%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -1641,9 +1618,9 @@ South America
 <div class='data'><p class='datatext'><span class='areaname'>Austria </span> :
 Western Europe
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='4.514775957838677%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='4.514775957838677%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -1658,9 +1635,9 @@ Western Europe
 <div class='data'><p class='datatext'><span class='areaname'>Israel </span> :
 Western Asia
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='4.458917784090744%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='4.458917784090744%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -1675,9 +1652,9 @@ Western Asia
 <div class='data'><p class='datatext'><span class='areaname'>Albania </span> :
 Southern Europe
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='4.457359517282082%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='4.457359517282082%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -1692,9 +1669,9 @@ Southern Europe
 <div class='data'><p class='datatext'><span class='areaname'>Montana </span> :
 USA
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='4.383614940419066%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='4.383614940419066%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -1709,9 +1686,9 @@ USA
 <div class='data'><p class='datatext'><span class='areaname'>Serbia </span> :
 Southern Europe
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='4.321822746654415%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='4.321822746654415%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -1726,9 +1703,9 @@ Southern Europe
 <div class='data'><p class='datatext'><span class='areaname'>Bulgaria </span> :
 Eastern Europe
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='4.11008467476269%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='4.11008467476269%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -1743,9 +1720,9 @@ Eastern Europe
 <div class='data'><p class='datatext'><span class='areaname'>Turkey </span> :
 Western Asia
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='3.965279409219833%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='3.965279409219833%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -1760,9 +1737,9 @@ Western Asia
 <div class='data'><p class='datatext'><span class='areaname'>Sao Tome and Principe </span> :
 Middle Africa
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='3.8202146190404505%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='3.8202146190404505%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -1777,9 +1754,9 @@ Middle Africa
 <div class='data'><p class='datatext'><span class='areaname'>Kazakhstan </span> :
 Central Asia
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='3.76943304749481%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='3.76943304749481%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -1794,9 +1771,9 @@ Central Asia
 <div class='data'><p class='datatext'><span class='areaname'>Qatar </span> :
 Western Asia
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='3.7364112299660475%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='3.7364112299660475%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -1811,9 +1788,9 @@ Western Asia
 <div class='data'><p class='datatext'><span class='areaname'>Belarus </span> :
 Eastern Europe
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='3.618388908613422%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='3.618388908613422%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -1828,9 +1805,9 @@ Eastern Europe
 <div class='data'><p class='datatext'><span class='areaname'>Cabo Verde </span> :
 Western Africa
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='3.611339575121692%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='3.611339575121692%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -1845,9 +1822,9 @@ Western Africa
 <div class='data'><p class='datatext'><span class='areaname'>Hungary </span> :
 Eastern Europe
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='3.510484589057792%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='3.510484589057792%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -1862,9 +1839,9 @@ Eastern Europe
 <div class='data'><p class='datatext'><span class='areaname'>Eswatini </span> :
 Southern Africa
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='3.5099868456666488%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='3.5099868456666488%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -1879,9 +1856,9 @@ Southern Africa
 <div class='data'><p class='datatext'><span class='areaname'>Slovenia </span> :
 Southern Europe
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='3.4607947154885923%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='3.4607947154885923%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -1896,9 +1873,9 @@ Southern Europe
 <div class='data'><p class='datatext'><span class='areaname'>Finland </span> :
 Northern Europe
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='3.362009487148322%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='3.362009487148322%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -1913,9 +1890,9 @@ Northern Europe
 <div class='data'><p class='datatext'><span class='areaname'>Djibouti </span> :
 Eastern Africa
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='3.3307012883010563%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='3.3307012883010563%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -1930,9 +1907,9 @@ Eastern Africa
 <div class='data'><p class='datatext'><span class='areaname'>Costa Rica </span> :
 Central America
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='3.3285513476931956%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='3.3285513476931956%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -1947,9 +1924,9 @@ Central America
 <div class='data'><p class='datatext'><span class='areaname'>Equatorial Guinea </span> :
 Middle Africa
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='3.299598057985188%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='3.299598057985188%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -1964,9 +1941,9 @@ Middle Africa
 <div class='data'><p class='datatext'><span class='areaname'>Wyoming </span> :
 USA
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='3.276587555254743%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='3.276587555254743%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -1981,9 +1958,9 @@ USA
 <div class='data'><p class='datatext'><span class='areaname'>Egypt </span> :
 Northern Africa
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='2.8194418792847467%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='2.8194418792847467%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -1998,9 +1975,9 @@ Northern Africa
 <div class='data'><p class='datatext'><span class='areaname'>Azerbaijan </span> :
 Western Asia
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='2.794532773103779%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='2.794532773103779%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -2015,9 +1992,9 @@ Western Asia
 <div class='data'><p class='datatext'><span class='areaname'>Poland </span> :
 Eastern Europe
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='2.777924975047223%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='2.777924975047223%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -2032,9 +2009,9 @@ Eastern Europe
 <div class='data'><p class='datatext'><span class='areaname'>Ukraine </span> :
 Eastern Europe
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='2.706243041007363%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='2.706243041007363%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -2049,9 +2026,9 @@ Eastern Europe
 <div class='data'><p class='datatext'><span class='areaname'>Bahamas </span> :
 Caribbean
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='2.6965077234651935%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='2.6965077234651935%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -2066,9 +2043,9 @@ Caribbean
 <div class='data'><p class='datatext'><span class='areaname'>Norway </span> :
 Northern Europe
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='2.6853550686802325%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='2.6853550686802325%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -2083,9 +2060,9 @@ Northern Europe
 <div class='data'><p class='datatext'><span class='areaname'>Estonia </span> :
 Northern Europe
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='2.6479528308917906%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='2.6479528308917906%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -2100,9 +2077,9 @@ Northern Europe
 <div class='data'><p class='datatext'><span class='areaname'>Maldives </span> :
 Southern Asia
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='2.371216393851725%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='2.371216393851725%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -2117,9 +2094,9 @@ Southern Asia
 <div class='data'><p class='datatext'><span class='areaname'>Croatia </span> :
 Southern Europe
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='2.2554621560795214%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='2.2554621560795214%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -2134,9 +2111,9 @@ Southern Europe
 <div class='data'><p class='datatext'><span class='areaname'>Alaska </span> :
 USA
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='2.2110449387279343%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='2.2110449387279343%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -2151,9 +2128,9 @@ USA
 <div class='data'><p class='datatext'><span class='areaname'>India </span> :
 Southern Asia
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='2.09346102379964%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='2.09346102379964%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -2168,9 +2145,9 @@ Southern Asia
 <div class='data'><p class='datatext'><span class='areaname'>Czechia </span> :
 Eastern Europe
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='2.0780911608701316%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='2.0780911608701316%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -2185,9 +2162,9 @@ Eastern Europe
 <div class='data'><p class='datatext'><span class='areaname'>United Arab Emirates </span> :
 Western Asia
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='2.052795608840098%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='2.052795608840098%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -2202,9 +2179,9 @@ Western Asia
 <div class='data'><p class='datatext'><span class='areaname'>Afghanistan </span> :
 Southern Asia
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='1.970068035276332%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='1.970068035276332%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -2219,9 +2196,9 @@ Southern Asia
 <div class='data'><p class='datatext'><span class='areaname'>Mauritania </span> :
 Western Africa
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='1.883160419304198%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='1.883160419304198%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -2236,9 +2213,9 @@ Western Africa
 <div class='data'><p class='datatext'><span class='areaname'>Algeria </span> :
 Northern Africa
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='1.753983010900299%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='1.753983010900299%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -2253,9 +2230,9 @@ Northern Africa
 <div class='data'><p class='datatext'><span class='areaname'>Antigua and Barbuda </span> :
 Caribbean
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='1.7074020440201196%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='1.7074020440201196%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -2270,9 +2247,9 @@ Caribbean
 <div class='data'><p class='datatext'><span class='areaname'>Lithuania </span> :
 Northern Europe
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='1.6597302749732687%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='1.6597302749732687%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -2287,9 +2264,9 @@ Northern Europe
 <div class='data'><p class='datatext'><span class='areaname'>Iceland </span> :
 Northern Europe
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='1.635634411671278%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='1.635634411671278%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -2304,9 +2281,9 @@ Northern Europe
 <div class='data'><p class='datatext'><span class='areaname'>Guyana </span> :
 South America
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='1.6300229594330158%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='1.6300229594330158%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -2321,9 +2298,9 @@ South America
 <div class='data'><p class='datatext'><span class='areaname'>Hawaii </span> :
 USA
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='1.5757111783548394%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='1.5757111783548394%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -2338,9 +2315,9 @@ USA
 <div class='data'><p class='datatext'><span class='areaname'>Pakistan </span> :
 Southern Asia
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='1.5591848006247027%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='1.5591848006247027%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -2355,9 +2332,9 @@ Southern Asia
 <div class='data'><p class='datatext'><span class='areaname'>Liechtenstein </span> :
 Western Europe
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='1.4677666694208047%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='1.4677666694208047%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -2372,9 +2349,9 @@ Western Europe
 <div class='data'><p class='datatext'><span class='areaname'>Gambia </span> :
 Western Africa
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='1.4537995062446862%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='1.4537995062446862%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -2389,9 +2366,9 @@ Western Africa
 <div class='data'><p class='datatext'><span class='areaname'>Philippines </span> :
 South-Eastern Asia
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='1.3645899631072242%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='1.3645899631072242%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -2406,9 +2383,9 @@ South-Eastern Asia
 <div class='data'><p class='datatext'><span class='areaname'>Barbados </span> :
 Caribbean
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='1.3603691082436726%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='1.3603691082436726%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -2423,9 +2400,9 @@ Caribbean
 <div class='data'><p class='datatext'><span class='areaname'>Gabon </span> :
 Middle Africa
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='1.3279793675712042%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='1.3279793675712042%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -2440,9 +2417,9 @@ Middle Africa
 <div class='data'><p class='datatext'><span class='areaname'>Libya </span> :
 Northern Africa
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='1.2744427230045874%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='1.2744427230045874%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -2457,9 +2434,9 @@ Northern Africa
 <div class='data'><p class='datatext'><span class='areaname'>Indonesia </span> :
 South-Eastern Asia
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='1.2656887631418359%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='1.2656887631418359%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -2474,9 +2451,9 @@ South-Eastern Asia
 <div class='data'><p class='datatext'><span class='areaname'>Bangladesh </span> :
 Southern Asia
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='1.2510449569791378%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='1.2510449569791378%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -2491,9 +2468,9 @@ Southern Asia
 <div class='data'><p class='datatext'><span class='areaname'>Greece </span> :
 Southern Europe
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='1.2307666401935942%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='1.2307666401935942%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -2508,9 +2485,9 @@ Southern Europe
 <div class='data'><p class='datatext'><span class='areaname'>Malta </span> :
 Southern Europe
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='1.1356927623120252%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='1.1356927623120252%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -2525,9 +2502,9 @@ Southern Europe
 <div class='data'><p class='datatext'><span class='areaname'>Paraguay </span> :
 South America
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='1.13379985258778%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='1.13379985258778%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -2542,9 +2519,9 @@ South America
 <div class='data'><p class='datatext'><span class='areaname'>Nicaragua </span> :
 Central America
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='1.0776176724623086%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='1.0776176724623086%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -2559,9 +2536,9 @@ Central America
 <div class='data'><p class='datatext'><span class='areaname'>Morocco </span> :
 Northern Africa
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='1.0290391989182517%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='1.0290391989182517%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -2576,9 +2553,9 @@ Northern Africa
 <div class='data'><p class='datatext'><span class='areaname'>Sudan </span> :
 Northern Africa
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='1.0214014493079986%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='1.0214014493079986%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -2593,9 +2570,9 @@ Northern Africa
 <div class='data'><p class='datatext'><span class='areaname'>Yemen </span> :
 Western Asia
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='1.00045920972725%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='1.00045920972725%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -2610,9 +2587,9 @@ Western Asia
 <div class='data'><p class='datatext'><span class='areaname'>Haiti </span> :
 Caribbean
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='0.9586886042134659%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='0.9586886042134659%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -2627,9 +2604,9 @@ Caribbean
 <div class='data'><p class='datatext'><span class='areaname'>Australia </span> :
 South America
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='0.9580199390525439%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='0.9580199390525439%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -2644,9 +2621,9 @@ South America
 <div class='data'><p class='datatext'><span class='areaname'>Latvia </span> :
 Northern Europe
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='0.9463437274738593%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='0.9463437274738593%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -2661,9 +2638,9 @@ Northern Europe
 <div class='data'><p class='datatext'><span class='areaname'>Guinea-Bissau </span> :
 Western Africa
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='0.9352537619175251%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='0.9352537619175251%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -2678,9 +2655,9 @@ Western Africa
 <div class='data'><p class='datatext'><span class='areaname'>Cyprus </span> :
 Western Asia
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='0.9241944231647153%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='0.9241944231647153%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -2695,9 +2672,9 @@ Western Asia
 <div class='data'><p class='datatext'><span class='areaname'>Liberia </span> :
 Western Africa
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='0.9042231992714962%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='0.9042231992714962%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -2712,9 +2689,9 @@ Western Africa
 <div class='data'><p class='datatext'><span class='areaname'>Lebanon </span> :
 Western Asia
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='0.8580789759690857%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='0.8580789759690857%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -2729,9 +2706,9 @@ Western Asia
 <div class='data'><p class='datatext'><span class='areaname'>Senegal </span> :
 Western Africa
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='0.8527492928885325%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='0.8527492928885325%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -2746,9 +2723,9 @@ Western Africa
 <div class='data'><p class='datatext'><span class='areaname'>Cameroon </span> :
 Middle Africa
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='0.8467331716835005%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='0.8467331716835005%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -2763,9 +2740,9 @@ Middle Africa
 <div class='data'><p class='datatext'><span class='areaname'>Zambia </span> :
 Eastern Africa
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='0.8009483914071756%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='0.8009483914071756%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -2780,9 +2757,9 @@ Eastern Africa
 <div class='data'><p class='datatext'><span class='areaname'>Namibia </span> :
 Southern Africa
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='0.7902025988853447%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='0.7902025988853447%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -2797,9 +2774,9 @@ Southern Africa
 <div class='data'><p class='datatext'><span class='areaname'>Lesotho </span> :
 Southern Africa
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='0.7811643338654144%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='0.7811643338654144%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -2814,9 +2791,9 @@ Southern Africa
 <div class='data'><p class='datatext'><span class='areaname'>Central African Republic </span> :
 Middle Africa
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='0.7044064471464648%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='0.7044064471464648%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -2831,9 +2808,9 @@ Middle Africa
 <div class='data'><p class='datatext'><span class='areaname'>Uruguay </span> :
 South America
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='0.6422007304316704%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='0.6422007304316704%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -2848,9 +2825,9 @@ South America
 <div class='data'><p class='datatext'><span class='areaname'>Belize </span> :
 Central America
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='0.560554104904428%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='0.560554104904428%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -2865,9 +2842,9 @@ Central America
 <div class='data'><p class='datatext'><span class='areaname'>Zimbabwe </span> :
 Eastern Africa
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='0.5066031766217269%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='0.5066031766217269%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -2882,9 +2859,9 @@ Eastern Africa
 <div class='data'><p class='datatext'><span class='areaname'>Kenya </span> :
 Eastern Africa
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='0.49996493122894237%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='0.49996493122894237%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -2899,9 +2876,9 @@ Eastern Africa
 <div class='data'><p class='datatext'><span class='areaname'>Japan </span> :
 Eastern Asia
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='0.4903851195724527%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='0.4903851195724527%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -2916,9 +2893,9 @@ Eastern Asia
 <div class='data'><p class='datatext'><span class='areaname'>Sierra Leone </span> :
 Western Africa
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='0.48244756264527394%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='0.48244756264527394%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -2933,9 +2910,9 @@ Western Africa
 <div class='data'><p class='datatext'><span class='areaname'>Trinidad and Tobago </span> :
 Caribbean
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='0.4784142968233645%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='0.4784142968233645%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -2950,9 +2927,9 @@ Caribbean
 <div class='data'><p class='datatext'><span class='areaname'>Malawi </span> :
 Eastern Africa
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='0.4723247055386552%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='0.4723247055386552%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -2967,9 +2944,9 @@ Eastern Africa
 <div class='data'><p class='datatext'><span class='areaname'>Comoros </span> :
 Eastern Africa
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='0.4487654414550966%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='0.4487654414550966%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -2984,9 +2961,9 @@ Eastern Africa
 <div class='data'><p class='datatext'><span class='areaname'>Mauritius </span> :
 Eastern Africa
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='0.43848375344332213%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='0.43848375344332213%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -3001,9 +2978,9 @@ Eastern Africa
 <div class='data'><p class='datatext'><span class='areaname'>Cuba </span> :
 Caribbean
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='0.43331965591446736%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='0.43331965591446736%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -3018,9 +2995,9 @@ Caribbean
 <div class='data'><p class='datatext'><span class='areaname'>Ghana </span> :
 Western Africa
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='0.4289980655771812%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='0.4289980655771812%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -3035,9 +3012,9 @@ Western Africa
 <div class='data'><p class='datatext'><span class='areaname'>Uzbekistan </span> :
 Central Asia
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='0.393287265570103%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='0.393287265570103%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -3052,9 +3029,9 @@ Central Asia
 <div class='data'><p class='datatext'><span class='areaname'>Tajikistan </span> :
 Central Asia
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='0.3742512623224362%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='0.3742512623224362%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -3069,9 +3046,9 @@ Central Asia
 <div class='data'><p class='datatext'><span class='areaname'>Madagascar </span> :
 Eastern Africa
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='0.34442771362162394%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='0.34442771362162394%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -3086,9 +3063,9 @@ Eastern Africa
 <div class='data'><p class='datatext'><span class='areaname'>Mali </span> :
 Western Africa
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='0.3442739459655732%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='0.3442739459655732%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -3103,9 +3080,9 @@ Western Africa
 <div class='data'><p class='datatext'><span class='areaname'>Somalia </span> :
 Eastern Africa
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='0.3263755999328713%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='0.3263755999328713%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -3120,9 +3097,9 @@ Eastern Africa
 <div class='data'><p class='datatext'><span class='areaname'>Slovakia </span> :
 Eastern Europe
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='0.31667200303621024%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='0.31667200303621024%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -3137,9 +3114,9 @@ Eastern Europe
 <div class='data'><p class='datatext'><span class='areaname'>Nigeria </span> :
 Western Africa
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='0.26434610152768406%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='0.26434610152768406%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -3154,9 +3131,9 @@ Western Africa
 <div class='data'><p class='datatext'><span class='areaname'>Tunisia </span> :
 Northern Africa
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='0.2642700289810874%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='0.2642700289810874%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -3171,9 +3148,9 @@ Northern Africa
 <div class='data'><p class='datatext'><span class='areaname'>Ethiopia </span> :
 Eastern Africa
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='0.2639232506720963%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='0.2639232506720963%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -3188,9 +3165,9 @@ Eastern Africa
 <div class='data'><p class='datatext'><span class='areaname'>Jamaica </span> :
 Caribbean
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='0.2637122148368349%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='0.2637122148368349%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -3205,9 +3182,9 @@ Caribbean
 <div class='data'><p class='datatext'><span class='areaname'>Chad </span> :
 Middle Africa
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='0.25806100945374916%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='0.25806100945374916%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -3222,9 +3199,9 @@ Middle Africa
 <div class='data'><p class='datatext'><span class='areaname'>Singapore </span> :
 South-Eastern Asia
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='0.25742369279072574%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='0.25742369279072574%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -3239,9 +3216,9 @@ South-Eastern Asia
 <div class='data'><p class='datatext'><span class='areaname'>New Zealand </span> :
 South America
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='0.25446970875897823%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='0.25446970875897823%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -3256,9 +3233,9 @@ South America
 <div class='data'><p class='datatext'><span class='areaname'>Georgia </span> :
 Western Asia
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='0.23769798657453994%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='0.23769798657453994%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -3273,9 +3250,9 @@ Western Asia
 <div class='data'><p class='datatext'><span class='areaname'>South Sudan </span> :
 Eastern Africa
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='0.23418181807982463%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='0.23418181807982463%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -3290,9 +3267,9 @@ Eastern Africa
 <div class='data'><p class='datatext'><span class='areaname'>Guinea </span> :
 Western Africa
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='0.21659421345751312%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='0.21659421345751312%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -3307,9 +3284,9 @@ Western Africa
 <div class='data'><p class='datatext'><span class='areaname'>Malaysia </span> :
 South-Eastern Asia
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='0.21540788728137006%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='0.21540788728137006%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -3324,9 +3301,9 @@ South-Eastern Asia
 <div class='data'><p class='datatext'><span class='areaname'>Nepal </span> :
 Southern Asia
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='0.2048233956091908%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='0.2048233956091908%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -3341,9 +3318,9 @@ Southern Asia
 <div class='data'><p class='datatext'><span class='areaname'>China </span> :
 Eastern Asia
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='0.18224559067928395%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='0.18224559067928395%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -3358,9 +3335,9 @@ Eastern Asia
 <div class='data'><p class='datatext'><span class='areaname'>Togo </span> :
 Western Africa
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='0.1818974034093182%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='0.1818974034093182%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -3375,9 +3352,9 @@ Western Africa
 <div class='data'><p class='datatext'><span class='areaname'>Benin </span> :
 Western Africa
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='0.17943002590791327%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='0.17943002590791327%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -3392,9 +3369,9 @@ Western Africa
 <div class='data'><p class='datatext'><span class='areaname'>Niger </span> :
 Western Africa
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='0.158982286413903%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='0.158982286413903%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -3409,9 +3386,9 @@ Western Africa
 <div class='data'><p class='datatext'><span class='areaname'>Angola </span> :
 Middle Africa
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='0.14934010048509616%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='0.14934010048509616%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -3426,9 +3403,9 @@ Middle Africa
 <div class='data'><p class='datatext'><span class='areaname'>Burkina Faso </span> :
 Western Africa
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='0.14675560154472955%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='0.14675560154472955%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -3443,9 +3420,9 @@ Western Africa
 <div class='data'><p class='datatext'><span class='areaname'>Western Sahara </span> :
 Northern Africa
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='0.093425684150738%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='0.093425684150738%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -3460,9 +3437,9 @@ Northern Africa
 <div class='data'><p class='datatext'><span class='areaname'>Botswana </span> :
 Southern Africa
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='0.07114175183417165%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='0.07114175183417165%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -3477,9 +3454,9 @@ Southern Africa
 <div class='data'><p class='datatext'><span class='areaname'>Fiji </span> :
 Melanesia
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='0.062249032854900195%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='0.062249032854900195%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -3494,9 +3471,9 @@ Melanesia
 <div class='data'><p class='datatext'><span class='areaname'>Jordan </span> :
 Western Asia
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='0.060131967834744324%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='0.060131967834744324%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -3511,9 +3488,9 @@ Western Asia
 <div class='data'><p class='datatext'><span class='areaname'>Thailand </span> :
 South-Eastern Asia
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='0.04634609941838758%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='0.04634609941838758%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -3528,9 +3505,9 @@ South-Eastern Asia
 <div class='data'><p class='datatext'><span class='areaname'>Rwanda </span> :
 Eastern Africa
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='0.03445036036935799%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='0.03445036036935799%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -3545,9 +3522,9 @@ Eastern Africa
 <div class='data'><p class='datatext'><span class='areaname'>Mozambique </span> :
 Eastern Africa
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='0.03390585619330734%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='0.03390585619330734%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -3562,9 +3539,9 @@ Eastern Africa
 <div class='data'><p class='datatext'><span class='areaname'>Sri Lanka </span> :
 Southern Asia
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='0.028652055658613753%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='0.028652055658613753%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -3579,9 +3556,9 @@ Southern Asia
 <div class='data'><p class='datatext'><span class='areaname'>Papua New Guinea </span> :
 Melanesia
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='0.018701844228676844%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='0.018701844228676844%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -3596,9 +3573,9 @@ Melanesia
 <div class='data'><p class='datatext'><span class='areaname'>Uganda </span> :
 Eastern Africa
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='0.018290527132547578%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='0.018290527132547578%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -3613,9 +3590,9 @@ Eastern Africa
 <div class='data'><p class='datatext'><span class='areaname'>Burundi </span> :
 Eastern Africa
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='0.004690533465477301%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='0.004690533465477301%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -3630,9 +3607,9 @@ Eastern Africa
 <div class='data'><p class='datatext'><span class='areaname'>Mongolia </span> :
 Eastern Asia
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='0%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='0%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -3647,9 +3624,9 @@ Eastern Asia
 <div class='data'><p class='datatext'><span class='areaname'>Eritrea </span> :
 Eastern Africa
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='0%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='0%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -3664,9 +3641,9 @@ Eastern Africa
 <div class='data'><p class='datatext'><span class='areaname'>Cambodia </span> :
 South-Eastern Asia
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='0%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='0%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -3681,9 +3658,9 @@ South-Eastern Asia
 <div class='data'><p class='datatext'><span class='areaname'>Bhutan </span> :
 Southern Asia
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='0%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='0%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -3698,9 +3675,9 @@ Southern Asia
 <div class='data'><p class='datatext'><span class='areaname'>Seychelles </span> :
 Eastern Africa
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='0%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='0%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -3715,9 +3692,9 @@ Eastern Africa
 <div class='data'><p class='datatext'><span class='areaname'>Saint Vincent and the Grenadines </span> :
 Caribbean
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='0%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='0%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -3732,9 +3709,9 @@ Caribbean
 <div class='data'><p class='datatext'><span class='areaname'>Saint Lucia </span> :
 Caribbean
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='0%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='0%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -3749,9 +3726,9 @@ Caribbean
 <div class='data'><p class='datatext'><span class='areaname'>Timor-Leste </span> :
 South-Eastern Asia
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='0%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='0%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -3766,9 +3743,9 @@ South-Eastern Asia
 <div class='data'><p class='datatext'><span class='areaname'>Grenada </span> :
 Caribbean
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='0%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='0%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -3783,9 +3760,9 @@ Caribbean
 <div class='data'><p class='datatext'><span class='areaname'>Dominica </span> :
 Caribbean
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='0%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='0%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -3800,9 +3777,9 @@ Caribbean
 <div class='data'><p class='datatext'><span class='areaname'>Saint Kitts and Nevis </span> :
 Caribbean
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='0%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='0%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -3817,9 +3794,9 @@ Caribbean
 <div class='data'><p class='datatext'><span class='areaname'>Holy See </span> :
 Southern Europe
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='0%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='0%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -3834,9 +3811,9 @@ Southern Europe
 <div class='data'><p class='datatext'><span class='areaname'>American Samoa </span> :
 Polynesia
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='0%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='0%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -3851,9 +3828,9 @@ Polynesia
 <div class='data'><p class='datatext'><span class='areaname'>Anguilla </span> :
 Caribbean
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='0%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='0%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -3868,9 +3845,9 @@ Caribbean
 <div class='data'><p class='datatext'><span class='areaname'>Aruba </span> :
 Caribbean
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='0%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='0%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -3885,9 +3862,9 @@ Caribbean
 <div class='data'><p class='datatext'><span class='areaname'>Bermuda </span> :
 NORTHERN AMERICA
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='0%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='0%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -3902,9 +3879,9 @@ NORTHERN AMERICA
 <div class='data'><p class='datatext'><span class='areaname'>Bolivia (Plurinational State of) </span> :
 South America
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='0%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='0%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -3919,9 +3896,9 @@ South America
 <div class='data'><p class='datatext'><span class='areaname'>Bonaire, Sint Eustatius and Saba </span> :
 Caribbean
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='0%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='0%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -3936,9 +3913,9 @@ Caribbean
 <div class='data'><p class='datatext'><span class='areaname'>British Virgin Islands </span> :
 Caribbean
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='0%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='0%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -3953,9 +3930,9 @@ Caribbean
 <div class='data'><p class='datatext'><span class='areaname'>Brunei Darussalam </span> :
 South-Eastern Asia
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='0%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='0%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -3970,9 +3947,9 @@ South-Eastern Asia
 <div class='data'><p class='datatext'><span class='areaname'>Cayman Islands </span> :
 Caribbean
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='0%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='0%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -3987,9 +3964,9 @@ Caribbean
 <div class='data'><p class='datatext'><span class='areaname'>Channel Islands </span> :
 Northern Europe
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='0%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='0%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -4004,9 +3981,9 @@ Northern Europe
 <div class='data'><p class='datatext'><span class='areaname'>China, Hong Kong SAR </span> :
 Eastern Asia
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='0%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='0%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -4021,9 +3998,9 @@ Eastern Asia
 <div class='data'><p class='datatext'><span class='areaname'>China, Macao SAR </span> :
 Eastern Asia
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='0%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='0%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -4038,9 +4015,9 @@ Eastern Asia
 <div class='data'><p class='datatext'><span class='areaname'>China, Taiwan Province of China </span> :
 Eastern Asia
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='0%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='0%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -4055,9 +4032,9 @@ Eastern Asia
 <div class='data'><p class='datatext'><span class='areaname'>Congo </span> :
 Middle Africa
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='0%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='0%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -4072,9 +4049,9 @@ Middle Africa
 <div class='data'><p class='datatext'><span class='areaname'>Cook Islands </span> :
 Polynesia
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='0%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='0%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -4089,9 +4066,9 @@ Polynesia
 <div class='data'><p class='datatext'><span class='areaname'>Curaçao </span> :
 Caribbean
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='0%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='0%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -4106,9 +4083,9 @@ Caribbean
 <div class='data'><p class='datatext'><span class='areaname'>Côte d'Ivoire </span> :
 Western Africa
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='0%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='0%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -4123,9 +4100,9 @@ Western Africa
 <div class='data'><p class='datatext'><span class='areaname'>Dem. People's Republic of Korea </span> :
 Eastern Asia
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='0%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='0%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -4140,9 +4117,9 @@ Eastern Asia
 <div class='data'><p class='datatext'><span class='areaname'>Democratic Republic of the Congo </span> :
 Middle Africa
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='0%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='0%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -4157,9 +4134,9 @@ Middle Africa
 <div class='data'><p class='datatext'><span class='areaname'>Falkland Islands (Malvinas) </span> :
 South America
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='0%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='0%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -4174,9 +4151,9 @@ South America
 <div class='data'><p class='datatext'><span class='areaname'>Faroe Islands </span> :
 Northern Europe
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='0%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='0%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -4191,9 +4168,9 @@ Northern Europe
 <div class='data'><p class='datatext'><span class='areaname'>French Guiana </span> :
 South America
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='0%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='0%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -4208,9 +4185,9 @@ South America
 <div class='data'><p class='datatext'><span class='areaname'>French Polynesia </span> :
 Polynesia
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='0%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='0%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -4225,9 +4202,9 @@ Polynesia
 <div class='data'><p class='datatext'><span class='areaname'>Gibraltar </span> :
 Southern Europe
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='0%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='0%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -4242,9 +4219,9 @@ Southern Europe
 <div class='data'><p class='datatext'><span class='areaname'>Greenland </span> :
 NORTHERN AMERICA
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='0%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='0%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -4259,9 +4236,9 @@ NORTHERN AMERICA
 <div class='data'><p class='datatext'><span class='areaname'>Guadeloupe </span> :
 Caribbean
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='0%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='0%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -4276,9 +4253,9 @@ Caribbean
 <div class='data'><p class='datatext'><span class='areaname'>Guam </span> :
 Micronesia
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='0%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='0%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -4293,9 +4270,9 @@ Micronesia
 <div class='data'><p class='datatext'><span class='areaname'>Iran (Islamic Republic of) </span> :
 Southern Asia
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='0%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='0%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -4310,9 +4287,9 @@ Southern Asia
 <div class='data'><p class='datatext'><span class='areaname'>Isle of Man </span> :
 Northern Europe
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='0%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='0%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -4327,9 +4304,9 @@ Northern Europe
 <div class='data'><p class='datatext'><span class='areaname'>Kiribati </span> :
 Micronesia
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='0%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='0%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -4344,9 +4321,9 @@ Micronesia
 <div class='data'><p class='datatext'><span class='areaname'>Lao People's Democratic Republic </span> :
 South-Eastern Asia
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='0%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='0%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -4361,9 +4338,9 @@ South-Eastern Asia
 <div class='data'><p class='datatext'><span class='areaname'>Marshall Islands </span> :
 Micronesia
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='0%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='0%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -4378,9 +4355,9 @@ Micronesia
 <div class='data'><p class='datatext'><span class='areaname'>Martinique </span> :
 Caribbean
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='0%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='0%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -4395,9 +4372,9 @@ Caribbean
 <div class='data'><p class='datatext'><span class='areaname'>Mayotte </span> :
 Eastern Africa
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='0%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='0%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -4412,9 +4389,9 @@ Eastern Africa
 <div class='data'><p class='datatext'><span class='areaname'>Micronesia (Fed. States of) </span> :
 Micronesia
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='0%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='0%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -4429,9 +4406,9 @@ Micronesia
 <div class='data'><p class='datatext'><span class='areaname'>Montserrat </span> :
 Caribbean
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='0%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='0%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -4446,9 +4423,9 @@ Caribbean
 <div class='data'><p class='datatext'><span class='areaname'>Myanmar </span> :
 South-Eastern Asia
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='0%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='0%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -4463,9 +4440,9 @@ South-Eastern Asia
 <div class='data'><p class='datatext'><span class='areaname'>Nauru </span> :
 Micronesia
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='0%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='0%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -4480,9 +4457,9 @@ Micronesia
 <div class='data'><p class='datatext'><span class='areaname'>New Caledonia </span> :
 Melanesia
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='0%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='0%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -4497,9 +4474,9 @@ Melanesia
 <div class='data'><p class='datatext'><span class='areaname'>Niue </span> :
 Polynesia
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='0%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='0%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -4514,9 +4491,9 @@ Polynesia
 <div class='data'><p class='datatext'><span class='areaname'>Northern Mariana Islands </span> :
 Micronesia
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='0%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='0%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -4531,9 +4508,9 @@ Micronesia
 <div class='data'><p class='datatext'><span class='areaname'>Palau </span> :
 Micronesia
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='0%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='0%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -4548,9 +4525,9 @@ Micronesia
 <div class='data'><p class='datatext'><span class='areaname'>Puerto Rico </span> :
 Caribbean
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='0%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='0%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -4565,9 +4542,9 @@ Caribbean
 <div class='data'><p class='datatext'><span class='areaname'>Republic of Korea </span> :
 Eastern Asia
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='0%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='0%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -4582,9 +4559,9 @@ Eastern Asia
 <div class='data'><p class='datatext'><span class='areaname'>Republic of Moldova </span> :
 Eastern Europe
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='0%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='0%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -4599,9 +4576,9 @@ Eastern Europe
 <div class='data'><p class='datatext'><span class='areaname'>Russian Federation </span> :
 Eastern Europe
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='0%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='0%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -4616,9 +4593,9 @@ Eastern Europe
 <div class='data'><p class='datatext'><span class='areaname'>Réunion </span> :
 Eastern Africa
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='0%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='0%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -4633,9 +4610,9 @@ Eastern Africa
 <div class='data'><p class='datatext'><span class='areaname'>Saint Barthélemy </span> :
 Caribbean
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='0%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='0%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -4650,9 +4627,9 @@ Caribbean
 <div class='data'><p class='datatext'><span class='areaname'>Saint Helena </span> :
 Western Africa
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='0%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='0%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -4667,9 +4644,9 @@ Western Africa
 <div class='data'><p class='datatext'><span class='areaname'>Saint Martin (French part) </span> :
 Caribbean
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='0%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='0%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -4684,9 +4661,9 @@ Caribbean
 <div class='data'><p class='datatext'><span class='areaname'>Saint Pierre and Miquelon </span> :
 NORTHERN AMERICA
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='0%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='0%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -4701,9 +4678,9 @@ NORTHERN AMERICA
 <div class='data'><p class='datatext'><span class='areaname'>Samoa </span> :
 Polynesia
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='0%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='0%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -4718,9 +4695,9 @@ Polynesia
 <div class='data'><p class='datatext'><span class='areaname'>Sint Maarten (Dutch part) </span> :
 Caribbean
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='0%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='0%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -4735,9 +4712,9 @@ Caribbean
 <div class='data'><p class='datatext'><span class='areaname'>Solomon Islands </span> :
 Melanesia
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='0%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='0%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -4752,9 +4729,9 @@ Melanesia
 <div class='data'><p class='datatext'><span class='areaname'>State of Palestine </span> :
 Western Asia
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='0%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='0%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -4769,9 +4746,9 @@ Western Asia
 <div class='data'><p class='datatext'><span class='areaname'>Syrian Arab Republic </span> :
 Western Asia
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='0%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='0%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -4786,9 +4763,9 @@ Western Asia
 <div class='data'><p class='datatext'><span class='areaname'>Tokelau </span> :
 Polynesia
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='0%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='0%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -4803,9 +4780,9 @@ Polynesia
 <div class='data'><p class='datatext'><span class='areaname'>Tonga </span> :
 Polynesia
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='0%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='0%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -4820,9 +4797,9 @@ Polynesia
 <div class='data'><p class='datatext'><span class='areaname'>Turkmenistan </span> :
 Central Asia
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='0%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='0%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -4837,9 +4814,9 @@ Central Asia
 <div class='data'><p class='datatext'><span class='areaname'>Turks and Caicos Islands </span> :
 Caribbean
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='0%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='0%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -4854,9 +4831,9 @@ Caribbean
 <div class='data'><p class='datatext'><span class='areaname'>Tuvalu </span> :
 Polynesia
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='0%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='0%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -4871,9 +4848,9 @@ Polynesia
 <div class='data'><p class='datatext'><span class='areaname'>United Republic of Tanzania </span> :
 Eastern Africa
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='0%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='0%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -4888,9 +4865,9 @@ Eastern Africa
 <div class='data'><p class='datatext'><span class='areaname'>United States Virgin Islands </span> :
 Caribbean
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='0%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='0%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -4905,9 +4882,9 @@ Caribbean
 <div class='data'><p class='datatext'><span class='areaname'>United States of America </span> :
 NORTHERN AMERICA
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='0%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='0%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -4922,9 +4899,9 @@ NORTHERN AMERICA
 <div class='data'><p class='datatext'><span class='areaname'>Vanuatu </span> :
 Melanesia
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='0%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='0%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -4939,9 +4916,9 @@ Melanesia
 <div class='data'><p class='datatext'><span class='areaname'>Venezuela (Bolivarian Republic of) </span> :
 South America
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='0%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='0%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -4956,9 +4933,9 @@ South America
 <div class='data'><p class='datatext'><span class='areaname'>Viet Nam </span> :
 South-Eastern Asia
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='0%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='0%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
@@ -4973,9 +4950,9 @@ South-Eastern Asia
 <div class='data'><p class='datatext'><span class='areaname'>Wallis and Futuna Islands </span> :
 Polynesia
 </p>
-<svg width='100%' height='.3em'>
-	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
-	<rect class='cdrC19T' width='0%' height='.3em'></rect>
+<svg width='100%'>
+	<rect class='bg' fill='#4442' width='100%'></rect>
+	<rect class='cdrC19T' width='0%'></rect>
 	<g class='markers'>
 		<line x1="25%" x2="25%" y2="9"></line>
 		<line x1="50%" x2="50%" y2="9"></line>
