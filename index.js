@@ -1,4 +1,5 @@
 const Papa = require('papaparse')
+const dayjs = require('dayjs')
 let fs = require('fs')
 const GithubContent = require('github-content')
 /**
@@ -85,10 +86,11 @@ const csse = new GithubContent({
 	branch: 'master' // defaults to master
 })
 // CSSE is at Johns Hopkins University
-csse.file('csse_covid_19_data/csse_covid_19_daily_reports/08-17-2020.csv', function(err, file) {
-	let result = []
+const fileYesterday = `csse_covid_19_data/csse_covid_19_daily_reports/${dayjs().subtract(1, 'day').format('MM-DD-YYYY')}.csv`
+csse.file(fileYesterday, function(err, file) {
+	if (err) return console.log(err)
 
-	if (err) return console.log(err);
+	let result = []
 	console.log(file.path);
 	let csv = file.contents.toString()
 

@@ -43,6 +43,7 @@ https://github.com/COVID19Tracking/covid-public-api/blob/master/v1/states/curren
 
 ## Changelog
 
++ 0.4.2 automated JH date updates
 + 0.4.1 removed chart from README
 + 0.4.0 created chart script to merge with README
 + 0.3.0 merged scripts into 1 file; no need for intermediate data files
