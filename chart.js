@@ -10,18 +10,43 @@ ${css}
 </style>
 <h2>COVID19 Crude Death Rate Chart</h2>
 
-<p class='chartkey'>Key:
-<section class='chartkey'>
-<div class='ranking'>Rank</div>
-<div class='data'><p class='datatext'><span class='areaname'>US State or Country</span> :
+<p class='chartkey' style='
+	opacity: 0.61;
+	margin: 0;
+'>Key:
+<section class='chartkey' style='
+	opacity: 0.61;
+	display: flex;
+	margin: 0.13rem 0 0.13rem 0;
+'>
+<div class='ranking' style='
+	height: 3rem;
+	width: 3rem;
+	margin: auto;
+	border-radius: 50%;
+	border: 4px double #4442;
+	font-size: 1.1rem;
+	line-height: 3rem;
+	text-align: center;
+'>Rank</div>
+<div class='data' style='
+	flex-grow: 1;
+'><p class='datatext'><span class='areaname'>US State or Country</span> :
 Region</p>
-<svg width='100%' height='.3em'>
+<svg width='100%' height='.3em' style='
+	min-width: 300px;
+	overflow: visible;
+	padding: 0 1px;
+	box-sizing: border-box;
+	width: 100%;
+'>
 	<rect class='bg' fill='#4442' width='100%' height='.3em'></rect>
 </svg>
-<p class='cdrnum'><span class='areaname'>CDR</span> :
+<p class='cdrnum'><span class='areaname' style='
+	margin: 0;
+'>CDR</span> :
 Deaths / Population</p>
-</div></section>
-</p>
+</div></section></p>
 `;
 
 
