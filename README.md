@@ -53,6 +53,7 @@ https://github.com/COVID19Tracking/covid-public-api/blob/master/v1/states/curren
 
 ## TODO
 
+-[ ] + date rendered to README & chart
 -[ ] Clean up non-matching cencus-covid countries & territories like Virgin Islands
 -[ ] US totals
 -[ ] Date of import

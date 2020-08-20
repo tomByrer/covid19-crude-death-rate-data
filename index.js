@@ -86,8 +86,9 @@ const csse = new GithubContent({
 	branch: 'master' // defaults to master
 })
 // CSSE is at Johns Hopkins University
+const fileToday = `csse_covid_19_data/csse_covid_19_daily_reports/${dayjs().format('MM-DD-YYYY')}.csv`
 const fileYesterday = `csse_covid_19_data/csse_covid_19_daily_reports/${dayjs().subtract(1, 'day').format('MM-DD-YYYY')}.csv`
-csse.file(fileYesterday, function(err, file) {
+csse.file(fileToday, function(err, file) {
 	if (err) return console.log(err)
 
 	let result = []
