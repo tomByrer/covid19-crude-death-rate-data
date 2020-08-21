@@ -1,7 +1,13 @@
 // import fetch from 'node-fetch'
 const Papa = require('papaparse')
-const JSONprettifyMin = require('./util').JSONprettifyMin
 let fs = require('fs')
+/**
+* Stringifies into JSON then minimally prettifies it with only newlines
+* @typedef {array} array of objects
+*/
+JSONprettifyMin = function( arr ){
+ return JSON.stringify( arr ).replace( /([{,](?="))|(.(?=}))/g, '$&\n' )
+}
 
 let statesCensus = []
 let statesCount = 0
@@ -21,7 +27,7 @@ fs.readFile('./resources/scprc-est2019-12.csv', 'utf-8', async (err, data) => {
 	}).data
 
 	let area = '' // area = geographic grouping, eg 'state'
-	const region = 'United States'
+	const region = 'USA'
 	for( let i=0, len=arrCensus.length; i<len; i++ ){
 		area = arrCensus[i].NAME
 		if( area === 'United States' ) continue // skip
@@ -35,7 +41,7 @@ fs.readFile('./resources/scprc-est2019-12.csv', 'utf-8', async (err, data) => {
 	}
 
 	console.log(statesCount)
-	fs.writeFileSync( './resources/census-us.json', JSONprettifyMin(statesCensus) )
+	// fs.writeFileSync( './resources/census-us.json', JSONprettifyMin(statesCensus) )
 })
 
 
@@ -60,8 +66,10 @@ fs.readFile('./resources/world-population-un.csv', 'utf-8', async (err, data) =>
 	let region = ''
 	for( let i=0, len=arrCensus.length; i<len; i++ ){
 		area = arrCensus[i].NAME
-		if( arrCensus[i].Type === 'Subregion' || area === 'NORTHERN AMERICA' ){
-			region = area
+		if( arrCensus[i].Type === 'Subregion' ){
+			region = area.replace(/ern /, ' ')
+		}else if( area === 'NORTHERN AMERICA' ){
+			region = 'North America'
 		}
 		if( arrCensus[i].Type !== 'Country/Area' ) continue // skip
 
@@ -73,5 +81,7 @@ fs.readFile('./resources/world-population-un.csv', 'utf-8', async (err, data) =>
 	}
 
 	console.log(worldCount)
-	fs.writeFileSync( './resources/census-world.json', JSONprettifyMin(worldCensus) )
+	// fs.writeFileSync( './resources/census-world.json', JSONprettifyMin(worldCensus) )
+
+	fs.writeFileSync( './resources/census.json', JSONprettifyMin( worldCensus.concat(statesCensus) ) )
 })

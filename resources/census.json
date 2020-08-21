@@ -1,83 +1,83 @@
 [{
 "area":"Burundi",
 "pop":11891000,
-"region":"Eastern Africa"
+"region":"East Africa"
 },{
 "area":"Comoros",
 "pop":870000,
-"region":"Eastern Africa"
+"region":"East Africa"
 },{
 "area":"Djibouti",
 "pop":988000,
-"region":"Eastern Africa"
+"region":"East Africa"
 },{
 "area":"Eritrea",
 "pop":3546000,
-"region":"Eastern Africa"
+"region":"East Africa"
 },{
 "area":"Ethiopia",
 "pop":114964000,
-"region":"Eastern Africa"
+"region":"East Africa"
 },{
 "area":"Kenya",
 "pop":53771000,
-"region":"Eastern Africa"
+"region":"East Africa"
 },{
 "area":"Madagascar",
 "pop":27691000,
-"region":"Eastern Africa"
+"region":"East Africa"
 },{
 "area":"Malawi",
 "pop":19130000,
-"region":"Eastern Africa"
+"region":"East Africa"
 },{
 "area":"Mauritius",
 "pop":1272000,
-"region":"Eastern Africa"
+"region":"East Africa"
 },{
 "area":"Mayotte",
 "pop":273000,
-"region":"Eastern Africa"
+"region":"East Africa"
 },{
 "area":"Mozambique",
 "pop":31255000,
-"region":"Eastern Africa"
+"region":"East Africa"
 },{
 "area":"Réunion",
 "pop":895000,
-"region":"Eastern Africa"
+"region":"East Africa"
 },{
 "area":"Rwanda",
 "pop":12952000,
-"region":"Eastern Africa"
+"region":"East Africa"
 },{
 "area":"Seychelles",
 "pop":98000,
-"region":"Eastern Africa"
+"region":"East Africa"
 },{
 "area":"Somalia",
 "pop":15893000,
-"region":"Eastern Africa"
+"region":"East Africa"
 },{
 "area":"South Sudan",
 "pop":11194000,
-"region":"Eastern Africa"
+"region":"East Africa"
 },{
 "area":"Uganda",
 "pop":45741000,
-"region":"Eastern Africa"
+"region":"East Africa"
 },{
 "area":"United Republic of Tanzania",
 "pop":59734000,
-"region":"Eastern Africa"
+"region":"East Africa"
 },{
 "area":"Zambia",
 "pop":18384000,
-"region":"Eastern Africa"
+"region":"East Africa"
 },{
 "area":"Zimbabwe",
 "pop":14863000,
-"region":"Eastern Africa"
+"region":"East Africa"
 },{
 "area":"Angola",
 "pop":32866000,
@@ -117,191 +117,191 @@
 },{
 "area":"Botswana",
 "pop":2352000,
-"region":"Southern Africa"
+"region":"South Africa"
 },{
 "area":"Eswatini",
 "pop":1160000,
-"region":"Southern Africa"
+"region":"South Africa"
 },{
 "area":"Lesotho",
 "pop":2142000,
-"region":"Southern Africa"
+"region":"South Africa"
 },{
 "area":"Namibia",
 "pop":2541000,
-"region":"Southern Africa"
+"region":"South Africa"
 },{
 "area":"South Africa",
 "pop":59309000,
-"region":"Southern Africa"
+"region":"South Africa"
 },{
 "area":"Benin",
 "pop":12123000,
-"region":"Western Africa"
+"region":"West Africa"
 },{
 "area":"Burkina Faso",
 "pop":20903000,
-"region":"Western Africa"
+"region":"West Africa"
 },{
 "area":"Cabo Verde",
 "pop":556000,
-"region":"Western Africa"
+"region":"West Africa"
 },{
 "area":"Côte d'Ivoire",
 "pop":26378000,
-"region":"Western Africa"
+"region":"West Africa"
 },{
 "area":"Gambia",
 "pop":2417000,
-"region":"Western Africa"
+"region":"West Africa"
 },{
 "area":"Ghana",
 "pop":31073000,
-"region":"Western Africa"
+"region":"West Africa"
 },{
 "area":"Guinea",
 "pop":13133000,
-"region":"Western Africa"
+"region":"West Africa"
 },{
 "area":"Guinea-Bissau",
 "pop":1968000,
-"region":"Western Africa"
+"region":"West Africa"
 },{
 "area":"Liberia",
 "pop":5058000,
-"region":"Western Africa"
+"region":"West Africa"
 },{
 "area":"Mali",
 "pop":20251000,
-"region":"Western Africa"
+"region":"West Africa"
 },{
 "area":"Mauritania",
 "pop":4650000,
-"region":"Western Africa"
+"region":"West Africa"
 },{
 "area":"Niger",
 "pop":24207000,
-"region":"Western Africa"
+"region":"West Africa"
 },{
 "area":"Nigeria",
 "pop":206140000,
-"region":"Western Africa"
+"region":"West Africa"
 },{
 "area":"Saint Helena",
 "pop":6000,
-"region":"Western Africa"
+"region":"West Africa"
 },{
 "area":"Senegal",
 "pop":16744000,
-"region":"Western Africa"
+"region":"West Africa"
 },{
 "area":"Sierra Leone",
 "pop":7977000,
-"region":"Western Africa"
+"region":"West Africa"
 },{
 "area":"Togo",
 "pop":8279000,
-"region":"Western Africa"
+"region":"West Africa"
 },{
 "area":"Algeria",
 "pop":43851000,
-"region":"Northern Africa"
+"region":"North Africa"
 },{
 "area":"Egypt",
 "pop":102334000,
-"region":"Northern Africa"
+"region":"North Africa"
 },{
 "area":"Libya",
 "pop":6871000,
-"region":"Northern Africa"
+"region":"North Africa"
 },{
 "area":"Morocco",
 "pop":36911000,
-"region":"Northern Africa"
+"region":"North Africa"
 },{
 "area":"Sudan",
 "pop":43849000,
-"region":"Northern Africa"
+"region":"North Africa"
 },{
 "area":"Tunisia",
 "pop":11819000,
-"region":"Northern Africa"
+"region":"North Africa"
 },{
 "area":"Western Sahara",
 "pop":597000,
-"region":"Northern Africa"
+"region":"North Africa"
 },{
 "area":"Armenia",
 "pop":2963000,
-"region":"Western Asia"
+"region":"West Asia"
 },{
 "area":"Azerbaijan",
 "pop":10139000,
-"region":"Western Asia"
+"region":"West Asia"
 },{
 "area":"Bahrain",
 "pop":1702000,
-"region":"Western Asia"
+"region":"West Asia"
 },{
 "area":"Cyprus",
 "pop":1207000,
-"region":"Western Asia"
+"region":"West Asia"
 },{
 "area":"Georgia",
 "pop":3989000,
-"region":"Western Asia"
+"region":"West Asia"
 },{
 "area":"Iraq",
 "pop":40223000,
-"region":"Western Asia"
+"region":"West Asia"
 },{
 "area":"Israel",
 "pop":8656000,
-"region":"Western Asia"
+"region":"West Asia"
 },{
 "area":"Jordan",
 "pop":10203000,
-"region":"Western Asia"
+"region":"West Asia"
 },{
 "area":"Kuwait",
 "pop":4271000,
-"region":"Western Asia"
+"region":"West Asia"
 },{
 "area":"Lebanon",
 "pop":6825000,
-"region":"Western Asia"
+"region":"West Asia"
 },{
 "area":"Oman",
 "pop":5107000,
-"region":"Western Asia"
+"region":"West Asia"
 },{
 "area":"Qatar",
 "pop":2881000,
-"region":"Western Asia"
+"region":"West Asia"
 },{
 "area":"Saudi Arabia",
 "pop":34814000,
-"region":"Western Asia"
+"region":"West Asia"
 },{
 "area":"State of Palestine",
 "pop":5101000,
-"region":"Western Asia"
+"region":"West Asia"
 },{
 "area":"Syrian Arab Republic",
 "pop":17501000,
-"region":"Western Asia"
+"region":"West Asia"
 },{
 "area":"Turkey",
 "pop":84339000,
-"region":"Western Asia"
+"region":"West Asia"
 },{
 "area":"United Arab Emirates",
 "pop":9890000,
-"region":"Western Asia"
+"region":"West Asia"
 },{
 "area":"Yemen",
 "pop":29826000,
-"region":"Western Asia"
+"region":"West Asia"
 },{
 "area":"Kazakhstan",
 "pop":18777000,
@@ -325,115 +325,115 @@
 },{
 "area":"Afghanistan",
 "pop":38928000,
-"region":"Southern Asia"
+"region":"South Asia"
 },{
 "area":"Bangladesh",
 "pop":164689000,
-"region":"Southern Asia"
+"region":"South Asia"
 },{
 "area":"Bhutan",
 "pop":772000,
-"region":"Southern Asia"
+"region":"South Asia"
 },{
 "area":"India",
 "pop":1380004000,
-"region":"Southern Asia"
+"region":"South Asia"
 },{
 "area":"Iran (Islamic Republic of)",
 "pop":83993000,
-"region":"Southern Asia"
+"region":"South Asia"
 },{
 "area":"Maldives",
 "pop":541000,
-"region":"Southern Asia"
+"region":"South Asia"
 },{
 "area":"Nepal",
 "pop":29137000,
-"region":"Southern Asia"
+"region":"South Asia"
 },{
 "area":"Pakistan",
 "pop":220892000,
-"region":"Southern Asia"
+"region":"South Asia"
 },{
 "area":"Sri Lanka",
 "pop":21413000,
-"region":"Southern Asia"
+"region":"South Asia"
 },{
 "area":"China",
 "pop":1439324000,
-"region":"Eastern Asia"
+"region":"East Asia"
 },{
 "area":"China, Hong Kong SAR",
 "pop":7497000,
-"region":"Eastern Asia"
+"region":"East Asia"
 },{
 "area":"China, Macao SAR",
 "pop":649000,
-"region":"Eastern Asia"
+"region":"East Asia"
 },{
 "area":"China, Taiwan Province of China",
 "pop":23817000,
-"region":"Eastern Asia"
+"region":"East Asia"
 },{
 "area":"Dem. People's Republic of Korea",
 "pop":25779000,
-"region":"Eastern Asia"
+"region":"East Asia"
 },{
 "area":"Japan",
 "pop":126476000,
-"region":"Eastern Asia"
+"region":"East Asia"
 },{
 "area":"Mongolia",
 "pop":3278000,
-"region":"Eastern Asia"
+"region":"East Asia"
 },{
 "area":"Republic of Korea",
 "pop":51269000,
-"region":"Eastern Asia"
+"region":"East Asia"
 },{
 "area":"Brunei Darussalam",
 "pop":437000,
-"region":"South-Eastern Asia"
+"region":"South-East Asia"
 },{
 "area":"Cambodia",
 "pop":16719000,
-"region":"South-Eastern Asia"
+"region":"South-East Asia"
 },{
 "area":"Indonesia",
 "pop":273524000,
-"region":"South-Eastern Asia"
+"region":"South-East Asia"
 },{
 "area":"Lao People's Democratic Republic",
 "pop":7276000,
-"region":"South-Eastern Asia"
+"region":"South-East Asia"
 },{
 "area":"Malaysia",
 "pop":32366000,
-"region":"South-Eastern Asia"
+"region":"South-East Asia"
 },{
 "area":"Myanmar",
 "pop":54410000,
-"region":"South-Eastern Asia"
+"region":"South-East Asia"
 },{
 "area":"Philippines",
 "pop":109581000,
-"region":"South-Eastern Asia"
+"region":"South-East Asia"
 },{
 "area":"Singapore",
 "pop":5850000,
-"region":"South-Eastern Asia"
+"region":"South-East Asia"
 },{
 "area":"Thailand",
 "pop":69800000,
-"region":"South-Eastern Asia"
+"region":"South-East Asia"
 },{
 "area":"Timor-Leste",
 "pop":1318000,
-"region":"South-Eastern Asia"
+"region":"South-East Asia"
 },{
 "area":"Viet Nam",
 "pop":97339000,
-"region":"South-Eastern Asia"
+"region":"South-East Asia"
 },{
 "area":"Anguilla",
 "pop":15000,
@@ -729,213 +729,421 @@
 },{
 "area":"Belarus",
 "pop":9449000,
-"region":"Eastern Europe"
+"region":"East Europe"
 },{
 "area":"Bulgaria",
 "pop":6948000,
-"region":"Eastern Europe"
+"region":"East Europe"
 },{
 "area":"Czechia",
 "pop":10709000,
-"region":"Eastern Europe"
+"region":"East Europe"
 },{
 "area":"Hungary",
 "pop":9660000,
-"region":"Eastern Europe"
+"region":"East Europe"
 },{
 "area":"Poland",
 "pop":37847000,
-"region":"Eastern Europe"
+"region":"East Europe"
 },{
 "area":"Republic of Moldova",
 "pop":4034000,
-"region":"Eastern Europe"
+"region":"East Europe"
 },{
 "area":"Romania",
 "pop":19238000,
-"region":"Eastern Europe"
+"region":"East Europe"
 },{
 "area":"Russian Federation",
 "pop":145934000,
-"region":"Eastern Europe"
+"region":"East Europe"
 },{
 "area":"Slovakia",
 "pop":5460000,
-"region":"Eastern Europe"
+"region":"East Europe"
 },{
 "area":"Ukraine",
 "pop":43734000,
-"region":"Eastern Europe"
+"region":"East Europe"
 },{
 "area":"Channel Islands",
 "pop":174000,
-"region":"Northern Europe"
+"region":"North Europe"
 },{
 "area":"Denmark",
 "pop":5792000,
-"region":"Northern Europe"
+"region":"North Europe"
 },{
 "area":"Estonia",
 "pop":1327000,
-"region":"Northern Europe"
+"region":"North Europe"
 },{
 "area":"Faroe Islands",
 "pop":49000,
-"region":"Northern Europe"
+"region":"North Europe"
 },{
 "area":"Finland",
 "pop":5541000,
-"region":"Northern Europe"
+"region":"North Europe"
 },{
 "area":"Iceland",
 "pop":341000,
-"region":"Northern Europe"
+"region":"North Europe"
 },{
 "area":"Ireland",
 "pop":4938000,
-"region":"Northern Europe"
+"region":"North Europe"
 },{
 "area":"Isle of Man",
 "pop":85000,
-"region":"Northern Europe"
+"region":"North Europe"
 },{
 "area":"Latvia",
 "pop":1886000,
-"region":"Northern Europe"
+"region":"North Europe"
 },{
 "area":"Lithuania",
 "pop":2722000,
-"region":"Northern Europe"
+"region":"North Europe"
 },{
 "area":"Norway",
 "pop":5421000,
-"region":"Northern Europe"
+"region":"North Europe"
 },{
 "area":"Sweden",
 "pop":10099000,
-"region":"Northern Europe"
+"region":"North Europe"
 },{
 "area":"United Kingdom",
 "pop":67886000,
-"region":"Northern Europe"
+"region":"North Europe"
 },{
 "area":"Albania",
 "pop":2878000,
-"region":"Southern Europe"
+"region":"South Europe"
 },{
 "area":"Andorra",
 "pop":77000,
-"region":"Southern Europe"
+"region":"South Europe"
 },{
 "area":"Bosnia and Herzegovina",
 "pop":3281000,
-"region":"Southern Europe"
+"region":"South Europe"
 },{
 "area":"Croatia",
 "pop":4105000,
-"region":"Southern Europe"
+"region":"South Europe"
 },{
 "area":"Gibraltar",
 "pop":34000,
-"region":"Southern Europe"
+"region":"South Europe"
 },{
 "area":"Greece",
 "pop":10423000,
-"region":"Southern Europe"
+"region":"South Europe"
 },{
 "area":"Holy See",
 "pop":1000,
-"region":"Southern Europe"
+"region":"South Europe"
 },{
 "area":"Italy",
 "pop":60462000,
-"region":"Southern Europe"
+"region":"South Europe"
 },{
 "area":"Malta",
 "pop":442000,
-"region":"Southern Europe"
+"region":"South Europe"
 },{
 "area":"Montenegro",
 "pop":628000,
-"region":"Southern Europe"
+"region":"South Europe"
 },{
 "area":"North Macedonia",
 "pop":2083000,
-"region":"Southern Europe"
+"region":"South Europe"
 },{
 "area":"Portugal",
 "pop":10197000,
-"region":"Southern Europe"
+"region":"South Europe"
 },{
 "area":"San Marino",
 "pop":34000,
-"region":"Southern Europe"
+"region":"South Europe"
 },{
 "area":"Serbia",
 "pop":8737000,
-"region":"Southern Europe"
+"region":"South Europe"
 },{
 "area":"Slovenia",
 "pop":2079000,
-"region":"Southern Europe"
+"region":"South Europe"
 },{
 "area":"Spain",
 "pop":46755000,
-"region":"Southern Europe"
+"region":"South Europe"
 },{
 "area":"Austria",
 "pop":9006000,
-"region":"Western Europe"
+"region":"West Europe"
 },{
 "area":"Belgium",
 "pop":11590000,
-"region":"Western Europe"
+"region":"West Europe"
 },{
 "area":"France",
 "pop":65274000,
-"region":"Western Europe"
+"region":"West Europe"
 },{
 "area":"Germany",
 "pop":83784000,
-"region":"Western Europe"
+"region":"West Europe"
 },{
 "area":"Liechtenstein",
 "pop":38000,
-"region":"Western Europe"
+"region":"West Europe"
 },{
 "area":"Luxembourg",
 "pop":626000,
-"region":"Western Europe"
+"region":"West Europe"
 },{
 "area":"Monaco",
 "pop":39000,
-"region":"Western Europe"
+"region":"West Europe"
 },{
 "area":"Netherlands",
 "pop":17135000,
-"region":"Western Europe"
+"region":"West Europe"
 },{
 "area":"Switzerland",
 "pop":8655000,
-"region":"Western Europe"
+"region":"West Europe"
 },{
 "area":"Bermuda",
 "pop":62000,
-"region":"NORTHERN AMERICA"
+"region":"North America"
 },{
 "area":"Canada",
 "pop":37742000,
-"region":"NORTHERN AMERICA"
+"region":"North America"
 },{
 "area":"Greenland",
 "pop":57000,
-"region":"NORTHERN AMERICA"
+"region":"North America"
 },{
 "area":"Saint Pierre and Miquelon",
 "pop":6000,
-"region":"NORTHERN AMERICA"
+"region":"North America"
 },{
 "area":"United States of America",
 "pop":331003000,
-"region":"NORTHERN AMERICA"
+"region":"North America"
+},{
+"area":"Alabama",
+"pop":4903185,
+"region":"USA"
+},{
+"area":"Alaska",
+"pop":731545,
+"region":"USA"
+},{
+"area":"Arizona",
+"pop":7278717,
+"region":"USA"
+},{
+"area":"Arkansas",
+"pop":3017804,
+"region":"USA"
+},{
+"area":"California",
+"pop":39512223,
+"region":"USA"
+},{
+"area":"Colorado",
+"pop":5758736,
+"region":"USA"
+},{
+"area":"Connecticut",
+"pop":3565287,
+"region":"USA"
+},{
+"area":"Delaware",
+"pop":973764,
+"region":"USA"
+},{
+"area":"District of Columbia",
+"pop":705749,
+"region":"USA"
+},{
+"area":"Florida",
+"pop":21477737,
+"region":"USA"
+},{
+"area":"Georgia",
+"pop":10617423,
+"region":"USA"
+},{
+"area":"Hawaii",
+"pop":1415872,
+"region":"USA"
+},{
+"area":"Idaho",
+"pop":1787065,
+"region":"USA"
+},{
+"area":"Illinois",
+"pop":12671821,
+"region":"USA"
+},{
+"area":"Indiana",
+"pop":6732219,
+"region":"USA"
+},{
+"area":"Iowa",
+"pop":3155070,
+"region":"USA"
+},{
+"area":"Kansas",
+"pop":2913314,
+"region":"USA"
+},{
+"area":"Kentucky",
+"pop":4467673,
+"region":"USA"
+},{
+"area":"Louisiana",
+"pop":4648794,
+"region":"USA"
+},{
+"area":"Maine",
+"pop":1344212,
+"region":"USA"
+},{
+"area":"Maryland",
+"pop":6045680,
+"region":"USA"
+},{
+"area":"Massachusetts",
+"pop":6892503,
+"region":"USA"
+},{
+"area":"Michigan",
+"pop":9986857,
+"region":"USA"
+},{
+"area":"Minnesota",
+"pop":5639632,
+"region":"USA"
+},{
+"area":"Mississippi",
+"pop":2976149,
+"region":"USA"
+},{
+"area":"Missouri",
+"pop":6137428,
+"region":"USA"
+},{
+"area":"Montana",
+"pop":1068778,
+"region":"USA"
+},{
+"area":"Nebraska",
+"pop":1934408,
+"region":"USA"
+},{
+"area":"Nevada",
+"pop":3080156,
+"region":"USA"
+},{
+"area":"New Hampshire",
+"pop":1359711,
+"region":"USA"
+},{
+"area":"New Jersey",
+"pop":8882190,
+"region":"USA"
+},{
+"area":"New Mexico",
+"pop":2096829,
+"region":"USA"
+},{
+"area":"New York",
+"pop":19453561,
+"region":"USA"
+},{
+"area":"North Carolina",
+"pop":10488084,
+"region":"USA"
+},{
+"area":"North Dakota",
+"pop":762062,
+"region":"USA"
+},{
+"area":"Ohio",
+"pop":11689100,
+"region":"USA"
+},{
+"area":"Oklahoma",
+"pop":3956971,
+"region":"USA"
+},{
+"area":"Oregon",
+"pop":4217737,
+"region":"USA"
+},{
+"area":"Pennsylvania",
+"pop":12801989,
+"region":"USA"
+},{
+"area":"Rhode Island",
+"pop":1059361,
+"region":"USA"
+},{
+"area":"South Carolina",
+"pop":5148714,
+"region":"USA"
+},{
+"area":"South Dakota",
+"pop":884659,
+"region":"USA"
+},{
+"area":"Tennessee",
+"pop":6829174,
+"region":"USA"
+},{
+"area":"Texas",
+"pop":28995881,
+"region":"USA"
+},{
+"area":"Utah",
+"pop":3205958,
+"region":"USA"
+},{
+"area":"Vermont",
+"pop":623989,
+"region":"USA"
+},{
+"area":"Virginia",
+"pop":8535519,
+"region":"USA"
+},{
+"area":"Washington",
+"pop":7614893,
+"region":"USA"
+},{
+"area":"West Virginia",
+"pop":1792147,
+"region":"USA"
+},{
+"area":"Wisconsin",
+"pop":5822434,
+"region":"USA"
+},{
+"area":"Wyoming",
+"pop":578759,
+"region":"USA"
+},{
+"area":"Puerto Rico",
+"pop":3193694,
+"region":"USA"
 }]

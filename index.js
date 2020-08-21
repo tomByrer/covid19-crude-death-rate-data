@@ -1,13 +1,17 @@
+const fetch = require('node-fetch')
 const Papa = require('papaparse')
 const dayjs = require('dayjs')
-let fs = require('fs')
-const GithubContent = require('github-content')
+const fs = require('fs')
+
 /**
  * Stringifies into JSON then minimally prettifies it with only newlines
  * @typedef {array} array of objects
  */
 JSONprettifyMin = function( arr ){
-	return JSON.stringify( arr ).replace( /([{,](?="))|(.(?=}))/g, '$&\n' )
+  return JSON
+    .stringify( arr )
+    .replace( /([{,](?="))|(.(?=}))/g, '$&\n' )
+    .replace( /("jhDiff":)/g, '$&\n' )
 }
 
 /**
@@ -77,70 +81,90 @@ const getStateName = abbr => {
   return names[abbr] || abbr
 }
 
-
-	let result = []
-// World data from Johns Hopkins
-const csse = new GithubContent({
-	owner: 'CSSEGISandData',
-	repo: 'COVID-19',
-	branch: 'master' // defaults to master
-})
-// CSSE is at Johns Hopkins University
-const fileToday = `csse_covid_19_data/csse_covid_19_daily_reports/${dayjs().format('MM-DD-YYYY')}.csv`
-const fileYesterday = `csse_covid_19_data/csse_covid_19_daily_reports/${dayjs().subtract(1, 'day').format('MM-DD-YYYY')}.csv`
-csse.file(fileYesterday, function(err, file) {
-	if (err) return console.log(err)
-
-	let result = []
-	console.log(file.path);
-	let csv = file.contents.toString()
-
-	let json = Papa.parse(csv, {
+const convertCsv = async( src )=>{
+	const response = await fetch( src );
+  const csv = await response.text()
+  const obj = Papa.parse(csv, {
 		delimiter: ',',
 		dynamicTyping: true,
 		header: true,
 		linebreak: '\n',
 	})
-	// fs.writeFileSync( './resources/covid-jh.json', JSONprettifyMin(json.data) )
-	// let csse = JSON.parse( fs.readFileSync('./resources/covid-jh.json', 'utf8') )
+	return obj.data
+}
 
-	// redeuce & plit data
-	let csse = json.data
-	let csseUS = []
-	let csseNotUS = []
+const getGithub = async( src )=>{
+  const raw = 'https://raw.githubusercontent.com/'
+  let res
+  switch( src ){
+    case 'jh':
+      const path = raw + 'CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/'
+      res = await convertCsv( path + dayjs().format('MM-DD-YYYY') + '.csv' )
+      if ( !res.length ){ // todoay is empty, get yesterday
+        res = await convertCsv( path + dayjs().subtract(1, 'day').format('MM-DD-YYYY') + '.csv' )
+      }
+      break
+    default:
+      res = await convertCsv( raw + 'COVID19Tracking/covid-public-api/master/v1/states/current.csv' )
+  }
+  return res
+}
+
+const recastJH = function( obj ){
+	let jhUS = []
+	let jhNotUS = []
 	let countUS = 0
 	let countNotUS = 0
-	for ( let i=0, len = csse.length; i < len; i++ ){
-		if( csse[i].Country_Region === 'US' ){
-			countUS = csseUS.push({
-				area: csse[i].Province_State,
-				// county: csse[i].Admin2,
-				// fips: csse[i].FIPS,
-				// updated: csse[i].Last_Update,
-				positive: csse[i].Confirmed,
-				deaths: csse[i].Deaths,
+	for ( let i=0, len = obj.length; i < len; i++ ){
+		if( obj[i].Country_Region === 'US' ){
+			countUS = jhUS.push({
+				area: obj[i].Province_State,
+				// county: obj[i].Admin2,
+				// fips: obj[i].FIPS,
+				positive: obj[i].Confirmed,
+				deaths: obj[i].Deaths,
 			})
 		}else{
-			countNotUS = csseNotUS.push({
-				area: csse[i].Country_Region,
-				// county: csse[i].Admin2,
-				// fips: csse[i].FIPS,
-				// updated: csse[i].Last_Update,
-				positive: csse[i].Confirmed,
-				deaths: csse[i].Deaths,
+			countNotUS = jhNotUS.push({
+				area: obj[i].Country_Region,
+				// county: obj[i].Admin2,
+				// fips: obj[i].FIPS,
+				positive: obj[i].Confirmed,
+				deaths: obj[i].Deaths,
 			})
 		}
 	}
 	console.log("JH US count = "+ countUS)
-	// fs.writeFileSync( './resources/covid-us-jh.json', JSONprettifyMin(csseUS) )
-	console.log("Wolrd (not US) count = "+ countNotUS)
-	// fs.writeFileSync( './resources/covid-world.json', JSONprettifyMin(csseNotUS) )
-	// let disease = JSON.parse( fs.readFileSync('./resources/covid-world.json', 'utf8') )
+  console.log("JH outside US count = "+ countNotUS)
+  jhWorld = jhUS.concat(jhNotUS)
 
-	// combine with world cencus and calc CDR
-	let census = JSON.parse( fs.readFileSync('./resources/census-world.json', 'utf8') )
 
-	// reduce & zip population & disease stats
+  return {
+    jhData: jhWorld,
+    jhUpdated: obj[0].Last_Update
+  }
+}
+
+const recastC19T = function( obj ){
+	let c19tUSData = []
+  let countC19tUS = 0
+  for (let i=0, len = obj.length; i < len; i++) {
+    countC19tUS = c19tUSData.push({
+      area: getStateName( obj[i].state ),
+      positive: obj[i].positive,
+      deaths: obj[i].death,
+    })
+  }
+  console.log("US C19T count = "+ countC19tUS)
+  return {
+    c19tUSData,
+  }
+}
+
+// reduce & zip population & disease stats
+const calcCDR = function( jhWorld ){
+
+  const census = JSON.parse( fs.readFileSync('./resources/census.json', 'utf8') )
 	let tmpArr = []
 	let sumPostive = 0
 	let sumDeaths = 0
@@ -153,7 +177,7 @@ csse.file(fileYesterday, function(err, file) {
 		sumDeaths = 0
 		area = census[i].area
 		pop = census[i].pop
-		tmpArr = csseNotUS.filter(areaInAll => {
+		tmpArr = jhWorld.filter(areaInAll => {
 			return areaInAll.area === area
 		})
 
@@ -170,142 +194,69 @@ csse.file(fileYesterday, function(err, file) {
 			cdr: ( sumDeaths / pop ) * 100_000,
 		})
 	}
-
 	// desending sort Crude Death Rate
-	worldSumed.sort(function(a, b) {
-		return parseFloat(b.cdr) - parseFloat(a.cdr);
+	// worldSumed.sort(function( a, b ){
+	//   return parseFloat(b.cdr) - parseFloat(a.cdr);
+	// })
+  console.log("World sumed count = "+ countAreas)
+  return worldSumed
+}
+
+// COVID19Tracking has more accurate US data IMHO
+const mergeC19T = function({ jhCDR, c19t }){
+  let found = {}
+  let countUS = 0
+  let tObj = {}
+  let tCDR = 0
+  jhDiff = {}
+  let positiveDiff = 0
+  let deathsDiff = 0
+  for( let i=0, len = jhCDR.length; i < len; i++ ){
+    tObj = jhCDR[i]
+    found = c19t.find(record => record.area === tObj.area)
+    if ( found === undefined ) continue;
+    countUS += 1
+
+    tCDR = ( found.deaths / tObj.pop ) * 100_000,
+    jhDiff = {}
+    positiveDiff = tObj.positive - found.positive
+    if ( positiveDiff ) jhDiff.positive = positiveDiff
+    deathsDiff = tObj.deaths - found.deaths
+    if ( deathsDiff ){
+      jhDiff.deaths = deathsDiff
+      jhDiff.cdr = tObj.cdr - tCDR
+    }
+
+    jhCDR[i] = {
+      area: tObj.area,
+      region: tObj.region,
+      positive: found.positive,
+      deaths: found.deaths,
+      pop: tObj.pop,
+      cdr: tCDR,
+    }
+    if ( positiveDiff || deathsDiff  ){
+      jhCDR[i]['jhDiff'] = jhDiff
+    }
+  }
+  console.log('Merged C19T: '+ countUS)
+  // desending sort Crude Death Rate
+	jhCDR.sort(function( a, b ){
+	  return parseFloat(b.cdr) - parseFloat(a.cdr);
 	})
+  return jhCDR
+}
 
-	console.log("World sumed count = "+ countAreas)
-	// fs.writeFileSync( './resources/sumed-world.json', JSONprettifyMin(worldSumed) )
+const main = async function(){
+  const jhRaw = await getGithub('jh')
+  const { jhData, jhUpdated } = recastJH( jhRaw )
+  const jhCDR = calcCDR( jhData )
+  // fs.writeFileSync( './covid19-jh.json', JSONprettifyMin(jhCDR) )
 
-
-	/* COVID19Tracking */
-	let c19tUS = []
-	// US data from COVID19Tracking
-	const c19t = new GithubContent({
-		owner: 'COVID19Tracking',
-		repo: 'covid-public-api',
-		branch: 'master' // defaults to master
-	})
-	c19t.file('v1/states/current.csv', function(err, file) {
-		if (err) return console.log(err);
-		console.log('loaded from COVID19Tracking: '+ file.path);
-		let csv = file.contents.toString()
-
-		let json = Papa.parse(csv, {
-			delimiter: ',',
-			dynamicTyping: true,
-			header: true,
-			linebreak: '\n',
-		})
-		// console.log(wo rldJSON)
-		// fs.writeFileSync( './resources/covid-c19t.json', JSONprettifyMin(json.data) )
-		// let c19t = JSON.parse( fs.readFileSync('./resources/covid-c19t.json', 'utf8') )
-
-		// reduce data
-		let c19t = json.data
-		let countC19tUS = 0
-		for (let i=0, len = c19t.length; i < len; i++) {
-				countC19tUS = c19tUS.push({
-					area: getStateName( c19t[i].state ),
-					// county: c19t[i].Admin2,
-					// fips: c19t[i].FIPS,
-					// updated: c19t[i].Last_Update,
-					positive: c19t[i].positive,
-					deaths: c19t[i].death,
-				})
-		}
-		console.log("US C19T count = "+ countC19tUS)
-		// fs.writeFileSync( './resources/covid-us-c19t.json', JSONprettifyMin(c19tUS) )
-		// console.log('C19T: '+ c19tUS)
-
-		/* merge JS & C19T US data */
-		// let csseUS = JSON.parse( fs.readFileSync('./resources/covid-us-jh.json', 'utf8') )
-		// let c19tUS = JSON.parse( fs.readFileSync('./resources/covid-us-c19t.json', 'utf8') )
-		let census = JSON.parse( fs.readFileSync('./resources/census-us.json', 'utf8') )
-
-		// reduce & zip population & disease stats
-		tmpArr = []
-		c19tRecord = []
-		sumPostive = 0
-		sumDeaths = 0
-		area = ''
-		pop = 0
-		let usSumed = []
-		countAreas = 0
-		for( let i=0, len = census.length; i < len; i++ ){
-			area = census[i].area
-			pop = census[i].pop
-
-			tmpArr = csseUS.filter(areaInAll => {
-				return areaInAll.area === area
-			})
-			sumPostive = 0
-			sumDeaths = 0
-			tmpArr.forEach(obj => {
-				sumPostive += obj.positive
-				sumDeaths += obj.deaths
-			})
-
-			c19tRecord = c19tUS.find(record => record.area === area)
-
-			// assume COVID19Tracking is more accurate than JH; NY & NM #s are too far off, CO seperates cert deaths
-			countAreas = usSumed.push({
-				area: area,
-				region: census[i].region,
-				positive: c19tRecord.positive,
-				positiveJH: sumPostive,
-				deaths: c19tRecord.deaths,
-				deathsJH: sumDeaths,
-				pop: pop,
-				cdr: ( c19tRecord.deaths / pop ) * 100_000,
-				cdrJH: ( sumDeaths / pop ) * 100_000,
-			})
-		}
-
-		// desending sort Crude Death Rate
-		usSumed.sort(function(a, b) {
-			return parseFloat(b.cdr) - parseFloat(a.cdr);
-		})
-
-		console.log("US sumed count = "+ countAreas)
-		// fs.writeFileSync( './resources/sumed-us.json', JSONprettifyMin(usSumed) )
-
-
-		/* final collate */
-		// let usSumed = JSON.parse( fs.readFileSync('./resources/sumed-us.json', 'utf8') )
-		// let worldSumed = JSON.parse( fs.readFileSync('./resources/sumed-world.json', 'utf8') )
-
-		result = [...usSumed, ...worldSumed ]
-
-		// desending sort Crude Death Rate, positive cases, then area
-		// https://stackoverflow.com/a/2784265/1324588
-		result.sort(function mysortfunction(a, b) {
-
-				const cdrA = a.cdr
-				const cdrB = b.cdr
-				if (cdrA < cdrB) return 1
-				if (cdrA > cdrB) return -1
-
-				const positiveA = a.positive
-				const positiveB = b.positive
-				if (positiveA < positiveB) return 1
-				if (positiveA > positiveB) return -1
-
-				const areaA = a.area
-				const areaB = b.area
-				if (areaA < areaB) return -1
-				if (areaA > areaB) return 1
-
-				return 0
-		})
-
-		console.log("total count = "+ result.length)
-		fs.writeFileSync( './covid19-cdr.json', JSONprettifyMin(result) )
-		fs.writeFileSync( './covid19-cdr.csv', Papa.unparse(result) )
-
-	})
-
-})
-
+  /* merge in #COVID19Tracking US-only data */
+  const c19tRaw = await getGithub('c19t')
+  const { c19tUSData } = recastC19T( c19tRaw )
+  const finalCDR = mergeC19T({ jhCDR, c19t: c19tUSData })
+  fs.writeFileSync( './covid19-cdr.json', JSONprettifyMin(finalCDR) )
+}
+main()

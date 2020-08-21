@@ -8,9 +8,8 @@ let htm = `
 ${css}
 </style>
 <h2>COVID19 Crude Death Rate Chart</h2>
-<h4>Sources for
-<a target='_blank' href='https://github.com/tomByrer/covid19-crude-death-rate-data#sources'>data & code</a>
-</h4>
+<p>CDR = ( deaths / population ) * 100_000 | Sources for
+<a target='_blank' href='https://github.com/tomByrer/covid19-crude-death-rate-data#sources'>data & code</a></p>
 <p class='chartkey'>Key:
 <section class='chartkey'>
 <div class='ranking'>Rank</div>
