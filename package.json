@@ -1,7 +1,7 @@
 {
   "name": "drapi",
   "author": "tomByrer",
-  "version": "0.5.0",
+  "version": "0.5.1",
   "description": "COVID-19 Crude Death Rate Data",
   "main": "index.js",
   "license": "GPL3",

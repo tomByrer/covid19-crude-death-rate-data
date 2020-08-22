@@ -68,9 +68,8 @@ p.chartkey {
 }
 </style>
 <h2>COVID19 Crude Death Rate Chart</h2>
-<p>CDR = ( deaths / population ) * 100_000 | Sources for
-<a target='_blank' href='https://github.com/tomByrer/covid19-crude-death-rate-data#sources'>data & code</a></p>
-<p class='chartkey'>Key:
+<p><a target='_blank' href='https://github.com/tomByrer/covid19-crude-death-rate-data#sources'>github.com/tomByrer/covid19-crude-death-rate-data</a> | Updated: 2020-08-21 04:27:41 | CDR = ( deaths / population ) * 100_000 | </p>
+<div id='key' class='chartkey'><a onclick='hide()'>Key:</a>
 <section class='chartkey'>
 <div class='ranking'>Rank</div>
 <div class='data'><p class='datatext'><span class='areaname'>US State or Country</span> :
@@ -81,7 +80,7 @@ Region</p>
 <p class='cdrnum'><span class='areaname'>CDR</span> :
 Deaths / Population</p>
 </div></section>
-</p>
+</div>
 <section>
 <div class='ranking'>1</div>
 <div class='data'><p class='datatext'><span class='areaname'>New Jersey </span> :
@@ -4961,3 +4960,13 @@ North America
 <p class='cdrnum'><span class='areaname'>0</span> :
 0 / 331003000</p>
 </div></section>
+<script>
+function hide() {
+  const x = document.getElementById("key");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>

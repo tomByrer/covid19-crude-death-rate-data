@@ -3,14 +3,14 @@
 let fs = require('fs')
 
 const css = fs.readFileSync('./resources/chart.css', 'utf8')
+const updated = fs.readFileSync('./updated.txt', 'utf8')
 let htm = `
 <style>
 ${css}
 </style>
 <h2>COVID19 Crude Death Rate Chart</h2>
-<p>CDR = ( deaths / population ) * 100_000 | Sources for
-<a target='_blank' href='https://github.com/tomByrer/covid19-crude-death-rate-data#sources'>data & code</a></p>
-<p class='chartkey'>Key:
+<p><a target='_blank' href='https://github.com/tomByrer/covid19-crude-death-rate-data#sources'>github.com/tomByrer/covid19-crude-death-rate-data</a> | Updated: ${updated} | CDR = ( deaths / population ) * 100_000 | </p>
+<div id='key' class='chartkey'><a onclick='hide()'>Key:</a>
 <section class='chartkey'>
 <div class='ranking'>Rank</div>
 <div class='data'><p class='datatext'><span class='areaname'>US State or Country</span> :
@@ -21,7 +21,7 @@ Region</p>
 <p class='cdrnum'><span class='areaname'>CDR</span> :
 Deaths / Population</p>
 </div></section>
-</p>
+</div>
 `;
 
 
@@ -49,5 +49,14 @@ ${data[i].deaths} / ${data[i].pop}</p>
 </div></section>
 `
 }
-
+htm += `<script>
+function hide() {
+  const x = document.getElementById("key");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>`
 fs.writeFileSync('./covid19-cdr.html', htm)

@@ -258,5 +258,6 @@ const main = async function(){
   const { c19tUSData } = recastC19T( c19tRaw )
   const finalCDR = mergeC19T({ jhCDR, c19t: c19tUSData })
   fs.writeFileSync( './covid19-cdr.json', JSONprettifyMin(finalCDR) )
+  fs.writeFileSync( './updated.txt', jhUpdated )
 }
 main()

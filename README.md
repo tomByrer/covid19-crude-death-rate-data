@@ -43,6 +43,7 @@ https://github.com/COVID19Tracking/covid-public-api/blob/master/v1/states/curren
 
 ## Changelog
 
++ 0.5.1 chart: + updated & click to hide key
 + 0.5.0 refactored, JSON has Johns Hopkins diff, but no longer outputs CSV
 + 0.4.3 tweaked chart header
 + 0.4.2 automated JH date updates
