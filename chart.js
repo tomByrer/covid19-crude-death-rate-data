@@ -9,7 +9,7 @@ let htm = `
 ${css}
 </style>
 <h2>COVID19 Crude Death Rate Chart</h2>
-<p><a target='_blank' href='https://github.com/tomByrer/covid19-crude-death-rate-data#sources'>github.com/tomByrer/covid19-crude-death-rate-data</a> | Updated: ${updated} | CDR = ( deaths / population ) * 100_000 | </p>
+<p><a target='_blank' href='https://github.com/tomByrer/covid19-crude-death-rate-data#sources'>github.com/tomByrer/covid19-crude-death-rate-data</a> | Updated: ${updated} | CDR = ( deaths / population ) * 100_000</p>
 <div id='key' class='chartkey'><a onclick='hide()'>Key:</a>
 <section class='chartkey'>
 <div class='ranking'>Rank</div>
