@@ -5,7 +5,7 @@ Final output is sorted by CDR and positive tests.
 
 ## Instructions
 
-You can view the [`covid19-cdr.csv`](https://github.com/tomByrer/covid19-crude-death-rate-data/blob/master/covid19-cdr.csv#L1), `covid19-cdr.json`, & [`covid19-cdr.html` chart](https://raw.githack.com/tomByrer/covid19-crude-death-rate-data/master/covid19-cdr.html)  files directly for now.  If you want to download a single file, I find the "Raw" button helps.
+You can view the `covid19-cdr.json` & [`covid19-cdr.html` chart](https://raw.githack.com/tomByrer/covid19-crude-death-rate-data/master/covid19-cdr.html)  files directly for now.  If you want to download a single file, I find the "Raw" button helps.
 
 
 1. Install [NodeJS](https://nodejs.org).  Might need to reboot, add to path, etc.
