@@ -60,3 +60,4 @@ function hide() {
 }
 </script>`
 fs.writeFileSync('./covid19-cdr.html', htm)
+console.log('📊 Chart done')

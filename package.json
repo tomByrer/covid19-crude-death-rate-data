@@ -1,10 +1,13 @@
 {
   "name": "drapi",
   "author": "tomByrer",
-  "version": "0.5.1",
+  "version": "0.5.2",
   "description": "COVID-19 Crude Death Rate Data",
   "main": "index.js",
   "license": "GPL3",
+  "scripts": {
+    "start": "node index && node chart"
+  },
   "dependencies": {
     "dayjs": "^1.8.33",
     "github-content": "^1.0.1",

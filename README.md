@@ -9,8 +9,9 @@ You can view the `covid19-cdr.json` & [`covid19-cdr.html` chart](https://raw.git
 
 
 1. Install [NodeJS](https://nodejs.org).  Might need to reboot, add to path, etc.
-2. In a CLI, run `node 1collect`; the output will be in `/data`
-3. etc for other JS scripts that start with a number; expected to be in order.
+2. In a CLI, run `npm install`
+3. run 'npm start'
+4. `covid19-cdr.html` & `covid19-cdr.json` should be updated.
 
 ### Warnings
 
@@ -43,6 +44,7 @@ https://github.com/COVID19Tracking/covid-public-api/blob/master/v1/states/curren
 
 ## Changelog
 
++ 0.5.2 `start` script
 + 0.5.1 chart: + updated & click to hide key
 + 0.5.0 refactored, JSON has Johns Hopkins diff, but no longer outputs CSV
 + 0.4.3 tweaked chart header
