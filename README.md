@@ -16,7 +16,7 @@ You can view the `covid19-cdr.json` & [`covid19-cdr.html` chart](https://raw.git
 ### Warnings
 
 * I use [COVID19Tracking](https://twitter.com/COVID19Tracking) for US data, but also list Johns Hopkins
-* BETA: API, CSV headers, & code likely to change drastcily.
+* BETA: API & code likely to change drastcily.
 * BETA: some of the smaller countries & territories might not have the correct data
 * Right now, needs to be ran manually & uploaded; not automated
 
