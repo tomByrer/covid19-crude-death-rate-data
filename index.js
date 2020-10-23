@@ -3,6 +3,12 @@ const Papa = require('papaparse')
 const dayjs = require('dayjs')
 const fs = require('fs')
 
+// US global counts
+let usTotal = {}
+let usJhTotalPositive = 0
+let usJhTotalDeaths = 0
+let usTotalPop = 0
+
 /**
  * Stringifies into JSON then minimally prettifies it with only newlines
  * @typedef {array} array of objects
@@ -170,7 +176,7 @@ const calcCDR = function( jhWorld ){
 	let sumDeaths = 0
 	let area = ''
 	let pop = 0
-	let worldSumed = []
+  let worldSumed = []
 	let countAreas = 0
 	for( let i=0, len = census.length; i < len; i++ ){
 		sumPostive = 0
@@ -192,8 +198,24 @@ const calcCDR = function( jhWorld ){
 			deaths: sumDeaths,
 			pop: pop,
 			cdr: ( sumDeaths / pop ) * 100_000,
-		})
-	}
+    })
+
+    if ( census[i].region === 'USA' ){
+      usJhTotalPositive += sumPostive
+      usJhTotalDeaths += sumDeaths
+      usTotalPop += pop
+    }
+  }
+
+  countAreas = worldSumed.push({
+    area: 'USA total',
+    region: 'USA',
+    positive: usJhTotalPositive,
+    deaths: usJhTotalDeaths,
+    pop: usTotalPop,
+    cdr: ( usJhTotalDeaths / usTotalPop ) * 100_000,
+  })
+  console.log("US sumed +: "+ usJhTotalPositive +"  deaths: "+ usJhTotalDeaths +"  pop: "+ usTotalPop)
 	// desending sort Crude Death Rate
 	// worldSumed.sort(function( a, b ){
 	//   return parseFloat(b.cdr) - parseFloat(a.cdr);
@@ -206,26 +228,29 @@ const calcCDR = function( jhWorld ){
 const mergeC19T = function({ jhCDR, c19t }){
   let found = {}
   let countUS = 0
+  let usC19tToalPositive = 0
+  let usC19tToalDeaths = 0
   let tObj = {}
-  let tCDR = 0
-  jhDiff = {}
-  let positiveDiff = 0
-  let deathsDiff = 0
-  for( let i=0, len = jhCDR.length; i < len; i++ ){
+  // let tCDR = 0
+  // jhDiff = {}
+  // let positiveDiff = 0
+  // let deathsDiff = 0
+  //skip last 'USA Total' entry
+  for( let i=0,len = jhCDR.length-1; i < len; i++ ){
     tObj = jhCDR[i]
     found = c19t.find(record => record.area === tObj.area)
     if ( found === undefined ) continue;
     countUS += 1
 
-    tCDR = ( found.deaths / tObj.pop ) * 100_000,
-    jhDiff = {}
-    positiveDiff = tObj.positive - found.positive
-    if ( positiveDiff ) jhDiff.positive = positiveDiff
-    deathsDiff = tObj.deaths - found.deaths
-    if ( deathsDiff ){
-      jhDiff.deaths = deathsDiff
-      jhDiff.cdr = tObj.cdr - tCDR
-    }
+    // tCDR = ( found.deaths / tObj.pop ) * 100_000,
+    // jhDiff = {}
+    // positiveDiff = tObj.positive - found.positive
+    // if ( positiveDiff ) jhDiff.positive = positiveDiff
+    // deathsDiff = tObj.deaths - found.deaths
+    // if ( deathsDiff ){
+    //   jhDiff.deaths = deathsDiff
+    //   jhDiff.cdr = tObj.cdr - tCDR
+    // }
 
     jhCDR[i] = {
       area: tObj.area,
@@ -233,17 +258,28 @@ const mergeC19T = function({ jhCDR, c19t }){
       positive: found.positive,
       deaths: found.deaths,
       pop: tObj.pop,
-      cdr: tCDR,
+      cdr: ( found.deaths / tObj.pop ) * 100_000,
     }
-    if ( positiveDiff || deathsDiff  ){
-      jhCDR[i]['jhDiff'] = jhDiff
+    if ( tObj.region === 'USA' ){
+      usC19tToalPositive += found.positive
+      usC19tToalDeaths += found.deaths
     }
+    // if ( positiveDiff || deathsDiff  ){
+    //   jhCDR[i]['jhDiff'] = jhDiff
+    // }
   }
+  jhCDR.pop() // remoce last 'USA Total' entry
+  jhCDR.push({
+    area: 'USA total',
+    region: 'USA',
+    positive: usC19tToalPositive,
+    deaths: usC19tToalDeaths,
+    pop: usTotalPop,
+    cdr: ( usC19tToalDeaths / usTotalPop ) * 100_000,
+  })
+  console.log("US sumed +: "+ usC19tToalPositive +"  deaths: "+ usC19tToalDeaths +"  pop: "+ usTotalPop)
+
   console.log('Merged C19T: '+ countUS)
-  // desending sort Crude Death Rate
-	jhCDR.sort(function( a, b ){
-	  return parseFloat(b.cdr) - parseFloat(a.cdr);
-	})
   return jhCDR
 }
 
@@ -251,12 +287,21 @@ const main = async function(){
   const jhRaw = await getGithub('jh')
   const { jhData, jhUpdated } = recastJH( jhRaw )
   const jhCDR = calcCDR( jhData )
+  let jhCDRSorted = [...jhCDR]
+  jhCDRSorted.sort(function( a, b ){
+	  return parseFloat(b.cdr) - parseFloat(a.cdr);
+	})
+  fs.writeFileSync( './covid19-cdr-johns-hopkins-only.json',JSONprettifyMin(jhCDRSorted) )
   // fs.writeFileSync( './covid19-jh.json', JSONprettifyMin(jhCDR) )
 
   /* merge in #COVID19Tracking US-only data */
   const c19tRaw = await getGithub('c19t')
   const { c19tUSData } = recastC19T( c19tRaw )
-  const finalCDR = mergeC19T({ jhCDR, c19t: c19tUSData })
+  let finalCDR = mergeC19T({ jhCDR, c19t: c19tUSData })
+  // desending sort Crude Death Rate
+  finalCDR.sort(function( a, b ){
+	  return parseFloat(b.cdr) - parseFloat(a.cdr);
+	})
   fs.writeFileSync( './covid19-cdr.json', JSONprettifyMin(finalCDR) )
   fs.writeFileSync( './updated.txt', jhUpdated )
 }

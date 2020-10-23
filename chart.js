@@ -28,12 +28,21 @@ Deaths / Population</p>
 const data = JSON.parse( fs.readFileSync('./covid19-cdr.json', 'utf8') )
 const cdrMax = data[0].cdr
 let cdrPercent = 0
+let areaClass = {
+	'USA': ' usa',
+	'East Europe': ' euro',
+	'South Europe': ' euro',
+	'West Europe': ' euro',
+	'North Europe': ' euro',
+}
+let region = ''
 for (let i=0, len=data.length; i<len; i++ ){
 	cdrPercent = data[i].cdr / cdrMax * 100
+	region = (data[i].region === 'United States') ? 'USA' : data[i].region
 	htm += `<section>
 <div class='ranking'>${i+1}</div>
-<div class='data'><p class='datatext'><span class='areaname'>${data[i].area} </span> :
-${( data[i].region === 'United States') ? 'USA' : data[i].region}
+<div class='data'><p class='datatext'><span class='areaname${areaClass[region]}'>${data[i].area} </span> :
+${region}
 </p>
 <svg width='100%'>
 	<rect class='bg' fill='#4442' width='100%'></rect>

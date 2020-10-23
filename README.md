@@ -5,8 +5,9 @@ Final output is sorted by CDR and positive tests.
 
 ## Instructions
 
-You can view the `covid19-cdr.json` & [`covid19-cdr.html` chart](https://raw.githack.com/tomByrer/covid19-crude-death-rate-data/master/covid19-cdr.html)  files directly for now.  If you want to download a single file, I find the "Raw" button helps.
+You can view the results of my last run in the [`covid19-cdr.html` chart](https://raw.githack.com/tomByrer/covid19-crude-death-rate-data/master/covid19-cdr.html) and [`covid19-cdr.json` data](https://raw.githubusercontent.com/tomByrer/covid19-crude-death-rate-data/master/covid19-cdr.json) files directly.
 
+If you want to get a fresh update yourself, here are the steps:
 
 1. Install [NodeJS](https://nodejs.org).  Might need to reboot, add to path, etc.
 2. In a CLI, run `npm install`
@@ -15,16 +16,11 @@ You can view the `covid19-cdr.json` & [`covid19-cdr.html` chart](https://raw.git
 
 ### Warnings
 
-* I use [COVID19Tracking](https://twitter.com/COVID19Tracking) for US data, but also list Johns Hopkins
+* I use [COVID19Tracking](https://twitter.com/COVID19Tracking) for US data, but use Johns Hopkins for world data.  If you want to see how the Johns Hopkins data looks (typically higher for some US states), check out the [`covid19-cdr-johns-hopkins-only.json`](https://raw.githubusercontent.com/tomByrer/covid19-crude-death-rate-data/master/covid19-cdr-johns-hopkins-only.json)
 * BETA: API & code likely to change drastcily.
 * BETA: some of the smaller countries & territories might not have the correct data
 * Right now, needs to be ran manually & uploaded; not automated
 
-
-### Design Decisions
-
-* split US & World data, incase they are sources & updated differently
-* `world` = 'not US'
 
 ## Sources
 
@@ -44,6 +40,7 @@ https://github.com/COVID19Tracking/covid-public-api/blob/master/v1/states/curren
 
 ## Changelog
 
++ 0.6.0 USA totals, split Johns Hopkins-only data
 + 0.5.2 `start` script
 + 0.5.1 chart: + updated & click to hide key
 + 0.5.0 refactored, JSON has Johns Hopkins diff, but no longer outputs CSV
@@ -58,10 +55,8 @@ https://github.com/COVID19Tracking/covid-public-api/blob/master/v1/states/curren
 
 ## TODO
 
--[ ] + date rendered to README & chart
+-[ ] + date rendered to README
 -[ ] Clean up non-matching cencus-covid countries & territories like Virgin Islands
--[ ] US totals
--[ ] Date of import
 -[ ] Compare [COVID19Tracking](https://twitter.com/COVID19Tracking) for US data
 
 ### Maybe
