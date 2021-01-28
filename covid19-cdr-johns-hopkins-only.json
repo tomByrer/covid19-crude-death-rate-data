@@ -1,1487 +1,1522 @@
 [{
 "area":"Georgia",
 "region":"West Asia",
-"positive":681916,
-"deaths":11449,
+"positive":1141169,
+"deaths":16751,
 "pop":3989000,
-"cdr":287.0142892955628
+"cdr":419.9298069691652
 },{
 "area":"New Jersey",
 "region":"USA",
-"positive":377055,
-"deaths":17426,
+"positive":676537,
+"deaths":21220,
 "pop":8882190,
-"cdr":196.19035395549972
+"cdr":238.90504481439825
 },{
 "area":"New York",
 "region":"USA",
-"positive":722464,
-"deaths":35118,
+"positive":1369072,
+"deaths":42887,
 "pop":19453561,
-"cdr":180.52221904257016
+"cdr":220.45835207240464
 },{
 "area":"Massachusetts",
 "region":"USA",
-"positive":263447,
-"deaths":11076,
+"positive":509503,
+"deaths":14304,
 "pop":6892503,
-"cdr":160.6963391963703
-},{
-"area":"Belgium",
-"region":"West Europe",
-"positive":594572,
-"deaths":17507,
-"pop":11590000,
-"cdr":151.05263157894737
-},{
-"area":"Connecticut",
-"region":"USA",
-"positive":138258,
-"deaths":5242,
-"pop":3565287,
-"cdr":147.02883666868894
-},{
-"area":"Louisiana",
-"region":"USA",
-"positive":254562,
-"deaths":6652,
-"pop":4648794,
-"cdr":143.09087475160226
-},{
-"area":"San Marino",
-"region":"South Europe",
-"positive":1800,
-"deaths":48,
-"pop":34000,
-"cdr":141.1764705882353
+"cdr":207.52983350170467
 },{
 "area":"Rhode Island",
 "region":"USA",
-"positive":67067,
-"deaths":1470,
+"positive":113009,
+"deaths":2135,
 "pop":1059361,
-"cdr":138.7628957456429
+"cdr":201.53658667819565
 },{
 "area":"Mississippi",
 "region":"USA",
-"positive":167926,
-"deaths":4017,
+"positive":268672,
+"deaths":5917,
 "pop":2976149,
-"cdr":134.9730809848566
-},{
-"area":"North Dakota",
-"region":"USA",
-"positive":83342,
-"deaths":1028,
-"pop":762062,
-"cdr":134.8971605984815
+"cdr":198.8139706714953
 },{
 "area":"South Dakota",
 "region":"USA",
-"positive":87038,
-"deaths":1111,
+"positive":107608,
+"deaths":1739,
 "pop":884659,
-"cdr":125.58511245575978
+"cdr":196.57291679618925
 },{
-"area":"Illinois",
+"area":"Connecticut",
 "region":"USA",
-"positive":804174,
-"deaths":14384,
-"pop":12671821,
-"cdr":113.51170443458759
+"positive":247339,
+"deaths":6976,
+"pop":3565287,
+"cdr":195.66447245340976
 },{
-"area":"Peru",
-"region":"South America",
-"positive":973912,
-"deaths":36274,
-"pop":32972000,
-"cdr":110.0145578066238
-},{
-"area":"Georgia",
-"region":"USA",
-"positive":681916,
-"deaths":11449,
-"pop":10617423,
-"cdr":107.83219242560082
-},{
-"area":"Michigan",
-"region":"USA",
-"positive":443076,
-"deaths":10625,
-"pop":9986857,
-"cdr":106.38982815113903
-},{
-"area":"Andorra",
+"area":"San Marino",
 "region":"South Europe",
-"positive":7127,
-"deaths":78,
-"pop":77000,
-"cdr":101.2987012987013
+"positive":2941,
+"deaths":65,
+"pop":34000,
+"cdr":191.1764705882353
 },{
-"area":"Italy",
-"region":"South Europe",
-"positive":1757394,
-"deaths":61240,
-"pop":60462000,
-"cdr":101.28675862525222
-},{
-"area":"Spain",
-"region":"South Europe",
-"positive":1702328,
-"deaths":46646,
-"pop":46755000,
-"cdr":99.7668698534916
-},{
-"area":"District of Columbia",
+"area":"North Dakota",
 "region":"USA",
-"positive":23589,
-"deaths":701,
-"pop":705749,
-"cdr":99.32709787757405
+"positive":97160,
+"deaths":1441,
+"pop":762062,
+"cdr":189.0922260918403
+},{
+"area":"Louisiana",
+"region":"USA",
+"positive":392416,
+"deaths":8688,
+"pop":4648794,
+"cdr":186.88717977178598
+},{
+"area":"Belgium",
+"region":"West Europe",
+"positive":699662,
+"deaths":20933,
+"pop":11590000,
+"cdr":180.61259706643656
 },{
 "area":"Arizona",
 "region":"USA",
-"positive":378157,
-"deaths":6973,
+"positive":738561,
+"deaths":12643,
 "pop":7278717,
-"cdr":95.79985044067519
+"cdr":173.69819433837034
 },{
-"area":"Indiana",
+"area":"Illinois",
 "region":"USA",
-"positive":392663,
-"deaths":6410,
-"pop":6732219,
-"cdr":95.21377721075325
-},{
-"area":"North Macedonia",
-"region":"South Europe",
-"positive":69452,
-"deaths":1977,
-"pop":2083000,
-"cdr":94.91118578972635
-},{
-"area":"Bosnia and Herzegovina",
-"region":"South Europe",
-"positive":96021,
-"deaths":3081,
-"pop":3281000,
-"cdr":93.90429747028345
-},{
-"area":"United Kingdom",
-"region":"North Europe",
-"positive":1754911,
-"deaths":62130,
-"pop":67886000,
-"cdr":91.52107945673629
-},{
-"area":"Arkansas",
-"region":"USA",
-"positive":174325,
-"deaths":2752,
-"pop":3017804,
-"cdr":91.19213838937188
-},{
-"area":"Florida",
-"region":"USA",
-"positive":1073770,
-"deaths":19378,
-"pop":21477737,
-"cdr":90.22365810699704
-},{
-"area":"Pennsylvania",
-"region":"USA",
-"positive":442311,
-"deaths":11521,
-"pop":12801989,
-"cdr":89.99382830277389
+"positive":1112181,
+"deaths":20949,
+"pop":12671821,
+"cdr":165.3195700917808
 },{
 "area":"Slovenia",
 "region":"South Europe",
-"positive":87936,
-"deaths":1862,
+"positive":161662,
+"deaths":3425,
 "pop":2079000,
-"cdr":89.56228956228956
+"cdr":164.74266474266474
 },{
-"area":"South Carolina",
+"area":"Pennsylvania",
 "region":"USA",
-"positive":236954,
-"deaths":4585,
-"pop":5148714,
-"cdr":89.05136311708128
+"positive":822582,
+"deaths":21032,
+"pop":12801989,
+"cdr":164.28697134484338
 },{
-"area":"Argentina",
-"region":"South America",
-"positive":1469919,
-"deaths":40009,
-"pop":45196000,
-"cdr":88.52332064784494
-},{
-"area":"Montenegro",
-"region":"South Europe",
-"positive":39153,
-"deaths":549,
-"pop":628000,
-"cdr":87.42038216560509
-},{
-"area":"USA total",
+"area":"Georgia",
 "region":"USA",
-"positive":15325980,
-"deaths":287684,
-"pop":331433217,
-"cdr":86.79999023755063
+"positive":1141169,
+"deaths":16751,
+"pop":10617423,
+"cdr":157.76898028834302
 },{
-"area":"France",
-"region":"West Europe",
-"positive":2363196,
-"deaths":56453,
-"pop":65274000,
-"cdr":86.48619664797621
-},{
-"area":"Iowa",
+"area":"Arkansas",
 "region":"USA",
-"positive":247954,
-"deaths":2724,
-"pop":3155070,
-"cdr":86.33722865102834
+"positive":288964,
+"deaths":4742,
+"pop":3017804,
+"cdr":157.13412799505866
 },{
-"area":"Mexico",
-"region":"Central America",
-"positive":1193255,
-"deaths":110874,
-"pop":128933000,
-"cdr":85.99350050025981
-},{
-"area":"Czechia",
-"region":"East Europe",
-"positive":551070,
-"deaths":9036,
-"pop":10709000,
-"cdr":84.37762629563919
-},{
-"area":"Brazil",
-"region":"South America",
-"positive":6674999,
-"deaths":178159,
-"pop":212559000,
-"cdr":83.81625807422881
+"area":"Michigan",
+"region":"USA",
+"positive":604233,
+"deaths":15314,
+"pop":9986857,
+"cdr":153.3415367817923
 },{
 "area":"New Mexico",
 "region":"USA",
-"positive":109947,
-"deaths":1756,
+"positive":171047,
+"deaths":3198,
 "pop":2096829,
-"cdr":83.74550332907452
+"cdr":152.51601346604804
 },{
-"area":"Delaware",
-"region":"USA",
-"positive":41464,
-"deaths":803,
-"pop":973764,
-"cdr":82.46351271971443
+"area":"United Kingdom",
+"region":"North Europe",
+"positive":3725637,
+"deaths":102085,
+"pop":67886000,
+"cdr":150.37710278997145
 },{
-"area":"Chile",
-"region":"South America",
-"positive":563534,
-"deaths":15680,
-"pop":19116000,
-"cdr":82.02552835321197
-},{
-"area":"Maryland",
-"region":"USA",
-"positive":219961,
-"deaths":4916,
-"pop":6045680,
-"cdr":81.31426076140319
-},{
-"area":"Texas",
-"region":"USA",
-"positive":1346643,
-"deaths":23372,
-"pop":28995881,
-"cdr":80.6045520741377
+"area":"Czechia",
+"region":"East Europe",
+"positive":956155,
+"deaths":15791,
+"pop":10709000,
+"cdr":147.45541133625923
 },{
 "area":"Alabama",
 "region":"USA",
-"positive":276665,
-"deaths":3942,
+"positive":449086,
+"deaths":7172,
 "pop":4903185,
-"cdr":80.39672172271696
+"cdr":146.27226996329938
 },{
-"area":"Armenia",
-"region":"West Asia",
-"positive":142928,
-"deaths":2372,
-"pop":2963000,
-"cdr":80.05399932500843
-},{
-"area":"Ecuador",
-"region":"South America",
-"positive":198752,
-"deaths":13794,
-"pop":17643000,
-"cdr":78.18398231593267
-},{
-"area":"Nevada",
+"area":"Indiana",
 "region":"USA",
-"positive":173284,
-"deaths":2359,
-"pop":3080156,
-"cdr":76.58703000757104
+"positive":617176,
+"deaths":9845,
+"pop":6732219,
+"cdr":146.237072798731
 },{
-"area":"Panama",
-"region":"Central America",
-"positive":181166,
-"deaths":3241,
-"pop":4315000,
-"cdr":75.11008111239862
-},{
-"area":"Colombia",
-"region":"South America",
-"positive":1384610,
-"deaths":38158,
-"pop":50883000,
-"cdr":74.99164750506063
-},{
-"area":"Tennessee",
-"region":"USA",
-"positive":414749,
-"deaths":5109,
-"pop":6829174,
-"cdr":74.81139007440724
-},{
-"area":"Bulgaria",
-"region":"East Europe",
-"positive":168165,
-"deaths":5156,
-"pop":6948000,
-"cdr":74.2084052964882
-},{
-"area":"Minnesota",
-"region":"USA",
-"positive":359203,
-"deaths":4086,
-"pop":5639632,
-"cdr":72.451535844892
-},{
-"area":"Missouri",
-"region":"USA",
-"positive":335556,
-"deaths":4430,
-"pop":6137428,
-"cdr":72.18007282529425
-},{
-"area":"Montana",
-"region":"USA",
-"positive":69346,
-"deaths":763,
-"pop":1068778,
-"cdr":71.38994253249973
-},{
-"area":"Sweden",
-"region":"North Europe",
-"positive":297732,
-"deaths":7200,
-"pop":10099000,
-"cdr":71.29418754332112
-},{
-"area":"Wisconsin",
-"region":"USA",
-"positive":448009,
-"deaths":4054,
-"pop":5822434,
-"cdr":69.62723836800899
-},{
-"area":"Guam",
-"region":"Micronesia",
-"positive":7019,
-"deaths":113,
-"pop":169000,
-"cdr":66.8639053254438
-},{
-"area":"Romania",
-"region":"East Europe",
-"positive":524675,
-"deaths":12660,
-"pop":19238000,
-"cdr":65.80725647156669
-},{
-"area":"Nebraska",
-"region":"USA",
-"positive":142595,
-"deaths":1271,
-"pop":1934408,
-"cdr":65.70485647288473
-},{
-"area":"Switzerland",
-"region":"West Europe",
-"positive":358568,
-"deaths":5593,
-"pop":8655000,
-"cdr":64.62160600808781
-},{
-"area":"Kansas",
-"region":"USA",
-"positive":177312,
-"deaths":1856,
-"pop":2913314,
-"cdr":63.70751659450372
-},{
-"area":"Hungary",
-"region":"East Europe",
-"positive":256367,
-"deaths":6120,
-"pop":9660000,
-"cdr":63.35403726708074
-},{
-"area":"Ohio",
-"region":"USA",
-"positive":510018,
-"deaths":7103,
-"pop":11689100,
-"cdr":60.76601278113799
-},{
-"area":"Idaho",
-"region":"USA",
-"positive":113905,
-"deaths":1074,
-"pop":1787065,
-"cdr":60.09854146323721
-},{
-"area":"Colorado",
-"region":"USA",
-"positive":268589,
-"deaths":3372,
-"pop":5758736,
-"cdr":58.554516129928516
-},{
-"area":"Netherlands",
-"region":"West Europe",
-"positive":579997,
-"deaths":9857,
-"pop":17135000,
-"cdr":57.52553253574555
-},{
-"area":"Luxembourg",
-"region":"West Europe",
-"positive":38476,
-"deaths":360,
-"pop":626000,
-"cdr":57.50798722044728
-},{
-"area":"Croatia",
+"area":"Italy",
 "region":"South Europe",
-"positive":154852,
-"deaths":2298,
-"pop":4105000,
-"cdr":55.98051157125457
+"positive":2501147,
+"deaths":86889,
+"pop":60462000,
+"cdr":143.70844497370248
 },{
-"area":"Poland",
-"region":"East Europe",
-"positive":1076180,
-"deaths":20592,
-"pop":37847000,
-"cdr":54.40853964647132
-},{
-"area":"North Carolina",
+"area":"Iowa",
 "region":"USA",
-"positive":404032,
-"deaths":5605,
-"pop":10488084,
-"cdr":53.44160096353157
+"positive":316114,
+"deaths":4500,
+"pop":3155070,
+"cdr":142.62758037064154
 },{
-"area":"California",
-"region":"USA",
-"positive":1415396,
-"deaths":20205,
-"pop":39512223,
-"cdr":51.13607503176928
-},{
-"area":"Portugal",
+"area":"Bosnia and Herzegovina",
 "region":"South Europe",
-"positive":327976,
-"deaths":5122,
-"pop":10197000,
-"cdr":50.23045993919781
+"positive":120864,
+"deaths":4643,
+"pop":3281000,
+"cdr":141.51173422736971
 },{
 "area":"Liechtenstein",
 "region":"West Europe",
-"positive":1404,
-"deaths":19,
+"positive":2458,
+"deaths":52,
 "pop":38000,
-"cdr":50
+"cdr":136.8421052631579
 },{
-"area":"Wyoming",
+"area":"Tennessee",
 "region":"USA",
-"positive":37475,
-"deaths":289,
-"pop":578759,
-"cdr":49.934428665472154
+"positive":715806,
+"deaths":9316,
+"pop":6829174,
+"cdr":136.41474064066898
 },{
-"area":"Virginia",
-"region":"USA",
-"positive":262730,
-"deaths":4260,
-"pop":8535519,
-"cdr":49.90909164398791
+"area":"North Macedonia",
+"region":"South Europe",
+"positive":91555,
+"deaths":2821,
+"pop":2083000,
+"cdr":135.42966874699954
 },{
-"area":"Oklahoma",
+"area":"Nevada",
 "region":"USA",
-"positive":220686,
-"deaths":1922,
-"pop":3956971,
-"cdr":48.57250659658612
+"positive":273873,
+"deaths":4134,
+"pop":3080156,
+"cdr":134.21398136977479
+},{
+"area":"USA total",
+"region":"USA",
+"positive":25843400,
+"deaths":432145,
+"pop":331433217,
+"cdr":130.38674997986095
+},{
+"area":"South Carolina",
+"region":"USA",
+"positive":427231,
+"deaths":6673,
+"pop":5148714,
+"cdr":129.6051790796692
+},{
+"area":"Bulgaria",
+"region":"East Europe",
+"positive":217014,
+"deaths":8944,
+"pop":6948000,
+"cdr":128.72769142199192
+},{
+"area":"Andorra",
+"region":"South Europe",
+"positive":9716,
+"deaths":98,
+"pop":77000,
+"cdr":127.27272727272728
+},{
+"area":"Kansas",
+"region":"USA",
+"positive":274746,
+"deaths":3707,
+"pop":2913314,
+"cdr":127.24340733611275
+},{
+"area":"District of Columbia",
+"region":"USA",
+"positive":35865,
+"deaths":895,
+"pop":705749,
+"cdr":126.81562425168156
+},{
+"area":"Hungary",
+"region":"East Europe",
+"positive":361881,
+"deaths":12198,
+"pop":9660000,
+"cdr":126.27329192546584
+},{
+"area":"Montenegro",
+"region":"South Europe",
+"positive":59825,
+"deaths":783,
+"pop":628000,
+"cdr":124.68152866242038
+},{
+"area":"Texas",
+"region":"USA",
+"positive":2309220,
+"deaths":35877,
+"pop":28995881,
+"cdr":123.73136722419298
+},{
+"area":"Spain",
+"region":"South Europe",
+"positive":2670102,
+"deaths":57291,
+"pop":46755000,
+"cdr":122.53448829002247
+},{
+"area":"Peru",
+"region":"South America",
+"positive":1107239,
+"deaths":40107,
+"pop":32972000,
+"cdr":121.6395729710057
+},{
+"area":"Florida",
+"region":"USA",
+"positive":1676171,
+"deaths":25833,
+"pop":21477737,
+"cdr":120.27803487862803
+},{
+"area":"Panama",
+"region":"Central America",
+"positive":315400,
+"deaths":5176,
+"pop":4315000,
+"cdr":119.95365005793744
+},{
+"area":"Croatia",
+"region":"South Europe",
+"positive":230359,
+"deaths":4913,
+"pop":4105000,
+"cdr":119.68331303288673
+},{
+"area":"Mexico",
+"region":"Central America",
+"positive":1806849,
+"deaths":153639,
+"pop":128933000,
+"cdr":119.16189028410105
+},{
+"area":"Maryland",
+"region":"USA",
+"positive":346559,
+"deaths":6996,
+"pop":6045680,
+"cdr":115.71899273530853
+},{
+"area":"France",
+"region":"West Europe",
+"positive":3165449,
+"deaths":74600,
+"pop":65274000,
+"cdr":114.28746514691915
+},{
+"area":"Missouri",
+"region":"USA",
+"positive":467531,
+"deaths":6988,
+"pop":6137428,
+"cdr":113.85876950409846
+},{
+"area":"Sweden",
+"region":"North Europe",
+"positive":560472,
+"deaths":11425,
+"pop":10099000,
+"cdr":113.13001287256164
+},{
+"area":"Montana",
+"region":"USA",
+"positive":92531,
+"deaths":1201,
+"pop":1068778,
+"cdr":112.37132500856119
+},{
+"area":"Portugal",
+"region":"South Europe",
+"positive":668951,
+"deaths":11305,
+"pop":10197000,
+"cdr":110.86594096302834
+},{
+"area":"Delaware",
+"region":"USA",
+"positive":75832,
+"deaths":1072,
+"pop":973764,
+"cdr":110.08827600938216
+},{
+"area":"Minnesota",
+"region":"USA",
+"positive":457317,
+"deaths":6192,
+"pop":5639632,
+"cdr":109.79439793234735
 },{
 "area":"West Virginia",
 "region":"USA",
-"positive":57060,
-"deaths":870,
+"positive":117775,
+"deaths":1953,
 "pop":1792147,
-"cdr":48.545124925578094
+"cdr":108.97543560879771
 },{
-"area":"Kentucky",
+"area":"Wisconsin",
 "region":"USA",
-"positive":205667,
-"deaths":2102,
-"pop":4467673,
-"cdr":47.04910140021439
+"positive":585600,
+"deaths":6302,
+"pop":5822434,
+"cdr":108.23652101509438
 },{
-"area":"Belize",
-"region":"Central America",
-"positive":8013,
-"deaths":179,
-"pop":398000,
-"cdr":44.9748743718593
-},{
-"area":"Austria",
+"area":"Switzerland",
 "region":"West Europe",
-"positive":308070,
-"deaths":4002,
-"pop":9006000,
-"cdr":44.437041972018655
+"positive":517705,
+"deaths":9260,
+"pop":8655000,
+"cdr":106.99017908723282
 },{
-"area":"Ireland",
-"region":"North Europe",
-"positive":74682,
-"deaths":2097,
-"pop":4938000,
-"cdr":42.46658566221142
-},{
-"area":"Puerto Rico",
-"region":"Caribbean",
-"positive":58316,
-"deaths":1206,
-"pop":2861000,
-"cdr":42.15309332401259
-},{
-"area":"New Hampshire",
-"region":"USA",
-"positive":26623,
-"deaths":566,
-"pop":1359711,
-"cdr":41.62649268851984
-},{
-"area":"Bahamas",
-"region":"Caribbean",
-"positive":7579,
-"deaths":163,
-"pop":393000,
-"cdr":41.475826972010175
-},{
-"area":"Washington",
-"region":"USA",
-"positive":187327,
-"deaths":2967,
-"pop":7614893,
-"cdr":38.96312134655077
-},{
-"area":"South Africa",
-"region":"South Africa",
-"positive":821889,
-"deaths":22432,
-"pop":59309000,
-"cdr":37.82225294643309
-},{
-"area":"Puerto Rico",
-"region":"USA",
-"positive":58316,
-"deaths":1206,
-"pop":3193694,
-"cdr":37.761914572905226
-},{
-"area":"Costa Rica",
-"region":"Central America",
-"positive":147430,
-"deaths":1846,
-"pop":5094000,
-"cdr":36.23871221044366
-},{
-"area":"Malta",
-"region":"South Europe",
-"positive":10699,
-"deaths":157,
-"pop":442000,
-"cdr":35.52036199095023
-},{
-"area":"Canada",
-"region":"North America",
-"positive":432743,
-"deaths":12887,
-"pop":37742000,
-"cdr":34.14498436754809
-},{
-"area":"Israel",
-"region":"West Asia",
-"positive":348285,
-"deaths":2932,
-"pop":8656000,
-"cdr":33.8724584103512
-},{
-"area":"Ukraine",
-"region":"East Europe",
-"positive":855054,
-"deaths":14413,
-"pop":43734000,
-"cdr":32.95605249919971
-},{
-"area":"Albania",
-"region":"South Europe",
-"positive":44436,
-"deaths":936,
-"pop":2878000,
-"cdr":32.5225851285615
-},{
-"area":"Tunisia",
-"region":"North Africa",
-"positive":105445,
-"deaths":3668,
-"pop":11819000,
-"cdr":31.034774515610454
-},{
-"area":"Iraq",
-"region":"West Asia",
-"positive":568138,
-"deaths":12477,
-"pop":40223000,
-"cdr":31.019565919996023
-},{
-"area":"Jordan",
-"region":"West Asia",
-"positive":247131,
-"deaths":3162,
-"pop":10203000,
-"cdr":30.990885033813587
-},{
-"area":"Greece",
-"region":"South Europe",
-"positive":118045,
-"deaths":3194,
-"pop":10423000,
-"cdr":30.643768588698073
-},{
-"area":"Utah",
-"region":"USA",
-"positive":219971,
-"deaths":972,
-"pop":3205958,
-"cdr":30.318550648511305
-},{
-"area":"Honduras",
-"region":"Central America",
-"positive":111707,
-"deaths":2950,
-"pop":9905000,
-"cdr":29.78293791014639
-},{
-"area":"Oman",
-"region":"West Asia",
-"positive":125325,
-"deaths":1454,
-"pop":5107000,
-"cdr":28.470726453886822
-},{
-"area":"Paraguay",
+"area":"Argentina",
 "region":"South America",
-"positive":89421,
-"deaths":1887,
-"pop":7133000,
-"cdr":26.454507219963553
+"positive":1896053,
+"deaths":47435,
+"pop":45196000,
+"cdr":104.95397822816179
 },{
-"area":"Oregon",
+"area":"Brazil",
+"region":"South America",
+"positive":8996876,
+"deaths":220161,
+"pop":212559000,
+"cdr":103.57641878254978
+},{
+"area":"Colombia",
+"region":"South America",
+"positive":2055305,
+"deaths":52523,
+"pop":50883000,
+"cdr":103.22308040013363
+},{
+"area":"Armenia",
+"region":"West Asia",
+"positive":166427,
+"deaths":3056,
+"pop":2963000,
+"cdr":103.13871076611542
+},{
+"area":"Wyoming",
 "region":"USA",
-"positive":87082,
-"deaths":1080,
-"pop":4217737,
-"cdr":25.606148510445294
+"positive":51368,
+"deaths":596,
+"pop":578759,
+"cdr":102.97896015439933
 },{
 "area":"Lithuania",
 "region":"North Europe",
-"positive":77426,
-"deaths":673,
+"positive":179212,
+"deaths":2716,
 "pop":2722000,
-"cdr":24.72446730345334
+"cdr":99.77957384276267
 },{
-"area":"Guatemala",
-"region":"Central America",
-"positive":126473,
-"deaths":4286,
-"pop":17916000,
-"cdr":23.922750613976334
-},{
-"area":"Germany",
-"region":"West Europe",
-"positive":1229269,
-"deaths":20002,
-"pop":83784000,
-"cdr":23.87329323021102
-},{
-"area":"Serbia",
-"region":"South Europe",
-"positive":234027,
-"deaths":2062,
-"pop":8737000,
-"cdr":23.600778299187365
-},{
-"area":"Dominican Republic",
-"region":"Caribbean",
-"positive":149630,
-"deaths":2347,
-"pop":10848000,
-"cdr":21.63532448377581
-},{
-"area":"Kuwait",
-"region":"West Asia",
-"positive":144900,
-"deaths":900,
-"pop":4271000,
-"cdr":21.072348396160148
-},{
-"area":"Bahrain",
-"region":"West Asia",
-"positive":88294,
-"deaths":343,
-"pop":1702000,
-"cdr":20.152761457109285
-},{
-"area":"Alaska",
+"area":"Nebraska",
 "region":"USA",
-"positive":38116,
-"deaths":146,
-"pop":731545,
-"cdr":19.95776062989973
+"positive":188784,
+"deaths":1917,
+"pop":1934408,
+"cdr":99.10008643471285
 },{
-"area":"Kyrgyzstan",
-"region":"Central Asia",
-"positive":75690,
-"deaths":1301,
-"pop":6524000,
-"cdr":19.94175352544451
+"area":"California",
+"region":"USA",
+"positive":3250649,
+"deaths":38817,
+"pop":39512223,
+"cdr":98.24048624143471
 },{
-"area":"Suriname",
+"area":"Colorado",
+"region":"USA",
+"positive":390296,
+"deaths":5552,
+"pop":5758736,
+"cdr":96.41004553777078
+},{
+"area":"Idaho",
+"region":"USA",
+"positive":161212,
+"deaths":1714,
+"pop":1787065,
+"cdr":95.91145257727055
+},{
+"area":"Poland",
+"region":"East Europe",
+"positive":1489512,
+"deaths":36054,
+"pop":37847000,
+"cdr":95.26250429360319
+},{
+"area":"Chile",
 "region":"South America",
-"positive":5326,
-"deaths":117,
-"pop":587000,
-"cdr":19.931856899488928
+"positive":709888,
+"deaths":18040,
+"pop":19116000,
+"cdr":94.37120736555765
 },{
-"area":"Cabo Verde",
-"region":"West Africa",
-"positive":11118,
-"deaths":109,
-"pop":556000,
-"cdr":19.60431654676259
+"area":"Romania",
+"region":"East Europe",
+"positive":718612,
+"deaths":18015,
+"pop":19238000,
+"cdr":93.64279031084313
 },{
-"area":"Guyana",
+"area":"Ohio",
+"region":"USA",
+"positive":878284,
+"deaths":10931,
+"pop":11689100,
+"cdr":93.51447074625078
+},{
+"area":"Luxembourg",
+"region":"West Europe",
+"positive":50089,
+"deaths":571,
+"pop":626000,
+"cdr":91.21405750798722
+},{
+"area":"Oklahoma",
+"region":"USA",
+"positive":379110,
+"deaths":3388,
+"pop":3956971,
+"cdr":85.62104700792601
+},{
+"area":"North Carolina",
+"region":"USA",
+"positive":733010,
+"deaths":8915,
+"pop":10488084,
+"cdr":85.00122615341373
+},{
+"area":"Austria",
+"region":"West Europe",
+"positive":408781,
+"deaths":7564,
+"pop":9006000,
+"cdr":83.98845214301576
+},{
+"area":"Ecuador",
 "region":"South America",
-"positive":5700,
-"deaths":154,
-"pop":787000,
-"cdr":19.567979669631512
+"positive":243535,
+"deaths":14704,
+"pop":17643000,
+"cdr":83.34183528878309
+},{
+"area":"Netherlands",
+"region":"West Europe",
+"positive":974972,
+"deaths":13841,
+"pop":17135000,
+"cdr":80.77618908666471
 },{
 "area":"Slovakia",
 "region":"East Europe",
-"positive":119232,
-"deaths":1046,
+"positive":241392,
+"deaths":4361,
 "pop":5460000,
-"cdr":19.157509157509157
+"cdr":79.87179487179488
 },{
-"area":"Hawaii",
+"area":"Kentucky",
 "region":"USA",
-"positive":18976,
-"deaths":262,
-"pop":1415872,
-"cdr":18.5044975817023
+"positive":352934,
+"deaths":3542,
+"pop":4467673,
+"cdr":79.28064565155059
 },{
-"area":"Libya",
-"region":"North Africa",
-"positive":87986,
-"deaths":1255,
-"pop":6871000,
-"cdr":18.26517246397904
+"area":"Guam",
+"region":"Micronesia",
+"positive":7568,
+"deaths":129,
+"pop":169000,
+"cdr":76.33136094674556
 },{
-"area":"Turkey",
-"region":"West Asia",
-"positive":893630,
-"deaths":15314,
-"pop":84339000,
-"cdr":18.157673199824515
+"area":"New Hampshire",
+"region":"USA",
+"positive":63563,
+"deaths":1006,
+"pop":1359711,
+"cdr":73.98631032623844
 },{
-"area":"El Salvador",
+"area":"Belize",
 "region":"Central America",
-"positive":40551,
-"deaths":1168,
-"pop":6486000,
-"cdr":18.008017267961765
+"positive":11816,
+"deaths":294,
+"pop":398000,
+"cdr":73.86934673366835
 },{
-"area":"Maine",
+"area":"Virginia",
 "region":"USA",
-"positive":14049,
-"deaths":239,
-"pop":1344212,
-"cdr":17.779933522390813
+"positive":488553,
+"deaths":6228,
+"pop":8535519,
+"cdr":72.96568609360486
 },{
-"area":"Morocco",
-"region":"North Africa",
-"positive":384088,
-"deaths":6370,
-"pop":36911000,
-"cdr":17.257728048549215
+"area":"South Africa",
+"region":"South Africa",
+"positive":1430648,
+"deaths":42550,
+"pop":59309000,
+"cdr":71.74290579844542
 },{
-"area":"Saudi Arabia",
-"region":"West Asia",
-"positive":359115,
-"deaths":5989,
-"pop":34814000,
-"cdr":17.202849428390877
+"area":"Germany",
+"region":"West Europe",
+"positive":2179679,
+"deaths":54498,
+"pop":83784000,
+"cdr":65.04583213978802
 },{
-"area":"Azerbaijan",
-"region":"West Asia",
-"positive":154152,
-"deaths":1713,
-"pop":10139000,
-"cdr":16.895157313344512
-},{
-"area":"Lebanon",
-"region":"West Asia",
-"positive":139135,
-"deaths":1136,
-"pop":6825000,
-"cdr":16.644688644688646
-},{
-"area":"Denmark",
+"area":"Ireland",
 "region":"North Europe",
-"positive":95332,
-"deaths":901,
-"pop":5792000,
-"cdr":15.555939226519339
+"positive":191182,
+"deaths":3120,
+"pop":4938000,
+"cdr":63.18347509113001
+},{
+"area":"Puerto Rico",
+"region":"Caribbean",
+"positive":92244,
+"deaths":1794,
+"pop":2861000,
+"cdr":62.705347780496325
 },{
 "area":"Latvia",
 "region":"North Europe",
-"positive":22104,
-"deaths":288,
+"positive":63027,
+"deaths":1138,
 "pop":1886000,
-"cdr":15.270413573700957
+"cdr":60.33934252386002
 },{
-"area":"Vermont",
+"area":"Malta",
+"region":"South Europe",
+"positive":17192,
+"deaths":258,
+"pop":442000,
+"cdr":58.3710407239819
+},{
+"area":"Puerto Rico",
 "region":"USA",
-"positive":5180,
-"deaths":85,
-"pop":623989,
-"cdr":13.622035003822182
+"positive":92244,
+"deaths":1794,
+"pop":3193694,
+"cdr":56.17319630496848
 },{
-"area":"Kazakhstan",
-"region":"Central Asia",
-"positive":181721,
-"deaths":2544,
-"pop":18777000,
-"cdr":13.548490174149224
+"area":"Washington",
+"region":"USA",
+"positive":305289,
+"deaths":4211,
+"pop":7614893,
+"cdr":55.29952948780764
 },{
-"area":"Belarus",
+"area":"Greece",
+"region":"South Europe",
+"positive":154083,
+"deaths":5724,
+"pop":10423000,
+"cdr":54.91701045764175
+},{
+"area":"Tunisia",
+"region":"North Africa",
+"positive":202323,
+"deaths":6446,
+"pop":11819000,
+"cdr":54.53930112530671
+},{
+"area":"Ukraine",
 "region":"East Europe",
-"positive":150602,
-"deaths":1222,
-"pop":9449000,
-"cdr":12.932585458778707
+"positive":1241863,
+"deaths":23307,
+"pop":43734000,
+"cdr":53.2926327342571
+},{
+"area":"Israel",
+"region":"West Asia",
+"positive":621590,
+"deaths":4605,
+"pop":8656000,
+"cdr":53.20009242144177
+},{
+"area":"Canada",
+"region":"North America",
+"positive":765865,
+"deaths":19479,
+"pop":37742000,
+"cdr":51.610937417200994
+},{
+"area":"Costa Rica",
+"region":"Central America",
+"positive":192066,
+"deaths":2584,
+"pop":5094000,
+"cdr":50.726344719277584
+},{
+"area":"Utah",
+"region":"USA",
+"positive":340684,
+"deaths":1620,
+"pop":3205958,
+"cdr":50.53091774751884
+},{
+"area":"Albania",
+"region":"South Europe",
+"positive":74567,
+"deaths":1339,
+"pop":2878000,
+"cdr":46.52536483669215
+},{
+"area":"Oregon",
+"region":"USA",
+"positive":140063,
+"deaths":1924,
+"pop":4217737,
+"cdr":45.61687938342291
+},{
+"area":"Serbia",
+"region":"South Europe",
+"positive":389045,
+"deaths":3944,
+"pop":8737000,
+"cdr":45.14135286711686
 },{
 "area":"Eswatini",
 "region":"South Africa",
-"positive":6563,
-"deaths":124,
+"positive":15051,
+"deaths":522,
 "pop":1160000,
-"cdr":10.689655172413794
+"cdr":45
+},{
+"area":"Bahamas",
+"region":"Caribbean",
+"positive":8161,
+"deaths":175,
+"pop":393000,
+"cdr":44.529262086513995
+},{
+"area":"Maine",
+"region":"USA",
+"positive":38170,
+"deaths":562,
+"pop":1344212,
+"cdr":41.80888133717003
+},{
+"area":"Jordan",
+"region":"West Asia",
+"positive":323111,
+"deaths":4262,
+"pop":10203000,
+"cdr":41.77202783495051
+},{
+"area":"Lebanon",
+"region":"West Asia",
+"positive":289660,
+"deaths":2553,
+"pop":6825000,
+"cdr":37.40659340659341
+},{
+"area":"Paraguay",
+"region":"South America",
+"positive":130163,
+"deaths":2668,
+"pop":7133000,
+"cdr":37.403616991448196
+},{
+"area":"Alaska",
+"region":"USA",
+"positive":53670,
+"deaths":261,
+"pop":731545,
+"cdr":35.677914550711165
+},{
+"area":"Honduras",
+"region":"Central America",
+"positive":144007,
+"deaths":3512,
+"pop":9905000,
+"cdr":35.45683997980818
+},{
+"area":"Denmark",
+"region":"North Europe",
+"positive":197224,
+"deaths":2051,
+"pop":5792000,
+"cdr":35.41091160220994
+},{
+"area":"Iraq",
+"region":"West Asia",
+"positive":616259,
+"deaths":13018,
+"pop":40223000,
+"cdr":32.36456753598687
+},{
+"area":"Guatemala",
+"region":"Central America",
+"positive":156497,
+"deaths":5513,
+"pop":17916000,
+"cdr":30.77137753962938
+},{
+"area":"Azerbaijan",
+"region":"West Asia",
+"positive":229584,
+"deaths":3105,
+"pop":10139000,
+"cdr":30.624321925239173
+},{
+"area":"Turkey",
+"region":"West Asia",
+"positive":2449839,
+"deaths":25476,
+"pop":84339000,
+"cdr":30.206665955252017
 },{
 "area":"Estonia",
 "region":"North Europe",
-"positive":15510,
-"deaths":137,
+"positive":41966,
+"deaths":398,
 "pop":1327000,
-"cdr":10.324039186134137
+"cdr":29.992464204973626
 },{
-"area":"India",
-"region":"South Asia",
-"positive":9735850,
-"deaths":141360,
-"pop":1380004000,
-"cdr":10.24344856971429
+"area":"Oman",
+"region":"West Asia",
+"positive":133574,
+"deaths":1525,
+"pop":5107000,
+"cdr":29.860975132171532
+},{
+"area":"Hawaii",
+"region":"USA",
+"positive":25652,
+"deaths":403,
+"pop":1415872,
+"cdr":28.46302490620621
+},{
+"area":"Vermont",
+"region":"USA",
+"positive":11379,
+"deaths":172,
+"pop":623989,
+"cdr":27.564588478322534
+},{
+"area":"Libya",
+"region":"North Africa",
+"positive":116064,
+"deaths":1802,
+"pop":6871000,
+"cdr":26.226167952263136
+},{
+"area":"Suriname",
+"region":"South America",
+"positive":8243,
+"deaths":152,
+"pop":587000,
+"cdr":25.894378194207835
+},{
+"area":"Monaco",
+"region":"West Europe",
+"positive":1413,
+"deaths":10,
+"pop":39000,
+"cdr":25.641025641025642
+},{
+"area":"El Salvador",
+"region":"Central America",
+"positive":53989,
+"deaths":1589,
+"pop":6486000,
+"cdr":24.49892075238976
+},{
+"area":"Dominican Republic",
+"region":"Caribbean",
+"positive":207455,
+"deaths":2579,
+"pop":10848000,
+"cdr":23.77396755162242
+},{
+"area":"Cabo Verde",
+"region":"West Africa",
+"positive":13722,
+"deaths":129,
+"pop":556000,
+"cdr":23.201438848920862
+},{
+"area":"Kuwait",
+"region":"West Asia",
+"positive":162862,
+"deaths":957,
+"pop":4271000,
+"cdr":22.40693046125029
+},{
+"area":"Morocco",
+"region":"North Africa",
+"positive":468383,
+"deaths":8207,
+"pop":36911000,
+"cdr":22.234564222047627
+},{
+"area":"Guyana",
+"region":"South America",
+"positive":7380,
+"deaths":174,
+"pop":787000,
+"cdr":22.109275730622617
+},{
+"area":"Bahrain",
+"region":"West Asia",
+"positive":101116,
+"deaths":371,
+"pop":1702000,
+"cdr":21.797884841363103
+},{
+"area":"Kyrgyzstan",
+"region":"Central Asia",
+"positive":84303,
+"deaths":1408,
+"pop":6524000,
+"cdr":21.58185162477008
+},{
+"area":"Saudi Arabia",
+"region":"West Asia",
+"positive":367023,
+"deaths":6363,
+"pop":34814000,
+"cdr":18.27712989027403
+},{
+"area":"Belarus",
+"region":"East Europe",
+"positive":241133,
+"deaths":1678,
+"pop":9449000,
+"cdr":17.758492962218224
+},{
+"area":"Kazakhstan",
+"region":"Central Asia",
+"positive":230188,
+"deaths":3040,
+"pop":18777000,
+"cdr":16.190019704958193
+},{
+"area":"Cyprus",
+"region":"West Asia",
+"positive":30380,
+"deaths":193,
+"pop":1207000,
+"cdr":15.990057995028998
+},{
+"area":"Namibia",
+"region":"South Africa",
+"positive":33265,
+"deaths":332,
+"pop":2541000,
+"cdr":13.065722156631248
+},{
+"area":"Finland",
+"region":"North Europe",
+"positive":43616,
+"deaths":660,
+"pop":5541000,
+"cdr":11.911207363291824
+},{
+"area":"Uruguay",
+"region":"South America",
+"positive":39328,
+"deaths":407,
+"pop":3474000,
+"cdr":11.71560161197467
 },{
 "area":"Jamaica",
 "region":"Caribbean",
-"positive":11271,
-"deaths":265,
+"positive":15241,
+"deaths":342,
 "pop":2961000,
-"cdr":8.94967916244512
+"cdr":11.55015197568389
+},{
+"area":"India",
+"region":"South Asia",
+"positive":10701193,
+"deaths":153847,
+"pop":1380004000,
+"cdr":11.148301019417335
+},{
+"area":"Indonesia",
+"region":"South-East Asia",
+"positive":1024298,
+"deaths":28855,
+"pop":273524000,
+"cdr":10.549348503239205
+},{
+"area":"Norway",
+"region":"North Europe",
+"positive":61961,
+"deaths":556,
+"pop":5421000,
+"cdr":10.256410256410255
 },{
 "area":"Trinidad and Tobago",
 "region":"Caribbean",
-"positive":6782,
-"deaths":122,
+"positive":7509,
+"deaths":134,
 "pop":1399000,
-"cdr":8.720514653323804
-},{
-"area":"Maldives",
-"region":"South Asia",
-"positive":13248,
-"deaths":47,
-"pop":541000,
-"cdr":8.687615526802219
-},{
-"area":"Qatar",
-"region":"West Asia",
-"positive":140203,
-"deaths":239,
-"pop":2881000,
-"cdr":8.29573064908018
-},{
-"area":"Iceland",
-"region":"North Europe",
-"positive":5506,
-"deaths":28,
-"pop":341000,
-"cdr":8.211143695014663
+"cdr":9.578270192994998
 },{
 "area":"Philippines",
 "region":"South-East Asia",
-"positive":442785,
-"deaths":8670,
+"positive":518407,
+"deaths":10481,
 "pop":109581000,
-"cdr":7.911955539737728
+"cdr":9.564614303574524
+},{
+"area":"Maldives",
+"region":"South Asia",
+"positive":15390,
+"deaths":51,
+"pop":541000,
+"cdr":9.426987060998151
+},{
+"area":"Comoros",
+"region":"East Africa",
+"positive":2492,
+"deaths":81,
+"pop":870000,
+"cdr":9.310344827586208
+},{
+"area":"Mauritania",
+"region":"West Africa",
+"positive":16506,
+"deaths":419,
+"pop":4650000,
+"cdr":9.010752688172044
+},{
+"area":"Egypt",
+"region":"North Africa",
+"positive":163761,
+"deaths":9115,
+"pop":102334000,
+"cdr":8.907108097015655
+},{
+"area":"Qatar",
+"region":"West Asia",
+"positive":149933,
+"deaths":248,
+"pop":2881000,
+"cdr":8.60812217979868
+},{
+"area":"Iceland",
+"region":"North Europe",
+"positive":6000,
+"deaths":29,
+"pop":341000,
+"cdr":8.504398826979473
+},{
+"area":"United Arab Emirates",
+"region":"West Asia",
+"positive":289086,
+"deaths":811,
+"pop":9890000,
+"cdr":8.20020222446916
 },{
 "area":"Sao Tome and Principe",
 "region":"Middle Africa",
-"positive":1005,
+"positive":1221,
 "deaths":17,
 "pop":219000,
 "cdr":7.76255707762557
 },{
-"area":"Monaco",
-"region":"West Europe",
-"positive":648,
-"deaths":3,
-"pop":39000,
-"cdr":7.6923076923076925
-},{
-"area":"Finland",
-"region":"North Europe",
-"positive":28242,
-"deaths":424,
-"pop":5541000,
-"cdr":7.652048366720808
-},{
-"area":"Norway",
-"region":"North Europe",
-"positive":39163,
-"deaths":361,
-"pop":5421000,
-"cdr":6.659287954251983
-},{
-"area":"Egypt",
-"region":"North Africa",
-"positive":119281,
-"deaths":6813,
-"pop":102334000,
-"cdr":6.657611351066117
-},{
-"area":"Indonesia",
-"region":"South-East Asia",
-"positive":586842,
-"deaths":18000,
-"pop":273524000,
-"cdr":6.580775361577046
-},{
-"area":"Djibouti",
+"area":"Zimbabwe",
 "region":"East Africa",
-"positive":5714,
-"deaths":61,
-"pop":988000,
-"cdr":6.174089068825911
+"positive":32304,
+"deaths":1122,
+"pop":14863000,
+"cdr":7.548947049720782
 },{
-"area":"Equatorial Guinea",
-"region":"Middle Africa",
-"positive":5166,
-"deaths":85,
-"pop":1403000,
-"cdr":6.058446186742694
-},{
-"area":"United Arab Emirates",
-"region":"West Asia",
-"positive":178837,
-"deaths":596,
-"pop":9890000,
-"cdr":6.0262891809909
-},{
-"area":"Namibia",
-"region":"South Africa",
-"positive":15298,
-"deaths":153,
-"pop":2541000,
-"cdr":6.02125147579693
-},{
-"area":"Algeria",
-"region":"North Africa",
-"positive":89416,
-"deaths":2539,
-"pop":43851000,
-"cdr":5.790061800186996
-},{
-"area":"Cyprus",
-"region":"West Asia",
-"positive":13286,
-"deaths":68,
-"pop":1207000,
-"cdr":5.633802816901409
+"area":"Saint Lucia",
+"region":"Caribbean",
+"positive":969,
+"deaths":13,
+"pop":184000,
+"cdr":7.065217391304347
 },{
 "area":"Nepal",
 "region":"South Asia",
-"positive":243377,
-"deaths":1637,
+"positive":270375,
+"deaths":2020,
 "pop":29137000,
-"cdr":5.6182860280742695
+"cdr":6.932765899028726
 },{
-"area":"Gambia",
-"region":"West Africa",
-"positive":3776,
-"deaths":123,
-"pop":2417000,
-"cdr":5.088953247827885
+"area":"Lesotho",
+"region":"South Africa",
+"positive":8047,
+"deaths":146,
+"pop":2142000,
+"cdr":6.816059757236228
+},{
+"area":"Algeria",
+"region":"North Africa",
+"positive":106359,
+"deaths":2877,
+"pop":43851000,
+"cdr":6.560853800369433
+},{
+"area":"Djibouti",
+"region":"East Africa",
+"positive":5926,
+"deaths":62,
+"pop":988000,
+"cdr":6.275303643724697
 },{
 "area":"Afghanistan",
 "region":"South Asia",
-"positive":47716,
-"deaths":1906,
+"positive":54854,
+"deaths":2389,
 "pop":38928000,
-"cdr":4.896218660090423
+"cdr":6.136970817920263
 },{
-"area":"Mauritania",
-"region":"West Africa",
-"positive":9876,
-"deaths":197,
-"pop":4650000,
-"cdr":4.236559139784946
-},{
-"area":"Bangladesh",
-"region":"South Asia",
-"positive":481945,
-"deaths":6906,
-"pop":164689000,
-"cdr":4.193358390663614
+"area":"Equatorial Guinea",
+"region":"Middle Africa",
+"positive":5492,
+"deaths":86,
+"pop":1403000,
+"cdr":6.129722024233784
 },{
 "area":"Antigua and Barbuda",
 "region":"Caribbean",
-"positive":146,
-"deaths":4,
+"positive":215,
+"deaths":6,
 "pop":98000,
-"cdr":4.081632653061225
+"cdr":6.122448979591836
+},{
+"area":"Gambia",
+"region":"West Africa",
+"positive":4019,
+"deaths":128,
+"pop":2417000,
+"cdr":5.295821266032271
+},{
+"area":"Botswana",
+"region":"South Africa",
+"positive":20658,
+"deaths":124,
+"pop":2352000,
+"cdr":5.272108843537415
 },{
 "area":"Pakistan",
 "region":"South Asia",
-"positive":426142,
-"deaths":8547,
+"positive":539387,
+"deaths":11514,
 "pop":220892000,
-"cdr":3.869311699835214
+"cdr":5.212502037194647
+},{
+"area":"Bangladesh",
+"region":"South Asia",
+"positive":533444,
+"deaths":8072,
+"pop":164689000,
+"cdr":4.901359532209194
+},{
+"area":"Japan",
+"region":"East Asia",
+"positive":376482,
+"deaths":5388,
+"pop":126476000,
+"cdr":4.260096777254183
+},{
+"area":"Sudan",
+"region":"North Africa",
+"positive":28994,
+"deaths":1760,
+"pop":43849000,
+"cdr":4.013774544459395
+},{
+"area":"Barbados",
+"region":"Caribbean",
+"positive":1443,
+"deaths":11,
+"pop":287000,
+"cdr":3.8327526132404177
+},{
+"area":"Zambia",
+"region":"East Africa",
+"positive":48911,
+"deaths":688,
+"pop":18384000,
+"cdr":3.742384682332463
+},{
+"area":"Senegal",
+"region":"West Africa",
+"positive":25407,
+"deaths":601,
+"pop":16744000,
+"cdr":3.5893454371715245
 },{
 "area":"Australia",
 "region":"South America",
-"positive":27993,
-"deaths":908,
+"positive":28794,
+"deaths":909,
 "pop":25500000,
-"cdr":3.5607843137254904
+"cdr":3.5647058823529414
 },{
 "area":"Northern Mariana Islands",
 "region":"Micronesia",
-"positive":113,
+"positive":132,
 "deaths":2,
 "pop":58000,
 "cdr":3.4482758620689657
 },{
-"area":"Sudan",
-"region":"North Africa",
-"positive":19747,
-"deaths":1301,
-"pop":43849000,
-"cdr":2.967000387694132
-},{
 "area":"Kenya",
 "region":"East Africa",
-"positive":89100,
-"deaths":1545,
+"positive":100323,
+"deaths":1751,
 "pop":53771000,
-"cdr":2.87329601458035
+"cdr":3.2564021498577302
+},{
+"area":"Seychelles",
+"region":"East Africa",
+"positive":1129,
+"deaths":3,
+"pop":98000,
+"cdr":3.061224489795918
 },{
 "area":"Gabon",
 "region":"Middle Africa",
-"positive":9278,
-"deaths":60,
+"positive":10536,
+"deaths":68,
 "pop":2226000,
-"cdr":2.6954177897574123
+"cdr":3.054806828391734
 },{
-"area":"Uruguay",
-"region":"South America",
-"positive":7806,
-"deaths":86,
-"pop":3474000,
-"cdr":2.4755325273459987
+"area":"Malawi",
+"region":"East Africa",
+"positive":21660,
+"deaths":555,
+"pop":19130000,
+"cdr":2.901202300052274
 },{
 "area":"Nicaragua",
 "region":"Central America",
-"positive":5887,
-"deaths":162,
+"positive":6253,
+"deaths":169,
 "pop":6625000,
-"cdr":2.4452830188679244
-},{
-"area":"Barbados",
-"region":"Caribbean",
-"positive":289,
-"deaths":7,
-"pop":287000,
-"cdr":2.4390243902439024
+"cdr":2.550943396226415
 },{
 "area":"Guinea-Bissau",
 "region":"West Africa",
-"positive":2444,
-"deaths":44,
+"positive":2532,
+"deaths":45,
 "pop":1968000,
-"cdr":2.2357723577235773
+"cdr":2.2865853658536586
 },{
-"area":"Lesotho",
-"region":"South Africa",
-"positive":2150,
-"deaths":44,
-"pop":2142000,
-"cdr":2.0541549953314657
+"area":"Malaysia",
+"region":"South-East Asia",
+"positive":194114,
+"deaths":707,
+"pop":32366000,
+"cdr":2.184391027621578
 },{
 "area":"Haiti",
 "region":"Caribbean",
-"positive":9399,
-"deaths":233,
+"positive":11286,
+"deaths":243,
 "pop":11403000,
-"cdr":2.0433219328246954
-},{
-"area":"Zimbabwe",
-"region":"East Africa",
-"positive":10912,
-"deaths":303,
-"pop":14863000,
-"cdr":2.038619390432618
+"cdr":2.131018153117601
 },{
 "area":"Yemen",
 "region":"West Asia",
-"positive":2078,
-"deaths":606,
+"positive":2120,
+"deaths":615,
 "pop":29826000,
-"cdr":2.031784349225508
-},{
-"area":"Senegal",
-"region":"West Africa",
-"positive":16596,
-"deaths":340,
-"pop":16744000,
-"cdr":2.0305781175346396
-},{
-"area":"Zambia",
-"region":"East Africa",
-"positive":17963,
-"deaths":364,
-"pop":18384000,
-"cdr":1.979982593559617
-},{
-"area":"Japan",
-"region":"East Asia",
-"positive":166592,
-"deaths":2334,
-"pop":126476000,
-"cdr":1.845409405737057
+"cdr":2.061959364313015
 },{
 "area":"Uzbekistan",
 "region":"Central Asia",
-"positive":74206,
-"deaths":611,
+"positive":78510,
+"deaths":621,
 "pop":33469000,
-"cdr":1.8255699303833397
-},{
-"area":"Cameroon",
-"region":"Middle Africa",
-"positive":24752,
-"deaths":443,
-"pop":26546000,
-"cdr":1.6688013260001506
-},{
-"area":"Liberia",
-"region":"West Africa",
-"positive":1676,
-"deaths":83,
-"pop":5058000,
-"cdr":1.640964808224595
+"cdr":1.855448325315964
 },{
 "area":"Ethiopia",
 "region":"East Africa",
-"positive":114266,
-"deaths":1766,
+"positive":135045,
+"deaths":2083,
 "pop":114964000,
-"cdr":1.5361330503461954
+"cdr":1.8118715423958804
 },{
-"area":"Botswana",
-"region":"South Africa",
-"positive":12058,
-"deaths":36,
-"pop":2352000,
-"cdr":1.530612244897959
+"area":"Saint Vincent and the Grenadines",
+"region":"Caribbean",
+"positive":827,
+"deaths":2,
+"pop":111000,
+"cdr":1.8018018018018018
+},{
+"area":"Cuba",
+"region":"Caribbean",
+"positive":23439,
+"deaths":204,
+"pop":11327000,
+"cdr":1.8010064447779641
+},{
+"area":"Cameroon",
+"region":"Middle Africa",
+"positive":29617,
+"deaths":462,
+"pop":26546000,
+"cdr":1.740375197769909
+},{
+"area":"Liberia",
+"region":"West Africa",
+"positive":1936,
+"deaths":84,
+"pop":5058000,
+"cdr":1.66073546856465
+},{
+"area":"Mali",
+"region":"West Africa",
+"positive":8037,
+"deaths":327,
+"pop":20251000,
+"cdr":1.6147350748111204
+},{
+"area":"Rwanda",
+"region":"East Africa",
+"positive":14166,
+"deaths":183,
+"pop":12952000,
+"cdr":1.412909203211859
+},{
+"area":"Angola",
+"region":"Middle Africa",
+"positive":19580,
+"deaths":462,
+"pop":32866000,
+"cdr":1.4057080265319783
+},{
+"area":"Sri Lanka",
+"region":"South Asia",
+"positive":60694,
+"deaths":290,
+"pop":21413000,
+"cdr":1.354317470695372
 },{
 "area":"Central African Republic",
 "region":"Middle Africa",
-"positive":4927,
+"positive":4980,
 "deaths":63,
 "pop":4830000,
 "cdr":1.3043478260869565
 },{
-"area":"Cuba",
-"region":"Caribbean",
-"positive":8982,
-"deaths":136,
-"pop":11327000,
-"cdr":1.2006709631853094
-},{
-"area":"Malaysia",
-"region":"South-East Asia",
-"positive":75306,
-"deaths":388,
-"pop":32366000,
-"cdr":1.1987888524995365
-},{
-"area":"Saint Lucia",
-"region":"Caribbean",
-"positive":270,
-"deaths":2,
-"pop":184000,
-"cdr":1.0869565217391306
-},{
-"area":"Angola",
-"region":"Middle Africa",
-"positive":15729,
-"deaths":355,
-"pop":32866000,
-"cdr":1.0801436134607192
-},{
 "area":"Ghana",
 "region":"West Africa",
-"positive":52500,
-"deaths":326,
+"positive":62751,
+"deaths":377,
 "pop":31073000,
-"cdr":1.0491423422263702
+"cdr":1.2132719724519678
 },{
-"area":"Malawi",
+"area":"Mozambique",
 "region":"East Africa",
-"positive":6051,
-"deaths":186,
-"pop":19130000,
-"cdr":0.9722948248823837
-},{
-"area":"Sierra Leone",
-"region":"West Africa",
-"positive":2428,
-"deaths":74,
-"pop":7977000,
-"cdr":0.9276670427479002
-},{
-"area":"Tajikistan",
-"region":"Central Asia",
-"positive":12511,
-"deaths":88,
-"pop":9538000,
-"cdr":0.9226252883204026
+"positive":34926,
+"deaths":336,
+"pop":31255000,
+"cdr":1.0750279955207167
 },{
 "area":"Madagascar",
 "region":"East Africa",
-"positive":17473,
-"deaths":255,
+"positive":18743,
+"deaths":279,
 "pop":27691000,
-"cdr":0.9208768191831281
+"cdr":1.0075475786356578
 },{
-"area":"Mali",
+"area":"Sierra Leone",
 "region":"West Africa",
-"positive":5442,
-"deaths":180,
-"pop":20251000,
-"cdr":0.8888449953088736
+"positive":3236,
+"deaths":77,
+"pop":7977000,
+"cdr":0.9652751661025448
 },{
-"area":"Comoros",
+"area":"Tajikistan",
+"region":"Central Asia",
+"positive":13308,
+"deaths":90,
+"pop":9538000,
+"cdr":0.9435940448731391
+},{
+"area":"Togo",
+"region":"West Africa",
+"positive":4870,
+"deaths":76,
+"pop":8279000,
+"cdr":0.9179852639207634
+},{
+"area":"Grenada",
+"region":"Caribbean",
+"positive":148,
+"deaths":1,
+"pop":113000,
+"cdr":0.8849557522123893
+},{
+"area":"Somalia",
 "region":"East Africa",
-"positive":617,
-"deaths":7,
-"pop":870000,
-"cdr":0.8045977011494253
+"positive":4754,
+"deaths":130,
+"pop":15893000,
+"cdr":0.8179701755489838
 },{
 "area":"Mauritius",
 "region":"East Africa",
-"positive":515,
+"positive":569,
 "deaths":10,
 "pop":1272000,
 "cdr":0.7861635220125786
 },{
-"area":"Togo",
+"area":"Nigeria",
 "region":"West Africa",
-"positive":3132,
-"deaths":65,
-"pop":8279000,
-"cdr":0.7851189757217055
-},{
-"area":"Somalia",
-"region":"East Africa",
-"positive":4579,
-"deaths":121,
-"pop":15893000,
-"cdr":0.7613414710879003
-},{
-"area":"Sri Lanka",
-"region":"South Asia",
-"positive":29378,
-"deaths":142,
-"pop":21413000,
-"cdr":0.6631485546163546
+"positive":126160,
+"deaths":1543,
+"pop":206140000,
+"cdr":0.748520423013486
 },{
 "area":"Chad",
 "region":"Middle Africa",
-"positive":1729,
-"deaths":102,
+"positive":3269,
+"deaths":117,
 "pop":16426000,
-"cdr":0.620966760014611
+"cdr":0.7122854011932302
+},{
+"area":"Uganda",
+"region":"East Africa",
+"positive":39314,
+"deaths":318,
+"pop":45741000,
+"cdr":0.6952187315537482
+},{
+"area":"Niger",
+"region":"West Africa",
+"positive":4433,
+"deaths":153,
+"pop":24207000,
+"cdr":0.6320485809889701
 },{
 "area":"Guinea",
 "region":"West Africa",
-"positive":13264,
-"deaths":79,
+"positive":14435,
+"deaths":82,
 "pop":13133000,
-"cdr":0.6015381101043175
+"cdr":0.6243813294753674
 },{
-"area":"Nigeria",
+"area":"Burkina Faso",
 "region":"West Africa",
-"positive":70195,
-"deaths":1182,
-"pop":206140000,
-"cdr":0.5733967206752693
+"positive":10217,
+"deaths":120,
+"pop":20903000,
+"cdr":0.5740802755585322
 },{
 "area":"South Sudan",
 "region":"East Africa",
-"positive":3181,
-"deaths":62,
+"positive":3788,
+"deaths":64,
 "pop":11194000,
-"cdr":0.553868143648383
+"cdr":0.5717348579596212
 },{
 "area":"New Zealand",
 "region":"South America",
-"positive":2088,
+"positive":2299,
 "deaths":25,
 "pop":4822000,
 "cdr":0.5184570717544587
 },{
 "area":"Singapore",
 "region":"South-East Asia",
-"positive":58285,
+"positive":59391,
 "deaths":29,
 "pop":5850000,
 "cdr":0.49572649572649574
 },{
-"area":"Uganda",
-"region":"East Africa",
-"positive":23200,
-"deaths":207,
-"pop":45741000,
-"cdr":0.45254804223781725
-},{
-"area":"Mozambique",
-"region":"East Africa",
-"positive":16373,
-"deaths":136,
-"pop":31255000,
-"cdr":0.4351303791393377
-},{
-"area":"Rwanda",
-"region":"East Africa",
-"positive":6237,
-"deaths":51,
-"pop":12952000,
-"cdr":0.39376158122297716
-},{
 "area":"Benin",
 "region":"West Africa",
-"positive":3073,
-"deaths":44,
+"positive":3786,
+"deaths":48,
 "pop":12123000,
-"cdr":0.36294646539635406
-},{
-"area":"Burkina Faso",
-"region":"West Africa",
-"positive":3469,
-"deaths":69,
-"pop":20903000,
-"cdr":0.33009615844615603
+"cdr":0.3959415986142044
 },{
 "area":"China",
 "region":"East Asia",
-"positive":93782,
-"deaths":4746,
+"positive":99655,
+"deaths":4811,
 "pop":1439324000,
-"cdr":0.3297381270652056
-},{
-"area":"Niger",
-"region":"West Africa",
-"positive":1987,
-"deaths":79,
-"pop":24207000,
-"cdr":0.32635188168711526
+"cdr":0.33425413596938564
 },{
 "area":"Fiji",
 "region":"Melanesia",
-"positive":44,
+"positive":55,
 "deaths":2,
 "pop":896000,
 "cdr":0.22321428571428573
 },{
+"area":"Eritrea",
+"region":"East Africa",
+"positive":2085,
+"deaths":7,
+"pop":3546000,
+"cdr":0.19740552735476594
+},{
+"area":"Bhutan",
+"region":"South Asia",
+"positive":856,
+"deaths":1,
+"pop":772000,
+"cdr":0.1295336787564767
+},{
 "area":"Thailand",
 "region":"South-East Asia",
-"positive":4151,
-"deaths":60,
+"positive":15465,
+"deaths":76,
 "pop":69800000,
-"cdr":0.08595988538681949
+"cdr":0.10888252148997135
 },{
 "area":"Papua New Guinea",
 "region":"Melanesia",
-"positive":684,
-"deaths":7,
+"positive":851,
+"deaths":9,
 "pop":8947000,
-"cdr":0.0782385157035878
+"cdr":0.10059237733318431
+},{
+"area":"Mongolia",
+"region":"East Asia",
+"positive":1692,
+"deaths":2,
+"pop":3278000,
+"cdr":0.06101281269066504
 },{
 "area":"Burundi",
 "region":"East Africa",
-"positive":716,
-"deaths":1,
+"positive":1542,
+"deaths":2,
 "pop":11891000,
-"cdr":0.008409721638213775
-},{
-"area":"Eritrea",
-"region":"East Africa",
-"positive":649,
-"deaths":0,
-"pop":3546000,
-"cdr":0
+"cdr":0.01681944327642755
 },{
 "area":"Mayotte",
 "region":"East Africa",
@@ -1495,13 +1530,6 @@
 "positive":0,
 "deaths":0,
 "pop":895000,
-"cdr":0
-},{
-"area":"Seychelles",
-"region":"East Africa",
-"positive":184,
-"deaths":0,
-"pop":98000,
 "cdr":0
 },{
 "area":"United Republic of Tanzania",
@@ -1567,13 +1595,6 @@
 "pop":6031000,
 "cdr":0
 },{
-"area":"Bhutan",
-"region":"South Asia",
-"positive":433,
-"deaths":0,
-"pop":772000,
-"cdr":0
-},{
 "area":"Iran (Islamic Republic of)",
 "region":"South Asia",
 "positive":0,
@@ -1609,13 +1630,6 @@
 "pop":25779000,
 "cdr":0
 },{
-"area":"Mongolia",
-"region":"East Asia",
-"positive":893,
-"deaths":0,
-"pop":3278000,
-"cdr":0
-},{
 "area":"Republic of Korea",
 "region":"East Asia",
 "positive":0,
@@ -1632,7 +1646,7 @@
 },{
 "area":"Cambodia",
 "region":"South-East Asia",
-"positive":354,
+"positive":460,
 "deaths":0,
 "pop":16719000,
 "cdr":0
@@ -1653,7 +1667,7 @@
 },{
 "area":"Timor-Leste",
 "region":"South-East Asia",
-"positive":31,
+"positive":68,
 "deaths":0,
 "pop":1318000,
 "cdr":0
@@ -1709,16 +1723,9 @@
 },{
 "area":"Dominica",
 "region":"Caribbean",
-"positive":85,
+"positive":113,
 "deaths":0,
 "pop":72000,
-"cdr":0
-},{
-"area":"Grenada",
-"region":"Caribbean",
-"positive":43,
-"deaths":0,
-"pop":113000,
 "cdr":0
 },{
 "area":"Guadeloupe",
@@ -1751,7 +1758,7 @@
 },{
 "area":"Saint Kitts and Nevis",
 "region":"Caribbean",
-"positive":25,
+"positive":37,
 "deaths":0,
 "pop":53000,
 "cdr":0
@@ -1761,13 +1768,6 @@
 "positive":0,
 "deaths":0,
 "pop":39000,
-"cdr":0
-},{
-"area":"Saint Vincent and the Grenadines",
-"region":"Caribbean",
-"positive":87,
-"deaths":0,
-"pop":111000,
 "cdr":0
 },{
 "area":"Sint Maarten (Dutch part)",
