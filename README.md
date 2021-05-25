@@ -6,7 +6,7 @@ Final output is sorted by CDR and positive tests.
 ## Note: All COVID19 stats are inaccurate, only use for approximation
 
 1. China stopped reporting all numbers a few months in.
-2. There is no standard in methods, machines, or even levels between the same methods & machines.  A positive or negitive level is surprising arbitrary, which may be dictated by local or national govenernments, but not nation-wide in USA & certainly not global standard.
+2. There is no standard in methods, machines, or even levels between the same methods & machines.  A positive or negitive level is surprisingly arbitrary, which may be dictated by local or national govenernments, but not nation-wide in USA & certainly not standardized globally.
 3. Sometimes level governance is changed after a few months, but old data may not be updated.  Again more arbitrary numbers.
 4. Seems to be rare that the testers are tested?...
 
