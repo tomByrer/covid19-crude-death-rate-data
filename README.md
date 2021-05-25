@@ -3,6 +3,15 @@
 [Charting](https://raw.githack.com/tomByrer/covid19-crude-death-rate-data/master/covid19-cdr.html) to help research which countries have the most deaths via population ratio, expressed in 'per 100,000 people'.
 Final output is sorted by CDR and positive tests.
 
+## Note: All COVID19 stats are inaccurate, only use for approximation
+
+1. China stopped reporting all numbers a few months in.
+2. There is no standard in methods, machines, or even levels between the same methods & machines.  A positive or negitive level is surprising arbitrary, which may be dictated by local or national govenernments, but not nation-wide in USA & certainly not global standard.
+3. Sometimes level governance is changed after a few months, but old data may not be updated.  Again more arbitrary numbers.
+4. Seems to be rare that the testers are tested?...
+
+Since the US "Covid Tracking Project" has shut down & the above points, I will unlikely update this, unless I need fresh data for a discussion.
+
 ## Instructions
 
 You can view the results of my last run in the [`covid19-cdr.html` chart](https://raw.githack.com/tomByrer/covid19-crude-death-rate-data/master/covid19-cdr.html) and [`covid19-cdr.json` data](https://raw.githubusercontent.com/tomByrer/covid19-crude-death-rate-data/master/covid19-cdr.json) files directly.
@@ -17,10 +26,9 @@ If you want to get a fresh update yourself, here are the steps:
 ### Warnings
 
 * I use [COVID19Tracking](https://twitter.com/COVID19Tracking) for US data, but use Johns Hopkins for world data.  If you want to see how the Johns Hopkins data looks (typically higher for some US states), check out the [`covid19-cdr-johns-hopkins-only.json`](https://raw.githubusercontent.com/tomByrer/covid19-crude-death-rate-data/master/covid19-cdr-johns-hopkins-only.json)
-* BETA: API & code likely to change drastcily.
+* BETA: API & code likely to change drastically.
 * BETA: some of the smaller countries & territories might not have the correct data
 * Right now, needs to be ran manually & uploaded; not automated
-
 
 ## Sources
 
